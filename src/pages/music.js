@@ -11,7 +11,7 @@ import SoundCloudEmbedFrame from '../components/SoundCloudEmbedFrame';
 import TemplateWrapper from '../layouts';
 
 const MusicPage = ({ data }) => {
-  const { siteMetadata } = data.site;
+  //const { siteMetadata } = data.site;
 
   return (
     <TemplateWrapper>
