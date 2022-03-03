@@ -4,7 +4,7 @@ import styles from './HeaderBadges.module.css';
 
 const HeaderBadges = () => (
   <div className={styles.headerBadges}>
-    <a href="https://facebook.com/aquellex" title="Facebook Fan Page" target="_blank" rel="noopener noreferrer">
+    {/* <a href="https://facebook.com/aquellex" title="Facebook Fan Page" target="_blank" rel="noopener noreferrer">
       <img alt="Facebook" src="/img/yomieda/ico_facebook.png" />
     </a>{' '}
     <a href="https://twitter.com/Aquellex" title="Personal Twitter" target="_blank" rel="noopener noreferrer">
@@ -20,6 +20,12 @@ const HeaderBadges = () => (
       <img alt="Discord" src="/img/yomieda/ico_discord-l.png" />
     </a><a href="https://discord.io/fourthmodulator" title="Discord (FM synthesis)" target="_blank" rel="noopener noreferrer">
       <img alt="Discord" src="/img/yomieda/ico_discord-r.png" />
+    </a>{' '}}*/
+      <a href="https://soundcloud.com/aquellex-archive" title="SoundCloud" target="_blank" rel="noopener noreferrer">
+        <img alt="SoundCloud" src="/img/yomieda/ico_soundcloud.png" />
+      </a>}{' '}
+    <a href="https://youtube.com/user/GammaBlasterSM" title="YouTube" target="_blank" rel="noopener noreferrer">
+      <img alt="YouTube" src="/img/yomieda/ico_youtube.png" />
     </a>{' '}
     <a href="http://www.mabsland.com/Adoption.html" title="Mild themes" target="_blank" rel="noopener noreferrer">
       <img alt="PG rating" src="/img/Censor_PGc.gif" />

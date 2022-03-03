@@ -1,22 +1,25 @@
 ---
 layout: page
 title: 'ABOUT'
-lastUpdated: '2019-10-26T21:21:13+11:00'
+lastUpdated: '2022-04-03T12:00:00+11:00'
 ---
 
 ### THE PERSON
 
-<img src="/img/melb2018.jpg" />*Source: Square Sounds Melbourne 2018, 24 Moons* (I'm the one with the Rubik's Cube and purple shirt!)
+<img src="/img/2020gig.jpg" />Source: Haig Park Experiments, November 2020, Canberra.
+<img src="/img/2021job.jpg" />My shiny new custom tuning lever courtesy of <a href="https://www.88onpitch.com/" target = _blank>88 On Pitch!</a> Also running <a href="https://www.cybertuner.com/" target = _blank>Reyburn CyberTuner</a> on an iPad.
+
+<!-- <img src="/img/melb2018.jpg" />*Source: Square Sounds Melbourne 2018, 24 Moons* (I'm the one with the Rubik's Cube and purple shirt!)
 <img src="/img/tokyo2018.jpg" />*Source: Square Sounds Tokyo 2018, Sacabo Cafe*
-<br>
+<br> -->
 
-Hello, everybody! I'm William (b. 1998). I go by the moniker 'Aquellex' in all my online circles, and it also serves as my own music project of sorts. I'm based in the capital city of Australia. I specialise in writing music for low-level hardware. I'm a Game Boy connoisseur of sorts. &#9786;
+Hello, everybody! I'm Shinatama (b. 1998), though I still go by William for the time being. I go by the moniker 'Aquellex' in all my online circles, and it also serves as my own music project of sorts. I'm based in the capital city of Australia. I specialise in writing music for low-level hardware. I'm a Game Boy connoisseur of sorts. &#9786;
 
-I've been dabbling around music since I was a mere infant (2-years-old, in fact!), thanks to my father leaving me a Windows 98 PC with a SoundBlaster 16 clone card, a generic Yamaha XG-compatible keyboard and a low-level MIDI sequencer (Cakewalk Pro Audio 9). Let's just say I still have a passion for electronic music to this very day. I've also been playing piano since I was 6 years old as well, and still continue to do so as a hobby.
+I've been dabbling around music since I was a mere infant (2-years-old, in fact!), thanks to my father leaving me a Windows 98 PC with a SoundBlaster 16 clone card, a generic Yamaha XG-compatible keyboard and a low-level MIDI sequencer (Cakewalk Pro Audio 9). Let's just say I still have a passion for electronic music to this very day. I've also been playing piano since I was 6 years old as well, and still continue to do so as a hobby and profession.
 
-I got started with music properly with piano lessons and venturing into my father's MIDI collection with the sequencer I had as a child (I also had fun writing my own arrangements of sorts, and still continue to do so), though I didn't start writing my own music until I was 15 (late 2013). It feels amazing to finally realise your ideas 3 years later after starting composition. Hopefully, I can turn this into a part-time passion.
+I got started with music properly with piano lessons and venturing into my father's MIDI collection with the sequencer I had as a child (I also had fun writing my own arrangements of sorts, and still continue to do so), though I didn't start writing my own music until I was 15 (late 2013). It feels amazing to finally realise your ideas 3 years later after starting composition. Nowadays, I teach and tune pianos for a living.
 
-Here are my only music qualifications: AMEB Piano Grade 8 with Honours, AMEB Theory Grade 4 with Merit. It was fun while it lasted, but music academia at the competitive level is more stress than it's worth with the eccentric musical path I'm veering into, though I'm still enjoying my Software Engineering major as a backup. Perhaps I'll resume my LTMusA path one day again, who knows?
+Here are my only music qualifications: AMEB Piano Grade 8 with Honours, AMEB Theory Grade 4 with Merit. I think it's only a matter of time before I resume my LTMusA journeys!
 
 I'll catch you later in the cyberspace! You can contact me [here](mailto:aquellex@f0xpa.ws) for further enquiries. &#9786;
 
@@ -24,9 +27,11 @@ I'll catch you later in the cyberspace! You can contact me [here](mailto:aquelle
 
 ![AQUPDATEDREF.png](/img/AQUPDATEDREF.png)
 
-Find her gallery <a href="https://refsheet.net/aquellex/lindenmorsen" target="_blank">here</a>.
+A cute blue kangaroo I designed back in 2007, though it wasn't until 2015 that I was able to find a close friend whom was able to design her to my pickiness (thanks Dusky Fox)!
 
-### GEAR
+<!-- Find her gallery <a href="https://refsheet.net/aquellex/lindenmorsen" target="_blank">here</a>. -->
+
+<!-- ### GEAR
 
 #### Computer
 
@@ -61,3 +66,4 @@ Find her gallery <a href="https://refsheet.net/aquellex/lindenmorsen" target="_b
 <a href="https://ko-fi.com/A7873Q2W" target="_blank">
   <img style="border:0px;height:50px;" src="https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0" alt="Buy Me a Coffee at ko-fi.com" />
 </a>
+ -->

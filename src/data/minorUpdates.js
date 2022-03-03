@@ -4,6 +4,18 @@ import React, { Fragment } from 'react';
 // Look into Netlify CMS: https://www.netlifycms.org/
 const minorUpdates = [
   {
+    date: '04.03.2022',//
+    content: (
+      <Fragment>Website has been slated clean and re-opened.</Fragment>
+    ),
+  },
+  {
+    date: '12.12.2020',//
+    content: (
+      <Fragment>Website shut down due to personal trauma.</Fragment>
+    ),
+  },
+  {
     date: '11.02.2020',//
     content: (
       <Fragment>Footer updated to be a part of FurRing!</Fragment>

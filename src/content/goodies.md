@@ -1,28 +1,13 @@
 ---
 layout: goodies
 title: 'GOODIES'
-lastUpdated: '2019-10-26T21:21:13+11:00'
+lastUpdated: '2022-03-04T12:00:00+11:00'
 ---
 
-### Comrades
+### Mutuals
 
-| Website                                                                                                                     | Description                                                                                       |
-| :-------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
-| <a href="https://chiptuneswin.com/" target="_blank" title="Chiptunes = WIN">Chiptunes = WIN</a>                             | I main around their Facebook group page for chiptune discussions & compilations.                  |
-| <a href="https://defensemech.com/" target="_blank" title="DEFENSE MECHANISM"><img src="/img/defense.gif"></a>               | DEFENSE MECHANISM's homepage. We work together to pioneer new techniques for LSDJ.                |
-| <a href="https://soundcloud.com/dimeback" target="_blank" title="Dimeback">Dimeback</a>                                  | Dimeback's SoundCloud. He was the one who studied chibi-tech's techniques meticulously (as Mozart did to Bach) to create his own flair with Tim Follin influence.  |
-| <a href="http://heckscaper.com" target="_blank" title="Emma Essex"><img src="/img/emmalink.gif"></a>                        | Emma Essex's personal homepage. You may otherwise know her as Halley Labs. She also has a crazy amount of amazing music production resources on her site, so I highly recommend traversing! **CAUTION: some faucets of her website are NC-17**                       |
-| <a href="http://www.iridescentaudio.co.uk/" target="_blank" title="Blitz Lunar"><img src="/img/imlogo.png"></a>             | Blitz Lunar's Bandcamp. He is the secondary sonic inspiration behind Aquellex.                    |
-| <a href="https://soundcloud.com/kommisar/" target="_blank" title="Kommisar">Kommisar</a>                                    | Kommisar's SoundCloud. We met on Flash Flash Revolution since mid-2010. Insaneous chiptune solos. |
-| <a href="http://kurorak.xyz/" target="_blank" title="Kurorak"><img src="/img/kurorak.gif"></a>                              | Kurorak's homepage. We met on Flash Flash Revolution since mid-2013. Talented producer.           |
-| <a href="http://melodymonarchy.com/" target="_blank" title="Princess Sylvysprit"><img src="/img/smol_sylvy_banner.jpg"></a> | Princess Sylvysprit's homepage. She does a lot of ZUN-inspired music.                             |
-| <a href="https://soundcloud.com/pain-perdu" target="_blank" title="Pain Perdu">Pain Perdu</a>                               | Paul & Max's SoundCloud. Fellow LSDJ wizards part of innovative LSDJ music!                       |
-| <a href="https://resir014.xyz/" target="_blank" title="Resi Respati">resir014</a>                                           | The person who spent more time making my site better than I did constructing the HTML/CSS.        |
-| <a href="https://www.pixiv.net/member.php?id=36908366" target="_blank" title="Yomieda's pixiv art page"><img src="/img/yomieda/widget.png"></a>                                 |   Yomieda's pixiv page. She's responsible for the bulk of the pixel icons here! She's a fantastic artist! I highly recommend commissioning her if you're interested in pixel art (or even ordinary digital art)! |
-| <a href="http://yzyxmusic.com/" target="_blank" title="YZYX"><img src="/img/yzyx2.gif"></a>                                 | YZYX's homepage. He is the primary sonic inspiration behind Aquellex. Let's just say I studied his techniques as extensively as Mozart did with Bach! |
-
-You can also add this to your site if you wish:
-
+<a href="http://clickteam.com/" target="_blank" title="Clickteam"><img src="/img/clickteam.gif"></a><a href="https://defensemech.com/" target="_blank" title="DEFENSE MECHANISM"><img src="/img/defense.gif"></a> <a href="http://heckscaper.com" target="_blank" title="Emma Essex"><img src="/img/emmalink.gif"></a> <a href="http://www.iridescentaudio.co.uk/" target="_blank" title="Blitz Lunar"><img src="/img/imlogo.png"></a> <a href="https://joshwhelchel.com/" target="_blank" title="Josh Whelchel"><img src="/img/bannerjosh.gif"></a> <a href="http://kurorak.bandcamp.com/" target="_blank" title="Kurorak"><img src="/img/kurorak.gif"></a> <a href="http://melodymonarchy.com/" target="_blank" title="Princess Sylvysprit"><img src="/img/smol_sylvy_banner.jpg"></a> <a href="https://modarchive.org" target="_blank" title="The Mod Archive"></a><img src="/img/modarchive.gif"><a href="https://cybertuner.com/" target="_blank" title="Reyburn CyberTuner"><img src="/img/cyberearbutton.gif"></a> <a href="http://thespiritengine.com" target="_blank" title="Mark Pay (The Spirit Engine)"><img src="/img/chibieng.gif"></a><a href="https://www.pixiv.net/member.php?id=36908366" target="_blank" title="Yomieda's pixiv art page"><img src="/img/yomieda/widget.png"></a> <a href="http://yzyxmusic.com/" target="_blank" title="YZYX"><img src="/img/yzyx2.gif"></a><br>
+You can also add this to your site if you wish:<br>
 <a href="https://aquellex.ws/" target="_blank"><img src="/img/aqx2.png"></a>
 
 ### Meta
@@ -31,6 +16,7 @@ You can also add this to your site if you wish:
 | :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
 | <a href="https://www.netlify.com/" target="_blank" title="Netlify">Netlify</a>   | Hosts this website. It's like GitHub Pages, but <a href="https://www.netlify.com/github-pages-vs-netlify/" target="_blank">better!</a> |
 | <a href="https://www.gatsbyjs.org/" target="_blank" title="Gatsby.js">Gatsby</a> | Blazing-fast static site generator for React.js.                                                                                       |
+| <a href="https://www.gatsbyjs.org/" target="_blank" title="Gatsby.js">resir014's homepage</a> | THe web programmer's homepage! This site would've been unoptimised for modern devices were it not for his amazing work!   |
 
 ### External sites & tools
 
@@ -72,7 +58,7 @@ You can also add this to your site if you wish:
 | <a href="https://cdn.discordapp.com/attachments/337975934957387786/637620118741843998/Jazz_Jackrabbit_2_Sound_Effects.zip" target="_blank"><img src="/img/ico_jazz2.png"><br>Jazz Jackrabbit 2 SFX</a> | Sound effects directly ripped (without names) from the asset file `Anims.j2a`. **BEWARE: Since some sounds may come from licensed libraries, use at your own risk!** <a href="https://djazz.se/apps/jj2soundboard/" target="_blank">Here is a link to an online soundboard with names.</a>|
 | <a href="https://mega.nz/#!CB9BEYBL!DTG0cLvgs4dkHm3q8_yiw8GPfdwod_iAJzjWIcc3shE" target="_blank"><img src="/img/ico_pmd.png"><br>Pokemon Mystery Dungeon 1 SFX</a> | Samples where its .sf2 and .mids were extracted and converted to .wav for your convenience. |
 | <a href="https://cdn.discordapp.com/attachments/337975934957387786/614011598322925578/Sonic_3_DAC_Samples.zip" target="_blank"><img src="/img/ico_sonic3.png"><br>Sonic 3 drum samples</a> | Here are the drum samples ripped directly from the ROM image - it does not contain those unwanted interrupts that the original sound driver has. |
-| <a href="https://cdn.discordapp.com/attachments/337975934957387786/515133331046662144/SCDPAST.zip" target="_blank"><img src="/img/ico_soniccd.png"><br>Sonic CD Past sounds</a> | Samples used for the Past tracks! Load these into your favourite sampler! |
+| <a href="/snd/Sonic CD Past Samples with names.zip/" target="_blank"><img src="/img/ico_soniccd.png"><br>Sonic CD Past sounds</a> | Samples used for the Past tracks! Load these into your favourite sampler! |
 | <a href="https://mega.nz/#!WN9xhawY!cTd_nYyNbNRbktQycS1U3R5McYD8ZksAlwAWwfeUM7E" target="_blank"><img src="/img/ico_soniccd.png"><br>Sonic SFX</a> | Courtesy of Mr Lange from Sonic Retro, here is a collection of various Sonic SFX from various games in their game quality. Includes: Sonic 1, Sonic 2, Sonic 3 & Knuckles, Sonic 3D Blast, Sonic Spinball, Sonic CD, Knuckles Chaotix, Sonic Triple Trouble, Sonic Advance, Sonic Advance 2, Sonic Advance 3 and Sonic Battle. |
 | <a href="https://mega.nz/#!HU1hCCZC!bAATWjf4ILvnBGQCkVEZRfiNqTEmVA-a1tBIc_dev_Q" target="_blank"><img src="/img/ico_soniccd.png"><br>Unused Sonic CD Loops</a> | Here are some unused breakbeats/loops from the .vgm rips converted into .FLAC for your convenience. |
 | <a href="https://drive.google.com/file/d/0B4YwcJn0JCX9N3dVSzF5SmtOaE0/view" target="_blank"><img src="/img/yomieda/ico_winrar.png"><br>Ultimate Sega Hideki sample pack 3.1</a> | What's this, you might ask? It's an assortment of source samples from video game soundtracks like Jet Set Radio, Sonic Heroes, Beatmania and much more! <a href="https://www.youtube.com/watch?v=FmnVznq_HBE" target="blank">Original video.</a>|
@@ -82,48 +68,61 @@ You can also add this to your site if you wish:
 | Title | Description |
 | :---- | :---------- |
 | <a href="https://drive.google.com/open?id=0B1X0WR-bp-zwMkZ4ZGZNTkVKcEU" target="_blank"><img src="/img/yomieda/ico_winrar.png"><br>461 Drum Machines</a> | <a href="https://www.reddit.com/r/WeAreTheMusicMakers/comments/6uwd3t/the_largest_drum_machine_collection_on_the/" target="_blank">Original</a> <a href="https://samples.kb6.de/" target="_blank">pages</a> |
-| <a href="https://mega.nz/#F!H7wG3QQB!s_piF3koYMjiubnYy1e_-Q" target="_blank"><img src="/img/ico_cd.png"><br>E-Lab X-Static Goldmine Vol. 1-5</a> | In .WAV format! Very iconic sample CDs used with AKAI samplers in the 90s - you'll hear a lot of these sounds in video game soundtracks like Ratchet & Clank. **BEWARE: a lot of these samples are uncleared - use at your own risk!** |
+| <a href="https://mega.nz/folder/H7wG3QQB#s_piF3koYMjiubnYy1e_-Q/file/avZSGIhA" target="_blank"><img src="/img/ico_cd.png"><br>E-Lab X-Static Goldmine Vol. 1-5</a> | In .WAV format! Very iconic sample CDs used with AKAI samplers in the 90s - you'll hear a lot of these sounds in video game soundtracks like Ratchet & Clank. **BEWARE: a lot of these samples are uncleared - use at your own risk!** |
 | <a href="http://novedicus.akawah.net/files/public/audio/Masterbits%20Climax%209%20-%20RAPsody%20(Vocals%20II).rar" target="_blank"><img src="/img/ico_cd.png"><br>Masterbits Climax 9 - RAPsody (Vocals II)</a> | |
 | <a href="https://mega.nz/#!CclTxS4a!2dL_mnUuQRdrO6NU6dupBR3NCPlanCb557dsexiDsnc" target="_blank"><img src="/img/ico_cd.png"><br>Polestar Magnetics XL1</a> | In .WAV format! Very iconic sample CD used with AKAI samplers in the 90s - you'll hear a lot of these sounds in video game soundtracks like Sonic Adventure. **BEWARE: a lot of these samples are uncleared - use at your own risk!** |
 | <a href="https://mega.nz/#!DYUxyShA!yP228DcBGk6hG_W9k7E1Z_dwjlb7dsgrnTsCVwulIbE" target="_blank"><img src="/img/ico_cd.png"><br>Skip To My  Loops</a> | In .WAV format! Very iconic sample CD used with AKAI samplers in the 90s - you'll hear a lot of these sounds in video game soundtracks like Sonic Adventure. **BEWARE: a lot of these samples are uncleared - use at your own risk!** |
 | <a href="https://mega.nz/#!CB01SQYJ!V_Vts6t0pTyNURFIjGoTTlGze3MFARLvZhJZIxrtrTo" target="_blank"><img src="/img/yomieda/ico_sns1.png"><br>Speak & Spell Sample Pack</a> | Sourced from <a href="http://www.maximporges.com/2011/10/08/speak-and-spell-samples/" target="_blank">Maxim Porges'</a> findings! Complete alphabet & words, along with the startup tones. |
 | <a href="https://mega.nz/#!vd9HECYL!SFhiEVZVNdjLzqGsO5F1D3C5MjOYp9uqf7QAv-mVodw" target="_blank"><img src="/img/ico_cd.png"><br>Zero-G Datafile Vol. 1-3</a> | In .WAV format! Very iconic sample CDs used with AKAI samplers in the 90s - you'll hear a lot of these sounds in video game soundtracks like Sonic CD. **BEWARE: a lot of these samples are uncleared - use at your own risk!** |
 
-#### Paul's Tech Talk
+#### Amiga ProTracker prepared .iffs
 
-* <a href="https://chiptuneswin.com/blog/pauls-tech-talk-lsdj-4-9-5-transposition-and-optimization/" target="_blank">LSDJ 4.9.5, Transposition and Optimization</a>
-* <a href="https://chiptuneswin.com/blog/pauls-tech-talk-lsdj-5-0-0-new-commands-ftw-part-1/" target="_blank">LSDJ 5.0.0, New Commands [F]TW! Part 1</a>
-* <a href="https://chiptuneswin.com/blog/pauls-tech-talk-lsdj-5-0-0-new-commands-ftw-part-2/" target="_blank">LSDJ 5.0.0, New Commands [F]TW! Part 2</a>
-* <a href="https://chiptuneswin.com/blog/pauls-tech-talk-lsdj-5-1-0-civil-war-part-1-linear-pitch/" target="_blank">LSDJ 5.1.0, Civil War Part 1: "Linear Pitch"</a>
-* <a href="https://chiptuneswin.com/blog/pauls-tech-talk-lsdj-5-1-0-civil-war-part-2-the-new-l-command-and-kicks/" target="_blank">LSDJ 5.1.0, Civil War Part 2: The New L Command, And Kicks</a>
+| Title | Description |
+| :---- | :---------- |
+| <a href="/amiga/Dynomite for ProTracker.zip" target="_blank"><img src="/img/protracker.png"><br>Dynomite sample set</a> | The sample set that was used in PopCap's 2002 Puzzle Bobble clone, Dynomite! |
+| <a href="/amiga/Jazz1 for ProTracker.zip" target="_blank"><img src="/img/protracker.png"><br>Jazz Jackrabbit 1 sample set</a> | The sample set that was used in the iconic shareware of the 1990s: Jazz Jackrabbit 1! Includes samples used in the CD and XMAS versions as well. |
+| <a href="/amiga/Sonic CD for ProTracker.zip/" target="_blank"><img src="/img/protracker.png"><br>Sonic CD Past sounds</a> | Samples used for the Past tracks! Now for ProTracker! |
+| <a href="/amiga/X-Static Goldmine One.zip" target="_blank"><img src="/img/protracker.png"><br>E-Lab X-Static Goldmine Vol. 1</a> | The iconic E-Lab X-Static Goldmine disc converted & optimised for use in ProTracker, whether it be on the native Amiga or ProTracker clone for modern systems! **AGAIN: a lot of these samples are uncleared - use at your own risk!** |
+| <a href="/amiga/X-Static Goldmine Two.zip" target="_blank"><img src="/img/protracker.png"><br>E-Lab X-Static Goldmine Vol. 2</a> | The iconic E-Lab X-Static Goldmine disc converted & optimised for use in ProTracker, whether it be on the native Amiga or ProTracker clone for modern systems! **AGAIN: a lot of these samples are uncleared - use at your own risk!** |
+| <a href="/amiga/X-Static Goldmine Three.zip" target="_blank"><img src="/img/protracker.png"><br>E-Lab X-Static Goldmine Vol. 3</a> | The iconic E-Lab X-Static Goldmine disc converted & optimised for use in ProTracker, whether it be on the native Amiga or ProTracker clone for modern systems! **AGAIN: a lot of these samples are uncleared - use at your own risk!** |
 
 #### Intense Tech With Defense Mech
 
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-lsdj-wave-synth-deep-dive-part-1/" target="_blank">LSDJ Wave Synth Deep Dive Part 1</a>
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-lsdj-wave-synth-deep-dive-part-2/" target="_blank">LSDJ Wave Synth Deep Dive Part 1</a>
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-dont-sleep-on-z-feat-hypnogram/" target="_blank">Don't Sleep On Z (feat. Hypnogram)</a>
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-manage-your-lsdj-save-files-with-liblsdj/" target="_blank">Manage your LSDj save files with libLSDj</a>
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-lsdj-wave-cruncher-instrument-library/" target="_blank">LSDj Wave Cruncher Instrument Library</a>
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-groovy-groove-and-tick-tricks-part-1/" target="_blank">Groovy Groove and Tick Tricks: Part 1</a>
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-groovy-groove-and-tick-tricks-part-2/" target="_blank">Groovy Groove and Tick Tricks: Part 2</a>
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-dotcnts-lsdj-wave-cruncher/" target="_blank">DOTCNT’s LSDj Wave Cruncher!</a>
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-lets-table-this-discussion/" target="_blank">Let's Table This Discussion!</a>
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-get-your-kicks-with-version-6-part-1/" target="_blank">Get Your Kicks with Version 6: Part 1</a>
-* <a href="https://chiptuneswin.com/blog/intense-tech-with-defense-mech-kicks-part-2-kick-heaven-in-version-7/" target="_blank">Kicks Part 2: Kick Heaven in Version 7!</a>
+* <a href="https://defensemech.com/intense-tech/en/01-lsdj-wave-synth-deep-dive-part-1.md.html">LSDJ Wave Synth Deep Dive Part 1</a>
+* <a href="https://defensemech.com/intense-tech/en/02-lsdj-wave-synth-deep-dive-part-2.md.html">LSDJ Wave Synth Deep Dive Part 1</a>
+* <a href="https://defensemech.com/intense-tech/en/03-dont-sleep-on-z-feat-hypnogram.md.html">Don't Sleep On Z (feat. Hypnogram)</a>
+* <a href="https://defensemech.com/intense-tech/en/04-manage-your-lsdj-save-files-with-liblsdj.md.html">Manage your LSDj save files with libLSDj</a>
+* <a href="https://defensemech.com/intense-tech/en/05-lsdj-wave-cruncher-instrument-library.md.html">LSDj Wave Cruncher Instrument Library</a>
+* <a href="https://defensemech.com/intense-tech/en/06-groovy-groove-and-tick-tricks-part-1.md.html">Groovy Groove and Tick Tricks: Part 1</a>
+* <a href="https://defensemech.com/intense-tech/en/07-groovy-groove-and-tick-tricks-part-2.md.html">Groovy Groove and Tick Tricks: Part 2</a>
+* <a href="https://defensemech.com/intense-tech/en/08-dotcnts-lsdj-wave-cruncher.md.html">DOTCNT’s LSDj Wave Cruncher!</a>
+* <a href="https://defensemech.com/intense-tech/en/09-lets-table-this-discussion.md.html">Let's Table This Discussion!</a>
+* <a href="https://defensemech.com/intense-tech/en/10-get-your-kicks-with-version-6-part-1.md.html">Get Your Kicks with Version 6: Part 1</a>
+* <a href="https://defensemech.com/intense-tech/en/11-kicks-part-2-kick-heaven-in-version-7.md.html">Kicks Part 2: Kick Heaven in Version 7!</a>
+* <a href="https://defensemech.com/intense-tech/en/12-scoping-out-new-features.md.html">Scoping Out New Features!</a>
+* <a href="https://defensemech.com/intense-tech/en/13-interview-with-lsdj-developer-johan-kotlinski.md.html">Interview with LSDj developer Johan Kotlinski!</a>
+* <a href="https://defensemech.com/intense-tech/en/14-lets-appreciate-version-8.md.html">Let's Appreciate Version 8!</a>
+* <a href="https://defensemech.com/intense-tech/en/15-lets-mix-it-up-and-down.md.html">Let's Mix It Up (And Down!)</a>
+* <a href="https://defensemech.com/intense-tech/en/16-so-you-want-a-cartridge-family.md.html">So You Want A Cartridge Family?</a>
+* <a href="https://defensemech.com/intense-tech/en/17-the-joys-of-noise.md.html">The Joys Of Noise</a>
+* <a href="https://defensemech.com/intense-tech/en/18-adsr-makes-life-easier.md.html">ADSR Makes Life Easier!</a>
+* <a href="https://defensemech.com/intense-tech/en/19-new-noise-and-910-news.md.html">New Noise and 9.1.0 News!</a>
+* <a href="https://defensemech.com/intense-tech/en/20-lsdpatch.md.html">Customize LSDj from Scratch with LSDPatch!</a>
+* <a href="https://defensemech.com/intense-tech/en/21-lsdj92.md.html">What's New in LSDj v9.2!</a>
 
 #### Roboctopus' LSDJ and You
 
-* <a href="https://web.archive.org/web/20170410012332/http://www.noisechannel.org/4409" target="_blank">Episode 1: The Echo Chamber</a>
-* <a href="https://web.archive.org/web/20180519001925/http://www.noisechannel.org/4515" target="_blank">Episode 2: Collapse of the Waveform</a>
-* <a href="https://web.archive.org/web/20170707152526/http://www.noisechannel.org/4691" target="_blank">Episode 3: PWM, I Choose You!!!</a>
-* <a href="https://web.archive.org/web/20170704004104/http://www.noisechannel.org/4824" target="_blank">Episode 4: Stick Shift</a>
-* <a href="https://web.archive.org/web/20170707001005/http://www.noisechannel.org/4889" target="_blank">Episode 5: You Take the High Pass and I’ll Take…</a>
-* <a href="https://web.archive.org/web/20170704004147/http://www.noisechannel.org/4966" target="_blank">Episode 6: The Short End of the Synth</a>
-* <a href="https://web.archive.org/web/20161018201349/http://www.noisechannel.org/5138" target="_blank">Episode 7: Cheapshot’s Blip Bass</a>
-* <a href="https://web.archive.org/web/20181009000451/http://www.noisechannel.org/6170" target="_blank">Episode 8: ArpArpArpArpArp</a>
-* <a href="https://web.archive.org/web/20161018203523/http://www.noisechannel.org/8180" target="_blank">Episode 9: WAV Kicks and Volume Tricks</a>
+* <a href="https://web.archive.org/web/20170410012332/http://www.noisechannel.org/4409">Episode 1: The Echo Chamber</a>
+* <a href="https://web.archive.org/web/20180519001925/http://www.noisechannel.org/4515">Episode 2: Collapse of the Waveform</a>
+* <a href="https://web.archive.org/web/20170707152526/http://www.noisechannel.org/4691">Episode 3: PWM, I Choose You!!!</a>
+* <a href="https://web.archive.org/web/20170704004104/http://www.noisechannel.org/4824">Episode 4: Stick Shift</a>
+* <a href="https://web.archive.org/web/20170707001005/http://www.noisechannel.org/4889">Episode 5: You Take the High Pass and I’ll Take…</a>
+* <a href="https://web.archive.org/web/20170704004147/http://www.noisechannel.org/4966">Episode 6: The Short End of the Synth</a>
+* <a href="https://web.archive.org/web/20161018201349/http://www.noisechannel.org/5138">Episode 7: Cheapshot’s Blip Bass</a>
+* <a href="https://web.archive.org/web/20181009000451/http://www.noisechannel.org/6170">Episode 8: ArpArpArpArpArp</a>
+* <a href="https://web.archive.org/web/20161018203523/http://www.noisechannel.org/8180">Episode 9: WAV Kicks and Volume Tricks</a>
 
-### Discord servers
+<!-- ### Discord servers
 
 * <a href="https://discord.gg/dpHG83b" target="_blank">The Chiptune Café</a>
 * <a href="https://discord.gg/cAgBjHa/" target="_blank">Chiptunes = WIN</a>
@@ -131,4 +130,4 @@ You can also add this to your site if you wish:
 * <a href="https://discord.gg/5x6vdSK" target="_blank">famitracker.org</a>
 * <a href="https://discord.gg/phCgxGD" target="_blank">Maj7</a>
 * <a href="https://discord.gg/qTm8jQb" target="_blank">VGM & Other Instrument Sources</a>
-* <a href="https://discord.gg/XR87eFs/" target="_blank">VGMusic.com</a>
+* <a href="https://discord.gg/XR87eFs/" target="_blank">VGMusic.com</a> -->

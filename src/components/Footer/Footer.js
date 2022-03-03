@@ -29,10 +29,10 @@ const Footer = ({ updated }) => {
         <p>
           My E-mail: <a href="mailto:aquellex@f0xpa.ws">aquellex@f0xpa.ws</a>
         </p>
-        <p>
+        {/* <p>
           ABN: 38 843 406 545
         </p>
-        <p></p><a href="https://thefurring.com//prev" target="_top">Last site</a> <a href="https://thefurring.com/"><img src="https://thefurring.com//assets/images/frlogo2.gif" alt="[FurRing - official site!]" border="0" WIDTH="134" HEIGHT="100"></img></a> <a href="https://thefurring.com//next" target="_top">Next Site</a>
+        <p></p><a href="https://thefurring.com//prev" target="_top">Last site</a> <a href="https://thefurring.com/"><img src="https://thefurring.com//assets/images/frlogo2.gif" alt="[FurRing - official site!]" border="0" WIDTH="134" HEIGHT="100"></img></a> <a href="https://thefurring.com//next" target="_top">Next Site</a> */}
 
 
       </div>

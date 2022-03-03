@@ -15,6 +15,10 @@ const MusicPage = ({ data }) => {
 
   return (
     <TemplateWrapper>
+      <title>MUSIC</title>
+      <meta http-equiv="refresh" content="0; url=https://soundcloud.com/aquellex-archive" />
+    </TemplateWrapper>
+    /* <TemplateWrapper>
       <Helmet>
         <title>{`MUSIC · ${siteMetadata.title}`}</title>
         <meta name="description" content={data.site.siteMetadata.description} />
@@ -35,11 +39,11 @@ const MusicPage = ({ data }) => {
           </p>
           <p>We're doing a handful of these in the foreseeable future, by the way. Expect us!</p>
           <SpoilerBox title="YouTube Video">
-            {/* ATTENTION: Note the /embed/id url. Also, this component's dimensions is hardcoded for YouTube */}
+            {// ATTENTION: Note the /embed/id url. Also, this component's dimensions is hardcoded for YouTube }
             <ResponsiveEmbed src="https://www.youtube.com/embed/TEAhoN7PfNc" allowfullscreen />
           </SpoilerBox>
           <SpoilerBox title="SoundCloud Player">
-            {/* ATTENTION #2: Only include the `src` attribute here. */}
+            {// ATTENTION #2: Only include the `src` attribute here. }
             <SoundCloudEmbedFrame src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337789973&amp;color=9633a0&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
           </SpoilerBox>
           <span>
@@ -198,7 +202,7 @@ const MusicPage = ({ data }) => {
         </Music>
       </Page>
     </TemplateWrapper>
-  );
+   */);
 };
 
 MusicPage.propTypes = {
@@ -207,7 +211,7 @@ MusicPage.propTypes = {
 
 export default MusicPage;
 
-export const query = graphql`
+/* export const query = graphql`
   query MusicPageQuery {
     site {
       siteMetadata {
@@ -222,4 +226,4 @@ export const query = graphql`
       buildTime
     }
   }
-`;
+`; */
