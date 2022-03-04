@@ -14,7 +14,7 @@ Absolute damage from enemies ignores any kind of armour you may have equipped.
 
 Large (L) enemies take 50% extra damage against Sharpshoot.<br>
 Large (L) enemies take 33% less damage against Rock Rain and Power Shot.<br>
-Lasoo's stun time is reduced by 33% against Large (L) creatures.<br>
+Lasoo's (and for that matter, the Tangleweb bonus from 2 other items) stun time is reduced by 33% against Large (L) creatures.<br>
 Undead or demonic (UD) enemies take 66% extra damage against Silver Bullet & 33% extra damage against each Holy Bolt.<br>
 Undead or demonic (UD) enemies are immune to Life Drain.
 
@@ -44,31 +44,50 @@ Undead or demonic (UD) enemies are immune to Life Drain.
 
 ### ARMOUR
 
-| Icon                            | Name | Base Damage | Special Attributes | Location | Cost |
-| :------------------------------ | :--- | :---------- | :----------------- | :------- | :--- |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ID  | Icon                                                                                  | Name                           | Physical Reduction | Special Attributes                                                     | Location                                                                                     | Cost                         |
+| :-- | :------------------------------------------------------------------------------------ | :----------------------------- | :----------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :--------------------------- |
+| 1   | ![inv_quiltedfarmersrobes.png](/img/tse1/inv_quiltedfarmersrobes.png)                 | Quilted Farmer's Robes         | 1                  | N/A                                                                    | Homestead (World 1)                                                                          | 3g                           |
+| 2   | ![inv_leatherjersey.png](/img/tse1/inv_leatherjersey.png)                             | Leather Jersey                 | 2                  | N/A                                                                    | Giant's Toe (World 1)                                                                        | 4g                           |
+| 3   | ![inv_ironbreastplate.png](/img/tse1/inv_ironbreastplate.png)                         | Iron Breast Plate              | 4                  | N/A                                                                    | Serinet Bastion (World 2)                                                                    | 70g                          |
+| 4   | ![inv_magesembroideredcoat.png](/img/tse1/inv_magesembroideredcoat.png)               | Mage's Embroidered Coat        | 2                  | Self-recharge 1 mana every 320 ticks                                   | Serinet Bastion (World 2)                                                                    | 80g                          |
+| 5   | ![inv_boathahidecoat.png](/img/tse1/inv_boathahidecoat.png)                           | Boatha Hide Coat               | 5                  | N/A                                                                    | Hamlet (World 2)                                                                             | 95g                          |
+| 13  | ![inv_favoureddrapes.png](/img/tse1/inv_favoureddrapes.png)                           | Favoured Drapes                | 5                  | Summons N-damaging (Party Level x 3) meteor every 240 ticks            | Deliver quest item from Serinet Bastion to Hamlet (World 2)                                  | 90g                          |
+| 6   | ![inv_copperplatedjacket.png](/img/tse1/inv_copperplatedjacket.png)                   | Copper Plated Jacket           | 7                  | N/A                                                                    | Downtown Heavena (World 3)                                                                   | 170g                         |
+| 16  | ![inv_sorcerersembossedrobes.png](/img/tse1/inv_sorcerersembossedrobes.png)           | Sorcerer's Embossed Robes      | 6                  | Self-recharge 1 mana every 260 ticks                                   | The Hepplekeck Village (World 3)                                                             | 275g                         |
+| 15  | ![inv_carvedoaken.png](/img/tse1/inv_carvedoaken.png)                                 | Carved Oaken Armour            | 9                  | Casts 131-tick stun every 263 ticks to a random enemy                  | Complete The Leafy Underbrush 1st then Kaikin Gorge 2nd (World 3)                            | N/A                          |
+| 7   | ![inv_silverlinkedjacket.png](/img/tse1/inv_silverlinkedjacket.png)                   | Silver Linked Jacket           | 9                  | N/A                                                                    | Robert Hat's Happy Hideout (World 3)                                                         | 390g                         |
+| 12  | ![inv_arcanegraniterobes.png](/img/tse1/inv_arcanegraniterobes.png)                   | Arcane Granite Robes           | 8                  | Adds (66% of Party Level) absorption to Kinetic Shield every 204 ticks | Saline (World 4)                                                                             | 700g                         |
+| 8   | ![inv_spidersilkovercoat.png](/img/tse1/inv_spidersilkovercoat.png)                   | SpiderSilk OverCoat            | 12                 | N/A                                                                    | Saline (World 4)                                                                             | 590g                         |
+| 10  | ![inv_crusadersfullmetaljacket.png](/img/tse1/inv_crusadersfullmetaljacket.png)       | Crusader's Full Metal Jacket   | 16                 | Increases cooldown time by 17%                                         | Saline (World 4)                                                                             | 1690g                        |
+| 18  | ![inv_creepymysticmantle.png](/img/tse1/inv_creepymysticmantle.png)                   | Creepy Mystic Mantle           | 4                  | Self-recharges 1 mana for 1 hit every 27 ticks                         | The Magi Retreat (World 4)                                                                   | 1060g                        |
+| 14  | ![inv_blessedooligskincoat.png](/img/tse1/inv_blessedooligskincoat.png)               | Blessed Oolig Skin Coat        | 10                 | Casts Party Bless, raising Party Level by 33% every 313 ticks          | The Veroonai Enclave (World 4)                                                               | 1295g                        |
+| 11  | ![inv_paladinsgoldenflecejacket.png](/img/tse1/inv_paladinsgoldenflecejacket.png)     | Paladin's Golden Fleece Jacket | 14                 | Self-heals between 4-6HP every 140 ticks                               | Defeat Pocket Dimension 1st, then Granael, then Tza Tze in that specific order (World 4)     | N/A                          |
+| 17  | ![inv_silveredrobesofspeed.png](/img/tse1/inv_silveredrobesofspeed.png)               | Silvered Robes of Speed        | 7                  | Decreases cooldown time by 17%                                         | Defeat Tza Tze 1st, then Granael, then the Pocket Dimension in that specific order (World 4) | N/A                          |
+| 9   | ![inv_mistwisenedancientgreatcoat.png](/img/tse1/inv_mistwisenedancientgreatcoat.png) | Mist Wisened Ancient Greatcoat | 15                 | N/A                                                                    | <li>The Arcane Library (World 4)</li><li>Prototype Development Wing (World 4)</li>           | <li>1290g</li><li>1370g</li> |
+| 19  | ![inv_crushingsandstoneshell.png](/img/tse1/inv_crushingsandstoneshell.png)           | Crushing Sandstone Shell       | 21                 | Does 1 damage to the wearer every 37 ticks                             | Prototype Development Wing (World 5)                                                         | 3590g                        |
 
 ### TALISMANS
 
-| Icon                            | Name | Base Damage | Special Attributes | Location | Cost |
-| :------------------------------ | :--- | :---------- | :----------------- | :------- | :--- |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
-| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ID  | Icon                            | Name | Mana Points &<br>Magical Reduction | Special Attributes | Location | Cost |
+| :-- | :------------------------------ | :--- | :--------------------------------- | :----------------- | :------- | :--- |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
+|     | ![inv_.png](/img/tse1/inv_.png) |      |                                    |                    |          |      |
 
 ## ENEMIES
 
