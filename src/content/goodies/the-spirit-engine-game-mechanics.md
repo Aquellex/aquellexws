@@ -8,14 +8,14 @@ All documentation is done with ticks. Each tick lasts for 0.1 seconds on Slower 
 The first cooldown for your party is a 2-second delay (independent from ticks) + 40 ticks.<br>
 The first cooldown for the enemies is a 2-second delay (independent from ticks) + whatever their first cooldown stat is.
 
-Mana resistance for your party is based on how many extra mana points you have. So for example, a base mana pool of 5 (the default) has 0 resistance, whereas 9 has 4 resistance.
+Mana resistance for your party is based on how many extra mana points you have. So for example, a base mana pool of 5 (the default) has 0 resistance, whereas 9 has 4 resistance.<br>
 Absolute damage from enemies ignores any kind of armour you may have equipped.
 
-Large (L) enemies take 50% extra damage against Sharpshoot.
-Large (L) enemies take 33% less damage against Rock Rain and Power Shot.
-Lasoo's stun time is reduced by 33% against Large (L) creatures.
-Undead (UD) enemies take 66% extra damage against Silver Bullet & 33% extra damage against each Holy Bolt.
-Undead (UD) enemies are immune to Life Drain.
+Large (L) enemies take 50% extra damage against Sharpshoot.<br>
+Large (L) enemies take 33% less damage against Rock Rain and Power Shot.<br>
+Lasoo's stun time is reduced by 33% against Large (L) creatures.<br>
+Undead (UD) enemies take 66% extra damage against Silver Bullet & 33% extra damage against each Holy Bolt.<br>
+Undead (UD) enemies are immune to Life Drain.<br>
 
 ### WORLD 1: GIANT'S CRADLE
 
@@ -168,14 +168,14 @@ HP: 167
 The Hermit Mage<br>
 HP: 1090 (MX)
 
-| Animation                                                         | Kind              | Attack          | Type     | Damage | Cooldown                                                                                            |
-| :---------------------------------------------------------------- | :---------------- | :-------------- | :------- | :----- | :-------------------------------------------------------------------------------------------------- |
-| ![Crazy_Hermit_idle.gif](/img/tse1/Crazy_Hermit_idle.gif)         | Idle              | First cooldown  | N/A      | N/A    | Between 15-17 ticks                                                                                 |
-| ![Crazy_Hermit_range.gif](/img/tse1/Crazy_Hermit_range.gif)       | Magic<br>Indirect | Blood Lightning | Absolute | 7      | Between 33-35 ticks<br>Will use this or Chain Magic a total of 3 times before going to freeze       |
-| ![Crazy_Hermit_magic.gif](/img/tse1/Crazy_Hermit_magic.gif)       | Magic             | Chain Magic     | Absolute | 7      | Between 34 ticks<br>Will use this or Blood Lightning a total of 3 times before going to freeze      |
-| ![Crazy_Hermit_stun.gif](/img/tse1/Crazy_Hermit_stun.gif)         | Stun<br>Indirect  | Freeze          | Magical  | 3x3    | 8 ticks<br>Will use this attack twice before recharging                                             |
-| ![Crazy_Hermit_recharge.gif](/img/tse1/Crazy_Hermit_recharge.gif) | Recharge          | Recharge        | Self     | N/A    | 51 ticks<br>25% chance to use this move (i.e., this is a free turn)                                 |
-| ![Crazy_Hermit_shield.gif](/img/tse1/Crazy_Hermit_shield.gif)     | Defence           | Shields Up      | Self     | 60HP   | 14 ticks<br>Will use this move immediately when the battle starts, then it goes to 'First cooldown' |
+| Animation                                                         | Kind              | Attack          | Type     | Damage   | Cooldown                                                                                            |
+| :---------------------------------------------------------------- | :---------------- | :-------------- | :------- | :------- | :-------------------------------------------------------------------------------------------------- |
+| ![Crazy_Hermit_idle.gif](/img/tse1/Crazy_Hermit_idle.gif)         | Idle              | First cooldown  | N/A      | N/A      | Between 15-17 ticks                                                                                 |
+| ![Crazy_Hermit_range.gif](/img/tse1/Crazy_Hermit_range.gif)       | Magic<br>Indirect | Blood Lightning | Absolute | 7        | Between 33-35 ticks<br>Will use this or Chain Magic a total of 3 times before going to freeze       |
+| ![Crazy_Hermit_magic.gif](/img/tse1/Crazy_Hermit_magic.gif)       | Magic             | Chain Magic     | Magical  | 3x3      | Between 34 ticks<br>Will use this or Blood Lightning a total of 3 times before going to freeze      |
+| ![Crazy_Hermit_stun.gif](/img/tse1/Crazy_Hermit_stun.gif)         | Stun<br>Indirect  | Freeze          | Ailment  | 70 ticks | 8 ticks<br>Will use this attack twice before recharging                                             |
+| ![Crazy_Hermit_recharge.gif](/img/tse1/Crazy_Hermit_recharge.gif) | Recharge          | Recharge        | Self     | N/A      | 51 ticks<br>25% chance to use this move (i.e., this is a free turn)                                 |
+| ![Crazy_Hermit_shield.gif](/img/tse1/Crazy_Hermit_shield.gif)     | Defence           | Shields Up      | Self     | 60HP     | 14 ticks<br>Will use this move immediately when the battle starts, then it goes to 'First cooldown' |
 
 | XP  | Gold | Location    | Condition |
 | :-- | :--- | :---------- | :-------- |
