@@ -46,7 +46,12 @@ HP: 110
 | 4   | 1    | <li>Hailey's Glen</li><li>Giant's Toe</li>          | Party Level is less than 11 |
 
 Mama Kippon<br>
-HP: 180 (The Dusty Valley), 200 (Hailey's Glen), 160 (Giant's Toe)
+
+| HP  | Location         |
+| :-- | :--------------- |
+| 180 | The Dusty Valley |
+| 200 | Hailey's Glen    |
+| 160 | Giant's Toe      |
 
 | Animation                                                 | Kind   | Attack         | Type     | Damage | Cooldown           |
 | :-------------------------------------------------------- | :----- | :------------- | :------- | :----- | :----------------- |
@@ -61,7 +66,11 @@ HP: 180 (The Dusty Valley), 200 (Hailey's Glen), 160 (Giant's Toe)
 | 7   | 2    | Giant's Toe                                         | Party Level is less than 14 |
 
 Torfly<br>
-HP: 135 (Hailey's Glen), 150 (Giant's Toe)
+
+| HP  | Location         |
+| :-- | :--------------- |
+| 135 | The Dusty Valley |
+| 150 | Giant's Toe      |
 
 | Animation                                       | Kind  | Attack         | Type     | Damage | Cooldown            |
 | :---------------------------------------------- | :---- | :------------- | :------- | :----- | :------------------ |
@@ -75,7 +84,11 @@ HP: 135 (Hailey's Glen), 150 (Giant's Toe)
 | 8   | 3    | Giant's Toe   | Party Level is less than 14 |
 
 Porcupig<br>
-HP: 245 (Hailey's Glen), 255 (Giant's Toe)
+
+| HP  | Location        |
+| :-- | :-------------- |
+| 245 | The Dusty Valle |
+| 255 | Giant's Toe     |
 
 | Animation                                           | Kind  | Attack         | Type     | Damage | Cooldown            |
 | :-------------------------------------------------- | :---- | :------------- | :------- | :----- | :------------------ |
@@ -110,10 +123,10 @@ HP: 332
 | ![FrostWolf_melee.gif](/img/tse1/FrostWolf_melee.gif) | Melee | Lunge          | Physical | <li>8</li><li>7 to shields</li>    | Between 57-60 ticks |
 | ![FrostWolf_magic.gif](/img/tse1/FrostWolf_magic.gif) | Magic | Frost Breath   | Magic    | <li>2x4</li><li>Clamps at 1x4</li> | 61 ticks            |
 
-| XP                      | Gold                   | Location      | Condition                   |
-| :---------------------- | :--------------------- | :------------ | :-------------------------- |
-| 22                      | 4                      | The Icy Ridge | Party Level is less than 13 |
-| 22 / (Party Level - 11) | 4 / (Party Level - 11) | The Icy Ridge | Party Level is less than 17 |
+| XP                             | Gold                          | Location      | Condition                   |
+| :----------------------------- | :---------------------------- | :------------ | :-------------------------- |
+| 22                             | 4                             | The Icy Ridge | Party Level is less than 13 |
+| floor(22 / (Party Level - 11)) | floor(4 / (Party Level - 11)) | The Icy Ridge | Party Level is less than 17 |
 
 | XP  | Gold | Location      | Condition         |
 | :-- | :--- | :------------ | :---------------- |
@@ -153,10 +166,10 @@ HP: 167
 | ![Ice_Shaman_stun.gif](/img/tse1/Ice_Shaman_stun.gif)         | Stun<br>Indirect | Freeze         | Ailment  | 70 ticks | 52 ticks<br>50% chance to use this attack                           |
 | ![Ice_Shaman_recharge.gif](/img/tse1/Ice_Shaman_recharge.gif) | Recharge         | Recharge       | Self     | N/A      | 39 ticks<br>25% chance to use this move (i.e., this is a free turn) |
 
-| XP                      | Gold                   | Location      | Condition                   |
-| :---------------------- | :--------------------- | :------------ | :-------------------------- |
-| 19                      | 6                      | The Icy Ridge | Party Level is less than 13 |
-| 19 / (Party Level - 11) | 6 / (Party Level - 11) | The Icy Ridge | Party Level is less than 17 |
+| XP                             | Gold                          | Location      | Condition                   |
+| :----------------------------- | :---------------------------- | :------------ | :-------------------------- |
+| 19                             | 6                             | The Icy Ridge | Party Level is less than 13 |
+| floor(19 / (Party Level - 11)) | floor(6 / (Party Level - 11)) | The Icy Ridge | Party Level is less than 17 |
 
 | XP  | Gold | Location      | Condition         |
 | :-- | :--- | :------------ | :---------------- |
@@ -184,7 +197,11 @@ HP: 1090
 ### WORLD 2: Pansylvania
 
 Skeleton (UD)<br>
-HP: 350 (The Town Graveyard), 415 (The Torchlit Catacombs)
+
+| HP  | Location               |
+| :-- | :--------------------- |
+| 350 | The Town Graveyard     |
+| 415 | The Torchlit Catacombs |
 
 | Animation                                           | Kind  | Attack         | Type     | Damage                                                               | Cooldown                                                                           |
 | :-------------------------------------------------- | :---- | :------------- | :------- | :------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -193,12 +210,12 @@ HP: 350 (The Town Graveyard), 415 (The Torchlit Catacombs)
 | ![](/img/tse1/)                                     |       |                |          |                                                                      |                                                                                    |
 | ![](/img/tse1/)                                     |       |                |          |                                                                      |                                                                                    |
 
-| XP                      | Gold                   | Location               | Condition                   |
-| :---------------------- | :--------------------- | :--------------------- | :-------------------------- |
-| 24                      | 6                      | The Town Graveyard     | Party Level is less than 14 |
-| 24 / (Party Level - 12) | 6 / (Party Level - 12) | The Town Graveyard     | Party Level is less than 18 |
-| 24                      | 4                      | The Torchlit Catacombs | Party Level is less than 15 |
-| 24 / (Party Level - 13) | 4 / (Party Level - 13) | The Torchlit Catacombs | Party Level is less than 19 |
+| XP                            | Gold                          | Location               | Condition                   |
+| :---------------------------- | :---------------------------- | :--------------------- | :-------------------------- |
+| 24                            | 6                             | The Town Graveyard     | Party Level is less than 14 |
+| floor(24 / (Party Level - 12) | floor(6 / (Party Level - 12)) | The Town Graveyard     | Party Level is less than 18 |
+| 24                            | 4                             | The Torchlit Catacombs | Party Level is less than 15 |
+| floor(24 / (Party Level - 13) | floor(4 / (Party Level - 13)) | The Torchlit Catacombs | Party Level is less than 19 |
 
 | XP  | Gold | Location               | Condition         |
 | :-- | :--- | :--------------------- | :---------------- |
@@ -212,19 +229,23 @@ HP: 350 (The Town Graveyard), 415 (The Torchlit Catacombs)
 | 4   | 0    | The Torchlit Catacombs | Party Level is 18 |
 
 Fetid Zombie (UD)<br>
-HP: 360 (The Town Graveyard), 445 (The Torchlit Catacombs) (UD)
+
+| HP  | Location               |
+| :-- | :--------------------- |
+| 360 | The Town Graveyard     |
+| 445 | The Torchlit Catacombs |
 
 | Animation                                       | Kind  | Attack         | Type     | Damage                                                                                                                                                              | Cooldown                                                                                                 |
 | :---------------------------------------------- | :---- | :------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | ![Zombie_idle.gif](/img/tse1/Zombie_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                                                                                                                                 | Between 10-18 ticks                                                                                      |
 | ![Zombie_range.gif](/img/tse1/Zombie_range.gif) | Range | Vomit          | Absolute | <li>1x4</li><li>2 DoT at The Town Graveyard</li><li>3 DoT in The Torchlit Catacombs</li><li>Each DoT deals 1 damage every 20 ticks</li><li>2x4 against shields</li> | <li>Between 92-97 ticks at The Town Graveyard</li><li>Between 87-92 ticks in The Torchlit Catacombs</li> |
 
-| XP                      | Gold                   | Location               | Condition                   |
-| :---------------------- | :--------------------- | :--------------------- | :-------------------------- |
-| 27                      | 5                      | The Town Graveyard     | Party Level is less than 14 |
-| 27 / (Party Level - 12) | 5 / (Party Level - 12) | The Town Graveyard     | Party Level is less than 18 |
-| 26                      | 7                      | The Torchlit Catacombs | Party Level is less than 15 |
-| 26 / (Party Level - 13) | 7 / (Party Level - 13) | The Torchlit Catacombs | Party Level is less than 19 |
+| XP                             | Gold                          | Location               | Condition                   |
+| :----------------------------- | :---------------------------- | :--------------------- | :-------------------------- |
+| 27                             | 5                             | The Town Graveyard     | Party Level is less than 14 |
+| floor(27 / (Party Level - 12)) | floor(5 / (Party Level - 12)) | The Town Graveyard     | Party Level is less than 18 |
+| 26                             | 7                             | The Torchlit Catacombs | Party Level is less than 15 |
+| floor(26 / (Party Level - 13)) | floor(7 / (Party Level - 13)) | The Torchlit Catacombs | Party Level is less than 19 |
 
 | XP  | Gold | Location               | Condition         |
 | :-- | :--- | :--------------------- | :---------------- |
@@ -236,3 +257,40 @@ HP: 360 (The Town Graveyard), 445 (The Torchlit Catacombs) (UD)
 | 8   | 2    | The Torchlit Catacombs | Party Level is 16 |
 | 6   | 1    | The Torchlit Catacombs | Party Level is 17 |
 | 5   | 1    | The Torchlit Catacombs | Party Level is 18 |
+
+Ghoul (NX, UD)
+HP: 575 (Adrian's Ghost), 325 (The Torchlit Catacombs), 365 (The Misty Marshes), 245 (The Broken Bridge)
+
+| HP  | Location               |
+| :-- | :--------------------- |
+| 575 | The Town Graveyard     |
+| 325 | The Torchlit Catacombs |
+| 365 | The Misty Marshes      |
+| 245 | The Broken Bridge      |
+
+| Animation                                     | Kind  | Attack         | Type     | Damage                                                  | Cooldown                                                             |
+| :-------------------------------------------- | :---- | :------------- | :------- | :------------------------------------------------------ | -------------------------------------------------------------------- |
+| ![Ghost_idle.gif](/img/tse1/Ghost_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                     | Between 10-15 ticks                                                  |
+| ![Ghost_melee.gif](/img/tse1/Ghost_melee.gif) | Melee | Lunge          | Physical | <li>11 if Adrian's Ghost</li><li>9 everywhere else</li> | <li>45 ticks if Adrian's Ghost</li><li>57 ticks everywhere else</li> |
+
+| XP                             | Gold                          | Location               | Condition                      |
+| :----------------------------- | :---------------------------- | :--------------------- | :----------------------------- |
+| 205                            | 40                            | The Town Graveyard     | Said Yes to Annabelle          |
+| 32                             | 2                             | The Torchlit Catacombs | Party Level is less than 15    |
+| floor(32 / (Party Level - 13)) | floor(2 / (Party Level - 13)) | The Torchlit Catacombs | Party Level is less than 19    |
+| 31                             | 3                             | The Misty Marshes      | Party Level is less than 16    |
+| floor(31 / (Party Level - 14)) | floor(3 / (Party Level - 14)) | The Misty Marshes      | Party Level is less than 21    |
+| 41                             | 1                             | The Broken Bridge      | Snack hasn't been defeated yet |
+
+| XP  | Gold | Location               | Condition         |
+| :-- | :--- | :--------------------- | :---------------- |
+| 16  | 1    | The Torchlit Catacombs | Party Level is 15 |
+| 10  | 0    | The Torchlit Catacombs | Party Level is 16 |
+| 8   | 0    | The Torchlit Catacombs | Party Level is 17 |
+| 6   | 0    | The Torchlit Catacombs | Party Level is 18 |
+| 15  | 1    | The Misty Marshes      | Party Level is 16 |
+| 10  | 1    | The Misty Marshes      | Party Level is 17 |
+| 7   | 0    | The Misty Marshes      | Party Level is 18 |
+| 6   | 0    | The Misty Marshes      | Party Level is 19 |
+| 5   | 0    | The Misty Marshes      | Party Level is 20 |
+| 4   | 0    | The Misty Marshes      | Party Level is 21 |
