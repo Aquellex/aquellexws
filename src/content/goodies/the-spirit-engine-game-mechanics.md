@@ -76,7 +76,7 @@ Torfly<br>
 | :---------------------------------------------- | :---- | :------------- | :------- | :----- | :------------------ |
 | ![Torfly_idle.gif](/img/tse1/Torfly_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 12-19 ticks |
 | ![Torfly_melee.gif](/img/tse1/Torfly_melee.gif) | Melee | Lunge          | Physical | 3      | 46 ticks            |
-| ![Torfly_magic.gif](/img/tse1/Torfly_magic.gif) | Magic | Mist Breath    | Absolute | 1x4    | 48 ticks            |
+| ![Torfly_magic.gif](/img/tse1/Torfly_magic.gif) | Magic | Mist Breath    | Absolute | 1 x 4  | 48 ticks            |
 
 | XP  | Gold | Location      | Condition                   |
 | :-- | :--- | :------------ | :-------------------------- |
@@ -108,7 +108,7 @@ HP: 705
 | ![Grundlekrunk_idle.gif](/img/tse1/Grundlekrunk_idle.gif)     | Idle   | N/A              | N/A      | N/A    | N/A      |
 | ![Grundlekrunk_melee.gif](/img/tse1/Grundlekrunk_melee.gif)   | Melee  | Lunge            | Physical | 4      | 41 ticks |
 | ![Grundlekrunk_melee2.gif](/img/tse1/Grundlekrunk_melee2.gif) | Melee  | Whirlwind Attack | Physical | 9      | 34 ticks |
-| ![Grundlekrunk_magic.gif](/img/tse1/Grundlekrunk_magic.gif)   | Lobbed | Ooze Spit        | Absolute | 1x4    | 54 ticks |
+| ![Grundlekrunk_magic.gif](/img/tse1/Grundlekrunk_magic.gif)   | Lobbed | Ooze Spit        | Absolute | 1 x 4  | 54 ticks |
 
 | XP  | Gold | Location            | Condition |
 | :-- | :--- | :------------------ | :-------- |
@@ -117,11 +117,11 @@ HP: 705
 FrostWolf<br>
 HP: 332
 
-| Animation                                             | Kind  | Attack         | Type     | Damage                             | Cooldown            |
-| :---------------------------------------------------- | :---- | :------------- | :------- | :--------------------------------- | :------------------ |
-| ![FrostWolf_idle.gif](/img/tse1/FrostWolf_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                | Between 15-23 ticks |
-| ![FrostWolf_melee.gif](/img/tse1/FrostWolf_melee.gif) | Melee | Lunge          | Physical | <li>8</li><li>7 to shields</li>    | Between 57-60 ticks |
-| ![FrostWolf_magic.gif](/img/tse1/FrostWolf_magic.gif) | Magic | Frost Breath   | Magic    | <li>2x4</li><li>Clamps at 1x4</li> | 61 ticks            |
+| Animation                                             | Kind  | Attack         | Type     | Damage                                 | Cooldown            |
+| :---------------------------------------------------- | :---- | :------------- | :------- | :------------------------------------- | :------------------ |
+| ![FrostWolf_idle.gif](/img/tse1/FrostWolf_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                    | Between 15-23 ticks |
+| ![FrostWolf_melee.gif](/img/tse1/FrostWolf_melee.gif) | Melee | Lunge          | Physical | <li>8</li><li>7 to shields</li>        | Between 57-60 ticks |
+| ![FrostWolf_magic.gif](/img/tse1/FrostWolf_magic.gif) | Magic | Frost Breath   | Magic    | <li>2 x 4</li><li>Clamps at 1 x 4</li> | 61 ticks            |
 
 | XP                             | Gold                          | Location      | Condition                   |
 | :----------------------------- | :---------------------------- | :------------ | :-------------------------- |
@@ -185,7 +185,7 @@ HP: 1090
 | :---------------------------------------------------------------- | :---------------- | :-------------- | :------- | :------- | :-------------------------------------------------------------------------------------------------- |
 | ![Crazy_Hermit_idle.gif](/img/tse1/Crazy_Hermit_idle.gif)         | Idle              | First cooldown  | N/A      | N/A      | Between 15-17 ticks                                                                                 |
 | ![Crazy_Hermit_range.gif](/img/tse1/Crazy_Hermit_range.gif)       | Magic<br>Indirect | Blood Lightning | Absolute | 7        | Between 33-35 ticks<br>Will use this or Chain Magic a total of 3 times before going to freeze       |
-| ![Crazy_Hermit_magic.gif](/img/tse1/Crazy_Hermit_magic.gif)       | Magic             | Chain Magic     | Magical  | 3x3      | Between 34 ticks<br>Will use this or Blood Lightning a total of 3 times before going to freeze      |
+| ![Crazy_Hermit_magic.gif](/img/tse1/Crazy_Hermit_magic.gif)       | Magic             | Chain Magic     | Magical  | 3 x 3    | Between 34 ticks<br>Will use this or Blood Lightning a total of 3 times before going to freeze      |
 | ![Crazy_Hermit_stun.gif](/img/tse1/Crazy_Hermit_stun.gif)         | Stun<br>Indirect  | Freeze          | Ailment  | 70 ticks | 8 ticks<br>Will use this attack twice before recharging                                             |
 | ![Crazy_Hermit_recharge.gif](/img/tse1/Crazy_Hermit_recharge.gif) | Recharge          | Recharge        | Self     | N/A      | 51 ticks                                                                                            |
 | ![Crazy_Hermit_shield.gif](/img/tse1/Crazy_Hermit_shield.gif)     | Defence           | Shields Up      | Self     | 60HP     | 14 ticks<br>Will use this move immediately when the battle starts, then it goes to 'First cooldown' |
@@ -235,10 +235,10 @@ Fetid Zombie (UD)<br>
 | 360 | The Town Graveyard     |
 | 445 | The Torchlit Catacombs |
 
-| Animation                                       | Kind  | Attack         | Type     | Damage                                                                                                                                                              | Cooldown                                                                                                 |
-| :---------------------------------------------- | :---- | :------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| ![Zombie_idle.gif](/img/tse1/Zombie_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                                                                                                                                 | Between 10-18 ticks                                                                                      |
-| ![Zombie_range.gif](/img/tse1/Zombie_range.gif) | Range | Vomit          | Absolute | <li>1x4</li><li>2 DoT at The Town Graveyard</li><li>3 DoT in The Torchlit Catacombs</li><li>Each DoT deals 1 damage every 20 ticks</li><li>2x4 against shields</li> | <li>Between 92-97 ticks at The Town Graveyard</li><li>Between 87-92 ticks in The Torchlit Catacombs</li> |
+| Animation                                       | Kind  | Attack         | Type     | Damage                                                                                                                                                                  | Cooldown                                                                                                 |
+| :---------------------------------------------- | :---- | :------------- | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| ![Zombie_idle.gif](/img/tse1/Zombie_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                                                                                                                                     | Between 10-18 ticks                                                                                      |
+| ![Zombie_range.gif](/img/tse1/Zombie_range.gif) | Range | Vomit          | Absolute | <li>1 x 4</li><li>2 DoT at The Town Graveyard</li><li>3 DoT in The Torchlit Catacombs</li><li>Each DoT deals 1 damage every 20 ticks</li><li>2 x 4 against shields</li> | <li>Between 92-97 ticks at The Town Graveyard</li><li>Between 87-92 ticks in The Torchlit Catacombs</li> |
 
 | XP                             | Gold                          | Location               | Condition                   |
 | :----------------------------- | :---------------------------- | :--------------------- | :-------------------------- |
@@ -259,7 +259,6 @@ Fetid Zombie (UD)<br>
 | 5   | 1    | The Torchlit Catacombs | Party Level is 18 |
 
 Ghoul (NX, UD)
-HP: 575 (Adrian's Ghost), 325 (The Torchlit Catacombs), 365 (The Misty Marshes), 245 (The Broken Bridge)
 
 | HP  | Location               |
 | :-- | :--------------------- |
@@ -294,3 +293,38 @@ HP: 575 (Adrian's Ghost), 325 (The Torchlit Catacombs), 365 (The Misty Marshes),
 | 6   | 0    | The Misty Marshes      | Party Level is 19 |
 | 5   | 0    | The Misty Marshes      | Party Level is 20 |
 | 4   | 0    | The Misty Marshes      | Party Level is 21 |
+
+Gargoyle (EX)
+
+| HP  | Location          |
+| :-- | :---------------- |
+| 480 | The Misty Marshes |
+| 510 | Arachnid's Grove  |
+
+| Animation                                           | Kind  | Attack         | Type     | Damage | Cooldown                                  |
+| :-------------------------------------------------- | :---- | :------------- | :------- | :----- | ----------------------------------------- |
+| ![Gargoyle_idle.gif](/img/tse1/Gargoyle_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 10-23 ticks                       |
+| ![Gargoyle_melee.gif](/img/tse1/Gargoyle_melee.gif) | Melee | Lunge          | Physical | 9      | 41 ticks<br>2/3 chance to use this attack |
+| ![Gargoyle_magic.gif](/img/tse1/Gargoyle_magic.gif) | Magic | Sonic Blast    | Magical  | 4 x 3  | 79 ticks<br>1/3 chance to use this attack |
+
+| XP                             | Gold                           | Location          | Condition                   |
+| :----------------------------- | :----------------------------- | :---------------- | :-------------------------- |
+| 42                             | 11                             | The Misty Marshes | Party Level is less than 16 |
+| floor(42 / (Party Level - 14)) | floor(11 / (Party Level - 14)) | The Misty Marshes | Party Level is less than 21 |
+| 48                             | 10                             | Arachnid's Grove  | Party Level is less than 18 |
+| floor(48 / (Party Level - 16)) | floor(10 / (Party Level - 16)) | Arachnid's Grove  | Party Level is less than 23 |
+
+| XP  | Gold | Location          | Condition         |
+| :-- | :--- | :---------------- | :---------------- |
+| 21  | 5    | The Misty Marshes | Party Level is 16 |
+| 14  | 3    | The Misty Marshes | Party Level is 17 |
+| 10  | 2    | The Misty Marshes | Party Level is 18 |
+| 8   | 2    | The Misty Marshes | Party Level is 19 |
+| 7   | 1    | The Misty Marshes | Party Level is 20 |
+| 6   | 1    | The Misty Marshes | Party Level is 21 |
+| 24  | 5    | Arachnid's Grove  | Party Level is 18 |
+| 16  | 3    | Arachnid's Grove  | Party Level is 19 |
+| 12  | 2    | Arachnid's Grove  | Party Level is 20 |
+| 9   | 2    | Arachnid's Grove  | Party Level is 21 |
+| 8   | 1    | Arachnid's Grove  | Party Level is 22 |
+| 6   | 1    | Arachnid's Grove  | Party Level is 23 |
