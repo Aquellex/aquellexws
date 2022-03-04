@@ -328,3 +328,40 @@ Gargoyle (EX)
 | 9   | 2    | Arachnid's Grove  | Party Level is 21 |
 | 8   | 1    | Arachnid's Grove  | Party Level is 22 |
 | 6   | 1    | Arachnid's Grove  | Party Level is 23 |
+
+Skeleton Fairy
+
+| HP  | Location          |
+| :-- | :---------------- |
+| 275 | The Misty Marshes |
+| 285 | Arachnid's Grove  |
+| 410 | The Broken Bridge |
+
+| Animation                                                       | Kind   | Attack         | Type    | Damage                                                                        | Cooldown                                                                                        |
+| :-------------------------------------------------------------- | :----- | :------------- | :------ | :---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| ![Skeleton_Fairy_idle.gif](/img/tse1/Skeleton_Fairy_idle.gif)   | Idle   | First cooldown | N/A     | N/A                                                                           | Between 13-27 ticks (11-25 at The Broken Bridge)                                                |
+| ![Skeleton_Fairy_magic.gif](/img/tse1/Skeleton_Fairy_magic.gif) | Magic  | Sizzle Shots   | Magical | <li>3 x 3</li><li>Clamps at 1 x 3</li>                                        | 59 ticks at The Misty Marshes<br>62 ticks at Arachnid's Grove<br> 75% chance to use this attack |
+| ![Skeleton_Fairy_magic.gif](/img/tse1/Skeleton_Fairy_magic.gif) | Debuff | Curse          | Ailment | 90 ticks (iterates 2 ticks instead if Party Bless is active)<br>Halves damage | 57 ticks<br>25% chance to use this attack                                                       |
+
+| XP                             | Gold                           | Location          | Condition                   |
+| :----------------------------- | :----------------------------- | :---------------- | :-------------------------- |
+| 44                             | 9                              | The Misty Marshes | Party Level is less than 16 |
+| floor(44 / (Party Level - 14)) | floor(9 / (Party Level - 14))  | The Misty Marshes | Party Level is less than 21 |
+| 44                             | 10                             | Arachnid's Grove  | Party Level is less than 18 |
+| floor(44 / (Party Level - 16)) | floor(10 / (Party Level - 16)) | Arachnid's Grove  | Party Level is less than 23 |
+| 5                              | 50                             | The Broken Bridge | N/A                         |
+
+| XP  | Gold | Location          | Condition         |
+| :-- | :--- | :---------------- | :---------------- |
+| 22  | 4    | The Misty Marshes | Party Level is 16 |
+| 14  | 3    | The Misty Marshes | Party Level is 17 |
+| 11  | 2    | The Misty Marshes | Party Level is 18 |
+| 8   | 2    | The Misty Marshes | Party Level is 19 |
+| 7   | 1    | The Misty Marshes | Party Level is 20 |
+| 6   | 1    | The Misty Marshes | Party Level is 21 |
+| 22  | 5    | Arachnid's Grove  | Party Level is 18 |
+| 14  | 3    | Arachnid's Grove  | Party Level is 19 |
+| 11  | 2    | Arachnid's Grove  | Party Level is 20 |
+| 8   | 2    | Arachnid's Grove  | Party Level is 21 |
+| 7   | 1    | Arachnid's Grove  | Party Level is 22 |
+| 6   | 1    | Arachnid's Grove  | Party Level is 23 |
