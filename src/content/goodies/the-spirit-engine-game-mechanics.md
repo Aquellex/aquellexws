@@ -87,8 +87,8 @@ HP: 245 (Hailey's Glen), 255 (Giant's Toe)
 | 8   | 3    | Hailey's Glen | Party Level is less than 11 |
 | 8   | 3    | Giant's Toe   | Party Level is less than 14 |
 
-Grundlekrunk<br>
-HP: 705 (L)
+Grundlekrunk (L)<br>
+HP: 705
 
 | Animation                                                     | Kind   | Attack           | Type     | Damage | Cooldown |
 | :------------------------------------------------------------ | :----- | :--------------- | :------- | :----- | :------- |
@@ -122,8 +122,8 @@ HP: 332
 | 4   | 0    | The Icy Ridge | Party Level is 15 |
 | 3   | 0    | The Icy Ridge | Party Level is 16 |
 
-Abominable Snowman<br>
-HP: 440 (L)
+Abominable Snowman (L)<br>
+HP: 440
 
 | Animation                                         | Kind  | Attack         | Type     | Damage | Cooldown                                                             |
 | :------------------------------------------------ | :---- | :------------- | :------- | :----- | :------------------------------------------------------------------- |
@@ -165,8 +165,8 @@ HP: 167
 | 4   | 1    | The Icy Ridge | Party Level is 15 |
 | 3   | 1    | The Icy Ridge | Party Level is 16 |
 
-The Hermit Mage<br>
-HP: 1090 (MX)
+The Hermit Mage (MX)<br>
+HP: 1090
 
 | Animation                                                         | Kind              | Attack          | Type     | Damage   | Cooldown                                                                                            |
 | :---------------------------------------------------------------- | :---------------- | :-------------- | :------- | :------- | :-------------------------------------------------------------------------------------------------- |
@@ -180,3 +180,59 @@ HP: 1090 (MX)
 | XP  | Gold | Location    | Condition |
 | :-- | :--- | :---------- | :-------- |
 | 148 | 70   | Giant's Top | N/A       |
+
+### WORLD 2: Pansylvania
+
+Skeleton (UD)<br>
+HP: 350 (The Town Graveyard), 415 (The Torchlit Catacombs)
+
+| Animation                                           | Kind  | Attack         | Type     | Damage                                                               | Cooldown                                                                           |
+| :-------------------------------------------------- | :---- | :------------- | :------- | :------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| ![Skeleton_idle.gif](/img/tse1/Skeleton_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                                  | Between 10-19 ticks                                                                |
+| ![Skeleton_melee.gif](/img/tse1/Skeleton_melee.gif) | Melee | Lunge          | Physical | <li>7 at The Town Graveyard</li><li>9 in The Torchlit Catacombs</li> | <li>55 ticks at The Town Graveyard</li><li>57 ticks in The Torchlit Catacombs</li> |
+| ![](/img/tse1/)                                     |       |                |          |                                                                      |                                                                                    |
+| ![](/img/tse1/)                                     |       |                |          |                                                                      |                                                                                    |
+
+| XP                      | Gold                   | Location               | Condition                   |
+| :---------------------- | :--------------------- | :--------------------- | :-------------------------- |
+| 24                      | 6                      | The Town Graveyard     | Party Level is less than 14 |
+| 24 / (Party Level - 12) | 6 / (Party Level - 12) | The Town Graveyard     | Party Level is less than 18 |
+| 24                      | 4                      | The Torchlit Catacombs | Party Level is less than 15 |
+| 24 / (Party Level - 13) | 4 / (Party Level - 13) | The Torchlit Catacombs | Party Level is less than 19 |
+
+| XP  | Gold | Location               | Condition         |
+| :-- | :--- | :--------------------- | :---------------- |
+| 12  | 3    | The Town Graveyard     | Party Level is 14 |
+| 8   | 2    | The Town Graveyard     | Party Level is 15 |
+| 6   | 1    | The Town Graveyard     | Party Level is 16 |
+| 4   | 1    | The Town Graveyard     | Party Level is 17 |
+| 12  | 2    | The Torchlit Catacombs | Party Level is 15 |
+| 8   | 1    | The Torchlit Catacombs | Party Level is 16 |
+| 6   | 1    | The Torchlit Catacombs | Party Level is 17 |
+| 4   | 0    | The Torchlit Catacombs | Party Level is 18 |
+
+Fetid Zombie (UD)<br>
+HP: 360 (The Town Graveyard), 445 (The Torchlit Catacombs) (UD)
+
+| Animation                                       | Kind  | Attack         | Type     | Damage                                                                                                                                                              | Cooldown                                                                                                 |
+| :---------------------------------------------- | :---- | :------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| ![Zombie_idle.gif](/img/tse1/Zombie_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                                                                                                                                 | Between 10-18 ticks                                                                                      |
+| ![Zombie_range.gif](/img/tse1/Zombie_range.gif) | Range | Vomit          | Absolute | <li>1x4</li><li>2 DoT at The Town Graveyard</li><li>3 DoT in The Torchlit Catacombs</li><li>Each DoT deals 1 damage every 20 ticks</li><li>2x4 against shields</li> | <li>Between 92-97 ticks at The Town Graveyard</li><li>Between 87-92 ticks in The Torchlit Catacombs</li> |
+
+| XP                      | Gold                   | Location               | Condition                   |
+| :---------------------- | :--------------------- | :--------------------- | :-------------------------- |
+| 27                      | 5                      | The Town Graveyard     | Party Level is less than 14 |
+| 27 / (Party Level - 12) | 5 / (Party Level - 12) | The Town Graveyard     | Party Level is less than 18 |
+| 26                      | 7                      | The Torchlit Catacombs | Party Level is less than 15 |
+| 26 / (Party Level - 13) | 7 / (Party Level - 13) | The Torchlit Catacombs | Party Level is less than 19 |
+
+| XP  | Gold | Location               | Condition         |
+| :-- | :--- | :--------------------- | :---------------- |
+| 13  | 2    | The Town Graveyard     | Party Level is 14 |
+| 9   | 1    | The Town Graveyard     | Party Level is 15 |
+| 6   | 1    | The Town Graveyard     | Party Level is 16 |
+| 5   | 1    | The Town Graveyard     | Party Level is 17 |
+| 13  | 3    | The Torchlit Catacombs | Party Level is 15 |
+| 8   | 2    | The Torchlit Catacombs | Party Level is 16 |
+| 6   | 1    | The Torchlit Catacombs | Party Level is 17 |
+| 5   | 1    | The Torchlit Catacombs | Party Level is 18 |
