@@ -15,8 +15,60 @@ Absolute damage from enemies ignores any kind of armour you may have equipped.
 Large (L) enemies take 50% extra damage against Sharpshoot.<br>
 Large (L) enemies take 33% less damage against Rock Rain and Power Shot.<br>
 Lasoo's stun time is reduced by 33% against Large (L) creatures.<br>
-Undead (UD) enemies take 66% extra damage against Silver Bullet & 33% extra damage against each Holy Bolt.<br>
-Undead (UD) enemies are immune to Life Drain.<br>
+Undead or demonic (UD) enemies take 66% extra damage against Silver Bullet & 33% extra damage against each Holy Bolt.<br>
+Undead or demonic (UD) enemies are immune to Life Drain.
+
+## ITEMS
+
+### RIFLES
+
+| ID  | Icon                                                                              | Name                               | Base Damage | Special Attributes                                                                                        | Location                                                       | Cost                   |
+| :-- | :-------------------------------------------------------------------------------- | :--------------------------------- | :---------- | :-------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- | :--------------------- |
+| 1   | ![inv_blunderbuss.png](/img/tse1/inv_blunderbuss.png)                             | Blunderbuss                        | 2           | N/A                                                                                                       | <li>Homestead (World 1)</li><li>Giant's Toe (World 1)</li>     | <li>2g</li><li>4g</li> |
+| 2   | ![inv_flintlock.png](/img/tse1/inv_flintlock.png)                                 | Flintlock                          | 4           | N/A                                                                                                       | Serinet Bastion (World 2)                                      | 65g                    |
+| 17  | ![inv_twinklingreaver.png](/img/tse1/inv_twinklingreaver.png)                     | Twinkling Reaver                   | 5           | Adds 18 damage to Magic Bullet                                                                            | Hamlet (World 2)                                               | 55g                    |
+| 3   | ![inv_arquebus.png](/img/tse1/inv_arquebus.png)                                   | Arquebus                           | 6           | N/A                                                                                                       | Hamlet (World 2)                                               | 105g                   |
+| 9   | ![inv_pixiesenchantedarquebus.png](/img/tse1/inv_pixiesenchantedarquebus.png)     | Pixie's Enchanted Arquebus         | 6           | Self-recharge 1 mana every 320 ticks                                                                      | Downtown Heavena (World 3)                                     | 175g                   |
+| 4   | ![inv_musket.png](/img/tse1/inv_musket.png)                                       | Musket                             | 8           | N/A                                                                                                       | Downtown Heavena (World 3)                                     | 185g                   |
+| 5   | ![inv_shotgun.png](/img/tse1/inv_shotgun.png)                                     | Shotgun                            | 10          | N/A                                                                                                       | Robert Hat's Happy Hideout (World 3)                           | 395g                   |
+| 10  | ![inv_faeriesenchanted.png](/img/tse1/inv_faeriesenchanted.png)                   | Faerie's Enchanted Rifle           | 11          | Self-recharge 1 mana every 320 ticks                                                                      | Cheating                                                       | N/A                    |
+| 12  | ![inv_gremlinssnapcannon.png](/img/tse1/inv_gremlinssnapcannon.png)               | Gremlin's Snapcannon               | 15          | Increases cooldown time for bullet attacks by 25%                                                         | Robert Hat's Happy Hideout (World 3)                           | 440g                   |
+| 6   | ![inv_hunting.png](/img/tse1/inv_hunting.png)                                     | Hunting Rifle                      | 12          | N/A                                                                                                       | Saline (World 4)                                               | 540g                   |
+| 11  | ![inv_soldiersnickelplatedspeed.png](/img/tse1/inv_soldiersnickelplatedspeed.png) | Soldier's Nickel Plated SpeedRifle | 10          | Decreases cooldown time for bullet attacks by 14%                                                         | Saline (World 4)                                               | 630g                   |
+| 7   | ![inv_silverplated.png](/img/tse1/inv_silverplated.png)                           | Silver Plated Rifle                | 15          | N/A                                                                                                       | The Arcane Library (World 4)                                   | 1580g                  |
+| 13  | ![inv_musowsthunderstick.png](/img/tse1/inv_musowsthunderstick.png)               | Mu Sow's Thunderstick              | 22          | Increasts cooldown time for bullet attacks by 33%                                                         | The Arcane Library (World 4)                                   | 1950g                  |
+| 8   | ![inv_goldenplated.png](/img/tse1/inv_goldenplated.png)                           | Crafted Golden Rifle               | 17          | N/A                                                                                                       | Clarke's Tower Lobby (World 5, only if Peter is in your party) | N/A                    |
+| 16  | ![inv_orwellsrigsnapper.png](/img/tse1/inv_orwellsrigsnapper.png)                 | Orwell's Rigsnapper                | 21          | Does (40% of Party Level + 5) damage to the wielder every 350 ticks                                       | Prototype Development Wing (World 5)                           | 3160g                  |
+| 15  | ![inv_exorcistsholysteel.png](/img/tse1/inv_exorcistsholysteel.png)               | Exorcist's Holy Steel              | 12          | Rains 3 holy bolts dealing (Party Level - 5) damage on each enemy every 310 ticks if equipped on a priest | Cheating                                                       | N/A                    |
+| 14  | ![inv_tempereddragon.png](/img/tse1/inv_tempereddragon.png)                       | Tempered Dragon                    | 13          | Activates Speed Fire without consuming mana every 300 ticks if equipped on a rifleman                     | Cheating                                                       | N/A                    |
+
+### ARMOUR
+
+| Icon                            | Name | Base Damage | Special Attributes | Location | Cost |
+| :------------------------------ | :--- | :---------- | :----------------- | :------- | :--- |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+
+### TALISMANS
+
+| Icon                            | Name | Base Damage | Special Attributes | Location | Cost |
+| :------------------------------ | :--- | :---------- | :----------------- | :------- | :--- |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
+| ![inv_.png](/img/tse1/inv_.png) |      |             |                    |          |      |
 
 ## ENEMIES
 
@@ -386,7 +438,29 @@ HP: 1090
 | ![Eye_Spider_idle.gif](/img/tse1/Eye_Spider_idle.gif)   | Idle           | First cooldown | N/A                                 | N/A                                         | Between 12-20 ticks                                                         |
 | ![Eye_Spider_range.gif](/img/tse1/Eye_Spider_range.gif) | Lobbed         | Venom          | Physical                            | 10                                          | <li>58 ticks at Arachnid's Grove</li><li>51 ticks at The Broken Bridge</li> |
 | ![Eye_Spider_range.gif](/img/tse1/Eye_Spider_range.gif) | Stun<br>Lobbed | Web Goo        | Ailment<br>Physical against shields | <li>45 ticks</li><li>9 against shields</li> | <li>61 ticks at Arachnid's Grove</li><li>59 ticks at The Broken Bridge</li> |
-| ![](/img/tse1/)                                         |                |                |                                     |
+
+| XP                             | Gold                           | Location         | Condition                   |
+| :----------------------------- | :----------------------------- | :--------------- | :-------------------------- |
+| 58                             | 14                             | Arachnid's Grove | Party Level is less than 18 |
+| floor(58 / (Party Level - 16)) | floor(14 / (Party Level - 16)) | Arachnid's Grove | Party Level is less than 23 |
+| XP                             | Gold                           | Location         | Condition                   |
+| 58                             | 14                             | Arachnid's Grove | Party Level is less than 21 |
+| floor(58 / (Party Level - 19)) | floor(14 / (Party Level - 19)) | Arachnid's Grove | Party Level is less than 27 |
+
+| XP  | Gold | Location          | Condition         |
+| :-- | :--- | :---------------- | :---------------- |
+| 29  | 7    | Arachnid's Grove  | Party Level is 18 |
+| 19  | 4    | Arachnid's Grove  | Party Level is 19 |
+| 14  | 3    | Arachnid's Grove  | Party Level is 20 |
+| 11  | 2    | Arachnid's Grove  | Party Level is 21 |
+| 9   | 2    | Arachnid's Grove  | Party Level is 22 |
+| 8   | 2    | Arachnid's Grove  | Party Level is 23 |
+| 29  | 7    | The Broken Bridge | Party Level is 21 |
+| 19  | 4    | The Broken Bridge | Party Level is 22 |
+| 14  | 3    | The Broken Bridge | Party Level is 23 |
+| 11  | 2    | The Broken Bridge | Party Level is 24 |
+| 9   | 2    | The Broken Bridge | Party Level is 25 |
+| 8   | 2    | The Broken Bridge | Party Level is 26 |
 
 #### Pulsating Gelatinous Ooze (NX, EX, MX, L, UD)
 
@@ -396,3 +470,35 @@ HP: ∞
 | :---------------------------------------------------- | :----- | :----------- | :------- | :---------------------- | ---------------------------------------------------------------- |
 | ![Blobble_Capture.png](/img/tse1/Blobble_Capture.png) | Status | Blob Capture | Ailment  | Disables party rotation | Reaches 70 pixels away from the leftmost character in your party |
 | ![blob.gif](/img/tse1/blob.gif)                       | Melee  | Absorb       | Absolute | 200                     | It moves its X position by 1 pixel every 2 ticks                 |
+
+#### The Abombination (L, UD)
+
+Only if Clementas is in your party.<br>
+HP: 1390
+
+| Animation                                     | Kind  | Attack         | Type     | Damage                                         | Cooldown                                                                         |
+| :-------------------------------------------- | :---- | :------------- | :------- | :--------------------------------------------- | -------------------------------------------------------------------------------- |
+| ![Abomb_idle.gif](/img/tse1/Abomb_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                            | Between 10-15 ticks                                                              |
+| ![Abomb_aoe.gif](/img/tse1/Abomb_aoe.gif)     | AoE   | Poison Breath  | Absolute | 7 DoT, each DoT deals 1 damange every 18 ticks | 53 ticks<br>Starts with this attack                                              |
+| ![Abomb_range.png](/img/tse1/Abomb_range.png) | Range | Kinetic Smash  | Physical | <li>15</li><li>14 agaist shields</li>          | 41 ticks<br>Will use this attack 3 times before switching to AoE, then repeating |
+| ![Abomb_heal.gif](/img/tse1/Abomb_heal.gif)   | Heal  | Superheal      | Self     | Activates at 370HP                             | Heals 1HP every 2.4 ticks                                                        |
+
+| XP  | Gold | Location                | Condition |
+| :-- | :--- | :---------------------- | :-------- |
+| 290 | 29   | The Abombination's Lair | N/A       |
+
+#### Snack (UD)
+
+HP: 735
+
+| Animation                                           | Kind    | Attack         | Type            | Damage | Cooldown                                                                                                                                        |
+| :-------------------------------------------------- | :------ | :------------- | :-------------- | :----- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Snack_idle.gif](/img/tse1/Snack_idle.gif)         | Idle    | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                             |
+| ![Snack_melee.gif](/img/tse1/Snack_melee.gif)       | Melee   | Lunge          | Physical        | 15     | Between 27-29 ticks<br>2/3 chance to use this attack                                                                                            |
+| ![Snack_range.gif](/img/tse1/Snack_range.gif)       | Range   | Trident Zap    | Absolute        | 3      | Between 33-35 ticks<br>1/3 chance to use this attack                                                                                            |
+| ![Snack_peekaboo.gif](/img/tse1/Snack_peekaboo.gif) | Defence | Phase Out      | Invulnerability | N/A    | Will occur 180 ticks into the battle (ignoring the 2-second delay at the beginning)<br>Ends on the 399th tick and resets its internal tick to 0 |
+| ![Snack_jab.gif](/img/tse1/Snack_jab.gif)           | Melee   | Jab            | Physical        | 23     | Occurs at the 360th tick into the battle (ignoring the 2-second delay at the beginning)<br>Targets character with the lowest HP                 |
+
+| XP  | Gold | Location          | Condition |
+| :-- | :--- | :---------------- | :-------- |
+| 390 | 76   | The Broken Bridge | N/A       |
