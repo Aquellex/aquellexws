@@ -1,4 +1,5 @@
 ---
+layout: tutorial
 title: 'The Spirit Engine 1 game mechanics'
 lastUpdated: '2022-03-04T12:00:00Z'
 ---
@@ -17,9 +18,12 @@ Lasoo's stun time is reduced by 33% against Large (L) creatures.<br>
 Undead (UD) enemies take 66% extra damage against Silver Bullet & 33% extra damage against each Holy Bolt.<br>
 Undead (UD) enemies are immune to Life Drain.<br>
 
+## ENEMIES
+
 ### WORLD 1: GIANT'S CRADLE
 
-Junior Kippon<br>
+#### Junior Kippon<br>
+
 HP: 30
 
 | Animation                                                     | Kind  | Attack         | Type     | Damage | Cooldown                                                                                                                                       |
@@ -32,7 +36,8 @@ HP: 30
 | 2   | 1    | <li>The Prairie Trail</li><li>The Dusty Valley</li><li>Hailey's Glen</li> | Party Level is less than 9  |
 | 2   | 1    | Giant's Toe                                                               | Party Level is less than 11 |
 
-Warrior Kippon<br>
+#### Warrior Kippon<br>
+
 HP: 110
 
 | Animation                                                       | Kind  | Attack         | Type     | Damage | Cooldown           |
@@ -45,7 +50,7 @@ HP: 110
 | 4   | 1    | <li>The Prairie Trail</li><li>The Dusty Valley</li> | Party Level is less than 9  |
 | 4   | 1    | <li>Hailey's Glen</li><li>Giant's Toe</li>          | Party Level is less than 11 |
 
-Mama Kippon<br>
+#### Mama Kippon<br>
 
 | HP  | Location         |
 | :-- | :--------------- |
@@ -65,7 +70,7 @@ Mama Kippon<br>
 | 7   | 2    | Hailey's Glen                                       | Party Level is less than 11 |
 | 7   | 2    | Giant's Toe                                         | Party Level is less than 14 |
 
-Torfly<br>
+#### Torfly<br>
 
 | HP  | Location         |
 | :-- | :--------------- |
@@ -83,7 +88,7 @@ Torfly<br>
 | 8   | 3    | Hailey's Glen | Party Level is less than 11 |
 | 8   | 3    | Giant's Toe   | Party Level is less than 14 |
 
-Porcupig<br>
+#### Porcupig<br>
 
 | HP  | Location        |
 | :-- | :-------------- |
@@ -100,7 +105,8 @@ Porcupig<br>
 | 8   | 3    | Hailey's Glen | Party Level is less than 11 |
 | 8   | 3    | Giant's Toe   | Party Level is less than 14 |
 
-Grundlekrunk (L)<br>
+#### Grundlekrunk (L)<br>
+
 HP: 705
 
 | Animation                                                     | Kind   | Attack           | Type     | Damage | Cooldown |
@@ -114,7 +120,8 @@ HP: 705
 | :-- | :--- | :------------------ | :-------- |
 | 67  | 10   | Grundlekrunk's Lair | N/A       |
 
-FrostWolf<br>
+#### FrostWolf<br>
+
 HP: 332
 
 | Animation                                             | Kind  | Attack         | Type     | Damage                                 | Cooldown            |
@@ -135,7 +142,8 @@ HP: 332
 | 4   | 0    | The Icy Ridge | Party Level is 15 |
 | 3   | 0    | The Icy Ridge | Party Level is 16 |
 
-Abominable Snowman (L)<br>
+#### Abominable Snowman (L)<br>
+
 HP: 440
 
 | Animation                                         | Kind  | Attack         | Type     | Damage | Cooldown                                                             |
@@ -156,7 +164,8 @@ HP: 440
 | 4   | 1    | The Icy Ridge | Party Level is 15 |
 | 3   | 1    | The Icy Ridge | Party Level is 16 |
 
-Ice Shaman<br>
+#### Ice Shaman<br>
+
 HP: 167
 
 | Animation                                                     | Kind             | Attack         | Type     | Damage   | Cooldown                                                            |
@@ -178,7 +187,8 @@ HP: 167
 | 4   | 1    | The Icy Ridge | Party Level is 15 |
 | 3   | 1    | The Icy Ridge | Party Level is 16 |
 
-The Hermit Mage (MX)<br>
+#### The Hermit Mage (MX)<br>
+
 HP: 1090
 
 | Animation                                                         | Kind              | Attack          | Type     | Damage   | Cooldown                                                                                            |
@@ -194,9 +204,9 @@ HP: 1090
 | :-- | :--- | :---------- | :-------- |
 | 148 | 70   | Giant's Top | N/A       |
 
-### WORLD 2: Pansylvania
+### WORLD 2: PANSYLVANIA
 
-Skeleton (UD)<br>
+#### Skeleton (UD)<br>
 
 | HP  | Location               |
 | :-- | :--------------------- |
@@ -207,8 +217,6 @@ Skeleton (UD)<br>
 | :-------------------------------------------------- | :---- | :------------- | :------- | :------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | ![Skeleton_idle.gif](/img/tse1/Skeleton_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                                  | Between 10-19 ticks                                                                |
 | ![Skeleton_melee.gif](/img/tse1/Skeleton_melee.gif) | Melee | Lunge          | Physical | <li>7 at The Town Graveyard</li><li>9 in The Torchlit Catacombs</li> | <li>55 ticks at The Town Graveyard</li><li>57 ticks in The Torchlit Catacombs</li> |
-| ![](/img/tse1/)                                     |       |                |          |                                                                      |                                                                                    |
-| ![](/img/tse1/)                                     |       |                |          |                                                                      |                                                                                    |
 
 | XP                            | Gold                          | Location               | Condition                   |
 | :---------------------------- | :---------------------------- | :--------------------- | :-------------------------- |
@@ -228,7 +236,7 @@ Skeleton (UD)<br>
 | 6   | 1    | The Torchlit Catacombs | Party Level is 17 |
 | 4   | 0    | The Torchlit Catacombs | Party Level is 18 |
 
-Fetid Zombie (UD)<br>
+#### Fetid Zombie (UD)<br>
 
 | HP  | Location               |
 | :-- | :--------------------- |
@@ -258,7 +266,7 @@ Fetid Zombie (UD)<br>
 | 6   | 1    | The Torchlit Catacombs | Party Level is 17 |
 | 5   | 1    | The Torchlit Catacombs | Party Level is 18 |
 
-Ghoul (NX, UD)
+#### Ghoul (NX, UD)
 
 | HP  | Location               |
 | :-- | :--------------------- |
@@ -294,7 +302,7 @@ Ghoul (NX, UD)
 | 5   | 0    | The Misty Marshes      | Party Level is 20 |
 | 4   | 0    | The Misty Marshes      | Party Level is 21 |
 
-Gargoyle (EX)
+#### Gargoyle (EX)
 
 | HP  | Location          |
 | :-- | :---------------- |
@@ -329,7 +337,7 @@ Gargoyle (EX)
 | 8   | 1    | Arachnid's Grove  | Party Level is 22 |
 | 6   | 1    | Arachnid's Grove  | Party Level is 23 |
 
-Skeleton Fairy
+#### Skeleton Fairy
 
 | HP  | Location          |
 | :-- | :---------------- |
@@ -365,3 +373,26 @@ Skeleton Fairy
 | 8   | 2    | Arachnid's Grove  | Party Level is 21 |
 | 7   | 1    | Arachnid's Grove  | Party Level is 22 |
 | 6   | 1    | Arachnid's Grove  | Party Level is 23 |
+
+#### Eye Spider (L)
+
+| HP  | Location          |
+| :-- | :---------------- |
+| 605 | Arachnid's Grove  |
+| 725 | The Broken Bridge |
+
+| Animation                                               | Kind           | Attack         | Type                                | Damage                                      | Cooldown                                                                    |
+| :------------------------------------------------------ | :------------- | :------------- | :---------------------------------- | :------------------------------------------ | --------------------------------------------------------------------------- |
+| ![Eye_Spider_idle.gif](/img/tse1/Eye_Spider_idle.gif)   | Idle           | First cooldown | N/A                                 | N/A                                         | Between 12-20 ticks                                                         |
+| ![Eye_Spider_range.gif](/img/tse1/Eye_Spider_range.gif) | Lobbed         | Venom          | Physical                            | 10                                          | <li>58 ticks at Arachnid's Grove</li><li>51 ticks at The Broken Bridge</li> |
+| ![Eye_Spider_range.gif](/img/tse1/Eye_Spider_range.gif) | Stun<br>Lobbed | Web Goo        | Ailment<br>Physical against shields | <li>45 ticks</li><li>9 against shields</li> | <li>61 ticks at Arachnid's Grove</li><li>59 ticks at The Broken Bridge</li> |
+| ![](/img/tse1/)                                         |                |                |                                     |
+
+#### Pulsating Gelatinous Ooze (NX, EX, MX, L, UD)
+
+HP: ∞
+
+| Animation                                             | Kind   | Attack       | Type     | Damage                  | Cooldown                                                         |
+| :---------------------------------------------------- | :----- | :----------- | :------- | :---------------------- | ---------------------------------------------------------------- |
+| ![Blobble_Capture.png](/img/tse1/Blobble_Capture.png) | Status | Blob Capture | Ailment  | Disables party rotation | Reaches 70 pixels away from the leftmost character in your party |
+| ![blob.gif](/img/tse1/blob.gif)                       | Melee  | Absorb       | Absolute | 200                     | It moves its X position by 1 pixel every 2 ticks                 |
