@@ -31,6 +31,13 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-transformer-json',
     {
+      resolve: `gatsby-transformer-gitinfo`,
+      options: {
+        include: /\.md$/i,
+        ignore: /README/i,  // Will match all .md files, except README.md
+      },
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
