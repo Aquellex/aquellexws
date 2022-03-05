@@ -532,14 +532,68 @@ HP: 496
 | ![Capricious_imp_melee.gif](/img/tse1/Capricious_imp_melee.gif) | Melee | Lunge          | Physical | 10     | Between 24-26 ticks<br>2/3 chance to use this attack |
 | ![Capricious_imp_range.gif](/img/tse1/Capricious_imp_range.gif) | Range | Trident Zap    | Absolute | 2      | Between 33-35 ticks<br>1/3 chance to use this attack |
 
-| XP                             | Gold                           | Location          | Condition                   |
-| :----------------------------- | :----------------------------- | :---------------- | :-------------------------- |
-| 58                             | 14                             | The Broken Bridge | Party Level is less than 21 |
-| floor(58 / (Party Level - 19)) | floor(14 / (Party Level - 19)) | The Broken Bridge | Party Level is less than 25 |
+| XP                             | Gold                           | Location           | Condition                   |
+| :----------------------------- | :----------------------------- | :----------------- | :-------------------------- |
+| 73                             | 11                             | The Haunted Church | Party Level is less than 21 |
+| floor(73 / (Party Level - 19)) | floor(11 / (Party Level - 19)) | The Haunted Church | Party Level is less than 25 |
 
 | XP  | Gold | Location           | Condition         |
 | :-- | :--- | :----------------- | :---------------- |
-| 29  | 7    | The Haunted Church | Party Level is 21 |
-| 19  | 4    | The Haunted Church | Party Level is 22 |
-| 14  | 3    | The Haunted Church | Party Level is 23 |
-| 11  | 2    | The Haunted Church | Party Level is 24 |
+| 36  | 5    | The Haunted Church | Party Level is 21 |
+| 23  | 3    | The Haunted Church | Party Level is 22 |
+| 18  | 2    | The Haunted Church | Party Level is 23 |
+| 14  | 2    | The Haunted Church | Party Level is 24 |
+
+#### Bogeyman
+
+HP: 565
+
+| Animation | Kind | Attack | Type | Damage | Cooldown |
+| :-------- | :--- | :----- | :--- | :----- | -------- |
+| ![]()     |      |        |      |        |          |
+| ![]()     |      |        |      |        |          |
+| ![]()     |      |        |      |        |          |
+
+#### Neru the Elder Demon (L, UD)
+
+HP: 1630
+
+| Animation | Kind | Attack | Type | Damage | Cooldown |
+| :-------- | :--- | :----- | :--- | :----- | -------- |
+| ![]()     |      |        |      |        |          |
+| ![]()     |      |        |      |        |          |
+| ![]()     |      |        |      |        |          |
+
+#### Father Belfidius
+
+HP: 365
+
+#### Alaiyena (M-25)
+
+HP: 552
+
+| Animation | Kind | Attack | Type | Damage | Cooldown |
+| :-------- | :--- | :----- | :--- | :----- | -------- |
+| ![]()     |      |        |      |        |          |
+| ![]()     |      |        |      |        |          |
+| ![]()     |      |        |      |        |          |
+
+#### Dundee (N-30, E-30)
+
+HP: 580
+
+| Animation | Kind | Attack | Type | Damage | Cooldown |
+| :-------- | :--- | :----- | :--- | :----- | -------- |
+| ![]()     |      |        |      |        |          |
+| ![]()     |      |        |      |        |          |
+| ![]()     |      |        |      |        |          |
+
+#### Sampson (N-10, E-10)
+
+HP: 655
+
+| Animation | Kind | Attack | Type | Damage | Cooldown |
+| :-------- | :--- | :----- | :--- | :----- | -------- |
+| ![]()     |      |        |      |        |          |
+| ![]()     |      |        |      |        |          |
+| ![]()     |      |        |      |        |          |
