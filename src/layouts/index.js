@@ -48,7 +48,7 @@ function TemplateWrapper({ children }) {
                 <Helmet>
                   <title>{siteMetadata.title}</title>
                   <meta name="description" content={siteMetadata.description} />
-                  <meta name="keywords" content="aquellex, gameboy, musician, chiptune, osu" />
+                  <meta name="keywords" content="aquellex, gameboy, musician, breakcore, osu" />
                   <meta property="og:site_name" content={siteMetadata.title} />
                   <meta property="og:type" content="website" />
                   <meta property="og:title" content={siteMetadata.title} />
@@ -58,10 +58,10 @@ function TemplateWrapper({ children }) {
                     content={siteMetadata.siteUrl + withPrefix('/img/highres1000.png')}
                   />
                 </Helmet>
-                <Konami
+                {/* <Konami
                   konami={[76, 79, 67, 82, 73, 65, 78]}
                   easterEgg={() => window.open('https://twitter.com/locrian_memes')}
-                />
+                /> */}
                 <Konami
                   konami={[65, 78, 65, 77, 65, 78, 65, 71, 85, 67, 72, 73]}
                   easterEgg={() => {

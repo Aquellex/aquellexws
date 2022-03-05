@@ -619,12 +619,12 @@ HP: 552
 
 HP: 580 [will also heal 1HP every 16 ticks]
 
-| Animation                                             | Kind     | Attack         | Type     | Damage | Cooldown                          |
-| :---------------------------------------------------- | :------- | :------------- | :------- | :----- | --------------------------------- |
-| ![Dundee_idle.gif](/img/tse1/Dundee_idle.gif)         | Idle     | First cooldown | N/A      | N/A    | 26 ticks                          |
-| ![Dundee_range.gif](/img/tse1/Dundee_range.gif)       | Range    | Speed Fire     | Physical | 11 x 3 | <br>1/2 chance to use this attack |
-| ![Dundee_heal.gif](/img/tse1/Dundee_heal.gif)         | Heal     | Recover        | Self     | 46     | <br>1/4 chance to use this move   |
-| ![Dundee_recharge.gif](/img/tse1/Dundee_recharge.gif) | Recharge | Recharge       | Self     | N/A    | <br>1/4 chance to skip a turn     |
+| Animation                                             | Kind     | Attack         | Type     | Damage | Cooldown                                             |
+| :---------------------------------------------------- | :------- | :------------- | :------- | :----- | ---------------------------------------------------- |
+| ![Dundee_idle.gif](/img/tse1/Dundee_idle.gif)         | Idle     | First cooldown | N/A      | N/A    | 26 ticks                                             |
+| ![Dundee_range.gif](/img/tse1/Dundee_range.gif)       | Range    | Speed Fire     | Physical | 11 x 3 | Between 73-78 ticks<br>1/2 chance to use this attack |
+| ![Dundee_heal.gif](/img/tse1/Dundee_heal.gif)         | Heal     | Recover        | Self     | 46     | 71 ticks<br>1/4 chance to use this move              |
+| ![Dundee_recharge.gif](/img/tse1/Dundee_recharge.gif) | Recharge | Recharge       | Self     | N/A    | Between 47-49 ticks<br>1/4 chance to skip a turn     |
 
 | XP  | Gold | Location    | Condition |
 | :-- | :--- | :---------- | :-------- |
@@ -649,3 +649,94 @@ HP: 655
 ### WORLD 4: THE MYSTIC DUNES
 
 ### WORLD 5: CLARKE'S TOWER
+
+## CALCULATORS (UNDER CONSTRUCTION)
+
+### Health
+
+<form oninput="
+result.value=parseInt(22+(3*skill.value)+(0.23*skill.value*(party.value/2))+((party.value*5)/3));
+max.value=parseInt(22+(3*skill.value)+(0.23*skill.value*(party.value/2))+((party.value*5)/3)+(party.value/2))
+">
+<label for="skill">Skill Points: </label><input type="number" label="skill" id="skill" name="skill" min="0" max="30" value="0"><br>
+<label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1"><br>
+<label for="result">Output Health: </label><output name="result" type="number" for="skill party">23</output><br>
+<label for="max">Max Health: </label><output name="max" type="number" for="skill party">24</output></form>
+
+### Mana
+
+<form oninput="
+result.value=parseInt(5+(skill.value/2))+parseInt(talisman.value);
+max.value=parseInt((5+(skill.value/2))+parseInt(talisman.value))*2;
+reduction.value=parseInt((5+(skill.value/2))+parseInt(talisman.value))-5">
+<label for="skill">Skill Points: </label><input type="number" label="skill" id="skill" name="skill" min="0" max="30" value="0"><br>
+<label for="talisman">Talisman Bonus: </label><input type="number" label="talisman" id="talisman" name="talisman" min="-1" max="6" value="0"><br>
+<label for="result">Output Mana: </label><output name="result" type="number" for="skill talisman">5</output><br>
+<label for="max">Max Mana: </label><output name="max" type="number" for="skill talisman">10</output><br>
+<label for="reduction">Magical Reduction: </label><output name="reduction" type="number" for="skill talisman">0</output></form>
+
+### Rifle Attack
+
+<form oninput="result.value=parseInt((2*skill.value)+(2*gun.value)+((party.value)/2))">
+<label for="skill">Skill Points: </label><input type="number" label="skill" id="skill" name="skill" min="1" max="30" value="1"><br>
+<label for="gun">Base Damage: </label><input type="number" label="gun" id="gun" name="gun" min="0" max="22" value="0"><br>
+<label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1"><br>
+<label for="result">Output Damage: </label><output name="result" type="number" for="skill gun party">2</output></form>
+
+### Recover
+
+<form oninput="
+char1h.value=parseInt((skill.value/2) + (party.value/5) + parseInt(2));
+char2h.value=parseInt((skill.value*0.6) + (party.value/4) + parseInt(2));
+char3h.value=parseInt((skill.value*0.7) + (party.value/4) + parseInt(2));
+char1c.value=parseInt(59-(0.66*skill.value));
+char2c.value=parseInt(55-(0.66*skill.value));
+char3c.value=parseInt(59-(0.66*skill.value))
+">
+<label for="skill">Skill Points: </label><input type="number" label="skill" id="skill" name="skill" min="0" max="30" value="0"><br>
+<label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1"><br>
+<label for="char1h">Peter's Self-Heal: </label><output name="char1h" type="number" for="skill party">2</output>;<label for="char1c"> ticks: </label><output name="char1c" type="number" for="skill party">59</output><br>
+<label for="char2h">Edward's Self-Heal: </label><output name="char2h" type="number" for="skill party">2</output>;<label for="char2c"> ticks: </label><output name="char2c" type="number" for="skill party">55</output><br>
+<label for="char3h">Samuel's Self-Heal: </label><output name="char3h" type="number" for="skill party">2</output>;<label for="char3c"> ticks: </label><output name="char3c" type="number" for="skill party">55</output><br>
+
+### Speed Fire
+
+### Sharpshoot
+
+### Magic Bullet
+
+### Power Shot
+
+### Dynamite
+
+### Lasoo
+
+### Chain Magic
+
+### Kinetic Shield
+
+### Magic Shield
+
+### Rock Rain
+
+### Celestial Lightning
+
+### Rainbow
+
+### Life Drain
+
+### Kinetic Smash
+
+### Party Heal
+
+### Party Recharge
+
+### Party Bless
+
+### Holy Bolt
+
+### Silver Bullet
+
+### Spook Summon
+
+### Hand of the Gods
