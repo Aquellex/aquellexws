@@ -459,13 +459,12 @@ HP: 1090
 | ![Eye_Spider_range.gif](/img/tse1/Eye_Spider_range.gif) | Lobbed         | Venom          | Physical                            | 10                                          | <li>58 ticks at Arachnid's Grove</li><li>51 ticks at The Broken Bridge</li> |
 | ![Eye_Spider_range.gif](/img/tse1/Eye_Spider_range.gif) | Stun<br>Lobbed | Web Goo        | Ailment<br>Physical against shields | <li>45 ticks</li><li>9 against shields</li> | <li>61 ticks at Arachnid's Grove</li><li>59 ticks at The Broken Bridge</li> |
 
-| XP                             | Gold                           | Location         | Condition                   |
-| :----------------------------- | :----------------------------- | :--------------- | :-------------------------- |
-| 58                             | 14                             | Arachnid's Grove | Party Level is less than 18 |
-| floor(58 / (Party Level - 16)) | floor(14 / (Party Level - 16)) | Arachnid's Grove | Party Level is less than 23 |
-| XP                             | Gold                           | Location         | Condition                   |
-| 58                             | 14                             | Arachnid's Grove | Party Level is less than 21 |
-| floor(58 / (Party Level - 19)) | floor(14 / (Party Level - 19)) | Arachnid's Grove | Party Level is less than 27 |
+| XP                             | Gold                           | Location          | Condition                   |
+| :----------------------------- | :----------------------------- | :---------------- | :-------------------------- |
+| 58                             | 14                             | Arachnid's Grove  | Party Level is less than 18 |
+| floor(58 / (Party Level - 16)) | floor(14 / (Party Level - 16)) | Arachnid's Grove  | Party Level is less than 23 |
+| 58                             | 14                             | The Broken Bridge | Party Level is less than 21 |
+| floor(58 / (Party Level - 19)) | floor(14 / (Party Level - 19)) | The Broken Bridge | Party Level is less than 27 |
 
 | XP  | Gold | Location          | Condition         |
 | :-- | :--- | :---------------- | :---------------- |
@@ -496,12 +495,12 @@ HP: ∞
 Only if Clementas is in your party.<br>
 HP: 1390
 
-| Animation                                     | Kind  | Attack         | Type     | Damage                                         | Cooldown                                                                         |
-| :-------------------------------------------- | :---- | :------------- | :------- | :--------------------------------------------- | -------------------------------------------------------------------------------- |
-| ![Abomb_idle.gif](/img/tse1/Abomb_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                            | Between 10-15 ticks                                                              |
-| ![Abomb_aoe.gif](/img/tse1/Abomb_aoe.gif)     | AoE   | Poison Breath  | Absolute | 7 DoT, each DoT deals 1 damange every 18 ticks | 53 ticks<br>Starts with this attack                                              |
-| ![Abomb_range.png](/img/tse1/Abomb_range.png) | Range | Kinetic Smash  | Physical | <li>15</li><li>14 agaist shields</li>          | 41 ticks<br>Will use this attack 3 times before switching to AoE, then repeating |
-| ![Abomb_heal.gif](/img/tse1/Abomb_heal.gif)   | Heal  | Superheal      | Self     | Activates at 370HP                             | Heals 1HP every 2.4 ticks                                                        |
+| Animation                                     | Kind  | Attack         | Type     | Damage                                        | Cooldown                                                                         |
+| :-------------------------------------------- | :---- | :------------- | :------- | :-------------------------------------------- | -------------------------------------------------------------------------------- |
+| ![Abomb_idle.gif](/img/tse1/Abomb_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                           | Between 10-15 ticks                                                              |
+| ![Abomb_aoe.gif](/img/tse1/Abomb_aoe.gif)     | AoE   | Poison Breath  | Absolute | 7 DoT, each DoT deals 1 damage every 18 ticks | 53 ticks<br>Starts with this attack                                              |
+| ![Abomb_range.png](/img/tse1/Abomb_range.png) | Range | Kinetic Smash  | Physical | <li>15</li><li>14 agaist shields</li>         | 41 ticks<br>Will use this attack 3 times before switching to AoE, then repeating |
+| ![Abomb_heal.gif](/img/tse1/Abomb_heal.gif)   | Heal  | Superheal      | Self     | Activates at 370HP                            | Heals 1HP every 2.4 ticks                                                        |
 
 | XP  | Gold | Location                | Condition |
 | :-- | :--- | :---------------------- | :-------- |
@@ -522,3 +521,25 @@ HP: 735
 | XP  | Gold | Location          | Condition |
 | :-- | :--- | :---------------- | :-------- |
 | 390 | 76   | The Broken Bridge | N/A       |
+
+#### Capricious Imp (UD)
+
+HP: 496
+
+| Animation                                                       | Kind  | Attack         | Type     | Damage | Cooldown                                             |
+| :-------------------------------------------------------------- | :---- | :------------- | :------- | :----- | ---------------------------------------------------- |
+| ![Capricious_imp_idle.gif](/img/tse1/Capricious_imp_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 10-15 ticks                                  |
+| ![Capricious_imp_melee.gif](/img/tse1/Capricious_imp_melee.gif) | Melee | Lunge          | Physical | 10     | Between 24-26 ticks<br>2/3 chance to use this attack |
+| ![Capricious_imp_range.gif](/img/tse1/Capricious_imp_range.gif) | Range | Trident Zap    | Absolute | 2      | Between 33-35 ticks<br>1/3 chance to use this attack |
+
+| XP                             | Gold                           | Location          | Condition                   |
+| :----------------------------- | :----------------------------- | :---------------- | :-------------------------- |
+| 58                             | 14                             | The Broken Bridge | Party Level is less than 21 |
+| floor(58 / (Party Level - 19)) | floor(14 / (Party Level - 19)) | The Broken Bridge | Party Level is less than 25 |
+
+| XP  | Gold | Location           | Condition         |
+| :-- | :--- | :----------------- | :---------------- |
+| 29  | 7    | The Haunted Church | Party Level is 21 |
+| 19  | 4    | The Haunted Church | Party Level is 22 |
+| 14  | 3    | The Haunted Church | Party Level is 23 |
+| 11  | 2    | The Haunted Church | Party Level is 24 |
