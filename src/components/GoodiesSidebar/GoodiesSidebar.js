@@ -12,7 +12,7 @@ const GoodiesSidebar = () => (
       <ul>
         <li>
           <Link to="https://psgcabal.github.io/gbsoundcomparison">
-            Game Boy comparison (better than Herbert Weixelbaum’s version)
+            Game Boy sound comparison (better than Herbert Weixelbaum’s version)
           </Link>
         </li>
         <li>

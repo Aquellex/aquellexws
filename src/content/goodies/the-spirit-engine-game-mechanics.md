@@ -240,12 +240,12 @@ HP: 440
 
 HP: 167
 
-| Animation                                                     | Kind             | Attack         | Type     | Damage   | Cooldown                                                            |
-| :------------------------------------------------------------ | :--------------- | :------------- | :------- | :------- | :------------------------------------------------------------------ |
-| ![Ice_Shaman_idle.gif](/img/tse1/Ice_Shaman_idle.gif)         | Idle             | First cooldown | N/A      | N/A      | Between 10-15 ticks                                                 |
-| ![Ice_Shaman_range.gif](/img/tse1/Ice_Shaman_range.gif)       | Range            | Hailstorm      | Physical | 7        | 47 ticks<br>25% chance to use this attack<br>Always uses first      |
-| ![Ice_Shaman_stun.gif](/img/tse1/Ice_Shaman_stun.gif)         | Stun<br>Indirect | Freeze         | Ailment  | 70 ticks | 52 ticks<br>50% chance to use this attack                           |
-| ![Ice_Shaman_recharge.gif](/img/tse1/Ice_Shaman_recharge.gif) | Recharge         | Recharge       | Self     | N/A      | 39 ticks<br>25% chance to use this move (i.e., this is a free turn) |
+| Animation                                                     | Kind             | Attack         | Type     | Damage   | Cooldown                                                       |
+| :------------------------------------------------------------ | :--------------- | :------------- | :------- | :------- | :------------------------------------------------------------- |
+| ![Ice_Shaman_idle.gif](/img/tse1/Ice_Shaman_idle.gif)         | Idle             | First cooldown | N/A      | N/A      | Between 10-15 ticks                                            |
+| ![Ice_Shaman_range.gif](/img/tse1/Ice_Shaman_range.gif)       | Range            | Hailstorm      | Physical | 7        | 47 ticks<br>25% chance to use this attack<br>Always uses first |
+| ![Ice_Shaman_stun.gif](/img/tse1/Ice_Shaman_stun.gif)         | Stun<br>Indirect | Freeze         | Ailment  | 70 ticks | 52 ticks<br>50% chance to use this attack                      |
+| ![Ice_Shaman_recharge.gif](/img/tse1/Ice_Shaman_recharge.gif) | Recharge         | Recharge       | Self     | N/A      | 39 ticks<br>25% chance to skip a turn                          |
 
 | XP                             | Gold                          | Location      | Condition                   |
 | :----------------------------- | :---------------------------- | :------------ | :-------------------------- |
@@ -574,12 +574,12 @@ HP: 496
 
 HP: 1630
 
-| Animation                                   | Kind   | Attack         | Type     | Damage                                      | Cooldown                                                                                                                                           |
-| :------------------------------------------ | :----- | :------------- | :------- | :------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Neru_idle.gif](/img/tse1/Neru_idle.gif)   | Idle   | First cooldown | N/A      | N/A                                         | Between 16-24 ticks                                                                                                                                |
-| ![Neru_range.gif](/img/tse1/Neru_range.gif) | Lobbed | Fireball       | Physical | 15                                          | 51 ticks<br>2/5 chance to use this attack                                                                                                          |
-| ![Neru_aoe.gif](/img/tse1/Neru_aoe.gif)     | AoE    | Firewall       | Physical | 6 (armour is half effective)                | 54 ticks<br>2/5 chance to use this attack                                                                                                          |
-| ![Neru_nuke.gif](/img/tse1/Neru_nuke.gif)   | Nuke   | Suicide Imp    | Physical | 64 (0 if you can detonate it within 4 hits) | 80 ticks<br>1/5 chance to use this attack, then uses Lobbed or AoE attack unless HP is less than 370, in which case it will always use this attack |
+| Animation                                   | Kind   | Attack         | Type     | Damage                                                     | Cooldown                                                                                                                                           |
+| :------------------------------------------ | :----- | :------------- | :------- | :--------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Neru_idle.gif](/img/tse1/Neru_idle.gif)   | Idle   | First cooldown | N/A      | N/A                                                        | Between 16-24 ticks                                                                                                                                |
+| ![Neru_range.gif](/img/tse1/Neru_range.gif) | Lobbed | Fireball       | Physical | 15                                                         | 51 ticks<br>2/5 chance to use this attack                                                                                                          |
+| ![Neru_aoe.gif](/img/tse1/Neru_aoe.gif)     | AoE    | Firewall       | Physical | 6 (armour is half effective & odd numbers will round down) | 54 ticks<br>2/5 chance to use this attack                                                                                                          |
+| ![Neru_nuke.gif](/img/tse1/Neru_nuke.gif)   | Nuke   | Suicide Imp    | Physical | 64 (0 if you can detonate it within 4 hits)                | 80 ticks<br>1/5 chance to use this attack, then uses Lobbed or AoE attack unless HP is less than 370, in which case it will always use this attack |
 
 | XP  | Gold | Location          | Condition |
 | :-- | :--- | :---------------- | :-------- |
@@ -604,12 +604,12 @@ HP: 365
 
 HP: 552
 
-| Animation                                                 | Kind     | Attack            | Type    | Damage                          | Cooldown                                             |
-| :-------------------------------------------------------- | :------- | :---------------- | :------ | :------------------------------ | ---------------------------------------------------- |
-| ![Alaiyena_idle.gif](/img/tse1/Alaiyena_idle.gif)         | Idle     | First cooldown    | N/A     | N/A                             | 44 ticks                                             |
-| ![Alaiyena_magic.gif](/img/tse1/Alaiyena_magic.gif)       | Magic    | Magical Swirl     | Magical | <li>11</li><li>Clamps at 3</li> | 80 ticks<br>Will use this attack first<br>3/7 chance |
-| ![Alaiyena_aoe.gif](/img/tse1/Alaiyena_aoe.gif)           | AoE      | Magical Hell Wind | Magical | 6                               | 89 ticks<br>1/7 chance                               |
-| ![Alaiyena_recharge.gif](/img/tse1/Alaiyena_recharge.gif) | Recharge | Recharge          | Self    | N/A                             | 52 ticks<br>3/7 chance                               |
+| Animation                                                 | Kind     | Attack            | Type    | Damage                          | Cooldown                                                                |
+| :-------------------------------------------------------- | :------- | :---------------- | :------ | :------------------------------ | ----------------------------------------------------------------------- |
+| ![Alaiyena_idle.gif](/img/tse1/Alaiyena_idle.gif)         | Idle     | First cooldown    | N/A     | N/A                             | 44 ticks                                                                |
+| ![Alaiyena_magic.gif](/img/tse1/Alaiyena_magic.gif)       | Magic    | Magical Swirl     | Magical | <li>11</li><li>Clamps at 3</li> | 80 ticks<br>Will use this attack first<br>3/7 chance to use this attack |
+| ![Alaiyena_aoe.gif](/img/tse1/Alaiyena_aoe.gif)           | AoE      | Magical Hell Wind | Magical | 6                               | 89 ticks<br>1/7 chance to use this attack                               |
+| ![Alaiyena_recharge.gif](/img/tse1/Alaiyena_recharge.gif) | Recharge | Recharge          | Self    | N/A                             | 52 ticks<br>3/7 chance to skip a turn                                   |
 
 | XP  | Gold | Location    | Condition |
 | :-- | :--- | :---------- | :-------- |
@@ -617,20 +617,35 @@ HP: 552
 
 #### Dundee (N-30, E-30)
 
-HP: 580
+HP: 580 [will also heal 1HP every 16 ticks]
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                             | Kind     | Attack         | Type     | Damage | Cooldown                          |
+| :---------------------------------------------------- | :------- | :------------- | :------- | :----- | --------------------------------- |
+| ![Dundee_idle.gif](/img/tse1/Dundee_idle.gif)         | Idle     | First cooldown | N/A      | N/A    | 26 ticks                          |
+| ![Dundee_range.gif](/img/tse1/Dundee_range.gif)       | Range    | Speed Fire     | Physical | 11 x 3 | <br>1/2 chance to use this attack |
+| ![Dundee_heal.gif](/img/tse1/Dundee_heal.gif)         | Heal     | Recover        | Self     | 46     | <br>1/4 chance to use this move   |
+| ![Dundee_recharge.gif](/img/tse1/Dundee_recharge.gif) | Recharge | Recharge       | Self     | N/A    | <br>1/4 chance to skip a turn     |
+
+| XP  | Gold | Location    | Condition |
+| :-- | :--- | :---------- | :-------- |
+| 370 | 60   | Eastern Way | N/A       |
 
 #### Sampson (N-10, E-10)
 
 HP: 655
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                               | Kind           | Attack         | Type               | Damage                                  | Cooldown                                   |
+| :------------------------------------------------------ | :------------- | :------------- | :----------------- | :-------------------------------------- | ------------------------------------------ |
+| ![Sampson_idle.gif](/img/tse1/Sampson_idle.gif)         | Idle           | First cooldown | N/A                | N/A                                     | Between 14-19 ticks                        |
+| ![Sampson_range.gif](/img/tse1/Sampson_range.gif)       | Range & Debuff | Cursed Bullet  | Physical & Ailment | 15, curses impacted player for 90 ticks | 119 ticks<br>3/4 chance to use this attack |
+| ![Sampson_recharge.gif](/img/tse1/Sampson_recharge.gif) | Recharge       | Recharge       | Self               | N/A                                     | 72 ticks<br>1/4 chance to skip a turn      |
+
+| XP  | Gold | Location    | Condition |
+| :-- | :--- | :---------- | :-------- |
+| 330 | 50   | Eastern Way | N/A       |
+
+### WORLD 3: THE MANGO REPUBLIC
+
+### WORLD 4: THE MYSTIC DUNES
+
+### WORLD 5: CLARKE'S TOWER
