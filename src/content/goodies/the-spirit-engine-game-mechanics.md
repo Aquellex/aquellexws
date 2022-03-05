@@ -604,11 +604,16 @@ HP: 365
 
 HP: 552
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                                 | Kind     | Attack            | Type    | Damage                          | Cooldown                                             |
+| :-------------------------------------------------------- | :------- | :---------------- | :------ | :------------------------------ | ---------------------------------------------------- |
+| ![Alaiyena_idle.gif](/img/tse1/Alaiyena_idle.gif)         | Idle     | First cooldown    | N/A     | N/A                             | 44 ticks                                             |
+| ![Alaiyena_magic.gif](/img/tse1/Alaiyena_magic.gif)       | Magic    | Magical Swirl     | Magical | <li>11</li><li>Clamps at 3</li> | 80 ticks<br>Will use this attack first<br>3/7 chance |
+| ![Alaiyena_aoe.gif](/img/tse1/Alaiyena_aoe.gif)           | AoE      | Magical Hell Wind | Magical | 6                               | 89 ticks<br>1/7 chance                               |
+| ![Alaiyena_recharge.gif](/img/tse1/Alaiyena_recharge.gif) | Recharge | Recharge          | Self    | N/A                             | 52 ticks<br>3/7 chance                               |
+
+| XP  | Gold | Location    | Condition |
+| :-- | :--- | :---------- | :-------- |
+| 350 | 60   | Eastern Way | N/A       |
 
 #### Dundee (N-30, E-30)
 
