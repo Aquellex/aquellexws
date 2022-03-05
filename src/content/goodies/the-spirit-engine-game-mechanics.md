@@ -574,15 +574,31 @@ HP: 496
 
 HP: 1630
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                   | Kind   | Attack         | Type     | Damage                                      | Cooldown                                                                                                                                           |
+| :------------------------------------------ | :----- | :------------- | :------- | :------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Neru_idle.gif](/img/tse1/Neru_idle.gif)   | Idle   | First cooldown | N/A      | N/A                                         | Between 16-24 ticks                                                                                                                                |
+| ![Neru_range.gif](/img/tse1/Neru_range.gif) | Lobbed | Fireball       | Physical | 15                                          | 51 ticks<br>2/5 chance to use this attack                                                                                                          |
+| ![Neru_aoe.gif](/img/tse1/Neru_aoe.gif)     | AoE    | Firewall       | Physical | 6 (armour is half effective)                | 54 ticks<br>2/5 chance to use this attack                                                                                                          |
+| ![Neru_nuke.gif](/img/tse1/Neru_nuke.gif)   | Nuke   | Suicide Imp    | Physical | 64 (0 if you can detonate it within 4 hits) | 80 ticks<br>1/5 chance to use this attack, then uses Lobbed or AoE attack unless HP is less than 370, in which case it will always use this attack |
+
+| XP  | Gold | Location          | Condition |
+| :-- | :--- | :---------------- | :-------- |
+| 998 | 14   | The Defiled Altar | N/A       |
 
 #### Father Belfidius
 
 HP: 365
+
+| Animation                                               | Kind    | Attack         | Type                        | Damage                                                                        | Cooldown                                                |
+| :------------------------------------------------------ | :------ | :------------- | :-------------------------- | :---------------------------------------------------------------------------- | ------------------------------------------------------- |
+| ![Belfidius_idle.png](/img/tse1/Belfidius_idle.png)     | Idle    | First cooldown | N/A                         | N/A                                                                           | Between 11-25 ticks<br>                                 |
+| ![Belfidius_bless.gif](/img/tse1/Belfidius_bless.gif)   | Heal    | Party Heal     | Party<br>(including healer) | 32                                                                            | 69 ticks<br>3/4 chance to use this move                 |
+| ![Belfidius_bless.gif](/img/tse1/Belfidius_bless.gif)   | Magical | Magic Blast    | Magical                     | 5                                                                             | 39 ticks<br>Will only use this move if Neru is defeated |
+| ![Belfidius_debuff.gif](/img/tse1/Belfidius_debuff.gif) | Debuff  | Curse          | Ailment                     | 90 ticks (iterates 2 ticks instead if Party Bless is active)<br>Halves damage | 75 ticks<br>1/4 chance to use this move                 |
+
+| XP  | Gold | Location          | Condition |
+| :-- | :--- | :---------------- | :-------- |
+| 100 | 75   | The Defiled Altar | N/A       |
 
 #### Alaiyena (M-25)
 
