@@ -510,13 +510,13 @@ HP: 1390
 
 HP: 735
 
-| Animation                                           | Kind    | Attack         | Type            | Damage | Cooldown                                                                                                                                        |
-| :-------------------------------------------------- | :------ | :------------- | :-------------- | :----- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Snack_idle.gif](/img/tse1/Snack_idle.gif)         | Idle    | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                             |
-| ![Snack_melee.gif](/img/tse1/Snack_melee.gif)       | Melee   | Lunge          | Physical        | 15     | Between 27-29 ticks<br>2/3 chance to use this attack                                                                                            |
-| ![Snack_range.gif](/img/tse1/Snack_range.gif)       | Range   | Trident Zap    | Absolute        | 3      | Between 33-35 ticks<br>1/3 chance to use this attack                                                                                            |
-| ![Snack_peekaboo.gif](/img/tse1/Snack_peekaboo.gif) | Defence | Phase Out      | Invulnerability | N/A    | Will occur 180 ticks into the battle (ignoring the 2-second delay at the beginning)<br>Ends on the 399th tick and resets its internal tick to 0 |
-| ![Snack_jab.gif](/img/tse1/Snack_jab.gif)           | Melee   | Jab            | Physical        | 23     | Occurs at the 360th tick into the battle (ignoring the 2-second delay at the beginning)<br>Targets character with the lowest HP                 |
+| Animation                                           | Kind   | Attack         | Type            | Damage | Cooldown                                                                                                                                        |
+| :-------------------------------------------------- | :----- | :------------- | :-------------- | :----- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Snack_idle.gif](/img/tse1/Snack_idle.gif)         | Idle   | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                             |
+| ![Snack_melee.gif](/img/tse1/Snack_melee.gif)       | Melee  | Lunge          | Physical        | 15     | Between 27-29 ticks<br>2/3 chance to use this attack                                                                                            |
+| ![Snack_range.gif](/img/tse1/Snack_range.gif)       | Range  | Trident Zap    | Absolute        | 3      | Between 33-35 ticks<br>1/3 chance to use this attack                                                                                            |
+| ![Snack_peekaboo.gif](/img/tse1/Snack_peekaboo.gif) | Status | Phase Out      | Invulnerability | N/A    | Will occur 180 ticks into the battle (ignoring the 2-second delay at the beginning)<br>Ends on the 399th tick and resets its internal tick to 0 |
+| ![Snack_jab.gif](/img/tse1/Snack_jab.gif)           | Melee  | Jab            | Physical        | 23     | Occurs at the 360th tick into the battle (ignoring the 2-second delay at the beginning)<br>Targets character with the lowest HP                 |
 
 | XP  | Gold | Location          | Condition |
 | :-- | :--- | :---------------- | :-------- |
@@ -546,23 +546,39 @@ HP: 496
 
 #### Bogeyman
 
-HP: 565
+| HP  | Location           |
+| :-- | :----------------- |
+| 565 | The Haunted Church |
+| 615 | The Broken Bridge  |
 
-| Animation | Kind | Attack | Type | Damage | Cooldown |
-| :-------- | :--- | :----- | :--- | :----- | -------- |
-| ![]()     |      |        |      |        |          |
-| ![]()     |      |        |      |        |          |
-| ![]()     |      |        |      |        |          |
+| Animation                                             | Kind   | Attack         | Type            | Damage | Cooldown                                                                                                                                          |
+| :---------------------------------------------------- | :----- | :------------- | :-------------- | :----- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Bogeyman_idle.gif](/img/tse1/Bogeyman_idle.gif)     | Idle   | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                               |
+| ![Bogeyman_melee.gif](/img/tse1/Bogeyman_melee.gif)   | Melee  | Lunge          | Physical        | 17     | Between 52-57 ticks                                                                                                                               |
+| ![Bogeyman_shield.gif](/img/tse1/Bogeyman_shield.gif) | Status | Phase Out      | Invulnerability | N/A    | Will occur 144 ticks into the battle (ignoring the 2-second delay at the beginning)<br>Ends on the 319.2nd tick and resets its internal tick to 0 |
+
+| XP                             | Gold                           | Location           | Condition                   |
+| :----------------------------- | :----------------------------- | :----------------- | :-------------------------- |
+| 87                             | 15                             | The Haunted Church | Party Level is less than 21 |
+| floor(87 / (Party Level - 19)) | floor(15 / (Party Level - 19)) | The Haunted Church | Party Level is less than 25 |
+| 72                             | 25                             | The Broken Bridge  | Party Level is less than 27 |
+
+| XP  | Gold | Location           | Condition         |
+| :-- | :--- | :----------------- | :---------------- |
+| 43  | 7    | The Haunted Church | Party Level is 21 |
+| 29  | 5    | The Haunted Church | Party Level is 22 |
+| 21  | 3    | The Haunted Church | Party Level is 23 |
+| 17  | 3    | The Haunted Church | Party Level is 24 |
 
 #### Neru the Elder Demon (L, UD)
 
 HP: 1630
 
-| Animation | Kind | Attack | Type | Damage | Cooldown |
-| :-------- | :--- | :----- | :--- | :----- | -------- |
-| ![]()     |      |        |      |        |          |
-| ![]()     |      |        |      |        |          |
-| ![]()     |      |        |      |        |          |
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+| ![](/img/tse1/) |      |        |      |        |          |
+| ![](/img/tse1/) |      |        |      |        |          |
 
 #### Father Belfidius
 
@@ -572,28 +588,28 @@ HP: 365
 
 HP: 552
 
-| Animation | Kind | Attack | Type | Damage | Cooldown |
-| :-------- | :--- | :----- | :--- | :----- | -------- |
-| ![]()     |      |        |      |        |          |
-| ![]()     |      |        |      |        |          |
-| ![]()     |      |        |      |        |          |
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+| ![](/img/tse1/) |      |        |      |        |          |
+| ![](/img/tse1/) |      |        |      |        |          |
 
 #### Dundee (N-30, E-30)
 
 HP: 580
 
-| Animation | Kind | Attack | Type | Damage | Cooldown |
-| :-------- | :--- | :----- | :--- | :----- | -------- |
-| ![]()     |      |        |      |        |          |
-| ![]()     |      |        |      |        |          |
-| ![]()     |      |        |      |        |          |
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+| ![](/img/tse1/) |      |        |      |        |          |
+| ![](/img/tse1/) |      |        |      |        |          |
 
 #### Sampson (N-10, E-10)
 
 HP: 655
 
-| Animation | Kind | Attack | Type | Damage | Cooldown |
-| :-------- | :--- | :----- | :--- | :----- | -------- |
-| ![]()     |      |        |      |        |          |
-| ![]()     |      |        |      |        |          |
-| ![]()     |      |        |      |        |          |
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+| ![](/img/tse1/) |      |        |      |        |          |
+| ![](/img/tse1/) |      |        |      |        |          |
