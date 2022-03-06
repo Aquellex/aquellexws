@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: 'The Spirit Engine 1 game mechanics'
-lastUpdated: '2022-03-06'
+lastUpdated: '2022-03-07'
 ---
 
 All documentation is done with ticks. Each tick lasts for 0.1 seconds on Slower Battles switched on, 0.05 for the same option switched off. So 50 ticks is 5.0 seconds and 2.5 seconds, respectively.
@@ -650,7 +650,7 @@ HP: 655
 
 ### WORLD 5: CLARKE'S TOWER
 
-## CALCULATORS (UNDER CONSTRUCTION)
+## SKILL CALCULATOR
 
 <form oninput="
 baseHealth.value=parseInt(22+(3*health.value)+(0.23*health.value*(party.value/2))+((party.value*5)/3));
@@ -678,9 +678,9 @@ speedfire.value=58 - skill3.value;
 speedfire2.value=73 - skill3.value;
 partyrecharge.value=parseInt(69 - (skill3.value * 1.5));
 partyrecharge3.value=parseInt(56 - (skill3.value * 1.5));
-rockrain1.value=parseInt((skill4.value * 3.8) + (party.value * 1.25) + parseInt(3));
-rockrain2.value=parseInt((skill4.value * 3.2) + (party.value * 1.25) + parseInt(2));
-rockrain3.value=parseInt((skill4.value * 2.8) + (party.value * 1.25) + parseInt(1));
+rockrain1.value=parseInt((skill4.value * 3.8) + (party.value * 1.25) + (bless.value * 1.25) + parseInt(3));
+rockrain2.value=parseInt((skill4.value * 3.2) + (party.value * 1.25) + (bless.value * 1.25) + parseInt(2));
+rockrain3.value=parseInt((skill4.value * 2.8) + (party.value * 1.25) + (bless.value * 1.25) + parseInt(1));
 sharpshoot1.value=parseInt((7*skill4.value)+(8*gun.value)+(2*party.value)+(2*bless.value));
 sharpshoot2.value=parseInt((6*skill4.value)+(7*gun.value)+(2*party.value)+(2*bless.value));
 sharpshoot3.value=parseInt((5*skill4.value)+(6*gun.value)+(2*party.value)+(2*bless.value));
@@ -749,18 +749,18 @@ hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 <label for="bless">Bless: </label><input type="number" label="bless" id="bless" name="bless" min="0" max="58" value="0">
 <label for="gun">Base Damage: </label><input type="number" label="gun" id="gun" name="pagunrty" min="0" max="22" value="0">
 <label for="talisman">Talisman Bonus: </label><input type="number" label="talisman" id="talisman" name="talisman" min="-1" max="6" value="0"><br>
-<label for="health"><img src=/img/tse1/skill1_health.png> </label><input type="number" label="health" id="health" name="health" min="0" max="30" value="0"><br>
+<label for="health"><img src=/img/tse1/skill1_health.png title="Health"> </label><input type="number" label="health" id="health" name="health" min="0" max="30" value="0"><br>
 <label for="baseHealth">Base Health: </label><output name="baseHealth" type="number" for="health party">23</output><br>
 <label for="maxHealth">Max Health: </label><output name="maxHealth" type="number" for="health party">24</output><br>
-<label for="mana"><img src=/img/tse1/skill2_mana.png> </label><input type="number" label="mana" id="mana" name="mana" min="0" max="30" value="0"><br>
+<label for="mana"><img src=/img/tse1/skill2_mana.png title="Mana"> </label><input type="number" label="mana" id="mana" name="mana" min="0" max="30" value="0"><br>
 <label for="baseMana">Base Mana: </label><output name="baseMana" type="number" for="mana talisman">5</output><br>
 <label for="maxMana">Max Mana: </label><output name="maxMana" type="number" for="mana talisman">10</output><br>
 <label for="magicReduction">Magical Reduction: </label><output name="magicReduction" type="number" for="mana talisman">0</output><br>
-<label for="skill1"><img src=/img/tse1/skill3_chainmagic.png><img src=/img/tse1/skill3_rifleattack.png> </label><input type="number" label="skill1" id="skill1" name="skill1" min="1" max="30" value="1"><br>
+<label for="skill1"><img src=/img/tse1/skill3_chainmagic.png title="Chain Magic"><img src=/img/tse1/skill3_rifleattack.png title="Rifle Attack"> </label><input type="number" label="skill1" id="skill1" name="skill1" min="1" max="30" value="1"><br>
 <label for="chainmagic">Chain Magic's Damage: </label><output name="chainmagic" type="number" for="skill1 party bless">1</output> x 3<br>
 <label for="rifleattack">Rifle Attack's Damage: </label><output name="rifleattack" type="number" for="skill1 gun party bless">2</output><br>
 <label for="mattrifle">Matthieu's Rifle Attack: </label><output name="mattrifle" type="number" for="skill1 gun party bless">1</output> (75% of original Rifle Attack damage)<br>
-<label for="skill2"><img src=/img/tse1/skill4_kineticshield.png><img src=/img/tse1/skill4_recover.png><img src=/img/tse1/skill4_partyheal.png> </label><input type="number" label="skill2" id="skill2" name="skill2" min="1" max="30" value="1"><br>
+<label for="skill2"><img src=/img/tse1/skill4_kineticshield.png title="Kinetic Shield"><img src=/img/tse1/skill4_recover.png title="Recover"><img src=/img/tse1/skill4_partyheal.png title="Party Heal"> </label><input type="number" label="skill2" id="skill2" name="skill2" min="1" max="30" value="1"><br>
 <label for="kineticshield">Kinetic Shield's Strength: </label><output name="kineticshield" type="number" for="skill2 party bless">2</output>HP<br>
 <label for="recover1h">Peter's Recover: </label><output name="recover1h" type="number" for="skill2 party bless">2</output>;<label for="recover1c"> cooldown: </label><output name="recover1c" type="number" for="skill2 party">59</output> ticks<br>
 <label for="recover2h">Edward's Recover: </label><output name="recover2h" type="number" for="skill2 party bless">2</output>;<label for="recover2c"> cooldown: </label><output name="recover2c" type="number" for="skill2 party">55</output> ticks<br>
@@ -768,7 +768,7 @@ hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 <label for="partyheal1">Clementas' Party Heal: </label><output name="partyheal1" type="number" for="skill2 party bless">1</output>HP<br>
 <label for="partyheal2">Zepher's Party Heal: </label><output name="partyheal2" type="number" for="skill2 party bless">1</output>HP<br>
 <label for="partyheal3">Matthieu's Party Heal: </label><output name="partyheal3" type="number" for="skill2 party bless">1</output>HP<br>
-<label for="skill3"><img src=/img/tse1/skill5_magicshield.png><img src=/img/tse1/skill5_speedfire.png><img src=/img/tse1/skill5_partyrecharge.png> </label><input type="number" label="skill3" id="skill3" name="skill3" min="1" max="30" value="1"><br>
+<label for="skill3"><img src=/img/tse1/skill5_magicshield.png title="Magic Shield"><img src=/img/tse1/skill5_speedfire.png title="Speed Fire"><img src=/img/tse1/skill5_partyrecharge.png title="Recharge"> </label><input type="number" label="skill3" id="skill3" name="skill3" min="1" max="30" value="1"><br>
 <label for="magicshield1">Clara's Magic Shield Strength: </label><output name="magicshield1" type="number" for="skill3 party bless">2</output>HP<br>
 <label for="magicshield2">Pippa's Magic Shield Strength: </label><output name="magicshield2" type="number" for="skill3 party bless">3</output>HP<br>
 <label for="magicshield3">Eisfford's Magic Shield Strength: </label><output name="magicshield3" type="number" for="skill3 party bless">2</output>HP<br>
@@ -776,7 +776,7 @@ hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 <label for="speedfire2">Edward's Speed Fire Cooldown: </label><output name="speedfire2" type="number" for="skill3 party bless">72</output> ticks<br>
 <label for="partyrecharge">Clementas & Zepher's Party Recharge Cooldown: </label><output name="partyrecharge" type="number" for="skill3 party">67</output> ticks<br>
 <label for="partyrecharge3">Matthieu's Party Recharge Cooldown: </label><output name="partyrecharge3" type="number" for="skill3 party">54</output> ticks<br>
-<label for="skill4"><img src=/img/tse1/skill6_rockrain.png><img src=/img/tse1/skill6_sharpshoot.png><img src=/img/tse1/skill6_partybless.png> </label><input type="number" label="skill4" id="skill4" name="skill4" min="0" max="30" value="0"><br>
+<label for="skill4"><img src=/img/tse1/skill6_rockrain.png title="Rock Rain"><img src=/img/tse1/skill6_sharpshoot.png title="Sharpshoot"><img src=/img/tse1/skill6_partybless.png title="Party Bless"> </label><input type="number" label="skill4" id="skill4" name="skill4" min="0" max="30" value="0"><br>
 <label for="rockrain1">Clara's Rock Rain: </label><output name="rockrain1" type="number" for="skill4 party bless">4</output> x 3<br>
 <label for="rockrain2">Pippa's Rock Rain: </label><output name="rockrain2" type="number" for="skill4 party bless">3</output> x 3<br>
 <label for="rockrain3">Eisfford's Rock Rain: </label><output name="rockrain3" type="number" for="skill4 party bless">2</output> x 3<br>
@@ -787,7 +787,7 @@ hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 <label for="partybless2r">Zepher's Party Bless: </label><output name="partybless2r" type="number" for="skill4 party">0</output> extra Party Levels<br>
 <label for="partybless3r">Matthieu's Party Bless: </label><output name="partybless3r" type="number" for="skill4 party">0</output> extra Party Levels<br>
 <label for="partyblessd">Everyone's blesses will last for </label><output name="partyblessd" type="number" for="skill4 party">157</output> ticks<br>
-<label for="skill5"><img src=/img/tse1/skill7_celestiallightning.png><img src=/img/tse1/skill7_magicbullet.png><img src=/img/tse1/skill7_holybolt.png> </label><input type="number" label="skill5" id="skill5" name="skill5" min="0" max="30" value="0"><br>
+<label for="skill5"><img src=/img/tse1/skill7_celestiallightning.png title="Celestial Lightning"><img src=/img/tse1/skill7_magicbullet.png title="Magic Bullet"><img src=/img/tse1/skill7_holybolt.png title="Holy Bolt"> </label><input type="number" label="skill5" id="skill5" name="skill5" min="0" max="30" value="0"><br>
 <label for="lightning1">Clara's Celestial Lightning: </label><output name="lightning1" type="number" for="skill5 party bless">10</output><br>
 <label for="lightning2">Pippa's Celestial Lightning: </label><output name="lightning2" type="number" for="skill5 party bless">12</output><br>
 <label for="lightning3">Eisfford's Celestial Lightning: </label><output name="lightning3" type="number" for="skill5 party bless">14</output><br>
@@ -797,7 +797,7 @@ hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 <label for="holybolt1">Clementas' Holy Bolt: </label><output name="holybolt1" type="number" for="skill5 party bless">3</output> x 2 <label for="hbbonus1">(</label><output name="hbbonus1" type="number" for="skill5 party bless">4</output> x 2 against undead enemies)<br>
 <label for="holybolt2">Zepher's Holy Bolt: </label><output name="holybolt2" type="number" for="skill5 party bless">3</output> x 2 <label for="hbbonus2">(</label><output name="hbbonus2" type="number" for="skill5 party bless">4</output> x 2 against undead enemies)<br>
 <label for="holybolt3">Matthieu's Holy Bolt: </label><output name="holybolt3" type="number" for="skill5 party bless">3</output> x 2 <label for="hbbonus3">(</label><output name="hbbonus3" type="number" for="skill5 party bless">4</output> x 2 against undead enemies)<br>
-<label for="skill6"><img src=/img/tse1/skill8_rainbow.png><img src=/img/tse1/skill8_powershot.png><img src=/img/tse1/skill8_silverbullet.png> </label><input type="number" label="skill6" id="skill6" name="skill6" min="0" max="30" value="0"><br>
+<label for="skill6"><img src=/img/tse1/skill8_rainbow.png title="Rainbow"><img src=/img/tse1/skill8_powershot.png title="Power Shot"><img src=/img/tse1/skill8_silverbullet.png title="Silver Bullet"> </label><input type="number" label="skill6" id="skill6" name="skill6" min="0" max="30" value="0"><br>
 <label for="rainbow1">Clara's Rainbow: </label><output name="rainbow1" type="number" for="skill6 party bless">7</output><br>
 <label for="rainbow2">Pippa's Rainbow: </label><output name="rainbow2" type="number" for="skill6 party bless">11</output><br>
 <label for="rainbow3">Eisfford's Rainbow: </label><output name="rainbow3" type="number" for="skill6 party bless">9</output><br>
@@ -807,7 +807,7 @@ hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 <label for="silverbullet1">Clementas' Silver Bullet: </label><output name="silverbullet1" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus1">(</label><output name="sbbonus1" type="number" for="skill6 party bless"></output> against undead enemies)<br>
 <label for="silverbullet2">Zepher's Silver Bullet: </label><output name="silverbullet2" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus2">(</label><output name="sbbonus2" type="number" for="skill6 party bless"></output> against undead enemies)<br>
 <label for="silverbullet3">Matthieu's Silver Bullet: </label><output name="silverbullet3" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus3">(</label><output name="sbbonus3" type="number" for="skill6 party bless"></output> against undead enemies)<br>
-<label for="skill7"><img src=/img/tse1/skill9_kineticsmash.png><img src=/img/tse1/skill9_dynamite.png><img src=/img/tse1/skill9_spooksummon.png> </label><input type="number" label="skill7" id="skill7" name="skill7" min="0" max="30" value="0"><br>
+<label for="skill7"><img src=/img/tse1/skill9_kineticsmash.png title="Kinetic Smash"><img src=/img/tse1/skill9_dynamite.png title="Dynamite"><img src=/img/tse1/skill9_spooksummon.png title="Spook Summon"> </label><input type="number" label="skill7" id="skill7" name="skill7" min="0" max="30" value="0"><br>
 <label for="kineticsmash1">Clara's Kinetic Smash: </label><output name="kineticsmash1" type="number" for="skill7 party bless">16</output><br>
 <label for="kineticsmash2">Pippa's Kinetic Smash: </label><output name="kineticsmash2" type="number" for="skill7 party bless">15</output><br>
 <label for="kineticsmash3">Eisfford's Kinetic Smash: </label><output name="kineticsmash3" type="number" for="skill7 party bless">20</output><br>
@@ -818,7 +818,7 @@ hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 <label for="spooksummon2d">Zepher's Spook Summon duration: </label><output name="spooksummon2d" type="number" for="skill7 party bless">160</output> ticks<br>
 <label for="spooksummonh">Spook Summon's Holy Bolt: </label><output name="spooksummonh" type="number" for="skill7 party bless">6</output> x 2<br>
 <label for="spooksummonr">Spook Summon's Heal: </label><output name="spooksummonr" type="number" for="skill7 party bless">1</output>HP<br>
-<label for="skill8"><img src=/img/tse1/skill10_lifedrain.png><img src=/img/tse1/skill10_lasoo.png><img src=/img/tse1/skill10_hotg.png> </label><input type="number" label="skill8" id="skill8" name="skill8" min="0" max="30" value="0"><br>
+<label for="skill8"><img src=/img/tse1/skill10_lifedrain.png title="Life Drain"><img src=/img/tse1/skill10_lasoo.png title="Lasoo"><img src=/img/tse1/skill10_hotg.png title="Hand of the Gods"> </label><input type="number" label="skill8" id="skill8" name="skill8" min="0" max="30" value="0"><br>
 <label for="lifedrain1">Clara's Life Drain: </label><output name="lifedrain1" type="number" for="skill8 party bless"></output> x 7<br>
 <label for="lifedrain2">Pippa's Life Drain: </label><output name="lifedrain2" type="number" for="skill8 party bless"></output> x 7<br>
 <label for="lifedrain3">Eisfford's Life Drain: </label><output name="lifedrain3" type="number" for="skill8 party bless"></output> x 7<br>
