@@ -709,6 +709,8 @@ rainbow3.value=(6 * skill6.value) + (1 * party.value) + (1 * bless.value) + 8;
 rbsplash.value=parseInt((5 * party.value / 3) + (5 * bless.value / 3));
 powershot1.value=parseInt((2.5 * skill6.value) + (3 * gun.value) + (party.value - 2) + (bless.value - 2));
 powershot2.value=parseInt((2.9 * skill6.value) + (3 * gun.value) + (party.value * 1) + (bless.value * 1));
+pspenalty1.value=parseInt((2.5 * skill6.value) + (3 * gun.value) + (party.value - 2) + (bless.value - 2))/3*2;
+pspenalty2.value=parseInt((2.9 * skill6.value) + (3 * gun.value) + (party.value * 1) + (bless.value * 1))/3*2;
 silverbullet1.value=parseInt((5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value));
 silverbullet2.value=parseInt((4 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value));
 silverbullet3.value=parseInt((3.5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value));
@@ -791,8 +793,8 @@ hotg3.value= */
 <label for="rainbow2">Pippa's Rainbow: </label><output name="rainbow2" type="number" for="skill6 party bless">11</output><br>
 <label for="rainbow3">Eisfford's Rainbow: </label><output name="rainbow3" type="number" for="skill6 party bless">9</output><br>
 <label for="rbsplash">Splash bonus: </label><output name="rbsplash" type="number" for="skill6 party bless">1</output><br>
-<label for="powershot1">Peter & Samuel's Power Shot: </label><output name="powershot1" type="number" for="skill6 party gun bless">-3</output> per hit<br>
-<label for="powershot2">Edward's Power Shot: </label><output name="powershot2" type="number" for="skill6 party gun bless">1</output> per hit<br>
+<label for="powershot1">Peter & Samuel's Power Shot: </label><output name="powershot1" type="number" for="skill6 party gun bless">-3</output> per hit <label for="pspenalty1">(</label><output name="pspenalty1" type="number" for="skill6 gun party bless"></output> against large enemies)<br>
+<label for="powershot2">Edward's Power Shot: </label><output name="powershot2" type="number" for="skill6 party gun bless">1</output> per hit <label for="pspenalty2">(</label><output name="pspenalty2" type="number" for="skill6 gun party bless"></output> against large enemies)<br>
 <label for="silverbullet1">Clementas' Silver Bullet: </label><output name="silverbullet1" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus1">(</label><output name="sbbonus1" type="number" for="skill6 party bless"></output> against undead enemies)<br>
 <label for="silverbullet2">Zepher's Silver Bullet: </label><output name="silverbullet2" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus2">(</label><output name="sbbonus2" type="number" for="skill6 party bless"></output> against undead enemies)<br>
 <label for="silverbullet3">Matthieu's Silver Bullet: </label><output name="silverbullet3" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus3">(</label><output name="sbbonus3" type="number" for="skill6 party bless"></output> against undead enemies)<br>
