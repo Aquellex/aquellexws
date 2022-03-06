@@ -717,24 +717,33 @@ silverbullet3.value=parseInt((3.5 * skill6.value) + (4 * gun.value) + (1.5 * par
 sbbonus1.value=parseInt(5 * ((5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value))/3);
 sbbonus2.value=parseInt(5 * ((4 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value))/3);
 sbbonus3.value=parseInt(5 * ((3.5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value))/3);
-kineticsmash1.value=(9 * skill7.value) + (3 * party.value) + 13;
-kineticsmash2.value=(9 * skill7.value) + (2 * party.value) + 13;
-kineticsmash3.value=(11 * skill7.value) + (3 * party.value) + 17/*;
-dynamite1.value=;
-dynamite2.value=;
-dynamite3.value=;
-spooksummon1.value=;
-spooksummon2.value=;
-spooksummon3.value=;
-lifedrain1.value=;
-lifedrain2.value=;
-lifedrain3.value=;
-lasoo1.value=;
-lasoo2.value=;
-lasoo3.value=;
-hotg1.value=;
-hotg2.value=;
-hotg3.value= */
+kineticsmash1.value=(9 * skill7.value) + (3 * party.value) + (3 * bless.value) + 13;
+kineticsmash2.value=(9 * skill7.value) + (2 * party.value) + (2 * bless.value) + 13;
+kineticsmash3.value=(11 * skill7.value) + (3 * party.value) + (3 * bless.value) + 17;
+dynamite1.value=parseInt((2.5 * skill7.value) + (1 * party.value) + (1 * bless.value) + parseInt(2));
+dynamite2.value=parseInt((2.9 * skill7.value) + (1 * party.value) + (1 * bless.value) + parseInt(2));
+dynamite3.value=parseInt((2.1 * skill7.value) + (1 * party.value) + (1 * bless.value) + parseInt(2));
+spooksummon1d.value=parseInt((0.48 * skill7.value) + (0.12 * party.value) + (0.12 * bless.value) + parseInt(172));
+spooksummon2d.value=parseInt((0.4 * skill7.value) + (0.12 * party.value) + (0.12 * bless.value) + parseInt(160));
+spooksummonh.value=parseInt((2 * skill7.value) + (party.value / 3 * 2) + (bless.value / 3 * 2) + 6)
+spooksummonr.value=parseInt((1+party.value/5) + (bless.value/5));
+lifedrain1.value=parseInt((1.5*skill8.value) + (0.5*party.value) + (0.5*bless.value) + parseInt(2));
+lifedrain2.value=parseInt((1*skill8.value) + (party.value/3) + (bless.value/3) + parseInt(1));
+lifedrain3.value=parseInt((1.2*skill8.value) + (0.5*party.value) + (0.5*bless.value) + parseInt(1)) ;
+lasoo1.value=parseInt((5.9 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(70));
+lasoo2.value=parseInt((7.1 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(83));
+lasoo3.value=parseInt((8.4 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(96));
+lasoo1w3.value=parseInt(((5.9 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(70) * 0.85));
+lasoo2w3.value=parseInt(((7.1 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(83) * 0.85));
+lasoo3w3.value=parseInt(((8.4 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(96) * 0.85));
+lasoo1w4.value=parseInt(((5.9 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(70) * 0.7));
+lasoo2w4.value=parseInt(((7.1 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(83) * 0.7));
+lasoo3w4.value=parseInt(((8.4 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(96) * 0.7));
+lasoo1w5.value=parseInt(((5.9 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(70) * 0.55));
+lasoo2w5.value=parseInt(((7.1 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(83) * 0.55));
+lasoo3w5.value=parseInt(((8.4 * skill8.value) + (2.4 * party.value) + (2.4 * bless.value) + parseInt(96) * 0.55));
+hotg1.value=(10 * skill8.value) + (4 * party.value) + (4 * bless.value) + 8;
+hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 ">
 <label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1">
 <label for="bless">Bless: </label><input type="number" label="bless" id="bless" name="bless" min="0" max="58" value="0">
@@ -753,9 +762,9 @@ hotg3.value= */
 <label for="mattrifle">Matthieu's Rifle Attack: </label><output name="mattrifle" type="number" for="skill1 gun party bless">1</output> (75% of original Rifle Attack damage)<br>
 <label for="skill2"><img src=/img/tse1/skill4_kineticshield.png><img src=/img/tse1/skill4_recover.png><img src=/img/tse1/skill4_partyheal.png> </label><input type="number" label="skill2" id="skill2" name="skill2" min="1" max="30" value="1"><br>
 <label for="kineticshield">Kinetic Shield's Strength: </label><output name="kineticshield" type="number" for="skill2 party bless">2</output>HP<br>
-<label for="recover1h">Peter's Self-Heal: </label><output name="recover1h" type="number" for="skill2 party bless">2</output>;<label for="recover1c"> cooldown: </label><output name="recover1c" type="number" for="skill2 party">59</output> ticks<br>
-<label for="recover2h">Edward's Self-Heal: </label><output name="recover2h" type="number" for="skill2 party bless">2</output>;<label for="recover2c"> cooldown: </label><output name="recover2c" type="number" for="skill2 party">55</output> ticks<br>
-<label for="recover3h">Samuel's Self-Heal: </label><output name="recover3h" type="number" for="skill2 party bless">2</output>;<label for="recover3c"> cooldown: </label><output name="recover3c" type="number" for="skill2 party">55</output> ticks<br>
+<label for="recover1h">Peter's Recover: </label><output name="recover1h" type="number" for="skill2 party bless">2</output>;<label for="recover1c"> cooldown: </label><output name="recover1c" type="number" for="skill2 party">59</output> ticks<br>
+<label for="recover2h">Edward's Recover: </label><output name="recover2h" type="number" for="skill2 party bless">2</output>;<label for="recover2c"> cooldown: </label><output name="recover2c" type="number" for="skill2 party">55</output> ticks<br>
+<label for="recover3h">Samuel's Recover: </label><output name="recover3h" type="number" for="skill2 party bless">2</output>;<label for="recover3c"> cooldown: </label><output name="recover3c" type="number" for="skill2 party">55</output> ticks<br>
 <label for="partyheal1">Clementas' Party Heal: </label><output name="partyheal1" type="number" for="skill2 party bless">1</output>HP<br>
 <label for="partyheal2">Zepher's Party Heal: </label><output name="partyheal2" type="number" for="skill2 party bless">1</output>HP<br>
 <label for="partyheal3">Matthieu's Party Heal: </label><output name="partyheal3" type="number" for="skill2 party bless">1</output>HP<br>
@@ -799,4 +808,23 @@ hotg3.value= */
 <label for="silverbullet2">Zepher's Silver Bullet: </label><output name="silverbullet2" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus2">(</label><output name="sbbonus2" type="number" for="skill6 party bless"></output> against undead enemies)<br>
 <label for="silverbullet3">Matthieu's Silver Bullet: </label><output name="silverbullet3" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus3">(</label><output name="sbbonus3" type="number" for="skill6 party bless"></output> against undead enemies)<br>
 <label for="skill7"><img src=/img/tse1/skill9_kineticsmash.png><img src=/img/tse1/skill9_dynamite.png><img src=/img/tse1/skill9_spooksummon.png> </label><input type="number" label="skill7" id="skill7" name="skill7" min="0" max="30" value="0"><br>
-<label for="skill8"><img src=/img/tse1/skill10_lifedrain.png><img src=/img/tse1/skill10_lasoo.png><img src=/img/tse1/skill10_hotg.png> </label><input type="number" label="skill8" id="skill8" name="skill8" min="0" max="30" value="0"><br></form>
+<label for="kineticsmash1">Clara's Kinetic Smash: </label><output name="kineticsmash1" type="number" for="skill7 party bless">16</output><br>
+<label for="kineticsmash2">Pippa's Kinetic Smash: </label><output name="kineticsmash2" type="number" for="skill7 party bless">15</output><br>
+<label for="kineticsmash3">Eisfford's Kinetic Smash: </label><output name="kineticsmash3" type="number" for="skill7 party bless">20</output><br>
+<label for="dynamite1">Peter's Dynamite: </label><output name="dynamite1" type="number" for="skill7 party bless">3</output> x 4<br>
+<label for="dynamite2">Edward's Dynamite: </label><output name="dynamite2" type="number" for="skill7 party bless">3</output> x 4<br>
+<label for="dynamite3">Samuel's Dynamite: </label><output name="dynamite3" type="number" for="skill7 party bless">3</output> x 4<br>
+<label for="spooksummon1d">Clementas' & Matthieu's Spook Summon duration: </label><output name="spooksummon1d" type="number" for="skill7 party bless">172</output> ticks<br>
+<label for="spooksummon2d">Zepher's Spook Summon duration: </label><output name="spooksummon2d" type="number" for="skill7 party bless">160</output> ticks<br>
+<label for="spooksummonh">Spook Summon's Holy Bolt: </label><output name="spooksummonh" type="number" for="skill7 party bless">6</output> x 2<br>
+<label for="spooksummonr">Spook Summon's Heal: </label><output name="spooksummonr" type="number" for="skill7 party bless">1</output>HP<br>
+<label for="skill8"><img src=/img/tse1/skill10_lifedrain.png><img src=/img/tse1/skill10_lasoo.png><img src=/img/tse1/skill10_hotg.png> </label><input type="number" label="skill8" id="skill8" name="skill8" min="0" max="30" value="0"><br>
+<label for="lifedrain1">Clara's Life Drain: </label><output name="lifedrain1" type="number" for="skill8 party bless"></output> x 7<br>
+<label for="lifedrain2">Pippa's Life Drain: </label><output name="lifedrain2" type="number" for="skill8 party bless"></output> x 7<br>
+<label for="lifedrain3">Eisfford's Life Drain: </label><output name="lifedrain3" type="number" for="skill8 party bless"></output> x 7<br>
+<label for="lasoo1">Peter's Lasoo: </label><output name="lasoo1" type="number" for="skill8 party bless">72</output>-tick stun<label for="lasoo1w3"> (</label><output name="lasoo1w3" type="number" for="skill8 party bless">61</output> ticks in World 3,<label for="lasoo1w4"> </label><output name="lasoo1w4" type="number" for="skill8 party bless">51</output> ticks in World 4,<label for="lasoo1w3"> </label><output name="lasoo1w5" type="number" for="skill8 party bless">40</output> ticks in World 5)<br>
+<label for="lasoo2">Edward's Lasoo: </label><output name="lasoo2" type="number" for="skill8 party bless">85</output>-tick stun<label for="lasoo2w3"> (</label><output name="lasoo2w3" type="number" for="skill8 party bless">72</output> ticks in World 3,<label for="lasoo2w4"> </label><output name="lasoo2w4" type="number" for="skill8 party bless">60</output> ticks in World 4,<label for="lasoo2w3"> </label><output name="lasoo2w5" type="number" for="skill8 party bless">48</output> ticks in World 5)<br>
+<label for="lasoo3">Samuel's Lasoo: </label><output name="lasoo3" type="number" for="skill8 party bless">98</output>-tick stun<label for="lasoo3w3"> (</label><output name="lasoo3w3" type="number" for="skill8 party bless">84</output> ticks in World 3,<label for="lasoo3w4"> </label><output name="lasoo3w4" type="number" for="skill8 party bless">69</output> ticks in World 4,<label for="lasoo3w3"> </label><output name="lasoo3w5" type="number" for="skill8 party bless">55</output> ticks in World 5)<br>
+<label for="hotg1">Clementas' & Zepher's Hand of the Gods: </label><output name="hotg1" type="number" for="skill8 party bless">12</output><br>
+<label for="hotg3">Matthieu's Hand of the Gods: </label><output name="hotg3" type="number" for="skill8 party bless">16</output>
+</form>
