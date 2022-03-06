@@ -669,7 +669,10 @@ recover2c.value=parseInt(55-(0.66*skill2.value));
 recover3c.value=parseInt(55-(0.66*skill2.value));
 partyheal1.value=parseInt((skill2.value * 0.38) + (party.value * 0.125) + parseInt(1));
 partyheal2.value=parseInt((skill2.value * 0.44) + (party.value * 0.17) + parseInt(1));
-partyheal3.value=parseInt((skill2.value * 0.42) + (party.value * 0.143) + parseInt(1))
+partyheal3.value=parseInt((skill2.value * 0.42) + (party.value * 0.143) + parseInt(1));
+magicshield1.value=parseInt((skill3.value * 1.25) + (party.value * 0.7) + parseInt(1));
+magicshield2.value=parseInt((skill3.value * 1.5) + (party.value * 0.7) + parseInt(1));
+magicshield3.value=parseInt((skill3.value * 1) + (party.value * 0.7) + parseInt(1))
 ">
 <label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1">
 <label for="gun">Base Damage: </label><input type="number" label="gun" id="gun" name="pagunrty" min="0" max="22" value="0">
@@ -689,10 +692,13 @@ partyheal3.value=parseInt((skill2.value * 0.42) + (party.value * 0.143) + parseI
 <label for="recover1h">Peter's Self-Heal: </label><output name="recover1h" type="number" for="skill2 party">2</output>;<label for="recover1c"> cooldown: </label><output name="recover1c" type="number" for="skill2 party">59</output> ticks<br>
 <label for="recover2h">Edward's Self-Heal: </label><output name="recover2h" type="number" for="skill2 party">2</output>;<label for="recover2c"> cooldown: </label><output name="recover2c" type="number" for="skill2 party">55</output> ticks<br>
 <label for="recover3h">Samuel's Self-Heal: </label><output name="recover3h" type="number" for="skill2 party">2</output>;<label for="recover3c"> cooldown: </label><output name="recover3c" type="number" for="skill2 party">55</output> ticks<br>
-<label for="partyheal1">Clementas' Party Heal: </label><output name="partyheal1" type="number" for="skill2 party"></output>HP<br>
-<label for="partyheal2">Zepher's Party Heal: </label><output name="partyheal2" type="number" for="skill2 party"></output>HP<br>
-<label for="partyheal3">Matthieu's Party Heal: </label><output name="partyheal3" type="number" for="skill2 party"></output>HP<br>
+<label for="partyheal1">Clementas' Party Heal: </label><output name="partyheal1" type="number" for="skill2 party">1</output>HP<br>
+<label for="partyheal2">Zepher's Party Heal: </label><output name="partyheal2" type="number" for="skill2 party">1</output>HP<br>
+<label for="partyheal3">Matthieu's Party Heal: </label><output name="partyheal3" type="number" for="skill2 party">1</output>HP<br>
 <label for="skill3"><img src=/img/tse1/skill5_magicshield.png><img src=/img/tse1/skill5_speedfire.png><img src=/img/tse1/skill5_partyrecharge.png> </label><input type="number" label="skill3" id="skill3" name="skill3" min="1" max="30" value="1"><br>
+<label for="magicshield1">Clara's Magic Shield Strength: </label><output name="magicshield1" type="number" for="skill3 party"></output>HP<br>
+<label for="magicshield2">Pippa's Magic Shield Strength: </label><output name="magicshield2" type="number" for="skill3 party"></output>HP<br>
+<label for="magicshield3">Eisfford's Magic Shield Strength: </label><output name="magicshield3" type="number" for="skill3 party"></output>HP<br>
 <label for="skill4"><img src=/img/tse1/skill6_rockrain.png><img src=/img/tse1/skill6_sharpshoot.png><img src=/img/tse1/skill6_partybless.png> </label><input type="number" label="skill4" id="skill4" name="skill4" min="0" max="30" value="0"><br>
 <label for="skill5"><img src=/img/tse1/skill7_celestiallightning.png><img src=/img/tse1/skill7_magicbullet.png><img src=/img/tse1/skill7_holybolt.png> </label><input type="number" label="skill5" id="skill5" name="skill5" min="0" max="30" value="0"><br>
 <label for="skill6"><img src=/img/tse1/skill8_rainbow.png><img src=/img/tse1/skill8_powershot.png><img src=/img/tse1/skill8_silverbullet.png> </label><input type="number" label="skill6" id="skill6" name="skill6" min="0" max="30" value="0"><br>
