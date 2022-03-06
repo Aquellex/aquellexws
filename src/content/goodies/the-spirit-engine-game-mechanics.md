@@ -700,6 +700,9 @@ magicbullet3.value=parseInt((5 * skill5.value) + (3 * gun.value) + (1 * party.va
 holybolt1.value=parseInt((2.5 * skill5.value) + (1 * party.value) + (1 * bless.value) + parseInt(2));
 holybolt2.value=parseInt((1.6 * skill5.value) + (1 * party.value) + (1 * bless.value) + parseInt(2));
 holybolt3.value=parseInt((2 * skill5.value) + (1 * party.value) + (1 * bless.value) + parseInt(2));
+hbbonus1.value=parseInt(4 * ((2.5 * skill5.value) + (1 * party.value) + (1 * bless.value) + parseInt(2)) / 3);
+hbbonus2.value=parseInt(4 * ((1.6 * skill5.value) + (1 * party.value) + (1 * bless.value) + parseInt(2)) / 3);
+hbbonus3.value=parseInt(4 * ((2 * skill5.value) + (1 * party.value) + (1 * bless.value) + parseInt(2)) / 3);
 rainbow1.value=(5 * skill6.value) + (1 * party.value) + (1 * bless.value) + 6;
 rainbow2.value=(7 * skill6.value) + (1 * party.value) + (1 * bless.value) + 10;
 rainbow3.value=(6 * skill6.value) + (1 * party.value) + (1 * bless.value) + 8;
@@ -708,7 +711,10 @@ powershot1.value=parseInt((2.5 * skill6.value) + (3 * gun.value) + (party.value 
 powershot2.value=parseInt((2.9 * skill6.value) + (3 * gun.value) + (party.value * 1) + (bless.value * 1));
 silverbullet1.value=parseInt((5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value));
 silverbullet2.value=parseInt((4 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value));
-silverbullet3.value=parseInt((3.5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value))/*;
+silverbullet3.value=parseInt((3.5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value));
+sbbonus1.value=parseInt(5 * ((5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value))/3);
+sbbonus2.value=parseInt(5 * ((4 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value))/3);
+sbbonus3.value=parseInt(5 * ((3.5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value))/3)/*;
 kineticsmash1.value=;
 kineticsmash2.value=;
 kineticsmash3.value=;
@@ -777,18 +783,18 @@ hotg3.value= */
 <label for="magicbullet1">Peter's Magic Bullet: </label><output name="magicbullet1" type="number" for="skill5 gun party bless">8</output><br>
 <label for="magicbullet2">Edward's Magic Bullet: </label><output name="magicbullet2" type="number" for="skill5 gun party bless">8</output><br>
 <label for="magicbullet3">Samuel's Magic Bullet: </label><output name="magicbullet3" type="number" for="skill5 gun party bless">8</output><br>
-<label for="holybolt1">Clementas' Holy Bolt: </label><output name="holybolt1" type="number" for="skill5 party bless">3</output> x 2<br>
-<label for="holybolt2">Zepher's Holy Bolt: </label><output name="holybolt2" type="number" for="skill5 party bless">3</output> x 2<br>
-<label for="holybolt3">Matthieu's Holy Bolt: </label><output name="holybolt3" type="number" for="skill5 party bless">3</output> x 2<br>
+<label for="holybolt1">Clementas' Holy Bolt: </label><output name="holybolt1" type="number" for="skill5 party bless">3</output> x 2 <label for="hbbonus1">(</label><output name="hbbonus1" type="number" for="skill5 party bless">4</output> x 2 against undead enemies)<br>
+<label for="holybolt2">Zepher's Holy Bolt: </label><output name="holybolt2" type="number" for="skill5 party bless">3</output> x 2 <label for="hbbonus2">(</label><output name="hbbonus2" type="number" for="skill5 party bless">4</output> x 2 against undead enemies)<br>
+<label for="holybolt3">Matthieu's Holy Bolt: </label><output name="holybolt3" type="number" for="skill5 party bless">3</output> x 2 <label for="hbbonus3">(</label><output name="hbbonus3" type="number" for="skill5 party bless">4</output> x 2 against undead enemies)<br>
 <label for="skill6"><img src=/img/tse1/skill8_rainbow.png><img src=/img/tse1/skill8_powershot.png><img src=/img/tse1/skill8_silverbullet.png> </label><input type="number" label="skill6" id="skill6" name="skill6" min="0" max="30" value="0"><br>
-<label for="rainbow1">Clara's Rainbow: </label><output name="rainbow1" type="number" for="skill6 party bless"></output><br>
-<label for="rainbow2">Pippa's Rainbow: </label><output name="rainbow2" type="number" for="skill6 party bless"></output><br>
-<label for="rainbow3">Eisfford's Rainbow: </label><output name="rainbow3" type="number" for="skill6 party bless"></output><br>
-<label for="rbsplash">Splash bonus: </label><output name="rbsplash" type="number" for="skill6 party bless"></output><br>
-<label for="powershot1">Peter & Samuel's Power Shot: </label><output name="powershot1" type="number" for="skill6 party gun bless"></output><br>
-<label for="powershot2">Edward's Power Shot: </label><output name="powershot2" type="number" for="skill6 party gun bless"></output><br>
-<label for="silverbullet1">Clementas' Silver Bullet: </label><output name="silverbullet1" type="number" for="skill6 party gun bless"></output><br>
-<label for="silverbullet2">Zepher's Silver Bullet: </label><output name="silverbullet2" type="number" for="skill6 party gun bless"></output><br>
-<label for="silverbullet3">Matthieu's Silver Bullet: </label><output name="silverbullet3" type="number" for="skill6 party gun bless"></output><br>
+<label for="rainbow1">Clara's Rainbow: </label><output name="rainbow1" type="number" for="skill6 party bless">7</output><br>
+<label for="rainbow2">Pippa's Rainbow: </label><output name="rainbow2" type="number" for="skill6 party bless">11</output><br>
+<label for="rainbow3">Eisfford's Rainbow: </label><output name="rainbow3" type="number" for="skill6 party bless">9</output><br>
+<label for="rbsplash">Splash bonus: </label><output name="rbsplash" type="number" for="skill6 party bless">1</output><br>
+<label for="powershot1">Peter & Samuel's Power Shot: </label><output name="powershot1" type="number" for="skill6 party gun bless">-3</output> per hit<br>
+<label for="powershot2">Edward's Power Shot: </label><output name="powershot2" type="number" for="skill6 party gun bless">1</output> per hit<br>
+<label for="silverbullet1">Clementas' Silver Bullet: </label><output name="silverbullet1" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus1">(</label><output name="sbbonus1" type="number" for="skill6 party bless"></output> against undead enemies)<br>
+<label for="silverbullet2">Zepher's Silver Bullet: </label><output name="silverbullet2" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus2">(</label><output name="sbbonus2" type="number" for="skill6 party bless"></output> against undead enemies)<br>
+<label for="silverbullet3">Matthieu's Silver Bullet: </label><output name="silverbullet3" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus3">(</label><output name="sbbonus3" type="number" for="skill6 party bless"></output> against undead enemies)<br>
 <label for="skill7"><img src=/img/tse1/skill9_kineticsmash.png><img src=/img/tse1/skill9_dynamite.png><img src=/img/tse1/skill9_spooksummon.png> </label><input type="number" label="skill7" id="skill7" name="skill7" min="0" max="30" value="0"><br>
 <label for="skill8"><img src=/img/tse1/skill10_lifedrain.png><img src=/img/tse1/skill10_lasoo.png><img src=/img/tse1/skill10_hotg.png> </label><input type="number" label="skill8" id="skill8" name="skill8" min="0" max="30" value="0"><br></form>
