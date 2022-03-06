@@ -2,7 +2,6 @@
 layout: tutorial
 title: 'The Spirit Engine 1 game mechanics'
 lastUpdated: '2022-03-06'
-gitLogLatestDate:
 ---
 
 All documentation is done with ticks. Each tick lasts for 0.1 seconds on Slower Battles switched on, 0.05 for the same option switched off. So 50 ticks is 5.0 seconds and 2.5 seconds, respectively.
@@ -653,91 +652,49 @@ HP: 655
 
 ## CALCULATORS (UNDER CONSTRUCTION)
 
-### Health
-
 <form oninput="
-result.value=parseInt(22+(3*skill.value)+(0.23*skill.value*(party.value/2))+((party.value*5)/3));
-max.value=parseInt(22+(3*skill.value)+(0.23*skill.value*(party.value/2))+((party.value*5)/3)+(party.value/2))
+baseHealth.value=parseInt(22+(3*health.value)+(0.23*health.value*(party.value/2))+((party.value*5)/3));
+maxHealth.value=parseInt(22+(3*health.value)+(0.23*health.value*(party.value/2))+((party.value*5)/3)+(party.value/2));
+baseMana.value=parseInt(5+(mana.value/2))+parseInt(talisman.value);
+maxMana.value=parseInt((5+(mana.value/2))+parseInt(talisman.value))*2;
+magicReduction.value=parseInt((5+(mana.value/2))+parseInt(talisman.value))-5;
+chainmagic.value=parseInt((skill1.value*1.5) + (party.value - 1));
+rifleattack.value=parseInt((2*skill1.value)+(2*gun.value)+((party.value)/2));
+kineticshield.value=parseInt((skill2.value * 1.25) + (party.value * 0.7) + parseInt(1));
+recover1h.value=parseInt((skill2.value/2) + (party.value/5) + parseInt(2));
+recover2h.value=parseInt((skill2.value*0.6) + (party.value/4) + parseInt(2));
+recover3h.value=parseInt((skill2.value*0.7) + (party.value/4) + parseInt(2));
+recover1c.value=parseInt(59-(0.66*skill2.value));
+recover2c.value=parseInt(55-(0.66*skill2.value));
+recover3c.value=parseInt(55-(0.66*skill2.value));
+partyheal1.value=parseInt((skill2.value * 0.38) + (party.value * 0.125) + parseInt(1));
+partyheal2.value=parseInt((skill2.value * 0.44) + (party.value * 0.17) + parseInt(1));
+partyheal3.value=parseInt((skill2.value * 0.42) + (party.value * 0.143) + parseInt(1))
 ">
-<label for="skill">Skill Points: </label><input type="number" label="skill" id="skill" name="skill" min="0" max="30" value="0"><br>
-<label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1"><br>
-<label for="result">Output Health: </label><output name="result" type="number" for="skill party">23</output><br>
-<label for="max">Max Health: </label><output name="max" type="number" for="skill party">24</output></form>
-
-### Mana
-
-<form oninput="
-result.value=parseInt(5+(skill.value/2))+parseInt(talisman.value);
-max.value=parseInt((5+(skill.value/2))+parseInt(talisman.value))*2;
-reduction.value=parseInt((5+(skill.value/2))+parseInt(talisman.value))-5">
-<label for="skill">Skill Points: </label><input type="number" label="skill" id="skill" name="skill" min="0" max="30" value="0"><br>
+<label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1">
+<label for="gun">Base Damage: </label><input type="number" label="gun" id="gun" name="pagunrty" min="0" max="22" value="0">
 <label for="talisman">Talisman Bonus: </label><input type="number" label="talisman" id="talisman" name="talisman" min="-1" max="6" value="0"><br>
-<label for="result">Output Mana: </label><output name="result" type="number" for="skill talisman">5</output><br>
-<label for="max">Max Mana: </label><output name="max" type="number" for="skill talisman">10</output><br>
-<label for="reduction">Magical Reduction: </label><output name="reduction" type="number" for="skill talisman">0</output></form>
-
-### Rifle Attack
-
-<form oninput="result.value=parseInt((2*skill.value)+(2*gun.value)+((party.value)/2))">
-<label for="skill">Skill Points: </label><input type="number" label="skill" id="skill" name="skill" min="1" max="30" value="1"><br>
-<label for="gun">Base Damage: </label><input type="number" label="gun" id="gun" name="gun" min="0" max="22" value="0"><br>
-<label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1"><br>
-<label for="result">Output Damage: </label><output name="result" type="number" for="skill gun party">2</output></form>
-
-### Recover
-
-<form oninput="
-char1h.value=parseInt((skill.value/2) + (party.value/5) + parseInt(2));
-char2h.value=parseInt((skill.value*0.6) + (party.value/4) + parseInt(2));
-char3h.value=parseInt((skill.value*0.7) + (party.value/4) + parseInt(2));
-char1c.value=parseInt(59-(0.66*skill.value));
-char2c.value=parseInt(55-(0.66*skill.value));
-char3c.value=parseInt(59-(0.66*skill.value))
-">
-<label for="skill">Skill Points: </label><input type="number" label="skill" id="skill" name="skill" min="0" max="30" value="0"><br>
-<label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1"><br>
-<label for="char1h">Peter's Self-Heal: </label><output name="char1h" type="number" for="skill party">2</output>;<label for="char1c"> ticks: </label><output name="char1c" type="number" for="skill party">59</output><br>
-<label for="char2h">Edward's Self-Heal: </label><output name="char2h" type="number" for="skill party">2</output>;<label for="char2c"> ticks: </label><output name="char2c" type="number" for="skill party">55</output><br>
-<label for="char3h">Samuel's Self-Heal: </label><output name="char3h" type="number" for="skill party">2</output>;<label for="char3c"> ticks: </label><output name="char3c" type="number" for="skill party">55</output><br>
-
-### Speed Fire
-
-### Sharpshoot
-
-### Magic Bullet
-
-### Power Shot
-
-### Dynamite
-
-### Lasoo
-
-### Chain Magic
-
-### Kinetic Shield
-
-### Magic Shield
-
-### Rock Rain
-
-### Celestial Lightning
-
-### Rainbow
-
-### Life Drain
-
-### Kinetic Smash
-
-### Party Heal
-
-### Party Recharge
-
-### Party Bless
-
-### Holy Bolt
-
-### Silver Bullet
-
-### Spook Summon
-
-### Hand of the Gods
+<label for="health"><img src=/img/tse1/skill1_health.png> </label><input type="number" label="health" id="health" name="health" min="0" max="30" value="0"><br>
+<label for="baseHealth">Base Health: </label><output name="baseHealth" type="number" for="health party">23</output><br>
+<label for="maxHealth">Max Health: </label><output name="maxHealth" type="number" for="health party">24</output><br>
+<label for="mana"><img src=/img/tse1/skill2_mana.png> </label><input type="number" label="mana" id="mana" name="mana" min="0" max="30" value="0"><br>
+<label for="baseMana">Base Mana: </label><output name="baseMana" type="number" for="mana talisman">5</output><br>
+<label for="maxMana">Max Mana: </label><output name="maxMana" type="number" for="mana talisman">10</output><br>
+<label for="magicReduction">Magical Reduction: </label><output name="magicReduction" type="number" for="mana talisman">0</output><br>
+<label for="skill1"><img src=/img/tse1/skill3_chainmagic.png><img src=/img/tse1/skill3_rifleattack.png> </label><input type="number" label="skill1" id="skill1" name="skill1" min="1" max="30" value="1"><br>
+<label for="chainmagic">Chain Magic's Damage: </label><output name="chainmagic" type="number" for="skill1 party">1</output> x 3<br>
+<label for="rifleattack">Rifle Attack's Damage: </label><output name="rifleattack" type="number" for="skill1 gun party">2</output><br>
+<label for="skill2"><img src=/img/tse1/skill4_kineticshield.png><img src=/img/tse1/skill4_recover.png><img src=/img/tse1/skill4_partyheal.png> </label><input type="number" label="skill2" id="skill2" name="skill2" min="1" max="30" value="1"><br>
+<label for="kineticshield">Kinetic Shield's Strength: </label><output name="kineticshield" type="number" for="skill2 party">2</output>HP<br>
+<label for="recover1h">Peter's Self-Heal: </label><output name="recover1h" type="number" for="skill2 party">2</output>;<label for="recover1c"> cooldown: </label><output name="recover1c" type="number" for="skill2 party">59</output> ticks<br>
+<label for="recover2h">Edward's Self-Heal: </label><output name="recover2h" type="number" for="skill2 party">2</output>;<label for="recover2c"> cooldown: </label><output name="recover2c" type="number" for="skill2 party">55</output> ticks<br>
+<label for="recover3h">Samuel's Self-Heal: </label><output name="recover3h" type="number" for="skill2 party">2</output>;<label for="recover3c"> cooldown: </label><output name="recover3c" type="number" for="skill2 party">55</output> ticks<br>
+<label for="partyheal1">Clementas' Party Heal: </label><output name="partyheal1" type="number" for="skill2 party"></output>HP<br>
+<label for="partyheal2">Zepher's Party Heal: </label><output name="partyheal2" type="number" for="skill2 party"></output>HP<br>
+<label for="partyheal3">Matthieu's Party Heal: </label><output name="partyheal3" type="number" for="skill2 party"></output>HP<br>
+<label for="skill3"><img src=/img/tse1/skill5_magicshield.png><img src=/img/tse1/skill5_speedfire.png><img src=/img/tse1/skill5_partyrecharge.png> </label><input type="number" label="skill3" id="skill3" name="skill3" min="1" max="30" value="1"><br>
+<label for="skill4"><img src=/img/tse1/skill6_rockrain.png><img src=/img/tse1/skill6_sharpshoot.png><img src=/img/tse1/skill6_partybless.png> </label><input type="number" label="skill4" id="skill4" name="skill4" min="0" max="30" value="0"><br>
+<label for="skill5"><img src=/img/tse1/skill7_celestiallightning.png><img src=/img/tse1/skill7_magicbullet.png><img src=/img/tse1/skill7_holybolt.png> </label><input type="number" label="skill5" id="skill5" name="skill5" min="0" max="30" value="0"><br>
+<label for="skill6"><img src=/img/tse1/skill8_rainbow.png><img src=/img/tse1/skill8_powershot.png><img src=/img/tse1/skill8_silverbullet.png> </label><input type="number" label="skill6" id="skill6" name="skill6" min="0" max="30" value="0"><br>
+<label for="skill7"><img src=/img/tse1/skill9_kineticsmash.png><img src=/img/tse1/skill9_dynamite.png><img src=/img/tse1/skill9_spooksummon.png> </label><input type="number" label="skill7" id="skill7" name="skill7" min="0" max="30" value="0"><br>
+<label for="skill8"><img src=/img/tse1/skill10_lifedrain.png><img src=/img/tse1/skill10_lasoo.png><img src=/img/tse1/skill10_hotg.png> </label><input type="number" label="skill8" id="skill8" name="skill8" min="0" max="30" value="0"><br></form>
