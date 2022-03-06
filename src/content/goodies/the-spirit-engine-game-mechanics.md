@@ -674,7 +674,58 @@ magicshield1.value=parseInt((skill3.value * 1.25) + (party.value * 0.7) + parseI
 magicshield2.value=parseInt((skill3.value * 1.5) + (party.value * 0.7) + parseInt(1));
 magicshield3.value=parseInt((skill3.value * 1) + (party.value * 0.7) + parseInt(1));
 speedfire.value=58 - skill3.value;
-speedfire2.value=73 - skill3.value
+speedfire2.value=73 - skill3.value;
+partyrecharge.value=parseInt(69 - (skill3.value * 1.5));
+partyrecharge3.value=parseInt(56 - (skill3.value * 1.5));
+rockrain1.value=parseInt((skill4.value * 3.8) + (party.value * 1.25) + parseInt(3));
+rockrain2.value=parseInt((skill4.value * 3.2) + (party.value * 1.25) + parseInt(2));
+rockrain3.value=parseInt((skill4.value * 2.8) + (party.value * 1.25) + parseInt(1));
+sharpshoot1.value=parseInt((7*skill4.value)+(8*gun.value)+(2*party.value));
+sharpshoot2.value=parseInt((6*skill4.value)+(7*gun.value)+(2*party.value));
+sharpshoot3.value=parseInt((5*skill4.value)+(6*gun.value)+(2*party.value));
+ssbonus1.value=parseInt(((7*skill4.value)+(8*gun.value)+(2*party.value))*1.5);
+ssbonus2.value=parseInt(((6*skill4.value)+(7*gun.value)+(2*party.value))*1.5);
+ssbonus3.value=parseInt(((5*skill4.value)+(6*gun.value)+(2*party.value))*1.5);
+partybless1r.value=parseInt((0.4 * party.value) + (0.8 * skill4.value));
+partybless2r.value=parseInt((0.4 * party.value) + (1.2 * skill4.value));
+partybless3r.value=parseInt((0.4 * party.value) + (1 * skill4.value));
+partyblessc.value=parseInt(157 + (skill4.value * 1.9))/* ;
+lightning1.value=;
+lightning2.value=;
+lightning3.value=;
+magicbullet1.value=;
+magicbullet2.value=;
+magicbullet3.value=;
+holybolt1.value=;
+holybolt2.value=;
+holybolt3.value=;
+rainbow1.value=;
+rainbow2.value=;
+rainbow3.value=;
+powershot1.value=;
+powershot2.value=;
+powershot3.value=;
+silverbullet1.value=;
+silverbullet2.value=;
+silverbullet3.value=;
+kineticsmash1.value=;
+kineticsmash2.value=;
+kineticsmash3.value=;
+dynamite1.value=;
+dynamite2.value=;
+dynamite3.value=;
+spooksummon1.value=;
+spooksummon2.value=;
+spooksummon3.value=;
+lifedrain1.value=;
+lifedrain2.value=;
+lifedrain3.value=;
+lasoo1.value=;
+lasoo2.value=;
+lasoo3.value=;
+hotg1.value=;
+hotg2.value=;
+hotg3.value= */
 ">
 <label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1">
 <label for="gun">Base Damage: </label><input type="number" label="gun" id="gun" name="pagunrty" min="0" max="22" value="0">
@@ -698,12 +749,20 @@ speedfire2.value=73 - skill3.value
 <label for="partyheal2">Zepher's Party Heal: </label><output name="partyheal2" type="number" for="skill2 party">1</output>HP<br>
 <label for="partyheal3">Matthieu's Party Heal: </label><output name="partyheal3" type="number" for="skill2 party">1</output>HP<br>
 <label for="skill3"><img src=/img/tse1/skill5_magicshield.png><img src=/img/tse1/skill5_speedfire.png><img src=/img/tse1/skill5_partyrecharge.png> </label><input type="number" label="skill3" id="skill3" name="skill3" min="1" max="30" value="1"><br>
-<label for="magicshield1">Clara's Magic Shield Strength: </label><output name="magicshield1" type="number" for="skill3 party"></output>HP<br>
-<label for="magicshield2">Pippa's Magic Shield Strength: </label><output name="magicshield2" type="number" for="skill3 party"></output>HP<br>
-<label for="magicshield3">Eisfford's Magic Shield Strength: </label><output name="magicshield3" type="number" for="skill3 party"></output>HP<br>
-<label for="speedfire">Peter & Samuel's Speed Fire Cooldown: </label><output name="speedfire" type="number" for="skill3 party"></output> ticks<br>
-<label for="speedfire2">Edward's Speed Fire Cooldown: </label><output name="speedfire2" type="number" for="skill3 party"></output> ticks<br>
+<label for="magicshield1">Clara's Magic Shield Strength: </label><output name="magicshield1" type="number" for="skill3 party">2</output>HP<br>
+<label for="magicshield2">Pippa's Magic Shield Strength: </label><output name="magicshield2" type="number" for="skill3 party">3</output>HP<br>
+<label for="magicshield3">Eisfford's Magic Shield Strength: </label><output name="magicshield3" type="number" for="skill3 party">2</output>HP<br>
+<label for="speedfire">Peter & Samuel's Speed Fire Cooldown: </label><output name="speedfire" type="number" for="skill3 party">57</output> ticks<br>
+<label for="speedfire2">Edward's Speed Fire Cooldown: </label><output name="speedfire2" type="number" for="skill3 party">72</output> ticks<br>
+<label for="partyrecharge">Clementas & Zepher's's Party Recharge Cooldown: </label><output name="partyrecharge" type="number" for="skill3 party">67</output> ticks<br>
+<label for="partyrecharge3">Matthieu's Party Recharge Cooldown: </label><output name="partyrecharge3" type="number" for="skill3 party">54</output> ticks<br>
 <label for="skill4"><img src=/img/tse1/skill6_rockrain.png><img src=/img/tse1/skill6_sharpshoot.png><img src=/img/tse1/skill6_partybless.png> </label><input type="number" label="skill4" id="skill4" name="skill4" min="0" max="30" value="0"><br>
+<label for="rockrain1">Clara's Rock Rain: </label><output name="rockrain1" type="number" for="skill4 party">4</output> x 3<br>
+<label for="rockrain2">Pippa's Rock Rain: </label><output name="rockrain2" type="number" for="skill4 party">3</output> x 3<br>
+<label for="rockrain3">Eisfford's Rock Rain: </label><output name="rockrain3" type="number" for="skill4 party">2</output> x 3<br>
+<label for="sharpshoot1">Peter's Sharpshoot: </label><output name="sharpshoot1" type="number" for="skill4 gun party">2</output> <label for="ssbonus1">(</label><output name="ssbonus1" type="number" for="skill4 gun party">3</output> against large enemies)<br>
+<label for="sharpshoot2">Edward's Sharpshoot: </label><output name="sharpshoot2" type="number" for="skill4 gun party">2</output> <label for="ssbonus2">(</label><output name="ssbonus2" type="number" for="skill4 gun party">3</output> against large enemies)<br>
+<label for="sharpshoot3">Samuel's Sharpshoot: </label><output name="sharpshoot3" type="number" for="skill4 gun party">2</output> <label for="ssbonus3">(</label><output name="ssbonus3" type="number" for="skill4 gun party">3</output> against large enemies)<br>
 <label for="skill5"><img src=/img/tse1/skill7_celestiallightning.png><img src=/img/tse1/skill7_magicbullet.png><img src=/img/tse1/skill7_holybolt.png> </label><input type="number" label="skill5" id="skill5" name="skill5" min="0" max="30" value="0"><br>
 <label for="skill6"><img src=/img/tse1/skill8_rainbow.png><img src=/img/tse1/skill8_powershot.png><img src=/img/tse1/skill8_silverbullet.png> </label><input type="number" label="skill6" id="skill6" name="skill6" min="0" max="30" value="0"><br>
 <label for="skill7"><img src=/img/tse1/skill9_kineticsmash.png><img src=/img/tse1/skill9_dynamite.png><img src=/img/tse1/skill9_spooksummon.png> </label><input type="number" label="skill7" id="skill7" name="skill7" min="0" max="30" value="0"><br>
