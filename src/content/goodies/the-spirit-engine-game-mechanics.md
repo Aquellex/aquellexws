@@ -702,6 +702,8 @@ HP: 700
 
 #### Scissor Crab (N-23, E-23, L)
 
+HP: 827
+
 | Animation                                                   | Kind  | Attack         | Type     | Damage | Cooldown            |
 | :---------------------------------------------------------- | :---- | :------------- | :------- | :----- | ------------------- |
 | ![Scissor_Crab_idle.gif](/img/tse1/Scissor_Crab_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 9-20 ticks  |
@@ -722,15 +724,30 @@ HP: 700
 
 #### Giant Clam (L)
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
+HP: 925
+
+| Animation                                                 | Kind    | Attack         | Type            | Damage                            | Cooldown                                                           |
+| :-------------------------------------------------------- | :------ | :------------- | :-------------- | :-------------------------------- | ------------------------------------------------------------------ |
+| ![Giant_Clam_idle.gif](/img/tse1/Giant_Clam_idle.gif)     | Idle    | First cooldown | N/A             | N/A                               | Between 10-15 ticks                                                |
+| ![Pearl.png](/img/tse1/Pearl.png)                         | Lobbed  | Pearl Attack   | Physical        | <li>16</li><li>18 to shields</li> | <li>Between 54-57 ticks</li><li>4/5 chance to use this attack</li> |
+| ![Giant_Clam_shield.gif](/img/tse1/Giant_Clam_shield.gif) | Defence | Clam Up        | Invulnerability | Lasts for 192 ticks               | <li>1/5 to use this move, does not use twice in a row</li>         |
 
 | XP  | Gold | Location | Condition |
 | :-- | :--- | :------- | :-------- |
 |     |      |          |           |
+
+| XP                              | Gold                           | Location          | Condition                   |
+| :------------------------------ | :----------------------------- | :---------------- | :-------------------------- |
+| 105                             | 16                             | Blue Sapphire Bay | Party level is less than 25 |
+| floor(105 / (Party Level - 23)) | floor(16 / (Party Level - 23)) | Blue Sapphire Bay | Party level is less than 30 |
+
+| XP  | Gold | Location          | Condition         |
+| :-- | :--- | :---------------- | :---------------- |
+| 52  | 8    | Blue Sapphire Bay | Party Level is 25 |
+| 35  | 5    | Blue Sapphire Bay | Party Level is 26 |
+| 26  | 4    | Blue Sapphire Bay | Party Level is 27 |
+| 21  | 3    | Blue Sapphire Bay | Party Level is 28 |
+| 17  | 2    | Blue Sapphire Bay | Party Level is 29 |
 
 #### Sea Mare (MX)
 
