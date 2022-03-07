@@ -650,12 +650,156 @@ HP: 655
 
 HP: 700
 
-| Animation                                                     | Kind | Attack | Type | Damage | Cooldown |
-| :------------------------------------------------------------ | :--- | :----- | :--- | :----- | -------- |
-| ![Evil_Assassin_idle.gif](/img/tse1/Evil_Assassin_idle.gif)   |      |        |      |        |          |
-| ![Evil_Assassin_melee.gif](/img/tse1/Evil_Assassin_melee.gif) |      |        |      |        |          |
-| ![Evil_Assassin_range.gif](/img/tse1/Evil_Assassin_range.gif) |      |        |      |        |          |
-| ![](/img/tse1/)                                               |      |        |      |        |          |
+| Animation                                                     | Kind  | Attack         | Type     | Damage                                       | Cooldown                                                                                                    |
+| :------------------------------------------------------------ | :---- | :------------- | :------- | :------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| ![Evil_Assassin_idle.gif](/img/tse1/Evil_Assassin_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                          | Between 10-15 ticks                                                                                         |
+| ![Evil_Assassin_melee.gif](/img/tse1/Evil_Assassin_melee.gif) | Melee | Lunge          | Physical | <li>14</li><li>17 against shields</li>       | 39 ticks<br>2/3 chance to use this attack                                                                   |
+| ![Evil_Assassin_range.gif](/img/tse1/Evil_Assassin_range.gif) | Range | Shuriken Storm | Physical | 10 x 8 unless disrupted by a character's hit | 55 ticks<br>Throws a shuriken every 7.2 ticks, some have a chance to miss <br>1/3 chance to use this attack |
+
+| XP  | Gold | Location                            | Condition |
+| :-- | :--- | :---------------------------------- | :-------- |
+| 100 | 22   | The Republican Government Buildling | N/A       |
+
+#### Black Ooze (NX, L)
+
+| HP   | Location                           |
+| :--- | :--------------------------------- |
+| 880  | The Republican Government Building |
+| 1085 | The Inky Pit                       |
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+| 107 | 10   |          |           |
+
+#### Crossbone
+
+| HP  | Location |
+| :-- | :------- |
+|     |          |
+|     |          |
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Scissor Crab (N-23, E-23, L)
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Giant Clam (L)
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Sea Mare (MX)
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Sham Tikki Brute (L)
+
+| HP  | Location |
+| :-- | :------- |
+|     |          |
+|     |          |
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Sham Tikki Shaman
+
+| HP  | Location |
+| :-- | :------- |
+|     |          |
+|     |          |
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Sham Tikki Zombie (UD)
+
+| HP  | Location |
+| :-- | :------- |
+|     |          |
+|     |          |
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Thorny Mantrap (N+10, E+10)
+
+| HP  | Location |
+| :-- | :------- |
+|     |          |
+|     |          |
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Jungle Spirit (NX, UD)
+
+HP: 555
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Gigliana (armour oscillates between -20 and +20 for N and E, L)
+
+HP: 6905<br>
+The formula for the oscillation is `20 x Sin(DEGREE)` where `DEGREE` iterates from 0 to 359 every 1.2 ticks
+
+| Animation       | Kind | Attack | Type | Damage | Cooldown |
+| :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
 
 | XP  | Gold | Location | Condition |
 | :-- | :--- | :------- | :-------- |
