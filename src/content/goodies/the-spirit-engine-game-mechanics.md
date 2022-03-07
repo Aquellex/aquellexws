@@ -691,7 +691,7 @@ HP: 700
 | :---------------------------------------------------- | :------------- | :------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Crossbone_idle.gif](/img/tse1/Crossbone_idle.gif)   | Idle           | First cooldown | N/A      | N/A                                                                                                                              | Between 10-15 ticks                                                                                                                                                                                     |
 | ![Crossbone_melee.gif](/img/tse1/Crossbone_melee.gif) | Melee          | Lunge          | Physical | <li>21 in The Republican Government Building</li><li>18 at The Inky Pit</li>                                                     | <li>38 ticks in The Republican Government Building</li><li>40 ticks at The Inky Pit</li><li>3/7 chance to use this attack</li><li>Will use this attack first in The Republican Government Building</li> |
-| ![Crossbone_range.gif](/img/tse1/Crossbone_range.gif) | Range          | Shuriken Storm | Physical | <li>14 x 8 in The Republican Government Building</li><li>12 x 8 at The Inky Pit</li><li>Can be disrupted</li>                    | <li>51 ticks</li><li>2/7 chance to use this attack</li>                                                                                                                                                 |
+| ![Crossbone_range.gif](/img/tse1/Crossbone_range.gif) | Range          | Shuriken Storm | Physical | <li>14 x 8 in The Republican Government Building</li><li>12 x 8 at The Inky Pit</li><li>Can be disrupted</li>                    | <li>51 ticks</li><li>2/7 chance to use this attack</li> <li>Some will miss</li>                                                                                                                         |
 | ![Crossbone_leap.gif](/img/tse1/Crossbone_leap.gif)   | Melee Targeted | Leap Attack    | Physical | <li>30 in The Republican Government Building</li><li>29 at The Inky Pit</li><li>Always targets character with the lowest HP</li> | <li>53 ticks</li><li>2/7 chance to use this attack</li><li>Will use this attack first at The Inky Pit</li>                                                                                              |
 | ![CircleStar.gif](/img/tse1/CircleStar.gif)           | Range          | Circle Star    | Physical | 30                                                                                                                               | Will only activate within The Inky Pit at the following HPs: 1440, 950, 660                                                                                                                             |
 
@@ -702,18 +702,30 @@ HP: 700
 
 #### Scissor Crab (N-23, E-23, L)
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                                   | Kind  | Attack         | Type     | Damage | Cooldown            |
+| :---------------------------------------------------------- | :---- | :------------- | :------- | :----- | ------------------- |
+| ![Scissor_Crab_idle.gif](/img/tse1/Scissor_Crab_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 9-20 ticks  |
+| ![Scissor_Crab_melee.gif](/img/tse1/Scissor_Crab_melee.gif) | Melee | Lunge          | Physical | 17     | Between 67-70 ticks |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                           | Location          | Condition                   |
+| :------------------------------ | :----------------------------- | :---------------- | :-------------------------- |
+| 108                             | 19                             | Blue Sapphire Bay | Party level is less than 25 |
+| floor(108 / (Party Level - 23)) | floor(19 / (Party Level - 23)) | Blue Sapphire Bay | Party level is less than 30 |
+
+| XP  | Gold | Location          | Condition         |
+| :-- | :--- | :---------------- | :---------------- |
+| 54  | 9    | Blue Sapphire Bay | Party Level is 25 |
+| 36  | 6    | Blue Sapphire Bay | Party Level is 26 |
+| 27  | 4    | Blue Sapphire Bay | Party Level is 27 |
+| 21  | 3    | Blue Sapphire Bay | Party Level is 28 |
+| 18  | 3    | Blue Sapphire Bay | Party Level is 29 |
 
 #### Giant Clam (L)
 
 | Animation       | Kind | Attack | Type | Damage | Cooldown |
 | :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+| ![](/img/tse1/) |      |        |      |        |          |
 | ![](/img/tse1/) |      |        |      |        |          |
 
 | XP  | Gold | Location | Condition |
@@ -724,6 +736,8 @@ HP: 700
 
 | Animation       | Kind | Attack | Type | Damage | Cooldown |
 | :-------------- | :--- | :----- | :--- | :----- | -------- |
+| ![](/img/tse1/) |      |        |      |        |          |
+| ![](/img/tse1/) |      |        |      |        |          |
 | ![](/img/tse1/) |      |        |      |        |          |
 
 | XP  | Gold | Location | Condition |
