@@ -6,7 +6,7 @@ lastUpdated: '2022-03-07T12:00:00+11:00'
 
 ### Mutuals
 
-<a href="http://clickteam.com/" target="_blank" title="Clickteam"><img src="/img/clickteam.gif"></a><a href="https://defensemech.com/" target="_blank" title="DEFENSE MECHANISM"><img src="/img/defense.gif"></a> <a href="http://heckscaper.com" target="_blank" title="Emma Essex"><img src="/img/emmalink.gif"></a> <a href="http://www.iridescentaudio.co.uk/" target="_blank" title="Blitz Lunar"><img src="/img/imlogo.png"></a> <a href="https://joshwhelchel.com/" target="_blank" title="Josh Whelchel"><img src="/img/bannerjosh.gif"></a> <a href="http://kurorak.bandcamp.com/" target="_blank" title="Kurorak"><img src="/img/kurorak.gif"></a> <a href="http://melodymonarchy.com/" target="_blank" title="Princess Sylvysprit"><img src="/img/smol_sylvy_banner.jpg"></a> <a href="https://modarchive.org" target="_blank" title="The Mod Archive"></a><img src="/img/modarchive.gif"><a href="https://cybertuner.com/" target="_blank" title="Reyburn CyberTuner"><img src="/img/cyberearbutton.gif"></a> <a href="http://thespiritengine.com" target="_blank" title="Mark Pay (The Spirit Engine)"><img src="/img/chibieng.gif"></a><a href="https://www.pixiv.net/member.php?id=36908366" target="_blank" title="Yomieda's pixiv art page"><img src="/img/yomieda/widget.png"></a> <a href="http://yzyxmusic.com/" target="_blank" title="YZYX"><img src="/img/yzyx2.gif"></a><br>
+<a href="http://clickteam.com/" target="_blank" title="Clickteam"><img src="/img/clickteam.gif"></a><a href="https://defensemech.com/" target="_blank" title="DEFENSE MECHANISM"><img src="/img/defense.gif"></a> <a href="http://heckscaper.com" target="_blank" title="Emma Essex (WARNING: Website is MA15+)"><img src="/img/emmalink.gif"></a> <a href="http://www.iridescentaudio.co.uk/" target="_blank" title="Blitz Lunar"><img src="/img/imlogo.png"></a> <a href="https://joshwhelchel.com/" target="_blank" title="Josh Whelchel"><img src="/img/bannerjosh.gif"></a> <a href="http://kurorak.bandcamp.com/" target="_blank" title="Kurorak"><img src="/img/kurorak.gif"></a> <a href="http://melodymonarchy.com/" target="_blank" title="Princess Sylvysprit"><img src="/img/smol_sylvy_banner.jpg"></a> <a href="https://modarchive.org" target="_blank" title="The Mod Archive"><img src="/img/modarchive.gif"></a><a href="https://cybertuner.com/" target="_blank" title="Reyburn CyberTuner"><img src="/img/cyberearbutton.gif"></a> <a href="http://thespiritengine.com" target="_blank" title="Mark Pay (The Spirit Engine)"><img src="/img/chibieng.gif"></a> <a href="https://www.pixiv.net/member.php?id=36908366" target="_blank" title="Yomieda's pixiv art page"><img src="/img/yomieda/widget.png"></a> <a href="http://yzyxmusic.com/" target="_blank" title="YZYX"><img src="/img/yzyx2.gif"></a><br>
 You can also add this to your site if you wish:<br>
 <a href="https://aquellex.ws/" target="_blank"><img src="/img/aqx2.png"></a>
 
@@ -131,6 +131,12 @@ You can also add this to your site if you wish:<br>
 - <a href="https://web.archive.org/web/20161018201349/http://www.noisechannel.org/5138">Episode 7: Cheapshot’s Blip Bass</a>
 - <a href="https://web.archive.org/web/20181009000451/http://www.noisechannel.org/6170">Episode 8: ArpArpArpArpArp</a>
 - <a href="https://web.archive.org/web/20161018203523/http://www.noisechannel.org/8180">Episode 9: WAV Kicks and Volume Tricks</a>
+
+#### Censor Pandas (Australian letters)
+
+The original Censor Pandas used American 14, MA and NC-17 ratings. I've made quick edits so they complied with the Australian equivalents.
+
+<a href="http://www.mabsland.com/Adoption.html" title="Coarse language may appear in external links" target="_blank" rel="noopener noreferrer"><img alt="M rating" src="/img/Censor_14c.png" /></a> <a href="http://www.mabsland.com/Adoption.html" title="This rating will never be used here" target="_blank" rel="noopener noreferrer"><img alt="MA15+ rating" src="/img/Censor_Mc.png" /></a> <a href="http://www.mabsland.com/Adoption.html" title="This rating will never ever be used here" target="_blank" rel="noopener noreferrer"><img alt="R18+ rating" src="/img/Censor_NC17c.png" /></a>
 
 <!-- ### Discord servers
 

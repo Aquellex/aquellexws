@@ -660,35 +660,45 @@ HP: 700
 | :-- | :--- | :---------------------------------- | :-------- |
 | 100 | 22   | The Republican Government Buildling | N/A       |
 
-#### Black Ooze (NX, L)
+#### Black Ooze (NX\*, L)
+
+\*Silver Bullet is bugged at The Inky Pit and will deal damage as if it wasn't immune
 
 | HP   | Location                           |
 | :--- | :--------------------------------- |
 | 880  | The Republican Government Building |
 | 1085 | The Inky Pit                       |
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                             | Kind           | Attack         | Type     | Damage                                                                                                                                  | Cooldown                                                                                                                       |
+| :---------------------------------------------------- | :------------- | :------------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| ![blackooze_idle.gif](/img/tse1/blackooze_idle.gif)   | Idle           | First cooldown | N/A      | N/A                                                                                                                                     | Between 10-15 ticks                                                                                                            |
+| ![blackooze_range.gif](/img/tse1/blackooze_range.gif) | Range Indirect | Hand Attack    | Physical | <li>14 in The Republican Government Building</li><li>19 at The Inky Pit</li>                                                            | <li>78 ticks in The Republican Government Building</li><li>73 ticks at The Inky Pit</li><li>3/4 chance to use this attack</li> |
+| ![Baby_Ooze.gif](/img/tse1/Baby_Ooze.gif)             | Defence        | Spawn Ooze     | Shield   | <li>110HP in The Republican Government Building</li><li>130HP at The Inky Pit</li><li>Spawns between 20-47 pixels away from itself</li> | <li>101 ticks in The Republican Government Building</li><li>89 ticks at The Inky Pit</li><li>1/4 chance to use this move</li>  |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-| 107 | 10   |          |           |
+| XP  | Gold | Location                           | Condition |
+| :-- | :--- | :--------------------------------- | :-------- |
+| 107 | 10   | The Republican Government Building | N/A       |
+| 147 | 11   | The Inky Pit                       | N/A       |
 
 #### Crossbone
 
-| HP  | Location |
-| :-- | :------- |
-|     |          |
-|     |          |
+| HP   | Location                           |
+| :--- | :--------------------------------- |
+| 1830 | The Republican Government Building |
+| 1990 | The Inky Pit                       |
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                             | Kind           | Attack         | Type     | Damage                                                                                                                           | Cooldown                                                                                                                                                                                                |
+| :---------------------------------------------------- | :------------- | :------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Crossbone_idle.gif](/img/tse1/Crossbone_idle.gif)   | Idle           | First cooldown | N/A      | N/A                                                                                                                              | Between 10-15 ticks                                                                                                                                                                                     |
+| ![Crossbone_melee.gif](/img/tse1/Crossbone_melee.gif) | Melee          | Lunge          | Physical | <li>21 in The Republican Government Building</li><li>18 at The Inky Pit</li>                                                     | <li>38 ticks in The Republican Government Building</li><li>40 ticks at The Inky Pit</li><li>3/7 chance to use this attack</li><li>Will use this attack first in The Republican Government Building</li> |
+| ![Crossbone_range.gif](/img/tse1/Crossbone_range.gif) | Range          | Shuriken Storm | Physical | <li>14 x 8 in The Republican Government Building</li><li>12 x 8 at The Inky Pit</li><li>Can be disrupted</li>                    | <li>51 ticks</li><li>2/7 chance to use this attack</li>                                                                                                                                                 |
+| ![Crossbone_leap.gif](/img/tse1/Crossbone_leap.gif)   | Melee Targeted | Leap Attack    | Physical | <li>30 in The Republican Government Building</li><li>29 at The Inky Pit</li><li>Always targets character with the lowest HP</li> | <li>53 ticks</li><li>2/7 chance to use this attack</li><li>Will use this attack first at The Inky Pit</li>                                                                                              |
+| ![CircleStar.gif](/img/tse1/CircleStar.gif)           | Range          | Circle Star    | Physical | 30                                                                                                                               | Will only activate within The Inky Pit at the following HPs: 1440, 950, 660                                                                                                                             |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP   | Gold | Location                           | Condition |
+| :--- | :--- | :--------------------------------- | :-------- |
+| 1390 | 65   | The Republican Government Building | N/A       |
+| 2976 | 867  | The Inky Pit                       | N/A       |
 
 #### Scissor Crab (N-23, E-23, L)
 
@@ -985,9 +995,9 @@ hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 <label for="spooksummonh">Spook Summon's Holy Bolt: </label><output name="spooksummonh" type="number" for="skill7 party bless">6</output> x 2<br>
 <label for="spooksummonr">Spook Summon's Heal: </label><output name="spooksummonr" type="number" for="skill7 party bless">1</output>HP<br>
 <label for="skill8"><img src=/img/tse1/skill10_lifedrain.png title="Life Drain"><img src=/img/tse1/skill10_lasoo.png title="Lasoo"><img src=/img/tse1/skill10_hotg.png title="Hand of the Gods"> </label><input type="number" label="skill8" id="skill8" name="skill8" min="0" max="30" value="0"><br>
-<label for="lifedrain1">Clara's Life Drain: </label><output name="lifedrain1" type="number" for="skill8 party bless"></output> x 7<br>
-<label for="lifedrain2">Pippa's Life Drain: </label><output name="lifedrain2" type="number" for="skill8 party bless"></output> x 7<br>
-<label for="lifedrain3">Eisfford's Life Drain: </label><output name="lifedrain3" type="number" for="skill8 party bless"></output> x 7<br>
+<label for="lifedrain1">Clara's Life Drain: </label><output name="lifedrain1" type="number" for="skill8 party bless">2</output> x 7<br>
+<label for="lifedrain2">Pippa's Life Drain: </label><output name="lifedrain2" type="number" for="skill8 party bless">1</output> x 7<br>
+<label for="lifedrain3">Eisfford's Life Drain: </label><output name="lifedrain3" type="number" for="skill8 party bless">1</output> x 7<br>
 <label for="lasoo1">Peter's Lasoo: </label><output name="lasoo1" type="number" for="skill8 party bless">72</output>-tick stun<label for="lasoo1w3"> (</label><output name="lasoo1w3" type="number" for="skill8 party bless">61</output> ticks in World 3,<label for="lasoo1w4"> </label><output name="lasoo1w4" type="number" for="skill8 party bless">51</output> ticks in World 4,<label for="lasoo1w3"> </label><output name="lasoo1w5" type="number" for="skill8 party bless">40</output> ticks in World 5)<br>
 <label for="lasoo2">Edward's Lasoo: </label><output name="lasoo2" type="number" for="skill8 party bless">85</output>-tick stun<label for="lasoo2w3"> (</label><output name="lasoo2w3" type="number" for="skill8 party bless">72</output> ticks in World 3,<label for="lasoo2w4"> </label><output name="lasoo2w4" type="number" for="skill8 party bless">60</output> ticks in World 4,<label for="lasoo2w3"> </label><output name="lasoo2w5" type="number" for="skill8 party bless">48</output> ticks in World 5)<br>
 <label for="lasoo3">Samuel's Lasoo: </label><output name="lasoo3" type="number" for="skill8 party bless">98</output>-tick stun<label for="lasoo3w3"> (</label><output name="lasoo3w3" type="number" for="skill8 party bless">84</output> ticks in World 3,<label for="lasoo3w4"> </label><output name="lasoo3w4" type="number" for="skill8 party bless">69</output> ticks in World 4,<label for="lasoo3w3"> </label><output name="lasoo3w5" type="number" for="skill8 party bless">55</output> ticks in World 5)<br>
