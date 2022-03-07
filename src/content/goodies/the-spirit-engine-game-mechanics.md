@@ -646,9 +646,15 @@ HP: 655
 
 ### WORLD 3: THE MANGO REPUBLIC
 
+UNDER CONSTRUCTION
+
 ### WORLD 4: THE MYSTIC DUNES
 
+UNDER CONSTRUCTION
+
 ### WORLD 5: CLARKE'S TOWER
+
+UNDER CONSTRUCTION
 
 ## SKILL CALCULATOR
 
@@ -658,7 +664,7 @@ maxHealth.value=parseInt(22+(3*health.value)+(0.23*health.value*(party.value/2))
 baseMana.value=parseInt(5+(mana.value/2))+parseInt(talisman.value);
 maxMana.value=parseInt((5+(mana.value/2))+parseInt(talisman.value))*2;
 magicReduction.value=parseInt((5+(mana.value/2))+parseInt(talisman.value))-5;
-chainmagic.value=parseInt((skill1.value*1.5) + (party.value - 1) + (bless.value));
+chainmagic.value=parseInt((skill1.value*1.5) + ((1 * party.value) - 1) + (1 * bless.value));
 rifleattack.value=parseInt((2*skill1.value)+(2*gun.value)+((party.value)/2)+((bless.value)/2));
 mattrifle.value=parseInt(((2*skill1.value)+(2*gun.value)+((party.value)/2)+((bless.value)/2))*0.75);
 kineticshield.value=parseInt((skill2.value * 1.25) + (party.value * 0.7) + (bless.value * 0.7) + parseInt(1));
@@ -712,8 +718,8 @@ rainbow3.value=(6 * skill6.value) + (1 * party.value) + (1 * bless.value) + 8;
 rbsplash.value=parseInt((5 * party.value / 3) + (5 * bless.value / 3));
 powershot1.value=parseInt((2.5 * skill6.value) + (3 * gun.value) + ((1*party.value) - 2) + (bless.value * 1));
 powershot2.value=parseInt((2.9 * skill6.value) + (3 * gun.value) + (party.value * 1) + (bless.value * 1));
-pspenalty1.value=parseInt(((2.5 * skill6.value) + (3 * gun.value) + (party.value - 2) + (bless.value - 2))/3*2);
-pspenalty2.value=parseInt(((2.9 * skill6.value) + (3 * gun.value) + (party.value * 1) + (bless.value * 1))/3*2);
+pspenalty1.value=parseInt(((2.5 * skill6.value) + (3 * gun.value) + ((1*party.value) - 2) + (bless.value * 1))/3*2);
+pspenalty2.value=parseInt(((2.9 * skill6.value) + (3 * gun.value) + ((1*party.value) * 1) + (bless.value * 1))/3*2);
 silverbullet1.value=parseInt((5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value));
 silverbullet2.value=parseInt((4 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value));
 silverbullet3.value=parseInt((3.5 * skill6.value) + (4 * gun.value) + (1.5 * party.value) + (1.5 * bless.value));
@@ -805,8 +811,8 @@ hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 <label for="rainbow2">Pippa's Rainbow: </label><output name="rainbow2" type="number" for="skill6 party bless">11</output><br>
 <label for="rainbow3">Eisfford's Rainbow: </label><output name="rainbow3" type="number" for="skill6 party bless">9</output><br>
 <label for="rbsplash">Splash bonus: </label><output name="rbsplash" type="number" for="skill6 party bless">1</output><br>
-<label for="powershot1">Peter & Samuel's Power Shot: </label><output name="powershot1" type="number" for="skill6 party gun bless">-1</output> per hit <label for="pspenalty1">(</label><output name="pspenalty1" type="number" for="skill6 gun party bless"></output> against large enemies)<br>
-<label for="powershot2">Edward's Power Shot: </label><output name="powershot2" type="number" for="skill6 party gun bless">1</output> per hit <label for="pspenalty2">(</label><output name="pspenalty2" type="number" for="skill6 gun party bless"></output> against large enemies)<br>
+<label for="powershot1">Peter & Samuel's Power Shot: </label><output name="powershot1" type="number" for="skill6 party gun bless">-1</output> per hit <label for="pspenalty1">(</label><output name="pspenalty1" type="number" for="skill6 gun party bless">0</output> against large enemies)<br>
+<label for="powershot2">Edward's Power Shot: </label><output name="powershot2" type="number" for="skill6 party gun bless">1</output> per hit <label for="pspenalty2">(</label><output name="pspenalty2" type="number" for="skill6 gun party bless">0</output> against large enemies)<br>
 <label for="silverbullet1">Clementas' Silver Bullet: </label><output name="silverbullet1" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus1">(</label><output name="sbbonus1" type="number" for="skill6 party bless"></output> against undead enemies)<br>
 <label for="silverbullet2">Zepher's Silver Bullet: </label><output name="silverbullet2" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus2">(</label><output name="sbbonus2" type="number" for="skill6 party bless"></output> against undead enemies)<br>
 <label for="silverbullet3">Matthieu's Silver Bullet: </label><output name="silverbullet3" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus3">(</label><output name="sbbonus3" type="number" for="skill6 party bless"></output> against undead enemies)<br>

@@ -27,15 +27,15 @@ const HeaderBadges = () => (
     <a href="https://youtube.com/user/GammaBlasterSM" title="YouTube" target="_blank" rel="noopener noreferrer">
       <img alt="YouTube" src="/img/yomieda/ico_youtube.png" />
     </a>{' '}
-    <a href="http://www.mabsland.com/Adoption.html" title="General exhibition" target="_blank" rel="noopener noreferrer">
+{/*     <a href="http://www.mabsland.com/Adoption.html" title="General exhibition" target="_blank" rel="noopener noreferrer">
       <img alt="G rating" src="/img/Censor_Gc.gif" />
-    </a>
+    </a> */}
     <a href="http://www.mabsland.com/Adoption.html" title="Mild themes" target="_blank" rel="noopener noreferrer">
       <img alt="PG rating" src="/img/Censor_PGc.gif" />
     </a>
-    <a href="http://www.mabsland.com/Adoption.html" title="Profanity may appear in external links" target="_blank" rel="noopener noreferrer">
+{/*     <a href="http://www.mabsland.com/Adoption.html" title="Profanity may appear in external links" target="_blank" rel="noopener noreferrer">
       <img alt="14+ rating" src="/img/Censor_14c.gif" />
-    </a>
+    </a> */}
   </div>
 );
 
