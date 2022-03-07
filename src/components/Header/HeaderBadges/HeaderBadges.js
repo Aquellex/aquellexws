@@ -34,7 +34,16 @@ const HeaderBadges = () => (
       <img alt="PG rating" src="/img/Censor_PGc.gif" />
     </a>
 {/*     <a href="http://www.mabsland.com/Adoption.html" title="Profanity may appear in external links" target="_blank" rel="noopener noreferrer">
-      <img alt="14+ rating" src="/img/Censor_14c.gif" />
+      <img alt="M rating" src="/img/Censor_14c.gif" />
+    </a> */}
+{/*     <a href="http://www.mabsland.com/Adoption.html" title="Strong coarse language - This rating will never be used" target="_blank" rel="noopener noreferrer">
+      <img alt="MA15+ rating" src="/img/Censor_Mc.gif" />
+    </a> */}
+{/*     <a href="http://www.mabsland.com/Adoption.html" title="High impact sexual references - This rating will never ever be used" target="_blank" rel="noopener noreferrer">
+      <img alt="R18+ rating" src="/img/Censor_NC17c.gif" />
+    </a> */}
+    {/*     <a href="http://www.mabsland.com/Adoption.html" title="Exempt from rating" target="_blank" rel="noopener noreferrer">
+      <img alt="E rating" src="/img/Censor_NNYRc.gif" />
     </a> */}
   </div>
 );

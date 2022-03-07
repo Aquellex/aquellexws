@@ -646,7 +646,20 @@ HP: 655
 
 ### WORLD 3: THE MANGO REPUBLIC
 
-UNDER CONSTRUCTION
+#### Dark Assassin
+
+HP: 700
+
+| Animation                                                     | Kind | Attack | Type | Damage | Cooldown |
+| :------------------------------------------------------------ | :--- | :----- | :--- | :----- | -------- |
+| ![Evil_Assassin_idle.gif](/img/tse1/Evil_Assassin_idle.gif)   |      |        |      |        |          |
+| ![Evil_Assassin_melee.gif](/img/tse1/Evil_Assassin_melee.gif) |      |        |      |        |          |
+| ![Evil_Assassin_range.gif](/img/tse1/Evil_Assassin_range.gif) |      |        |      |        |          |
+| ![](/img/tse1/)                                               |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 ### WORLD 4: THE MYSTIC DUNES
 
@@ -667,19 +680,19 @@ magicReduction.value=parseInt((5+(mana.value/2))+parseInt(talisman.value))-5;
 chainmagic.value=parseInt((skill1.value*1.5) + ((1 * party.value) - 1) + (1 * bless.value));
 rifleattack.value=parseInt((2*skill1.value)+(2*gun.value)+((party.value)/2)+((bless.value)/2));
 mattrifle.value=parseInt(((2*skill1.value)+(2*gun.value)+((party.value)/2)+((bless.value)/2))*0.75);
-kineticshield.value=parseInt((skill2.value * 1.25) + (party.value * 0.7) + (bless.value * 0.7) + parseInt(1));
-recover1h.value=parseInt((skill2.value/2) + (party.value/5) + (bless.value/5) + parseInt(2));
-recover2h.value=parseInt((skill2.value*0.6) + (party.value/4) + (bless.value/4) + parseInt(2));
-recover3h.value=parseInt((skill2.value*0.7) + (party.value/4) + (bless.value/4) + parseInt(2));
+kineticshield.value=parseInt((skill2.value * 1.25) + (party.value * 0.6) + (bless.value * 0.7) + parseInt(1));
+recover1h.value=Math.floor((skill2.value/2) + (party.value/5) + (bless.value/5)) + 2;
+recover2h.value=Math.floor((skill2.value*0.6) + (party.value/4) + (bless.value/4)) + 2;
+recover3h.value=Math.floor((skill2.value*0.7) + (party.value/4) + (bless.value/4)) + 2;
 recover1c.value=parseInt(59-(0.66*skill2.value));
 recover2c.value=parseInt(55-(0.66*skill2.value));
 recover3c.value=parseInt(55-(0.66*skill2.value));
 partyheal1.value=parseInt((skill2.value * 0.38) + (party.value * 0.125) + (bless.value * 0.125) + parseInt(1));
 partyheal2.value=parseInt((skill2.value * 0.44) + (party.value * 0.17) + (bless.value * 0.125) + parseInt(1));
 partyheal3.value=parseInt((skill2.value * 0.42) + (party.value * 0.143) + (bless.value * 0.125) + parseInt(1));
-magicshield1.value=parseInt((skill3.value * 1.25) + (party.value * 0.7) + (bless.value * 0.7) + parseInt(1));
+magicshield1.value=parseInt((skill3.value * 1.25) + (party.value * 0.6) + (bless.value * 0.7) + parseInt(1));
 magicshield2.value=parseInt((skill3.value * 1.5) + (party.value * 0.7) + (bless.value * 0.7) + parseInt(1));
-magicshield3.value=parseInt((skill3.value * 1) + (party.value * 0.7) + (bless.value * 0.7) + parseInt(1));
+magicshield3.value=parseInt((skill3.value * 1) + (party.value * 0.6) + (bless.value * 0.7) + parseInt(1));
 speedfire.value=58 - skill3.value;
 speedfire2.value=73 - skill3.value;
 partyrecharge.value=parseInt(69 - (skill3.value * 1.5));
