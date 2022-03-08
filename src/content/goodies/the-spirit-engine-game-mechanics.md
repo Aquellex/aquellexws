@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: 'The Spirit Engine 1 game mechanics'
-lastUpdated: '2022-03-08'
+lastUpdated: '2022-03-09'
 ---
 
 All documentation is done with ticks. Each tick lasts for 0.1 seconds on Slower Battles switched on, 0.05 for the same option switched off. So 50 ticks is 5.0 seconds and 2.5 seconds, respectively.
@@ -839,25 +839,46 @@ HP: 458
 
 #### Sham Tikki Shaman
 
-| HP  | Location |
-| :-- | :------- |
-|     |          |
-|     |          |
+| HP  | Location             |
+| :-- | :------------------- |
+| 650 | Jungle Tracks        |
+| 735 | The Leafy Underbrush |
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                                                   | Kind    | Attack         | Type            | Damage                                                               | Cooldown                                                                                                                                |
+| :-------------------------------------------------------------------------- | :------ | :------------- | :-------------- | :------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| ![ShamTikkiShaman_idle.gif](/img/tse1/ShamTikkiShaman_idle.gif)             | Idle    | First cooldown | N/A             | N/A                                                                  | <li>Between 30-35 ticks at Jungle Tracks</li><li>Between 38-43 ticks at The Leafy Underbrush</li>                                       |
+| ![ShamTikkiShaman_chainmagic.png](/img/tse1/ShamTikkiShaman_chainmagic.png) | Magic   | Chain Magic    | Magical         | 8 x 3                                                                | <li>Between 63-67 ticks at Jungle Tracks</li><li>Between 62-66 ticks at The Leafy Underbrush</li><li>1/2 chance to use this attack</li> |
+| ![ShamTikkiShaman_resurrect.gif](/img/tse1/ShamTikkiShaman_resurrect.gif)   | Defence | Magic Shield 2 | Invulnerability | Puts a shield of EX & MX on itself or an ally and lasts for 70 ticks | <li>Between 62-64 ticks at Jungle Tracks</li><li>Between 44-46 ticks at The Leafy Underbrush</li><li>1/2 chance to use this move</li>   |
+| ![ShamTikkiShaman_resurrect.gif](/img/tse1/ShamTikkiShaman_resurrect.gif)   | Status  | Resurrect      | Other           | Will always resurrect any fallen Sham Tikki first                    | <li>Between 84-88 ticks at Jungle Tracks</li><li>Between 44-48 ticks at The Leafy Underbrush</li>                                       |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                           | Location             | Condition                   |
+| :------------------------------ | :----------------------------- | :------------------- | :-------------------------- |
+| 161                             | 34                             | Jungle Tracks        | Party Level is less than 27 |
+| floor(161 / (Party Level - 25)) | floor(34 / (Party Level - 25)) | Jungle Tracks        | Party level is less than 32 |
+| 134                             | 34                             | The Leafy Underbrush | Party level is less than 29 |
+| floor(134 / (Party Level - 27)) | floor(34 / (Party Level - 27)) | The Leafy Underbrush | Party level is less than 35 |
+
+| XP  | Gold | Location             | Condition         |
+| :-- | :--- | :------------------- | :---------------- |
+| 80  | 17   | Jungle Tracks        | Party level is 27 |
+| 53  | 11   | Jungle Tracks        | Party level is 28 |
+| 40  | 8    | Jungle Tracks        | Party level is 29 |
+| 32  | 6    | Jungle Tracks        | Party level is 30 |
+| 26  | 5    | Jungle Tracks        | Party level is 31 |
+| 67  | 17   | The Leafy Underbrush | Party level is 29 |
+| 44  | 11   | The Leafy Underbrush | Party level is 30 |
+| 33  | 8    | The Leafy Underbrush | Party level is 31 |
+| 26  | 6    | The Leafy Underbrush | Party level is 32 |
+| 22  | 5    | The Leafy Underbrush | Party level is 33 |
+| 19  | 4    | The Leafy Underbrush | Party level is 34 |
 
 #### Sham Tikki Zombie (UD)
 
-| HP  | Location |
-| :-- | :------- |
-|     |          |
-|     |          |
+| HP  | Location             |
+| :-- | :------------------- |
+| 445 | Jungle Tracks        |
+| 550 | The Leafy Underbrush |
+| 490 | Kaikin Gorge         |
 
 | Animation       | Kind | Attack | Type | Damage | Cooldown |
 | :-------------- | :--- | :----- | :--- | :----- | -------- |
