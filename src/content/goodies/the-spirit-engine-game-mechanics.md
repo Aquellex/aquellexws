@@ -770,18 +770,37 @@ HP: 458
 
 #### Sham Tikki Brute (L)
 
-| HP  | Location |
-| :-- | :------- |
-|     |          |
-|     |          |
+| HP   | Location                                          |
+| :--- | :------------------------------------------------ |
+| 1090 | Jungle Tracks, The Leafy Underbrush, Kaikin Gorge |
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                                       | Kind  | Attack         | Type     | Damage | Cooldown                                                                                                                                           |
+| :-------------------------------------------------------------- | :---- | :------------- | :------- | :----- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![ShamTikkiBrute_idle.gif](/img/tse1/ShamTikkiBrute_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 14-21 ticks                                                                                                                                |
+| ![ShamTikkiBrute_melee.gif](/img/tse1/ShamTikkiBrute_melee.gif) | Melee | Lunge          | Physical | 17     | <li>63 ticks at Jungle Tracks</li><li>60 at The Leafy Underbrush & Kaikin Gorge</li><li>3/4 chance to use this attack, starts with it</li>         |
+| ![ShamTikkiBrute_aoe.gif](/img/tse1/ShamTikkiBrute_aoe.gif)     | AoE   | Ground Punch   | Absolute | 4      | <li>89 ticks at Jungle Tracks</li><li>75 ticks at The Leafy Underbrush</li><li>77 ticks at Kaikin Gorge</li><li>1/4 chance to use this attack</li> |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                           | Location             | Condition                   |
+| :------------------------------ | :----------------------------- | :------------------- | :-------------------------- |
+| 139                             | 24                             | Jungle Tracks        | Party Level is less than 27 |
+| floor(139 / (Party Level - 25)) | floor(24 / (Party Level - 25)) | Jungle Tracks        | Party level is less than 32 |
+| 145                             | 24                             | The Leafy Underbrush | Party level is less than 29 |
+| floor(145 / (Party Level - 27)) | floor(24 / (Party Level - 27)) | The Leafy Underbrush | Party level is less than 35 |
+| 145                             | 30                             | Kaikin Gorge         | N/A                         |
+
+| XP  | Gold | Location             | Condition         |
+| :-- | :--- | :------------------- | :---------------- |
+| 69  | 12   | Jungle Tracks        | Party level is 27 |
+| 46  | 8    | Jungle Tracks        | Party level is 28 |
+| 34  | 6    | Jungle Tracks        | Party level is 29 |
+| 27  | 4    | Jungle Tracks        | Party level is 30 |
+| 23  | 4    | Jungle Tracks        | Party level is 31 |
+| 72  | 12   | The Leafy Underbrush | Party level is 29 |
+| 48  | 8    | The Leafy Underbrush | Party level is 30 |
+| 36  | 6    | The Leafy Underbrush | Party level is 31 |
+| 29  | 4    | The Leafy Underbrush | Party level is 32 |
+| 24  | 4    | The Leafy Underbrush | Party level is 33 |
+| 20  | 3    | The Leafy Underbrush | Party level is 34 |
 
 #### Sham Tikki Shaman
 
