@@ -315,10 +315,10 @@ HP: 1090
 | 360 | The Town Graveyard     |
 | 445 | The Torchlit Catacombs |
 
-| Animation                                       | Kind  | Attack         | Type     | Damage                                                                                                                                                                  | Cooldown                                                                                                 |
-| :---------------------------------------------- | :---- | :------------- | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| ![Zombie_idle.gif](/img/tse1/Zombie_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                                                                                                                                     | Between 10-18 ticks                                                                                      |
-| ![Zombie_range.gif](/img/tse1/Zombie_range.gif) | Range | Vomit          | Absolute | <li>1 x 4</li><li>2 DoT at The Town Graveyard</li><li>3 DoT in The Torchlit Catacombs</li><li>Each DoT deals 1 damage every 20 ticks</li><li>2 x 4 against shields</li> | <li>Between 92-97 ticks at The Town Graveyard</li><li>Between 87-92 ticks in The Torchlit Catacombs</li> |
+| Animation                                       | Kind      | Attack         | Type     | Damage                                                                                                                                                                  | Cooldown                                                                                                 |
+| :---------------------------------------------- | :-------- | :------------- | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| ![Zombie_idle.gif](/img/tse1/Zombie_idle.gif)   | Idle      | First cooldown | N/A      | N/A                                                                                                                                                                     | Between 10-18 ticks                                                                                      |
+| ![Zombie_range.gif](/img/tse1/Zombie_range.gif) | Range DoT | Vomit          | Absolute | <li>1 x 4</li><li>2 DoT at The Town Graveyard</li><li>3 DoT in The Torchlit Catacombs</li><li>Each DoT deals 1 damage every 20 ticks</li><li>2 x 4 against shields</li> | <li>Between 92-97 ticks at The Town Graveyard</li><li>Between 87-92 ticks in The Torchlit Catacombs</li> |
 
 | XP                             | Gold                          | Location               | Condition                   |
 | :----------------------------- | :---------------------------- | :--------------------- | :-------------------------- |
@@ -495,12 +495,12 @@ HP: ∞
 Only if Clementas is in your party.<br>
 HP: 1390
 
-| Animation                                     | Kind  | Attack         | Type     | Damage                                        | Cooldown                                                                         |
-| :-------------------------------------------- | :---- | :------------- | :------- | :-------------------------------------------- | -------------------------------------------------------------------------------- |
-| ![Abomb_idle.gif](/img/tse1/Abomb_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                           | Between 10-15 ticks                                                              |
-| ![Abomb_aoe.gif](/img/tse1/Abomb_aoe.gif)     | AoE   | Poison Breath  | Absolute | 7 DoT, each DoT deals 1 damage every 18 ticks | 53 ticks<br>Starts with this attack                                              |
-| ![Abomb_range.png](/img/tse1/Abomb_range.png) | Range | Kinetic Smash  | Physical | <li>15</li><li>14 agaist shields</li>         | 41 ticks<br>Will use this attack 3 times before switching to AoE, then repeating |
-| ![Abomb_heal.gif](/img/tse1/Abomb_heal.gif)   | Heal  | Superheal      | Self     | Activates at 370HP                            | Heals 1HP every 2.4 ticks                                                        |
+| Animation                                     | Kind  | Attack         | Type         | Damage                                        | Cooldown                                                                         |
+| :-------------------------------------------- | :---- | :------------- | :----------- | :-------------------------------------------- | -------------------------------------------------------------------------------- |
+| ![Abomb_idle.gif](/img/tse1/Abomb_idle.gif)   | Idle  | First cooldown | N/A          | N/A                                           | Between 10-15 ticks                                                              |
+| ![Abomb_aoe.gif](/img/tse1/Abomb_aoe.gif)     | AoE   | Poison Breath  | Absolute DoT | 7 DoT, each DoT deals 1 damage every 18 ticks | 53 ticks<br>Starts with this attack                                              |
+| ![Abomb_range.png](/img/tse1/Abomb_range.png) | Range | Kinetic Smash  | Physical     | <li>15</li><li>14 agaist shields</li>         | 41 ticks<br>Will use this attack 3 times before switching to AoE, then repeating |
+| ![Abomb_heal.gif](/img/tse1/Abomb_heal.gif)   | Heal  | Superheal      | Self         | Activates at 370HP                            | Heals 1HP every 2.4 ticks                                                        |
 
 | XP  | Gold | Location                | Condition |
 | :-- | :--- | :---------------------- | :-------- |
@@ -801,6 +801,41 @@ HP: 458
 | 29  | 4    | The Leafy Underbrush | Party level is 32 |
 | 24  | 4    | The Leafy Underbrush | Party level is 33 |
 | 20  | 3    | The Leafy Underbrush | Party level is 34 |
+
+#### Sham Tikki Warrior
+
+| HP  | Location             |
+| :-- | :------------------- |
+| 860 | Jungle Tracks        |
+| 710 | The Leafy Underbrush |
+| 830 | Kaikin Gorge         |
+
+| Animation                                                           | Kind      | Attack          | Type     | Damage                                                                                                                                      | Cooldown                                                                                                                                                                   |
+| :------------------------------------------------------------------ | :-------- | :-------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![ShamTikkiWarrior_idle.gif](/img/tse1/ShamTikkiWarrior_idle.gif)   | Idle      | First cooldown  | N/A      | N/A                                                                                                                                         | Between 10-15 ticks                                                                                                                                                        |
+| ![ShamTikkiWarrior_range.gif](/img/tse1/ShamTikkiWarrior_range.gif) | Range DoT | Blowpipe Attack | Physical | <li>12 (13 to shields), 8 DoT at Jungle Tracks</li><li>10, 7 DoT</li><li>11, 7 DoT at Kaikin Gorge</li><li>Each DoT lasts for 16 ticks</li> | <li>Between 40-43 ticks at Jungle Tracks</li><li>42 ticks at The Leafy Underbrush if facing left, between 52-56 otherwise</li><li>Between 50-54 ticks at Kaikin Gorge</li> |
+
+| XP                              | Gold                           | Location             | Condition                   |
+| :------------------------------ | :----------------------------- | :------------------- | :-------------------------- |
+| 112                             | 19                             | Jungle Tracks        | Party Level is less than 27 |
+| floor(112 / (Party Level - 25)) | floor(19 / (Party Level - 25)) | Jungle Tracks        | Party level is less than 32 |
+| 93                              | 19                             | The Leafy Underbrush | Party level is less than 29 |
+| floor(93 / (Party Level - 27))  | floor(19 / (Party Level - 27)) | The Leafy Underbrush | Party level is less than 35 |
+| 112                             | 22                             | Kaikin Gorge         | N/A                         |
+
+| XP  | Gold | Location             | Condition         |
+| :-- | :--- | :------------------- | :---------------- |
+| 56  | 9    | Jungle Tracks        | Party level is 27 |
+| 37  | 6    | Jungle Tracks        | Party level is 28 |
+| 28  | 4    | Jungle Tracks        | Party level is 29 |
+| 22  | 3    | Jungle Tracks        | Party level is 30 |
+| 18  | 3    | Jungle Tracks        | Party level is 31 |
+| 46  | 9    | The Leafy Underbrush | Party level is 29 |
+| 31  | 6    | The Leafy Underbrush | Party level is 30 |
+| 23  | 4    | The Leafy Underbrush | Party level is 31 |
+| 18  | 3    | The Leafy Underbrush | Party level is 32 |
+| 15  | 3    | The Leafy Underbrush | Party level is 33 |
+| 13  | 2    | The Leafy Underbrush | Party level is 34 |
 
 #### Sham Tikki Shaman
 
