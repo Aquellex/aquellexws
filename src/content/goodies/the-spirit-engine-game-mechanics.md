@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: 'The Spirit Engine 1 game mechanics'
-lastUpdated: '2022-03-07'
+lastUpdated: '2022-03-08'
 ---
 
 All documentation is done with ticks. Each tick lasts for 0.1 seconds on Slower Battles switched on, 0.05 for the same option switched off. So 50 ticks is 5.0 seconds and 2.5 seconds, respectively.
@@ -732,10 +732,6 @@ HP: 925
 | ![Pearl.png](/img/tse1/Pearl.png)                         | Lobbed  | Pearl Attack   | Physical        | <li>16</li><li>18 to shields</li> | <li>Between 54-57 ticks</li><li>4/5 chance to use this attack</li> |
 | ![Giant_Clam_shield.gif](/img/tse1/Giant_Clam_shield.gif) | Defence | Clam Up        | Invulnerability | Lasts for 192 ticks               | <li>1/5 to use this move, does not use twice in a row</li>         |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
-
 | XP                              | Gold                           | Location          | Condition                   |
 | :------------------------------ | :----------------------------- | :---------------- | :-------------------------- |
 | 105                             | 16                             | Blue Sapphire Bay | Party level is less than 25 |
@@ -751,15 +747,26 @@ HP: 925
 
 #### Sea Mare (MX)
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
-| ![](/img/tse1/) |      |        |      |        |          |
+HP: 458
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| Animation                                                   | Kind           | Attack         | Type    | Damage                             | Cooldown                                                                    |
+| :---------------------------------------------------------- | :------------- | :------------- | :------ | :--------------------------------- | --------------------------------------------------------------------------- |
+| ![Seamare_idle.gif](/img/tse1/Seamare_idle.gif)             | Idle           | First cooldown | N/A     | N/A                                | Between 33-38 ticks                                                         |
+| ![Seamare_magic.png](/img/tse1/Seamare_magic.png)           | Magic          | Bubble Blast   | Magical | 6 x 4                              | <li>62 ticks</li><li>2/3 chance to use this attack, will start with it</li> |
+| ![Seamare_backstrike.png](/img/tse1/Seamare_backstrike.png) | Magic Indirect | Waterfall      | Magical | 22, always hits the back character | <li>67 ticks</li><li>1/3 chance to use this attack</li>                     |
+
+| XP                              | Gold                           | Location          | Condition                   |
+| :------------------------------ | :----------------------------- | :---------------- | :-------------------------- |
+| 112                             | 27                             | Blue Sapphire Bay | Party level is less than 25 |
+| floor(112 / (Party Level - 23)) | floor(27 / (Party Level - 23)) | Blue Sapphire Bay | Party level is less than 30 |
+
+| XP  | Gold | Location          | Condition         |
+| :-- | :--- | :---------------- | :---------------- |
+| 56  | 13   | Blue Sapphire Bay | Party Level is 25 |
+| 37  | 9    | Blue Sapphire Bay | Party Level is 26 |
+| 28  | 6    | Blue Sapphire Bay | Party Level is 27 |
+| 22  | 5    | Blue Sapphire Bay | Party Level is 28 |
+| 18  | 4    | Blue Sapphire Bay | Party Level is 29 |
 
 #### Sham Tikki Brute (L)
 
