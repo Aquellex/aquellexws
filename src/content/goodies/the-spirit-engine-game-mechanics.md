@@ -961,16 +961,26 @@ HP: 555
 
 #### Gigliana (armour oscillates between -20 and +20 for N and E, L)
 
-HP: 6905<br>
+| HP   | Phase |
+| :--- | :---- |
+| 6905 | 1     |
+| 5525 | 2     |
+| 3805 | 3     |
+| 2225 | 4     |
+
 The formula for the oscillation is `20 x Sin(DEGREE)` where `DEGREE` iterates from 0 to 359 every 1.2 ticks
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                                                                                                                                                         | Kind      | Attack         | Type                                                  | Damage                                                         | Cooldown                                              |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- | :------------- | :---------------------------------------------------- | :------------------------------------------------------------- | ----------------------------------------------------- |
+| ![Gigliana_idle.gif](/img/tse1/Gigliana_idle.gif)                                                                                                                                 | Idle      | First cooldown | N/A                                                   | N/A                                                            | Between 21-26 ticks                                   |
+| ![Gigliana_pollen.gif](/img/tse1/Gigliana_pollen.gif)                                                                                                                             | Lobbed    | Spores         | 11 x 4                                                | 64 ticks<br>2/5 chance to use this attack                      |                                                       |
+| ![Gigliana_spore.gif](/img/tse1/Gigliana_spore.gif)                                                                                                                               | Range DoT | Sycamore       | 20 (23 to shields), 8 DoT, each DoT lasts for 8 ticks | 71 ticks<br>2/5 chance to use this attack                      |                                                       |
+| ![Gigliana_vines.png](/img/tse1/Gigliana_vines.png)                                                                                                                               | Status    | Vines          | Ailment                                               | Disables party rotation for 86 ticks (permanent if on Phase 4) | 44 ticks<br>1/5 chance to use this attack             |
+| ![Gigliana_Flower1.gif](/img/tse1/Gigliana_Flower1.gif)<br>![Gigliana_Flower2.gif](/img/tse1/Gigliana_Flower2.gif)<br>![Gigliana_Flower2.gif](/img/tse1/Gigliana_Flower3.gif)<br> | AoE       | Flower Rain    | Absolute                                              | 1 x 3 and saps 1 mana each character                           | 32 ticks<br>Will always use this attack every 5 turns |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP   | Gold | Location          | Condition |
+| :--- | :--- | :---------------- | :-------- |
+| 2460 | 415  | Gigliana's Border | N/A       |
 
 ### WORLD 4: THE MYSTIC DUNES
 
