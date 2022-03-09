@@ -880,13 +880,27 @@ HP: 458
 | 550 | The Leafy Underbrush |
 | 490 | Kaikin Gorge         |
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                                         | Kind  | Attack         | Type     | Damage                                                                         | Cooldown                                                                                   |
+| :---------------------------------------------------------------- | :---- | :------------- | :------- | :----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| ![ShamTikkiZombie_idle.gif](/img/tse1/ShamTikkiZombie_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                                            | Between 10-15 ticks                                                                        |
+| ![ShamTikkiZombie_melee.gif](/img/tse1/ShamTikkiZombie_melee.gif) | Melee | Lunge          | Physical | <li>13 at Jungle Tracks & Kaikin Gorge</li><li>12 at The Leafy Underbrush</li> | <li>47 ticks at Jungle Tracks & Kaikin Gorge</li><li>57 ticks at The Leafy Underbrush</li> |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                             | Gold                          | Location             | Condition                    |
+| :----------------------------- | :---------------------------- | :------------------- | :--------------------------- |
+| 78                             | 8                             | Jungle Tracks        | Party Level is less than 27  |
+| floor(78 / (Party Level - 25)) | floor(8 / (Party Level - 25)) | Jungle Tracks        | Party level is 27 or greater |
+| 78                             | 8                             | The Leafy Underbrush | Party level is less than 29  |
+| floor(78 / (Party Level - 27)) | floor(8 / (Party Level - 27)) | The Leafy Underbrush | Party level is less than 35  |
+| 78                             | 8                             | Kaikin Gorge         | N/A                          |
+
+| XP  | Gold | Location             | Condition         |
+| :-- | :--- | :------------------- | :---------------- |
+| 39  | 4    | The Leafy Underbrush | Party level is 29 |
+| 26  | 2    | The Leafy Underbrush | Party level is 30 |
+| 19  | 2    | The Leafy Underbrush | Party level is 31 |
+| 15  | 1    | The Leafy Underbrush | Party level is 32 |
+| 13  | 1    | The Leafy Underbrush | Party level is 33 |
+| 11  | 1    | The Leafy Underbrush | Party level is 34 |
 
 #### Thorny Mantrap (N+10, E+10)
 
