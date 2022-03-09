@@ -101,7 +101,7 @@ HP: 30
 | Animation                                                     | Kind  | Attack         | Type     | Damage | Cooldown                                                                                                                                       |
 | :------------------------------------------------------------ | :---- | :------------- | :------- | :----- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Junior_Kippon.gif](/img/tse1/Junior_Kippon.gif)             | Idle  | First cooldown | N/A      | N/A    | Between 10-15 ticks                                                                                                                            |
-| ![Junior Kippon_melee.gif](/img/tse1/Junior Kippon_melee.gif) | Melee | Lunge          | Physical | 2      | <li>57 ticks (all other areas)</li> <li>65 ticks (first The Prairie Trail battle)</li> <li>74 ticks (remaining The Prairie Trail battles)</li> |
+| ![Junior_Kippon_melee.gif](/img/tse1/Junior_Kippon_melee.gif) | Melee | Lunge          | Physical | 2      | <li>57 ticks (all other areas)</li> <li>65 ticks (first The Prairie Trail battle)</li> <li>74 ticks (remaining The Prairie Trail battles)</li> |
 
 | XP  | Gold | Location                                                                  | Condition                   |
 | :-- | :--- | :------------------------------------------------------------------------ | :-------------------------- |
@@ -218,11 +218,11 @@ HP: 332
 
 HP: 440
 
-| Animation                                         | Kind  | Attack         | Type     | Damage | Cooldown                                                             |
-| :------------------------------------------------ | :---- | :------------- | :------- | :----- | :------------------------------------------------------------------- |
-| ![snowman_idle.gif](/img/tse1/snowman_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 10-15 ticks                                                  |
-| ![snowman_melee.gif](/img/tse1/snowman_melee.gif) | Melee | Lunge          | Physical | 6      | 64 ticks<br>75% chance to use this attack<br>Always uses this first  |
-| ![snowman_heal.png](/img/tse1/snowman_heal.png)   | Heal  | Recover        | Self     | 30     | 67 ticks<br>25% chance to use this attack, unless HP is less than 60 |
+| Animation                                         | Kind  | Attack         | Type     | Damage | Cooldown                                                                           |
+| :------------------------------------------------ | :---- | :------------- | :------- | :----- | :--------------------------------------------------------------------------------- |
+| ![snowman_idle.gif](/img/tse1/snowman_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | <li>Between 10-15 ticks</li><li>Starts with Lunge</li>                             |
+| ![snowman_melee.gif](/img/tse1/snowman_melee.gif) | Melee | Lunge          | Physical | 6      | <li>64 ticks</li><li>3/4 chance to use this attack</li>                            |
+| ![snowman_heal.png](/img/tse1/snowman_heal.png)   | Heal  | Recover        | Self     | 30     | <li>67 ticks</li><li>1/4 chance to use this attack, unless HP is less than 60</li> |
 
 | XP                      | Gold                   | Location      | Condition                   |
 | :---------------------- | :--------------------- | :------------ | :-------------------------- |
@@ -240,12 +240,12 @@ HP: 440
 
 HP: 167
 
-| Animation                                                     | Kind             | Attack         | Type     | Damage   | Cooldown                                                       |
-| :------------------------------------------------------------ | :--------------- | :------------- | :------- | :------- | :------------------------------------------------------------- |
-| ![Ice_Shaman_idle.gif](/img/tse1/Ice_Shaman_idle.gif)         | Idle             | First cooldown | N/A      | N/A      | Between 10-15 ticks                                            |
-| ![Ice_Shaman_range.gif](/img/tse1/Ice_Shaman_range.gif)       | Range            | Hailstorm      | Physical | 7        | 47 ticks<br>25% chance to use this attack<br>Always uses first |
-| ![Ice_Shaman_stun.gif](/img/tse1/Ice_Shaman_stun.gif)         | Stun<br>Indirect | Freeze         | Ailment  | 70 ticks | 52 ticks<br>50% chance to use this attack                      |
-| ![Ice_Shaman_recharge.gif](/img/tse1/Ice_Shaman_recharge.gif) | Recharge         | Recharge       | Self     | N/A      | 39 ticks<br>25% chance to skip a turn                          |
+| Animation                                                     | Kind             | Attack         | Type     | Damage   | Cooldown                                                  |
+| :------------------------------------------------------------ | :--------------- | :------------- | :------- | :------- | :-------------------------------------------------------- |
+| ![Ice_Shaman_idle.gif](/img/tse1/Ice_Shaman_idle.gif)         | Idle             | First cooldown | N/A      | N/A      | <li>Between 10-15 ticks</li><li>Uses Hailstorm first</li> |
+| ![Ice_Shaman_range.gif](/img/tse1/Ice_Shaman_range.gif)       | Range            | Hailstorm      | Physical | 7        | <li>47 ticks</li><li>1/4 chance to use this attack</li>   |
+| ![Ice_Shaman_stun.gif](/img/tse1/Ice_Shaman_stun.gif)         | Stun<br>Indirect | Freeze         | Ailment  | 70 ticks | <li>52 ticks</li><li>1/2 chance to use this attack</li>   |
+| ![Ice_Shaman_recharge.gif](/img/tse1/Ice_Shaman_recharge.gif) | Recharge         | Recharge       | Self     | N/A      | <li>39 ticks</li><li>1/4 chance to skip a turn </li>      |
 
 | XP                             | Gold                          | Location      | Condition                   |
 | :----------------------------- | :---------------------------- | :------------ | :-------------------------- |
@@ -263,14 +263,14 @@ HP: 167
 
 HP: 1090
 
-| Animation                                                         | Kind              | Attack          | Type     | Damage   | Cooldown                                                                                            |
-| :---------------------------------------------------------------- | :---------------- | :-------------- | :------- | :------- | :-------------------------------------------------------------------------------------------------- |
-| ![Crazy_Hermit_idle.gif](/img/tse1/Crazy_Hermit_idle.gif)         | Idle              | First cooldown  | N/A      | N/A      | Between 15-17 ticks                                                                                 |
-| ![Crazy_Hermit_range.gif](/img/tse1/Crazy_Hermit_range.gif)       | Magic<br>Indirect | Blood Lightning | Absolute | 7        | Between 33-35 ticks<br>Will use this or Chain Magic a total of 3 times before going to freeze       |
-| ![Crazy_Hermit_magic.gif](/img/tse1/Crazy_Hermit_magic.gif)       | Magic             | Chain Magic     | Magical  | 3 x 3    | Between 34 ticks<br>Will use this or Blood Lightning a total of 3 times before going to freeze      |
-| ![Crazy_Hermit_stun.gif](/img/tse1/Crazy_Hermit_stun.gif)         | Stun<br>Indirect  | Freeze          | Ailment  | 70 ticks | 8 ticks<br>Will use this attack twice before recharging                                             |
-| ![Crazy_Hermit_recharge.gif](/img/tse1/Crazy_Hermit_recharge.gif) | Recharge          | Recharge        | Self     | N/A      | 51 ticks                                                                                            |
-| ![Crazy_Hermit_shield.gif](/img/tse1/Crazy_Hermit_shield.gif)     | Defence           | Shields Up      | Self     | 60HP     | 14 ticks<br>Will use this move immediately when the battle starts, then it goes to 'First cooldown' |
+| Animation                                                         | Kind              | Attack          | Type     | Damage   | Cooldown                                                                                                          |
+| :---------------------------------------------------------------- | :---------------- | :-------------- | :------- | :------- | :---------------------------------------------------------------------------------------------------------------- |
+| ![Crazy_Hermit_idle.gif](/img/tse1/Crazy_Hermit_idle.gif)         | Idle              | First cooldown  | N/A      | N/A      | <li>Between 15-17 ticks</li><li>Starts with Blood Lightning</li>                                                  |
+| ![Crazy_Hermit_range.gif](/img/tse1/Crazy_Hermit_range.gif)       | Magic<br>Indirect | Blood Lightning | Absolute | 7        | <li>Between 33-35 ticks</li><li>Will use this or Chain Magic a total of 3 times before going to freeze </li>      |
+| ![Crazy_Hermit_magic.gif](/img/tse1/Crazy_Hermit_magic.gif)       | Magic             | Chain Magic     | Magical  | 3 x 3    | <li>Between 34 ticks</li><li>Will use this or Blood Lightning a total of 3 times before going to freeze</li>      |
+| ![Crazy_Hermit_stun.gif](/img/tse1/Crazy_Hermit_stun.gif)         | Stun<br>Indirect  | Freeze          | Ailment  | 70 ticks | <li>8 ticks</li><li>Will use this attack twice before recharging</li>                                             |
+| ![Crazy_Hermit_recharge.gif](/img/tse1/Crazy_Hermit_recharge.gif) | Recharge          | Recharge        | Self     | N/A      | 51 ticks                                                                                                          |
+| ![Crazy_Hermit_shield.gif](/img/tse1/Crazy_Hermit_shield.gif)     | Defence           | Shields Up      | Self     | 60HP     | <li>14 ticks</li><li>Will use this move immediately when the battle starts, then it goes to 'First cooldown'</li> |
 
 | XP  | Gold | Location    | Condition |
 | :-- | :--- | :---------- | :-------- |
@@ -381,11 +381,11 @@ HP: 1090
 | 480 | The Misty Marshes |
 | 510 | Arachnid's Grove  |
 
-| Animation                                           | Kind  | Attack         | Type     | Damage | Cooldown                                  |
-| :-------------------------------------------------- | :---- | :------------- | :------- | :----- | ----------------------------------------- |
-| ![Gargoyle_idle.gif](/img/tse1/Gargoyle_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 10-23 ticks                       |
-| ![Gargoyle_melee.gif](/img/tse1/Gargoyle_melee.gif) | Melee | Lunge          | Physical | 9      | 41 ticks<br>2/3 chance to use this attack |
-| ![Gargoyle_magic.gif](/img/tse1/Gargoyle_magic.gif) | Magic | Sonic Blast    | Magical  | 4 x 3  | 79 ticks<br>1/3 chance to use this attack |
+| Animation                                           | Kind  | Attack         | Type     | Damage | Cooldown                                                |
+| :-------------------------------------------------- | :---- | :------------- | :------- | :----- | ------------------------------------------------------- |
+| ![Gargoyle_idle.gif](/img/tse1/Gargoyle_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 10-23 ticks                                     |
+| ![Gargoyle_melee.gif](/img/tse1/Gargoyle_melee.gif) | Melee | Lunge          | Physical | 9      | <li>41 ticks</li><li>2/3 chance to use this attack</li> |
+| ![Gargoyle_magic.gif](/img/tse1/Gargoyle_magic.gif) | Magic | Sonic Blast    | Magical  | 4 x 3  | <li>79 ticks</li><li>1/3 chance to use this attack</li> |
 
 | XP                             | Gold                           | Location          | Condition                   |
 | :----------------------------- | :----------------------------- | :---------------- | :-------------------------- |
@@ -417,11 +417,11 @@ HP: 1090
 | 285 | Arachnid's Grove  |
 | 410 | The Broken Bridge |
 
-| Animation                                                       | Kind   | Attack         | Type    | Damage                                                                        | Cooldown                                                                                        |
-| :-------------------------------------------------------------- | :----- | :------------- | :------ | :---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| ![Skeleton_Fairy_idle.gif](/img/tse1/Skeleton_Fairy_idle.gif)   | Idle   | First cooldown | N/A     | N/A                                                                           | Between 13-27 ticks (11-25 at The Broken Bridge)                                                |
-| ![Skeleton_Fairy_magic.gif](/img/tse1/Skeleton_Fairy_magic.gif) | Magic  | Sizzle Shots   | Magical | <li>3 x 3</li><li>Clamps at 1 x 3</li>                                        | 59 ticks at The Misty Marshes<br>62 ticks at Arachnid's Grove<br> 75% chance to use this attack |
-| ![Skeleton_Fairy_magic.gif](/img/tse1/Skeleton_Fairy_magic.gif) | Debuff | Curse          | Ailment | 90 ticks (iterates 2 ticks instead if Party Bless is active)<br>Halves damage | 57 ticks<br>25% chance to use this attack                                                       |
+| Animation                                                       | Kind   | Attack         | Type    | Damage                                                                        | Cooldown                                                                                                          |
+| :-------------------------------------------------------------- | :----- | :------------- | :------ | :---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ![Skeleton_Fairy_idle.gif](/img/tse1/Skeleton_Fairy_idle.gif)   | Idle   | First cooldown | N/A     | N/A                                                                           | Between 13-27 ticks (11-25 at The Broken Bridge)                                                                  |
+| ![Skeleton_Fairy_magic.gif](/img/tse1/Skeleton_Fairy_magic.gif) | Magic  | Sizzle Shots   | Magical | <li>3 x 3</li><li>Clamps at 1 x 3</li>                                        | <li>59 ticks at The Misty Marshes</li><li>62 ticks at Arachnid's Grove</li><li>3/4 chance to use this attack</li> |
+| ![Skeleton_Fairy_magic.gif](/img/tse1/Skeleton_Fairy_magic.gif) | Debuff | Curse          | Ailment | 90 ticks (iterates 2 ticks instead if Party Bless is active)<br>Halves damage | <li>57 ticks</li><li>25% chance to use this attack</li>                                                           |
 
 | XP                             | Gold                           | Location          | Condition                   |
 | :----------------------------- | :----------------------------- | :---------------- | :-------------------------- |
@@ -481,7 +481,7 @@ HP: 1090
 | 9   | 2    | The Broken Bridge | Party Level is 25 |
 | 8   | 2    | The Broken Bridge | Party Level is 26 |
 
-#### Pulsating Gelatinous Ooze (NX, EX, MX, L, UD)
+#### Pulsating Gelatinous Ooze
 
 HP: ∞
 
@@ -495,12 +495,12 @@ HP: ∞
 Only if Clementas is in your party.<br>
 HP: 1390
 
-| Animation                                     | Kind  | Attack         | Type         | Damage                                        | Cooldown                                                                         |
-| :-------------------------------------------- | :---- | :------------- | :----------- | :-------------------------------------------- | -------------------------------------------------------------------------------- |
-| ![Abomb_idle.gif](/img/tse1/Abomb_idle.gif)   | Idle  | First cooldown | N/A          | N/A                                           | Between 10-15 ticks                                                              |
-| ![Abomb_aoe.gif](/img/tse1/Abomb_aoe.gif)     | AoE   | Poison Breath  | Absolute DoT | 7 DoT, each DoT deals 1 damage every 18 ticks | 53 ticks<br>Starts with this attack                                              |
-| ![Abomb_range.png](/img/tse1/Abomb_range.png) | Range | Kinetic Smash  | Physical     | <li>15</li><li>14 agaist shields</li>         | 41 ticks<br>Will use this attack 3 times before switching to AoE, then repeating |
-| ![Abomb_heal.gif](/img/tse1/Abomb_heal.gif)   | Heal  | Superheal      | Self         | Activates at 370HP                            | Heals 1HP every 2.4 ticks                                                        |
+| Animation                                     | Kind  | Attack         | Type         | Damage                                        | Cooldown                                                                                       |
+| :-------------------------------------------- | :---- | :------------- | :----------- | :-------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| ![Abomb_idle.gif](/img/tse1/Abomb_idle.gif)   | Idle  | First cooldown | N/A          | N/A                                           | Between 10-15 ticks                                                                            |
+| ![Abomb_aoe.gif](/img/tse1/Abomb_aoe.gif)     | AoE   | Poison Breath  | Absolute DoT | 7 DoT, each DoT deals 1 damage every 18 ticks | <li>53 ticks</li><li>Starts with this attack</li>                                              |
+| ![Abomb_range.png](/img/tse1/Abomb_range.png) | Range | Kinetic Smash  | Physical     | <li>15</li><li>14 agaist shields</li>         | <li>41 ticks</li><li>Will use this attack 3 times before switching to AoE, then repeating</li> |
+| ![Abomb_heal.gif](/img/tse1/Abomb_heal.gif)   | Heal  | Superheal      | Self         | Activates at 370HP                            | Heals 1HP every 2.4 ticks                                                                      |
 
 | XP  | Gold | Location                | Condition |
 | :-- | :--- | :---------------------- | :-------- |
@@ -510,13 +510,13 @@ HP: 1390
 
 HP: 735
 
-| Animation                                           | Kind   | Attack         | Type            | Damage | Cooldown                                                                                                                                        |
-| :-------------------------------------------------- | :----- | :------------- | :-------------- | :----- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Snack_idle.gif](/img/tse1/Snack_idle.gif)         | Idle   | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                             |
-| ![Snack_melee.gif](/img/tse1/Snack_melee.gif)       | Melee  | Lunge          | Physical        | 15     | Between 27-29 ticks<br>2/3 chance to use this attack                                                                                            |
-| ![Snack_range.gif](/img/tse1/Snack_range.gif)       | Range  | Trident Zap    | Absolute        | 3      | Between 33-35 ticks<br>1/3 chance to use this attack                                                                                            |
-| ![Snack_peekaboo.gif](/img/tse1/Snack_peekaboo.gif) | Status | Phase Out      | Invulnerability | N/A    | Will occur 180 ticks into the battle (ignoring the 2-second delay at the beginning)<br>Ends on the 399th tick and resets its internal tick to 0 |
-| ![Snack_jab.gif](/img/tse1/Snack_jab.gif)           | Melee  | Jab            | Physical        | 23     | Occurs at the 360th tick into the battle (ignoring the 2-second delay at the beginning)<br>Targets character with the lowest HP                 |
+| Animation                                           | Kind   | Attack         | Type            | Damage | Cooldown                                                                                                                                                      |
+| :-------------------------------------------------- | :----- | :------------- | :-------------- | :----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Snack_idle.gif](/img/tse1/Snack_idle.gif)         | Idle   | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                                           |
+| ![Snack_melee.gif](/img/tse1/Snack_melee.gif)       | Melee  | Lunge          | Physical        | 15     | <li>Between 27-29 ticks</li><li>2/3 chance to use this attack</li>                                                                                            |
+| ![Snack_range.gif](/img/tse1/Snack_range.gif)       | Range  | Trident Zap    | Absolute        | 3      | <li>Between 33-35 ticks</li><li>1/3 chance to use this</li> attack                                                                                            |
+| ![Snack_peekaboo.gif](/img/tse1/Snack_peekaboo.gif) | Status | Phase Out      | Invulnerability | N/A    | <li>Will occur 180 ticks into the battle (ignoring the 2-second delay at the beginning)</li><li>Ends on the 399th tick and resets its internal tick to 0</li> |
+| ![Snack_jab.gif](/img/tse1/Snack_jab.gif)           | Melee  | Jab            | Physical        | 23     | <li>Occurs at the 360th tick into the battle (ignoring the 2-second delay at the beginning)</li><li>Targets character with the lowest HP </li>                |
 
 | XP  | Gold | Location          | Condition |
 | :-- | :--- | :---------------- | :-------- |
@@ -526,11 +526,11 @@ HP: 735
 
 HP: 496
 
-| Animation                                                       | Kind  | Attack         | Type     | Damage | Cooldown                                             |
-| :-------------------------------------------------------------- | :---- | :------------- | :------- | :----- | ---------------------------------------------------- |
-| ![Capricious_imp_idle.gif](/img/tse1/Capricious_imp_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 10-15 ticks                                  |
-| ![Capricious_imp_melee.gif](/img/tse1/Capricious_imp_melee.gif) | Melee | Lunge          | Physical | 10     | Between 24-26 ticks<br>2/3 chance to use this attack |
-| ![Capricious_imp_range.gif](/img/tse1/Capricious_imp_range.gif) | Range | Trident Zap    | Absolute | 2      | Between 33-35 ticks<br>1/3 chance to use this attack |
+| Animation                                                       | Kind  | Attack         | Type     | Damage | Cooldown                                                           |
+| :-------------------------------------------------------------- | :---- | :------------- | :------- | :----- | ------------------------------------------------------------------ |
+| ![Capricious_imp_idle.gif](/img/tse1/Capricious_imp_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 10-15 ticks                                                |
+| ![Capricious_imp_melee.gif](/img/tse1/Capricious_imp_melee.gif) | Melee | Lunge          | Physical | 10     | <li>Between 24-26 ticks</li><li>2/3 chance to use this attack</li> |
+| ![Capricious_imp_range.gif](/img/tse1/Capricious_imp_range.gif) | Range | Trident Zap    | Absolute | 2      | <li>Between 33-35 ticks</li><li>1/3 chance to use this attack</li> |
 
 | XP                             | Gold                           | Location           | Condition                   |
 | :----------------------------- | :----------------------------- | :----------------- | :-------------------------- |
@@ -551,11 +551,11 @@ HP: 496
 | 565 | The Haunted Church |
 | 615 | The Broken Bridge  |
 
-| Animation                                             | Kind   | Attack         | Type            | Damage | Cooldown                                                                                                                                          |
-| :---------------------------------------------------- | :----- | :------------- | :-------------- | :----- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Bogeyman_idle.gif](/img/tse1/Bogeyman_idle.gif)     | Idle   | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                               |
-| ![Bogeyman_melee.gif](/img/tse1/Bogeyman_melee.gif)   | Melee  | Lunge          | Physical        | 17     | Between 52-57 ticks                                                                                                                               |
-| ![Bogeyman_shield.gif](/img/tse1/Bogeyman_shield.gif) | Status | Phase Out      | Invulnerability | N/A    | Will occur 144 ticks into the battle (ignoring the 2-second delay at the beginning)<br>Ends on the 319.2nd tick and resets its internal tick to 0 |
+| Animation                                             | Kind   | Attack         | Type            | Damage | Cooldown                                                                                                                                                        |
+| :---------------------------------------------------- | :----- | :------------- | :-------------- | :----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Bogeyman_idle.gif](/img/tse1/Bogeyman_idle.gif)     | Idle   | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                                             |
+| ![Bogeyman_melee.gif](/img/tse1/Bogeyman_melee.gif)   | Melee  | Lunge          | Physical        | 17     | Between 52-57 ticks                                                                                                                                             |
+| ![Bogeyman_shield.gif](/img/tse1/Bogeyman_shield.gif) | Status | Phase Out      | Invulnerability | N/A    | <li>Will occur 144 ticks into the battle (ignoring the 2-second delay at the beginning)</li><li>Ends on the 319.2nd tick and resets its internal tick to 0</li> |
 
 | XP                             | Gold                           | Location           | Condition                   |
 | :----------------------------- | :----------------------------- | :----------------- | :-------------------------- |
@@ -574,12 +574,12 @@ HP: 496
 
 HP: 1630
 
-| Animation                                   | Kind   | Attack         | Type     | Damage                                                     | Cooldown                                                                                                                                           |
-| :------------------------------------------ | :----- | :------------- | :------- | :--------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Neru_idle.gif](/img/tse1/Neru_idle.gif)   | Idle   | First cooldown | N/A      | N/A                                                        | Between 16-24 ticks                                                                                                                                |
-| ![Neru_range.gif](/img/tse1/Neru_range.gif) | Lobbed | Fireball       | Physical | 15                                                         | 51 ticks<br>2/5 chance to use this attack                                                                                                          |
-| ![Neru_aoe.gif](/img/tse1/Neru_aoe.gif)     | AoE    | Firewall       | Physical | 6 (armour is half effective & odd numbers will round down) | 54 ticks<br>2/5 chance to use this attack                                                                                                          |
-| ![Neru_nuke.gif](/img/tse1/Neru_nuke.gif)   | Nuke   | Suicide Imp    | Physical | 64 (0 if you can detonate it within 4 hits)                | 80 ticks<br>1/5 chance to use this attack, then uses Lobbed or AoE attack unless HP is less than 370, in which case it will always use this attack |
+| Animation                                   | Kind   | Attack         | Type     | Damage                                                     | Cooldown                                                                                                                                                         |
+| :------------------------------------------ | :----- | :------------- | :------- | :--------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Neru_idle.gif](/img/tse1/Neru_idle.gif)   | Idle   | First cooldown | N/A      | N/A                                                        | Between 16-24 ticks                                                                                                                                              |
+| ![Neru_range.gif](/img/tse1/Neru_range.gif) | Lobbed | Fireball       | Physical | 15                                                         | <li>51 ticks</li><li>2/5 chance to use this attack</li>                                                                                                          |
+| ![Neru_aoe.gif](/img/tse1/Neru_aoe.gif)     | AoE    | Firewall       | Physical | 6 (armour is half effective & odd numbers will round down) | <li>54 ticks</li><li>2/5 chance to use this attack </li>                                                                                                         |
+| ![Neru_nuke.gif](/img/tse1/Neru_nuke.gif)   | Nuke   | Suicide Imp    | Physical | 64 (0 if you can detonate it within 4 hits)                | <li>80 ticks</li><li>1/5 chance to use this attack, then uses Lobbed or AoE attack unless HP is less than 370, in which case it will always use this attack</li> |
 
 | XP  | Gold | Location          | Condition |
 | :-- | :--- | :---------------- | :-------- |
@@ -589,12 +589,12 @@ HP: 1630
 
 HP: 365
 
-| Animation                                               | Kind    | Attack         | Type                        | Damage                                                                        | Cooldown                                                |
-| :------------------------------------------------------ | :------ | :------------- | :-------------------------- | :---------------------------------------------------------------------------- | ------------------------------------------------------- |
-| ![Belfidius_idle.png](/img/tse1/Belfidius_idle.png)     | Idle    | First cooldown | N/A                         | N/A                                                                           | Between 11-25 ticks<br>                                 |
-| ![Belfidius_bless.gif](/img/tse1/Belfidius_bless.gif)   | Heal    | Party Heal     | Party<br>(including healer) | 32                                                                            | 69 ticks<br>3/4 chance to use this move                 |
-| ![Belfidius_bless.gif](/img/tse1/Belfidius_bless.gif)   | Magical | Magic Blast    | Magical                     | 5                                                                             | 39 ticks<br>Will only use this move if Neru is defeated |
-| ![Belfidius_debuff.gif](/img/tse1/Belfidius_debuff.gif) | Debuff  | Curse          | Ailment                     | 90 ticks (iterates 2 ticks instead if Party Bless is active)<br>Halves damage | 75 ticks<br>1/4 chance to use this move                 |
+| Animation                                               | Kind    | Attack         | Type                        | Damage                                                                        | Cooldown                                                              |
+| :------------------------------------------------------ | :------ | :------------- | :-------------------------- | :---------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| ![Belfidius_idle.png](/img/tse1/Belfidius_idle.png)     | Idle    | First cooldown | N/A                         | N/A                                                                           | Between 11-25 ticks<br>                                               |
+| ![Belfidius_bless.gif](/img/tse1/Belfidius_bless.gif)   | Heal    | Party Heal     | Party<br>(including healer) | 32                                                                            | <li>69 ticks</li><li>3/4 chance to use this move</li>                 |
+| ![Belfidius_bless.gif](/img/tse1/Belfidius_bless.gif)   | Magical | Magic Blast    | Magical                     | 5                                                                             | <li>39 ticks</li><li>Will only use this move if Neru is defeated</li> |
+| ![Belfidius_debuff.gif](/img/tse1/Belfidius_debuff.gif) | Debuff  | Curse          | Ailment                     | 90 ticks (iterates 2 ticks instead if Party Bless is active)<br>Halves damage | <li>75 ticks</li><li>1/4 chance to use this move</li>                 |
 
 | XP  | Gold | Location          | Condition |
 | :-- | :--- | :---------------- | :-------- |
@@ -604,12 +604,12 @@ HP: 365
 
 HP: 552
 
-| Animation                                                 | Kind     | Attack            | Type    | Damage                          | Cooldown                                                                |
-| :-------------------------------------------------------- | :------- | :---------------- | :------ | :------------------------------ | ----------------------------------------------------------------------- |
-| ![Alaiyena_idle.gif](/img/tse1/Alaiyena_idle.gif)         | Idle     | First cooldown    | N/A     | N/A                             | 44 ticks                                                                |
-| ![Alaiyena_magic.gif](/img/tse1/Alaiyena_magic.gif)       | Magic    | Magical Swirl     | Magical | <li>11</li><li>Clamps at 3</li> | 80 ticks<br>Will use this attack first<br>3/7 chance to use this attack |
-| ![Alaiyena_aoe.gif](/img/tse1/Alaiyena_aoe.gif)           | AoE      | Magical Hell Wind | Magical | 6                               | 89 ticks<br>1/7 chance to use this attack                               |
-| ![Alaiyena_recharge.gif](/img/tse1/Alaiyena_recharge.gif) | Recharge | Recharge          | Self    | N/A                             | 52 ticks<br>3/7 chance to skip a turn                                   |
+| Animation                                                 | Kind     | Attack            | Type    | Damage                          | Cooldown                                                |
+| :-------------------------------------------------------- | :------- | :---------------- | :------ | :------------------------------ | ------------------------------------------------------- |
+| ![Alaiyena_idle.gif](/img/tse1/Alaiyena_idle.gif)         | Idle     | First cooldown    | N/A     | N/A                             | <li>44 ticks</li><li>Starts with Magical Swirl</li>     |
+| ![Alaiyena_magic.gif](/img/tse1/Alaiyena_magic.gif)       | Magic    | Magical Swirl     | Magical | <li>11</li><li>Clamps at 3</li> | <li>80 ticks</li><li>3/7 chance to use this attack</li> |
+| ![Alaiyena_aoe.gif](/img/tse1/Alaiyena_aoe.gif)           | AoE      | Magical Hell Wind | Magical | 6                               | <li>89 ticks</li><li>1/7 chance to use this attack</li> |
+| ![Alaiyena_recharge.gif](/img/tse1/Alaiyena_recharge.gif) | Recharge | Recharge          | Self    | N/A                             | <li>52 ticks</li><li>3/7 chance to skip a turn </li>    |
 
 | XP  | Gold | Location    | Condition |
 | :-- | :--- | :---------- | :-------- |
@@ -619,12 +619,12 @@ HP: 552
 
 HP: 580 [will also heal 1HP every 16 ticks]
 
-| Animation                                             | Kind     | Attack         | Type     | Damage | Cooldown                                             |
-| :---------------------------------------------------- | :------- | :------------- | :------- | :----- | ---------------------------------------------------- |
-| ![Dundee_idle.gif](/img/tse1/Dundee_idle.gif)         | Idle     | First cooldown | N/A      | N/A    | 26 ticks                                             |
-| ![Dundee_range.gif](/img/tse1/Dundee_range.gif)       | Range    | Speed Fire     | Physical | 11 x 3 | Between 73-78 ticks<br>1/2 chance to use this attack |
-| ![Dundee_heal.gif](/img/tse1/Dundee_heal.gif)         | Heal     | Recover        | Self     | 46     | 71 ticks<br>1/4 chance to use this move              |
-| ![Dundee_recharge.gif](/img/tse1/Dundee_recharge.gif) | Recharge | Recharge       | Self     | N/A    | Between 47-49 ticks<br>1/4 chance to skip a turn     |
+| Animation                                             | Kind     | Attack         | Type     | Damage | Cooldown                                                           |
+| :---------------------------------------------------- | :------- | :------------- | :------- | :----- | ------------------------------------------------------------------ |
+| ![Dundee_idle.gif](/img/tse1/Dundee_idle.gif)         | Idle     | First cooldown | N/A      | N/A    | <li>26 ticks</li><li>Starts with Speed Fire</li>                   |
+| ![Dundee_range.gif](/img/tse1/Dundee_range.gif)       | Range    | Speed Fire     | Physical | 11 x 3 | <li>Between 73-78 ticks</li><li>1/2 chance to use this attack</li> |
+| ![Dundee_heal.gif](/img/tse1/Dundee_heal.gif)         | Heal     | Recover        | Self     | 46     | <li>71 ticks</li><li>1/4 chance to use this move</li>              |
+| ![Dundee_recharge.gif](/img/tse1/Dundee_recharge.gif) | Recharge | Recharge       | Self     | N/A    | <li>Between 47-49 ticks</li><li>1/4 chance to skip a turn</li>     |
 
 | XP  | Gold | Location    | Condition |
 | :-- | :--- | :---------- | :-------- |
@@ -634,11 +634,11 @@ HP: 580 [will also heal 1HP every 16 ticks]
 
 HP: 655
 
-| Animation                                               | Kind           | Attack         | Type               | Damage                                  | Cooldown                                   |
-| :------------------------------------------------------ | :------------- | :------------- | :----------------- | :-------------------------------------- | ------------------------------------------ |
-| ![Sampson_idle.gif](/img/tse1/Sampson_idle.gif)         | Idle           | First cooldown | N/A                | N/A                                     | Between 14-19 ticks                        |
-| ![Sampson_range.gif](/img/tse1/Sampson_range.gif)       | Range & Debuff | Cursed Bullet  | Physical & Ailment | 15, curses impacted player for 90 ticks | 119 ticks<br>3/4 chance to use this attack |
-| ![Sampson_recharge.gif](/img/tse1/Sampson_recharge.gif) | Recharge       | Recharge       | Self               | N/A                                     | 72 ticks<br>1/4 chance to skip a turn      |
+| Animation                                               | Kind           | Attack         | Type               | Damage                                  | Cooldown                                                       |
+| :------------------------------------------------------ | :------------- | :------------- | :----------------- | :-------------------------------------- | -------------------------------------------------------------- |
+| ![Sampson_idle.gif](/img/tse1/Sampson_idle.gif)         | Idle           | First cooldown | N/A                | N/A                                     | <li>Between 14-19 ticks</li><li>Starts with Cursed Bullet</li> |
+| ![Sampson_range.gif](/img/tse1/Sampson_range.gif)       | Range & Debuff | Cursed Bullet  | Physical & Ailment | 15, curses impacted player for 90 ticks | <li>119 ticks</li><li>3/4 chance to use this attack</li>       |
+| ![Sampson_recharge.gif](/img/tse1/Sampson_recharge.gif) | Recharge       | Recharge       | Self               | N/A                                     | <li>72 ticks</li><li>1/4 chance to skip a turn </li>           |
 
 | XP  | Gold | Location    | Condition |
 | :-- | :--- | :---------- | :-------- |
@@ -650,11 +650,11 @@ HP: 655
 
 HP: 700
 
-| Animation                                                     | Kind  | Attack         | Type     | Damage                                       | Cooldown                                                                                                    |
-| :------------------------------------------------------------ | :---- | :------------- | :------- | :------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| ![Evil_Assassin_idle.gif](/img/tse1/Evil_Assassin_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                          | Between 10-15 ticks                                                                                         |
-| ![Evil_Assassin_melee.gif](/img/tse1/Evil_Assassin_melee.gif) | Melee | Lunge          | Physical | <li>14</li><li>17 against shields</li>       | 39 ticks<br>2/3 chance to use this attack                                                                   |
-| ![Evil_Assassin_range.gif](/img/tse1/Evil_Assassin_range.gif) | Range | Shuriken Storm | Physical | 10 x 8 unless disrupted by a character's hit | 55 ticks<br>Throws a shuriken every 7.2 ticks, some have a chance to miss <br>1/3 chance to use this attack |
+| Animation                                                     | Kind  | Attack         | Type     | Damage                                       | Cooldown                                                                                                                      |
+| :------------------------------------------------------------ | :---- | :------------- | :------- | :------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| ![Evil_Assassin_idle.gif](/img/tse1/Evil_Assassin_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                          | <li>Between 10-15 ticks</li><li>Starts with Lunge</li>                                                                        |
+| ![Evil_Assassin_melee.gif](/img/tse1/Evil_Assassin_melee.gif) | Melee | Lunge          | Physical | <li>14</li><li>17 against shields</li>       | <li>39 ticks</li><li>2/3 chance to use this attack </li>                                                                      |
+| ![Evil_Assassin_range.gif](/img/tse1/Evil_Assassin_range.gif) | Range | Shuriken Storm | Physical | 10 x 8 unless disrupted by a character's hit | <li>55 ticks</li><li>Throws a shuriken every 7.2 ticks, some have a chance to miss</li><li>1/3 chance to use this attack</li> |
 
 | XP  | Gold | Location                            | Condition |
 | :-- | :--- | :---------------------------------- | :-------- |
@@ -662,7 +662,8 @@ HP: 700
 
 #### Black Ooze (NX\*, L)
 
-\*Silver Bullet is bugged at The Inky Pit and will deal damage as if it wasn't immune
+\*All normal attacks bugged at The Inky Pit and will deal damage as if it wasn't immune, though related bonuses & penalties (e.g., Sharpshoot's 50%+, Power Shot & Rock Rain's -33%) don't work
+\*The Black Ooze Pulp's NX that appears at The Inky Pit works as intended except for Rock Rain
 
 | HP   | Location                           |
 | :--- | :--------------------------------- |
@@ -751,7 +752,7 @@ HP: 458
 
 | Animation                                                   | Kind           | Attack         | Type    | Damage                             | Cooldown                                                                    |
 | :---------------------------------------------------------- | :------------- | :------------- | :------ | :--------------------------------- | --------------------------------------------------------------------------- |
-| ![Seamare_idle.gif](/img/tse1/Seamare_idle.gif)             | Idle           | First cooldown | N/A     | N/A                                | Between 33-38 ticks                                                         |
+| ![Seamare_idle.gif](/img/tse1/Seamare_idle.gif)             | Idle           | First cooldown | N/A     | N/A                                | <li>Between 33-38 ticks</li><li>Starts with Bubble Blast</li>               |
 | ![Seamare_magic.png](/img/tse1/Seamare_magic.png)           | Magic          | Bubble Blast   | Magical | 6 x 4                              | <li>62 ticks</li><li>2/3 chance to use this attack, will start with it</li> |
 | ![Seamare_backstrike.png](/img/tse1/Seamare_backstrike.png) | Magic Indirect | Waterfall      | Magical | 22, always hits the back character | <li>67 ticks</li><li>1/3 chance to use this attack</li>                     |
 
@@ -776,7 +777,7 @@ HP: 458
 
 | Animation                                                       | Kind  | Attack         | Type     | Damage | Cooldown                                                                                                                                           |
 | :-------------------------------------------------------------- | :---- | :------------- | :------- | :----- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![ShamTikkiBrute_idle.gif](/img/tse1/ShamTikkiBrute_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 14-21 ticks                                                                                                                                |
+| ![ShamTikkiBrute_idle.gif](/img/tse1/ShamTikkiBrute_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | <li>Between 14-21 ticks</li><li>Starts with Lunge</li>                                                                                             |
 | ![ShamTikkiBrute_melee.gif](/img/tse1/ShamTikkiBrute_melee.gif) | Melee | Lunge          | Physical | 17     | <li>63 ticks at Jungle Tracks</li><li>60 at The Leafy Underbrush & Kaikin Gorge</li><li>3/4 chance to use this attack, starts with it</li>         |
 | ![ShamTikkiBrute_aoe.gif](/img/tse1/ShamTikkiBrute_aoe.gif)     | AoE   | Ground Punch   | Absolute | 4      | <li>89 ticks at Jungle Tracks</li><li>75 ticks at The Leafy Underbrush</li><li>77 ticks at Kaikin Gorge</li><li>1/4 chance to use this attack</li> |
 
@@ -846,7 +847,7 @@ HP: 458
 
 | Animation                                                                   | Kind    | Attack         | Type            | Damage                                                               | Cooldown                                                                                                                                |
 | :-------------------------------------------------------------------------- | :------ | :------------- | :-------------- | :------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| ![ShamTikkiShaman_idle.gif](/img/tse1/ShamTikkiShaman_idle.gif)             | Idle    | First cooldown | N/A             | N/A                                                                  | <li>Between 30-35 ticks at Jungle Tracks</li><li>Between 38-43 ticks at The Leafy Underbrush</li>                                       |
+| ![ShamTikkiShaman_idle.gif](/img/tse1/ShamTikkiShaman_idle.gif)             | Idle    | First cooldown | N/A             | N/A                                                                  | <li>Between 30-35 ticks at Jungle Tracks</li><li>Between 38-43 ticks at The Leafy Underbrush</li><li>Starts with Chain Magic</li>       |
 | ![ShamTikkiShaman_chainmagic.png](/img/tse1/ShamTikkiShaman_chainmagic.png) | Magic   | Chain Magic    | Magical         | 8 x 3                                                                | <li>Between 63-67 ticks at Jungle Tracks</li><li>Between 62-66 ticks at The Leafy Underbrush</li><li>1/2 chance to use this attack</li> |
 | ![ShamTikkiShaman_resurrect.gif](/img/tse1/ShamTikkiShaman_resurrect.gif)   | Defence | Magic Shield 2 | Invulnerability | Puts a shield of EX & MX on itself or an ally and lasts for 70 ticks | <li>Between 62-64 ticks at Jungle Tracks</li><li>Between 44-46 ticks at The Leafy Underbrush</li><li>1/2 chance to use this move</li>   |
 | ![ShamTikkiShaman_resurrect.gif](/img/tse1/ShamTikkiShaman_resurrect.gif)   | Status  | Resurrect      | Other           | Will always resurrect any fallen Sham Tikki first                    | <li>Between 84-88 ticks at Jungle Tracks</li><li>Between 44-48 ticks at The Leafy Underbrush</li>                                       |
@@ -925,7 +926,7 @@ HP: 458
 
 | Animation                                                         | Kind           | Attack         | Type     | Damage                                                                            | Cooldown                                                                                                                                                     |
 | :---------------------------------------------------------------- | :------------- | :------------- | :------- | :-------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Thorny_Mantrap_idle.gif](/img/tse1/Thorny_Mantrap_idle.gif)     | Idle           | First cooldown | N/A      | N/A                                                                               | Between 10-15 ticks                                                                                                                                          |
+| ![Thorny_Mantrap_idle.gif](/img/tse1/Thorny_Mantrap_idle.gif)     | Idle           | First cooldown | N/A      | N/A                                                                               | <li>Between 10-15 ticks</li><li>Starts with Spores</li>                                                                                                      |
 | ![Thorny_Mantrap_lobbed.png](/img/tse1/Thorny_Mantrap_lobbed.png) | Lobbed         | Spores         | Physical | 10 x 4                                                                            | <li>Between 102-107 ticks at Jungle Tracks</li><li>Between 89-94 ticks at The Leafy Underbrush</li><li>Will use this attack twice before going to Vines</li> |
 | ![Thorny_Mantrap_range.gif](/img/tse1/Thorny_Mantrap_range.gif)   | Range Indirect | Vines          | Absolute | <li>3 at Jungle Tracks</li><li>4 at The Leafy Underbrush</li><li>Saps 1 mana</li> | <li>Between 63-65 tick at Jungle Tracks</li><li>Between 58-60 at The Leafy Underbrush</li> <li>Goes back to using Spores twice after using this attack</li>  |
 
@@ -970,13 +971,13 @@ HP: 555
 
 The formula for the oscillation is `20 x Sin(DEGREE)` where `DEGREE` iterates from 0 to 359 every 1.2 ticks
 
-| Animation                                                                                                                                                                         | Kind      | Attack         | Type     | Damage                                                         | Cooldown                                              |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- | :------------- | :------- | :------------------------------------------------------------- | ----------------------------------------------------- |
-| ![Gigliana_idle.gif](/img/tse1/Gigliana_idle.gif)                                                                                                                                 | Idle      | First cooldown | N/A      | N/A                                                            | Between 21-26 ticks                                   |
-| ![Gigliana_pollen.gif](/img/tse1/Gigliana_pollen.gif)                                                                                                                             | Lobbed    | Spores         | Physical | 11 x 4                                                         | 64 ticks<br>2/5 chance to use this attack             |
-| ![Gigliana_spore.gif](/img/tse1/Gigliana_spore.gif)                                                                                                                               | Range DoT | Sycamore       | Physical | 20 (23 to shields), 8 DoT, each DoT lasts for 8 ticks          | 71 ticks<br>2/5 chance to use this attack             |
-| ![Gigliana_vines.png](/img/tse1/Gigliana_vines.png)                                                                                                                               | Status    | Vines          | Ailment  | Disables party rotation for 86 ticks (permanent if on Phase 4) | 44 ticks<br>1/5 chance to use this attack             |
-| ![Gigliana_Flower1.gif](/img/tse1/Gigliana_Flower1.gif)<br>![Gigliana_Flower2.gif](/img/tse1/Gigliana_Flower2.gif)<br>![Gigliana_Flower2.gif](/img/tse1/Gigliana_Flower3.gif)<br> | AoE       | Flower Rain    | Absolute | 1 x 3 and saps 1 mana each character                           | 32 ticks<br>Will always use this attack every 5 turns |
+| Animation                                                                                                                                                                         | Kind      | Attack         | Type     | Damage                                                         | Cooldown                                                            |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- | :------------- | :------- | :------------------------------------------------------------- | ------------------------------------------------------------------- |
+| ![Gigliana_idle.gif](/img/tse1/Gigliana_idle.gif)                                                                                                                                 | Idle      | First cooldown | N/A      | N/A                                                            | <li>Between 21-26 ticks</li><li>Starts with Spores</li>             |
+| ![Gigliana_pollen.gif](/img/tse1/Gigliana_pollen.gif)                                                                                                                             | Lobbed    | Spores         | Physical | 11 x 4                                                         | <li>64 ticks</li><li>2/5 chance to use this attack</li>             |
+| ![Gigliana_spore.gif](/img/tse1/Gigliana_spore.gif)                                                                                                                               | Range DoT | Sycamore       | Physical | 20 (23 to shields), 8 DoT, each DoT lasts for 8 ticks          | <li>71 ticks</li><li>2/5 chance to use this attack </li>            |
+| ![Gigliana_vines.png](/img/tse1/Gigliana_vines.png)                                                                                                                               | Status    | Vines          | Ailment  | Disables party rotation for 86 ticks (permanent if on Phase 4) | <li>44 ticks</li><li>1/5 chance to use this attack </li>            |
+| ![Gigliana_Flower1.gif](/img/tse1/Gigliana_Flower1.gif)<br>![Gigliana_Flower2.gif](/img/tse1/Gigliana_Flower2.gif)<br>![Gigliana_Flower2.gif](/img/tse1/Gigliana_Flower3.gif)<br> | AoE       | Flower Rain    | Absolute | 1 x 3 and saps 1 mana each character                           | <li>32 ticks</li><li>Will always use this attack every 5 turns</li> |
 
 | XP   | Gold | Location          | Condition |
 | :--- | :--- | :---------------- | :-------- |
@@ -1011,9 +1012,9 @@ recover3c.value=parseInt(55-(0.66*skill2.value));
 partyheal1.value=parseInt((skill2.value * 0.38) + (party.value * 0.125) + (bless.value * 0.125) + parseInt(1));
 partyheal2.value=parseInt((skill2.value * 0.44) + (party.value * 0.17) + (bless.value * 0.17) + parseInt(1));
 partyheal3.value=parseInt((skill2.value * 0.42) + (party.value * 0.143) + (bless.value * 0.143) + parseInt(1));
-magicshield1.value=parseInt((skill3.value * 1.2) + (party.value * 0.6) + (bless.value * 0.6) + parseInt(1));
-magicshield2.value=parseInt((skill3.value * 1.25) + (party.value * 0.7) + (bless.value * 0.7) + parseInt(1));
-magicshield3.value=parseInt((skill3.value * 1) + (party.value * 0.6) + (bless.value * 0.6) + parseInt(1));
+magicshield1.value=parseInt((skill3.value * 1.2) + (party.value * 0.6) + (bless.value * 0.6));
+magicshield2.value=parseInt((skill3.value * 1.25) + (party.value * 0.7) + (bless.value * 0.7));
+magicshield3.value=parseInt((skill3.value * 1) + (party.value * 0.6) + (bless.value * 0.6));
 speedfire.value=58 - skill3.value;
 speedfire2.value=73 - skill3.value;
 partyrecharge.value=parseInt(69 - (skill3.value * 1.5));
