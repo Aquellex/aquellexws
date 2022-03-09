@@ -904,18 +904,37 @@ HP: 458
 
 #### Thorny Mantrap (N+10, E+10)
 
-| HP  | Location |
-| :-- | :------- |
-|     |          |
-|     |          |
+| HP   | Location             |
+| :--- | :------------------- |
+| 1155 | Jungle Tracks        |
+| 1205 | The Leafy Underbrush |
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
+| XP  | Gold | Location             | Condition         |
+| :-- | :--- | :------------------- | :---------------- |
+| 88  | 16   | Jungle Tracks        | Party level is 27 |
+| 58  | 10   | Jungle Tracks        | Party level is 28 |
+| 44  | 8    | Jungle Tracks        | Party level is 29 |
+| 35  | 6    | Jungle Tracks        | Party level is 30 |
+| 29  | 5    | Jungle Tracks        | Party level is 31 |
+| 88  | 16   | The Leafy Underbrush | Party level is 29 |
+| 58  | 10   | The Leafy Underbrush | Party level is 30 |
+| 44  | 8    | The Leafy Underbrush | Party level is 31 |
+| 35  | 6    | The Leafy Underbrush | Party level is 32 |
+| 29  | 5    | The Leafy Underbrush | Party level is 33 |
+| 25  | 4    | The Leafy Underbrush | Party level is 34 |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| Animation                                                         | Kind           | Attack         | Type     | Damage                                                                            | Cooldown                                                                                                                                                     |
+| :---------------------------------------------------------------- | :------------- | :------------- | :------- | :-------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Thorny_Mantrap_idle.gif](/img/tse1/Thorny_Mantrap_idle.gif)     | Idle           | First cooldown | N/A      | N/A                                                                               | Between 10-15 ticks                                                                                                                                          |
+| ![Thorny_Mantrap_lobbed.png](/img/tse1/Thorny_Mantrap_lobbed.png) | Lobbed         | Spores         | Physical | 10 x 4                                                                            | <li>Between 102-107 ticks at Jungle Tracks</li><li>Between 89-94 ticks at The Leafy Underbrush</li><li>Will use this attack twice before going to Vines</li> |
+| ![Thorny_Mantrap_range.gif](/img/tse1/Thorny_Mantrap_range.gif)   | Range Indirect | Vines          | Absolute | <li>3 at Jungle Tracks</li><li>4 at The Leafy Underbrush</li><li>Saps 1 mana</li> | <li>Between 63-65 tick at Jungle Tracks</li><li>Between 58-60 at The Leafy Underbrush</li> <li>Goes back to using Spores twice after using this attack</li>  |
+
+| XP                              | Gold                           | Location             | Condition                   |
+| :------------------------------ | :----------------------------- | :------------------- | :-------------------------- |
+| 176                             | 32                             | Jungle Tracks        | Party Level is less than 27 |
+| floor(176 / (Party Level - 25)) | floor(32 / (Party Level - 25)) | Jungle Tracks        | Party level is less than 32 |
+| 176                             | 32                             | The Leafy Underbrush | Party level is less than 29 |
+| floor(176 / (Party Level - 27)) | floor(32 / (Party Level - 27)) | The Leafy Underbrush | Party level is less than 35 |
 
 #### Jungle Spirit (NX, UD)
 
