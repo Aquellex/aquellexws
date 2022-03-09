@@ -940,13 +940,24 @@ HP: 458
 
 HP: 555
 
-| Animation       | Kind | Attack | Type | Damage | Cooldown |
-| :-------------- | :--- | :----- | :--- | :----- | -------- |
-| ![](/img/tse1/) |      |        |      |        |          |
+| Animation                                   | Kind  | Attack         | Type     | Damage             | Cooldown            |
+| :------------------------------------------ | :---- | :------------- | :------- | :----------------- | ------------------- |
+| ![Wisp_idle.gif](/img/tse1/Wisp_idle.gif)   | Idle  | First cooldown | N/A      | N/A                | Between 28-33 ticks |
+| ![Wisp_melee.gif](/img/tse1/Wisp_melee.gif) | Melee | Lunge          | Physical | 23 (24 to shields) | Between 53-55 ticks |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                           | Location             | Condition                   |
+| :------------------------------ | :----------------------------- | :------------------- | :-------------------------- |
+| 196                             | 37                             | The Leafy Underbrush | Party level is less than 29 |
+| floor(196 / (Party Level - 27)) | floor(37 / (Party Level - 27)) | The Leafy Underbrush | Party level is less than 35 |
+
+| XP  | Gold | Location             | Condition         |
+| :-- | :--- | :------------------- | :---------------- |
+| 98  | 18   | The Leafy Underbrush | Party level is 29 |
+| 65  | 12   | The Leafy Underbrush | Party level is 30 |
+| 49  | 9    | The Leafy Underbrush | Party level is 31 |
+| 39  | 7    | The Leafy Underbrush | Party level is 32 |
+| 32  | 6    | The Leafy Underbrush | Party level is 33 |
+| 28  | 5    | The Leafy Underbrush | Party level is 34 |
 
 #### Gigliana (armour oscillates between -20 and +20 for N and E, L)
 
