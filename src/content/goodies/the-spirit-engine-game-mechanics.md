@@ -985,7 +985,56 @@ The formula for the oscillation is `20 x Sin(DEGREE)` where `DEGREE` iterates fr
 
 ### WORLD 4: THE MYSTIC DUNES
 
-UNDER CONSTRUCTION
+#### Mad Dog Davis (N-10, E-10, M-25)
+
+Only if Samuel is in your party. 1-on-1 duel.<br>
+HP: 910
+
+#### Sand Construct (NX, EX, L)
+
+#### Dune Wraith (UD)
+
+#### Shapeshifter
+
+#### Witchin (M-40)
+
+#### Sandroach
+
+HP: 170
+
+#### Tomb Guard Skeleton (UD)
+
+HP: 1690
+
+#### Mumi (N+18, E+18, M-39)
+
+HP: 920
+
+#### Ghoul (NX, UD)
+
+HP: 1155
+
+#### Dry Zombie (N+25, E+25, MX, UD)
+
+HP: 1945
+
+#### Humbol
+
+#### Jugon
+
+#### Tza Tze
+
+#### Granael
+
+#### Frontier Guardsman
+
+#### Serpentine Acolyte (M-90)
+
+#### Slave Reptilian (EX)
+
+#### Familiar (N+24, E+24, MX, UD)
+
+#### The GrandFather (N+12, E+12, M-90)
 
 ### WORLD 5: CLARKE'S TOWER
 
