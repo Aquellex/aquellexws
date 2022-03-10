@@ -1101,13 +1101,20 @@ HP: 1905
 Appears every 156 ticks (including the 2-second delay at the beginning) at The Shifting Sands, The Mana Tidebreak and Elan's Tomb if Granael is defeated<br>
 HP: 170
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                 | Kind | Attack    | Type     | Damage                                                                                                                                                                                                                                                                      | Cooldown                                         |
+| :---------------------------------------- | :--- | :-------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| ![Sandroach.gif](/img/tse1/Sandroach.gif) | Nuke | Explosion | Physical | <form oninput="damage.value = parseInt(party.value)+parseInt(6)">Party Level <input type="number" label="party" id="party" name="party" min="29" max="42" value="29"><label for="damage"> + 6 = </label><output name="damage" type="number" for="damage">35</output></form> | Moves 1 pixel towards your party every 0.2 ticks |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                             | Gold                          | Location                                               | Condition                   |
+| :----------------------------- | :---------------------------- | :----------------------------------------------------- | :-------------------------- |
+| 12                             | 5                             | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 37 |
+| floor(12 / (Party Level - 37)) | floor(5 / (Party Level - 37)) | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 42 |
+
+| XP  | Gold | Location                                               | Condition         |
+| :-- | :--- | :----------------------------------------------------- | :---------------- |
+| 6   | 2    | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 39 |
+| 4   | 1    | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 40 |
+| 3   | 1    | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 41 |
 
 #### Tomb Guard Skeleton (UD)
 
@@ -1119,6 +1126,8 @@ HP: 1690
 
 | XP  | Gold | Location | Condition |
 | :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+|     |      |          |           |
 |     |      |          |           |
 
 #### Mumi (N+18, E+18, M-39)
