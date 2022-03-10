@@ -502,9 +502,9 @@ HP: 1390
 | ![Abomb_range.png](/img/tse1/Abomb_range.png) | Range | Kinetic Smash  | Physical     | <li>15</li><li>14 agaist shields</li>         | <li>41 ticks</li><li>Will use this attack 3 times before switching to AoE, then repeating</li> |
 | ![Abomb_heal.gif](/img/tse1/Abomb_heal.gif)   | Heal  | Superheal      | Self         | Activates at 370HP                            | Heals 1HP every 2.4 ticks                                                                      |
 
-| XP  | Gold | Location                | Condition |
-| :-- | :--- | :---------------------- | :-------- |
-| 290 | 29   | The Abombination's Lair | N/A       |
+| XP  | Gold | Location                | Condition                  |
+| :-- | :--- | :---------------------- | :------------------------- |
+| 290 | 29   | The Abombination's Lair | Clementas is in your party |
 
 #### Snack (UD)
 
@@ -990,51 +990,206 @@ The formula for the oscillation is `20 x Sin(DEGREE)` where `DEGREE` iterates fr
 Only if Samuel is in your party. 1-on-1 duel.<br>
 HP: 910
 
+| Animation                                           | Kind    | Attack         | Type     | Damage                   | Cooldown                                                                                                                                               |
+| :-------------------------------------------------- | :------ | :------------- | :------- | :----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![MadDog_idle.gif](/img/tse1/MadDog_idle.gif)       | Idle    | First cooldown | N/A      | N/A                      | <li>Between 10-15 ticks</li><li>Starts with Pistol Attack</li>                                                                                         |
+| ![MadDog_range.gif](/img/tse1/MadDog_range.gif)     | Range   | Pistol Attack  | Physical | 22                       | <li>43 ticks</li><li>1/2 chance to use this attack</li>                                                                                                |
+| ![MadDog_shield.png](/img/tse1/MadDog_shield.png)   | Defence | Shield         | Self     | Becomes NX for 101 ticks | <li>101 ticks</li><li>1/3 chance to use this move</li>                                                                                                 |
+| ![MadDog_bazooka.gif](/img/tse1/MadDog_bazooka.gif) | Range   | Bazooka        | Physical | 29                       | <li>61 ticks</li><li>1/6 chance to use this attack</li><li>Will guarantee to shoot one rocket at 520HP</li><li>Will always shoot rockets at 170HP</li> |
+
+| XP  | Gold | Location | Condition               |
+| :-- | :--- | :------- | :---------------------- |
+| 400 | 153  | Saline   | Samuel is in your party |
+
 #### Sand Construct (NX, EX, L)
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 #### Dune Wraith (UD)
 
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
 #### Shapeshifter
 
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
 #### Witchin (M-40)
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 #### Sandroach
 
 HP: 170
 
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
 #### Tomb Guard Skeleton (UD)
 
 HP: 1690
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 #### Mumi (N+18, E+18, M-39)
 
 HP: 920
 
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
 #### Ghoul (NX, UD)
 
 HP: 1155
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 #### Dry Zombie (N+25, E+25, MX, UD)
 
 HP: 1945
 
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
 #### Humbol
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 #### Jugon
 
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
 #### Tza Tze
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 #### Granael
 
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
 #### Frontier Guardsman
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 #### Serpentine Acolyte (M-90)
 
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
 #### Slave Reptilian (EX)
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 #### Familiar (N+24, E+24, MX, UD)
 
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
 #### The GrandFather (N+12, E+12, M-90)
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 ### WORLD 5: CLARKE'S TOWER
 
