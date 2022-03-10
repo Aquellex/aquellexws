@@ -1202,17 +1202,21 @@ HP: 1945
 | 73  | 17   | Elan's Tomb | Party Level is 40 |
 | 58  | 13   | Elan's Tomb | Party Level is 41 |
 
-#### Humbol
+#### Humbol (L)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+HP: 2850
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| Animation                                       | Kind  | Attack         | Type     | Damage                                                                                                                                                                                                                                                                      | Cooldown                                                                  |
+| :---------------------------------------------- | :---- | :------------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| ![Humbol_idle.gif](/img/tse1/Humbol_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                                                                                                                                                                                                                                         | Between 10-15 ticks                                                       |
+| ![Humbol_heal.gif](/img/tse1/Humbol_heal.gif)   | Heal  | Recover        | Self     | 1HP every 0.8 ticks                                                                                                                                                                                                                                                         | <li>40 ticks</li><li>Will always use this move if it is at the front</li> |
+| ![Humbol_range.gif](/img/tse1/Humbol_range.gif) | Range | Laccy Ball     | Physical | <form oninput="damage.value = parseInt(party.value)-parseInt(5)">Party Level <input type="number" label="party" id="party" name="party" min="29" max="42" value="29"><label for="damage"> - 5 = </label><output name="damage" type="number" for="damage">24</output></form> | <li>52 ticks</li><li>Will always use this attack if above 490HP</li>      |
 
-#### Jugon
+| XP  | Gold | Location                          | Condition |
+| :-- | :--- | :-------------------------------- | :-------- |
+| 390 | 70   | Aegin Warstick's Pocket Dimension | N/A       |
+
+#### Jugon (N+40, E+40)
 
 | Animation               | Kind | Attack | Type | Damage | Cooldown |
 | :---------------------- | :--- | :----- | :--- | :----- | -------- |
