@@ -1248,15 +1248,108 @@ Will self-heal 1HP every 5.2 ticks, cannot heal higher than max HP
 | :--- | :--- | :------------------- | :-------- |
 | 4100 | 721  | The Veroonai Enclave | N/A       |
 
-#### Granael
+#### Granael (M+20, L)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+<!-- <form oninput="cooldown.value = Math.floor(14 + (80 - (taken.value * 80) / 7950))">14 + (80 - (Damage Taken <input type="number" label="taken" id="taken" name="taken" min="0" max="7949" value="0"><label for="cooldown"> \* 80) / 7950) = </label><output name="cooldown" type="number" for="cooldown"></output> ticks</form> -->
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+The formula for her cooldown is `floor(14 + (80 - (DAMAGE_TAKEN * 80) / 7950)`<br>
+Her armour increases by 1 Magical every 28 ticks at 6950 & less HP remaining<p>
+
+| HP   | Cooldown in ticks |
+| :--- | :---------------- |
+| 7950 | 94                |
+| 7949 | 93                |
+| 7850 | 92                |
+| 7751 | 91                |
+| 7651 | 90                |
+| 7552 | 89                |
+| 7453 | 88                |
+| 7353 | 87                |
+| 7254 | 86                |
+| 7154 | 85                |
+| 7055 | 84                |
+| 6956 | 83                |
+| 6856 | 82                |
+| 6757 | 81                |
+| 6658 | 80                |
+| 6558 | 79                |
+| 6459 | 78                |
+| 6359 | 77                |
+| 6260 | 76                |
+| 6161 | 75                |
+| 6061 | 74                |
+| 5962 | 73                |
+| 5863 | 72                |
+| 5763 | 71                |
+| 5664 | 70                |
+| 5564 | 69                |
+| 5465 | 68                |
+| 5366 | 67                |
+| 5266 | 66                |
+| 5167 | 65                |
+| 5068 | 64                |
+| 4968 | 63                |
+| 4869 | 62                |
+| 4769 | 61                |
+| 4670 | 60                |
+| 4571 | 59                |
+| 4471 | 58                |
+| 4372 | 57                |
+| 4273 | 56                |
+| 4173 | 55                |
+| 4074 | 54                |
+| 3974 | 53                |
+| 3875 | 52                |
+| 3776 | 51                |
+| 3676 | 50                |
+| 3577 | 49                |
+| 3478 | 48                |
+| 3378 | 47                |
+| 3279 | 46                |
+| 3179 | 45                |
+| 3080 | 44                |
+| 2981 | 43                |
+| 2881 | 42                |
+| 2782 | 41                |
+| 2683 | 40                |
+| 2583 | 39                |
+| 2484 | 38                |
+| 2384 | 37                |
+| 2285 | 36                |
+| 2186 | 35                |
+| 2086 | 34                |
+| 1987 | 33                |
+| 1888 | 32                |
+| 1788 | 31                |
+| 1689 | 30                |
+| 1589 | 29                |
+| 1490 | 28                |
+| 1391 | 27                |
+| 1291 | 26                |
+| 1192 | 25                |
+| 1093 | 24                |
+| 993  | 23                |
+| 894  | 22                |
+| 794  | 21                |
+| 695  | 20                |
+| 596  | 19                |
+| 496  | 18                |
+| 397  | 17                |
+| 298  | 16                |
+| 198  | 15                |
+| 99   | 14                |
+
+| Animation                                         | Kind  | Attack         | Type    | Damage                                                                                                                                                                                                                                                                            | Cooldown                                                                                                                |
+| :------------------------------------------------ | :---- | :------------- | :------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ![Granael_idle.gif](/img/tse1/Granael_idle.gif)   | Idle  | First cooldown | N/A     | N/A                                                                                                                                                                                                                                                                               | Between 20-25 ticks                                                                                                     |
+| ![Granael_magic.gif](/img/tse1/Granael_magic.gif) | Magic | Magic Ball     | Magical | <form oninput="damage.value = Math.floor((party.value / 2) + 4)">(Party Level <input type="number" label="party" id="party" name="party" min="29" max="42" value="29"><label for="damage"> / 2) + 4 = </label><output name="damage" type="number" for="damage">18</output></form> | See cooldown table above                                                                                                |
+| ![Granael_magic.gif](/img/tse1/Granael_magic.gif) | Stun  | Freeze Crystal | Ailment | </li>Stuns for 84 ticks</li><li>Does 13 DoT, 1 damage every 6.4 ticks</li>                                                                                                                                                                                                        | <li>21 ticks</li><li>Will always use every 250 ticks, though this resets to 0 upon any frozen character defreezing</li> |
+
+| XP   | Gold | Location           | Condition |
+| :--- | :--- | :----------------- | :-------- |
+| 5000 | 1327 | Granael's Pedestal | N/A       |
+
+#### Granling
 
 #### Frontier Guardsman
 
