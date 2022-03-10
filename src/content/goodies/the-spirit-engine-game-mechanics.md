@@ -1426,13 +1426,21 @@ HP: 2065
 
 #### Familiar (N+24, E+24, MX, UD)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                           | Kind      | Attack          | Type         | Damage                                                               | Cooldown            |
+| :-------------------------------------------------- | :-------- | :-------------- | :----------- | :------------------------------------------------------------------- | ------------------- |
+| ![Familiar_idle.gif](/img/tse1/Familiar_idle.gif)   | Idle      | First cooldown  | N/A          | N/A                                                                  | Between 10-15 ticks |
+| ![Familiar_melee.gif](/img/tse1/Familiar_melee.gif) | Melee DoT | Poisonous Lunge | Physical DoT | <li>26, saps 1 mana, 10 DoT</li><li>each DoT lasts for 10 ticks</li> | 65 ticks            |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                            | Gold                          | Location           | Condition                   |
+| :---------------------------- | :---------------------------- | :----------------- | :-------------------------- |
+| 401                           | 126                           | The Arcane Library | Party level is less than 42 |
+| floor(401/(Party Level - 40)) | floor(126/(Party Level - 40)) | The Arcane Library | Party level is less than 45 |
+
+| XP  | Gold | Location           | Condition         |
+| :-- | :--- | :----------------- | :---------------- |
+| 200 | 63   | The Arcane Library | Party level is 42 |
+| 133 | 42   | The Arcane Library | Party level is 43 |
+| 100 | 31   | The Arcane Library | Party level is 44 |
 
 #### The GrandFather (N+12, E+12, M-90)
 
