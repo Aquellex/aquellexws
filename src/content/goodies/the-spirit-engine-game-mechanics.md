@@ -1023,8 +1023,9 @@ HP: 1480
 | 46  | 12   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 40 |
 | 39  | 10   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 41 |
 
-#### Dune Wraith (UD)
+#### Dune Wraith (UD\*)
 
+\*Dune Wraiths receive double damage against Silver Bullets instead of 66% extra
 HP: 1205
 
 | Animation                                               | Kind    | Attack         | Type            | Damage                        | Cooldown                                                                                                                                                       |
@@ -1120,51 +1121,86 @@ HP: 170
 
 HP: 1690
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                           | Kind  | Attack         | Type     | Damage | Cooldown            |
+| :-------------------------------------------------- | :---- | :------------- | :------- | :----- | ------------------- |
+| ![Skeleton_idle.gif](/img/tse1/Skeleton_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 12-21 ticks |
+| ![Skeleton_melee.gif](/img/tse1/Skeleton_melee.gif) | Melee | Lunge          | Physical | 26     | 63 ticks            |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
-|     |      |          |           |
-|     |      |          |           |
+| XP                              | Gold                           | Location    | Condition                   |
+| :------------------------------ | :----------------------------- | :---------- | :-------------------------- |
+| 304                             | 41                             | Elan's Tomb | Party level is less than 38 |
+| floor(304 / (Party Level - 36)) | floor(41 / (Party Level - 36)) | Elan's Tomb | Party level is less than 42 |
+
+| XP  | Gold | Location    | Condition         |
+| :-- | :--- | :---------- | :---------------- |
+| 152 | 20   | Elan's Tomb | Party Level is 38 |
+| 101 | 13   | Elan's Tomb | Party Level is 39 |
+| 76  | 10   | Elan's Tomb | Party Level is 40 |
+| 60  | 8    | Elan's Tomb | Party Level is 41 |
 
 #### Mumi (N+18, E+18, M-39)
 
 HP: 920
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                   | Kind  | Attack         | Type                                       | Damage                      | Cooldown                                                           |
+| :------------------------------------------ | :---- | :------------- | :----------------------------------------- | :-------------------------- | ------------------------------------------------------------------ |
+| ![Mumi_idle.gif](/img/tse1/Mumi_idle.gif)   | Idle  | First cooldown | N/A                                        | N/A                         | <li>Between 32-37 ticks</li><li>Starts with Stars</li>             |
+| ![Mumi_magic.gif](/img/tse1/Mumi_magic.gif) | Magic | Stars          | Magical                                    | 12 (14 against shields) x 2 | <li>Between 63-65 ticks</li><li>1/3 chance to use this attack</li> |
+| ![Mumi_heal.gif](/img/tse1/Mumi_heal.gif)   | Heal  | Heal           | Ally ahead (itself if no allies are alive) | 184HP                       | <li>Between 43-45 ticks</li><li>2/3 chance to use this move</li>   |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                           | Location    | Condition                   |
+| :------------------------------ | :----------------------------- | :---------- | :-------------------------- |
+| 277                             | 91                             | Elan's Tomb | Party level is less than 38 |
+| floor(277 / (Party Level - 36)) | floor(91 / (Party Level - 36)) | Elan's Tomb | Party level is less than 42 |
+
+| XP  | Gold | Location    | Condition         |
+| :-- | :--- | :---------- | :---------------- |
+| 138 | 45   | Elan's Tomb | Party Level is 38 |
+| 98  | 30   | Elan's Tomb | Party Level is 39 |
+| 69  | 22   | Elan's Tomb | Party Level is 40 |
+| 55  | 18   | Elan's Tomb | Party Level is 41 |
 
 #### Ghoul (NX, UD)
 
 HP: 1155
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                     | Kind  | Attack         | Type     | Damage | Cooldown            |
+| :-------------------------------------------- | :---- | :------------- | :------- | :----- | ------------------- |
+| ![Ghost_idle.gif](/img/tse1/Ghost_idle.gif)   | Idle  | First cooldown | N/A      | N/A    | Between 10-15 ticks |
+| ![Ghost_melee.gif](/img/tse1/Ghost_melee.gif) | Melee | Lunge          | Physical | 31     | 53 ticks            |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                           | Location    | Condition                   |
+| :------------------------------ | :----------------------------- | :---------- | :-------------------------- |
+| 277                             | 91                             | Elan's Tomb | Party level is less than 38 |
+| floor(277 / (Party Level - 36)) | floor(91 / (Party Level - 36)) | Elan's Tomb | Party level is less than 42 |
+
+| XP  | Gold | Location    | Condition         |
+| :-- | :--- | :---------- | :---------------- |
+| 150 | 24   | Elan's Tomb | Party Level is 38 |
+| 100 | 16   | Elan's Tomb | Party Level is 39 |
+| 75  | 12   | Elan's Tomb | Party Level is 40 |
+| 60  | 9    | Elan's Tomb | Party Level is 41 |
 
 #### Dry Zombie (N+25, E+25, MX, UD)
 
 HP: 1945
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                       | Kind      | Attack         | Type         | Damage                                                                                             | Cooldown            |
+| :---------------------------------------------- | :-------- | :------------- | :----------- | :------------------------------------------------------------------------------------------------- | ------------------- |
+| ![Zombie_idle.gif](/img/tse1/Zombie_idle.gif)   | Idle      | First cooldown | N/A          | N/A                                                                                                | Between 10-24 ticks |
+| ![Zombie_range.gif](/img/tse1/Zombie_range.gif) | Range DoT | Vomit          | Absolute DoT | <li>4 x 4, 21 DoT</li><li>Each DoT deals 1 damage every 8 ticks</li><li>6 x 4 against shields</li> | Between 81-86 ticks |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                           | Location    | Condition                   |
+| :------------------------------ | :----------------------------- | :---------- | :-------------------------- |
+| 294                             | 68                             | Elan's Tomb | Party level is less than 38 |
+| floor(294 / (Party Level - 36)) | floor(68 / (Party Level - 36)) | Elan's Tomb | Party level is less than 42 |
+
+| XP  | Gold | Location    | Condition         |
+| :-- | :--- | :---------- | :---------------- |
+| 147 | 34   | Elan's Tomb | Party Level is 38 |
+| 98  | 22   | Elan's Tomb | Party Level is 39 |
+| 73  | 17   | Elan's Tomb | Party Level is 40 |
+| 58  | 13   | Elan's Tomb | Party Level is 41 |
 
 #### Humbol
 
