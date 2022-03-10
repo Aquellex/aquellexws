@@ -1218,13 +1218,16 @@ HP: 2850
 
 #### Jugon (N+40, E+40)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+HP: 1825
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| Animation                                     | Kind   | Attack         | Type    | Damage                                                                                                                                                                                                                                                                        | Cooldown            |
+| :-------------------------------------------- | :----- | :------------- | :------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![Jugon_idle.gif](/img/tse1/Jugon_idle.gif)   | Idle   | First cooldown | N/A     | N/A                                                                                                                                                                                                                                                                           | Between 10-15 ticks |
+| ![Jugon_magic.png](/img/tse1/Jugon_magic.png) | Lobbed | Destructo Disc | Magical | <form oninput="damage.value = parseInt(party.value)-parseInt(15)">Party Level <input type="number" label="party" id="party" name="party" min="29" max="42" value="29"><label for="damage"> - 15 = </label><output name="damage" type="number" for="damage">14</output></form> | 27 ticks            |
+
+| XP  | Gold | Location                          | Condition |
+| :-- | :--- | :-------------------------------- | :-------- |
+| 310 | 80   | Aegin Warstick's Pocket Dimension | N/A       |
 
 #### Tza Tze
 
