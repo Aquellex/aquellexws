@@ -510,13 +510,13 @@ HP: 1390
 
 HP: 735
 
-| Animation                                           | Kind   | Attack         | Type            | Damage             | Cooldown                                                                                                                                                      |
-| :-------------------------------------------------- | :----- | :------------- | :-------------- | :----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Snack_idle.gif](/img/tse1/Snack_idle.gif)         | Idle   | First cooldown | N/A             | N/A                | Between 10-15 ticks                                                                                                                                           |
-| ![Snack_melee.gif](/img/tse1/Snack_melee.gif)       | Melee  | Lunge          | Physical        | 15                 | <li>Between 27-29 ticks</li><li>2/3 chance to use this attack</li>                                                                                            |
-| ![Snack_range.gif](/img/tse1/Snack_range.gif)       | Range  | Trident Zap    | Absolute        | 3                  | <li>Between 33-35 ticks</li><li>1/3 chance to use this</li> attack                                                                                            |
-| ![Snack_peekaboo.gif](/img/tse1/Snack_peekaboo.gif) | Status | Phase Out      | Invulnerability | Becomes NX, EX, MX | <li>Will occur 180 ticks into the battle (ignoring the 2-second delay at the beginning)</li><li>Ends on the 399th tick and resets its internal tick to 0</li> |
-| ![Snack_jab.gif](/img/tse1/Snack_jab.gif)           | Melee  | Jab            | Physical        | 23                 | <li>Occurs at the 360th tick into the battle (ignoring the 2-second delay at the beginning)</li><li>Targets character with the lowest HP </li>                |
+| Animation                                           | Kind   | Attack         | Type            | Damage             | Cooldown                                                                                                                                                       |
+| :-------------------------------------------------- | :----- | :------------- | :-------------- | :----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Snack_idle.gif](/img/tse1/Snack_idle.gif)         | Idle   | First cooldown | N/A             | N/A                | Between 10-15 ticks                                                                                                                                            |
+| ![Snack_melee.gif](/img/tse1/Snack_melee.gif)       | Melee  | Lunge          | Physical        | 15                 | <li>Between 27-29 ticks</li><li>2/3 chance to use this attack</li>                                                                                             |
+| ![Snack_range.gif](/img/tse1/Snack_range.gif)       | Range  | Trident Zap    | Absolute        | 3                  | <li>Between 33-35 ticks</li><li>1/3 chance to use this</li> attack                                                                                             |
+| ![Snack_peekaboo.gif](/img/tse1/Snack_peekaboo.gif) | Status | Phase Out      | Invulnerability | Becomes NX, EX, MX | <li>Will occur 180 ticks into the battle (including the 2-second delay at the beginning)</li><li>Ends on the 399th tick and resets its internal tick to 0</li> |
+| ![Snack_jab.gif](/img/tse1/Snack_jab.gif)           | Melee  | Jab            | Physical        | 23                 | <li>Occurs at the 360th tick into the battle (including the 2-second delay at the beginning)</li><li>Targets character with the lowest HP </li>                |
 
 | XP  | Gold | Location          | Condition |
 | :-- | :--- | :---------------- | :-------- |
@@ -551,11 +551,11 @@ HP: 496
 | 565 | The Haunted Church |
 | 615 | The Broken Bridge  |
 
-| Animation                                             | Kind   | Attack         | Type            | Damage | Cooldown                                                                                                                                                        |
-| :---------------------------------------------------- | :----- | :------------- | :-------------- | :----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Bogeyman_idle.gif](/img/tse1/Bogeyman_idle.gif)     | Idle   | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                                             |
-| ![Bogeyman_melee.gif](/img/tse1/Bogeyman_melee.gif)   | Melee  | Lunge          | Physical        | 17     | Between 52-57 ticks                                                                                                                                             |
-| ![Bogeyman_shield.gif](/img/tse1/Bogeyman_shield.gif) | Status | Phase Out      | Invulnerability | N/A    | <li>Will occur 144 ticks into the battle (ignoring the 2-second delay at the beginning)</li><li>Ends on the 319.2nd tick and resets its internal tick to 0</li> |
+| Animation                                             | Kind   | Attack         | Type            | Damage | Cooldown                                                                                                                                                         |
+| :---------------------------------------------------- | :----- | :------------- | :-------------- | :----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Bogeyman_idle.gif](/img/tse1/Bogeyman_idle.gif)     | Idle   | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                                              |
+| ![Bogeyman_melee.gif](/img/tse1/Bogeyman_melee.gif)   | Melee  | Lunge          | Physical        | 17     | Between 52-57 ticks                                                                                                                                              |
+| ![Bogeyman_shield.gif](/img/tse1/Bogeyman_shield.gif) | Status | Phase Out      | Invulnerability | N/A    | <li>Will occur 144 ticks into the battle (including the 2-second delay at the beginning)</li><li>Ends on the 319.2nd tick and resets its internal tick to 0</li> |
 
 | XP                             | Gold                           | Location           | Condition                   |
 | :----------------------------- | :----------------------------- | :----------------- | :-------------------------- |
@@ -1003,6 +1003,8 @@ HP: 910
 
 #### Sand Construct (NX, EX, L)
 
+HP: 1480
+
 | Animation                                                     | Kind  | Attack         | Type     | Damage                         | Cooldown            |
 | :------------------------------------------------------------ | :---- | :------------- | :------- | :----------------------------- | ------------------- |
 | ![SandConstruct_idle.gif](/img/tse1/SandConstruct_idle.gif)   | Idle  | First cooldown | N/A      | N/A                            | Between 10-15 ticks |
@@ -1023,12 +1025,14 @@ HP: 910
 
 #### Dune Wraith (UD)
 
-| Animation                                               | Kind    | Attack         | Type            | Damage                        | Cooldown                                                                                                                                                      |
-| :------------------------------------------------------ | :------ | :------------- | :-------------- | :---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![DuneWraith_idle.gif](/img/tse1/DuneWraith_idle.gif)   | Idle    | First cooldown | N/A             | N/A                           | Between 10-15 ticks                                                                                                                                           |
-| ![DuneWraith_melee.gif](/img/tse1/DuneWraith_melee.gif) | Melee   | Lunge          | Physical        | 29                            | <li>62 ticks</li><li>Will only use this attack while phased in</li>                                                                                           |
-| ![DuneWraith_idle.gif](/img/tse1/DuneWraith_idle.gif)   | Defence | Phase Out      | Invulnerability | Becomes NX, EX, MX            | <li>Will occur 204 ticks into the battle (ignoring the 2-second delay at the beginning)</li><li>Ends on the 390th tick and resets its internal tick to 0</li> |
-| ![DuneWraith_range.png](/img/tse1/DuneWraith_range.png) | Range   | Drain Attack   | Absolute        | 9 (11 if Granael is defeated) | <li>51 ticks</li><li>Will only use this attack while phased out</li><li>Can still be stunned via Tangleweb or if Lasooed prior to phasing out</li>            |
+HP: 1205
+
+| Animation                                               | Kind    | Attack         | Type            | Damage                        | Cooldown                                                                                                                                                       |
+| :------------------------------------------------------ | :------ | :------------- | :-------------- | :---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![DuneWraith_idle.gif](/img/tse1/DuneWraith_idle.gif)   | Idle    | First cooldown | N/A             | N/A                           | Between 10-15 ticks                                                                                                                                            |
+| ![DuneWraith_melee.gif](/img/tse1/DuneWraith_melee.gif) | Melee   | Lunge          | Physical        | 29                            | <li>62 ticks</li><li>Will only use this attack while phased in</li>                                                                                            |
+| ![DuneWraith_idle.gif](/img/tse1/DuneWraith_idle.gif)   | Defence | Phase Out      | Invulnerability | Becomes NX, EX, MX            | <li>Will occur 204 ticks into the battle (including the 2-second delay at the beginning)</li><li>Ends on the 390th tick and resets its internal tick to 0</li> |
+| ![DuneWraith_range.png](/img/tse1/DuneWraith_range.png) | Range   | Drain Attack   | Absolute        | 9 (11 if Granael is defeated) | <li>51 ticks</li><li>Will only use this attack while phased out</li><li>Can still be stunned via Tangleweb or if Lasooed prior to phasing out</li>             |
 
 | XP                              | Gold                           | Location                                               | Condition                   |
 | :------------------------------ | :----------------------------- | :----------------------------------------------------- | :-------------------------- |
@@ -1045,13 +1049,29 @@ HP: 910
 
 #### Shapeshifter
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+Immunity is based on current typing<br>
+HP: 1460
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| Animation                                                     | Kind   | Attack         | Type     | Damage                                            | Cooldown                                                                  |
+| :------------------------------------------------------------ | :----- | :------------- | :------- | :------------------------------------------------ | ------------------------------------------------------------------------- |
+| ![shapeshifter_win.gif](/img/tse1/shapeshifter_win.gif)       | Idle   | First cooldown | N/A      | N/A                                               | Between 10-15 ticks                                                       |
+| ![shapeshifter_win.gif](/img/tse1/shapeshifter_win.gif)       | Status | Morph          | Self     | Cycles through the types: Normal, Energy, Magical | Every 129.6 ticks and will add 10 ticks to its current attacking cooldown |
+| ![shapeshifter_normal.gif](/img/tse1/shapeshifter_normal.gif) | Melee  | Lunge          | Physical | 23                                                | 66 ticks                                                                  |
+| ![shapeshifter_energy.gif](/img/tse1/shapeshifter_energy.gif) | Lobbed | Energy Bubble  | Physical | 24                                                | 66 ticks                                                                  |
+| ![shapeshifter_magic.gif](/img/tse1/shapeshifter_magic.gif)   | Range  | Magic Shots    | Magical  | 11 x 2                                            | 63 ticks                                                                  |
+
+| XP                              | Gold                           | Location                                               | Condition                   |
+| :------------------------------ | :----------------------------- | :----------------------------------------------------- | :-------------------------- |
+| 262                             | 69                             | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 37 |
+| floor(262 / (Party Level - 35)) | floor(69 / (Party Level - 35)) | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 42 |
+
+| XP  | Gold | Location                                               | Condition         |
+| :-- | :--- | :----------------------------------------------------- | :---------------- |
+| 127 | 30   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 37 |
+| 85  | 20   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 38 |
+| 63  | 15   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 39 |
+| 51  | 12   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 40 |
+| 42  | 10   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 41 |
 
 #### Witchin (M-40)
 
@@ -1065,6 +1085,7 @@ HP: 910
 
 #### Sandroach
 
+Appears every 156 ticks (including the 2-second delay at the beginning) at The Shifting Sands, The Mana Tidebreak and Elan's Tomb if Granael is defeated
 HP: 170
 
 | Animation               | Kind | Attack | Type | Damage | Cooldown |
