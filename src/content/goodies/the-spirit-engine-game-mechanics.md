@@ -500,7 +500,7 @@ HP: 1390
 | ![Abomb_idle.gif](/img/tse1/Abomb_idle.gif)   | Idle  | First cooldown | N/A          | N/A                                           | Between 10-15 ticks                                                                            |
 | ![Abomb_aoe.gif](/img/tse1/Abomb_aoe.gif)     | AoE   | Poison Breath  | Absolute DoT | 7 DoT, each DoT deals 1 damage every 18 ticks | <li>53 ticks</li><li>Starts with this attack</li>                                              |
 | ![Abomb_range.png](/img/tse1/Abomb_range.png) | Range | Kinetic Smash  | Physical     | <li>15</li><li>14 agaist shields</li>         | <li>41 ticks</li><li>Will use this attack 3 times before switching to AoE, then repeating</li> |
-| ![Abomb_heal.gif](/img/tse1/Abomb_heal.gif)   | Heal  | Superheal      | Self         | Activates at 370HP                            | Heals 1HP every 2.4 ticks                                                                      |
+| ![Abomb_heal.gif](/img/tse1/Abomb_heal.gif)   | HoT   | Superheal      | Self         | Activates at 370HP                            | Heals 1HP every 2.4 ticks                                                                      |
 
 | XP  | Gold | Location                | Condition                  |
 | :-- | :--- | :---------------------- | :------------------------- |
@@ -617,7 +617,7 @@ HP: 552
 
 #### Dundee (N-30, E-30)
 
-HP: 580 [will also heal 1HP every 16 ticks]
+HP: 580 [has a HoT of 1HP every 16 ticks]
 
 | Animation                                             | Kind     | Attack         | Type     | Damage | Cooldown                                                           |
 | :---------------------------------------------------- | :------- | :------------- | :------- | :----- | ------------------------------------------------------------------ |
@@ -1209,7 +1209,7 @@ HP: 2850
 | Animation                                       | Kind  | Attack         | Type     | Damage                                                                                                                                                                                                                                                                      | Cooldown                                                                  |
 | :---------------------------------------------- | :---- | :------------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | ![Humbol_idle.gif](/img/tse1/Humbol_idle.gif)   | Idle  | First cooldown | N/A      | N/A                                                                                                                                                                                                                                                                         | Between 10-15 ticks                                                       |
-| ![Humbol_heal.gif](/img/tse1/Humbol_heal.gif)   | Heal  | Recover        | Self     | 1HP every 0.8 ticks                                                                                                                                                                                                                                                         | <li>40 ticks</li><li>Will always use this move if it is at the front</li> |
+| ![Humbol_heal.gif](/img/tse1/Humbol_heal.gif)   | HoT   | Recover        | Self     | 1HP every 0.8 ticks                                                                                                                                                                                                                                                         | <li>40 ticks</li><li>Will always use this move if it is at the front</li> |
 | ![Humbol_range.gif](/img/tse1/Humbol_range.gif) | Range | Laccy Ball     | Physical | <form oninput="damage.value = parseInt(party.value)-parseInt(5)">Party Level <input type="number" label="party" id="party" name="party" min="29" max="42" value="29"><label for="damage"> - 5 = </label><output name="damage" type="number" for="damage">24</output></form> | <li>52 ticks</li><li>Will always use this attack if above 490HP</li>      |
 
 | XP  | Gold | Location                          | Condition |
@@ -1233,7 +1233,7 @@ HP: 1825
 <h4>Tza Tze [Party Level: <input type="number" label="party" id="party" name="party" min="29" max="42" value="29">] <label for="physical">(N-</label><output name="physical" type="number" for="physical">15</output>, <label for="physical2">E-</label><output name="physical2" type="number" for="physical2">15</output>, <label for="magical">M-</label><output name="magical" type="number" for="magical">8</output>)</h4>
 
 <label for="health">HP: </label><output name="health" type="number" for="health">3377</output></form>
-Will self-heal 1HP every 5.2 ticks, cannot heal higher than max HP
+Has a HoT of 1HP every 5.2 ticks
 
 | Animation                                         | Kind           | Attack            | Type          | Damage                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Cooldown                                                                                                                                                                                     |
 | :------------------------------------------------ | :------------- | :---------------- | :------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1489,16 +1489,23 @@ HP: 2510
 
 #### Servitor (E+50)
 
-HP: 3250 (Heals 1HP to itself every 3.2 ticks)
+HP: 3250 (HoT of 1HP to itself every 3.2 ticks)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                         | Kind | Attack         | Type  | Damage                                                                                               | Cooldown  |
+| :------------------------------------------------ | :--- | :------------- | :---- | :--------------------------------------------------------------------------------------------------- | --------- |
+| ![servitor_idle.gif](/img/tse1/servitor_idle.gif) | Idle | First cooldown | N/A   | N/A                                                                                                  | 150 ticks |
+| ![servitor_heal.gif](/img/tse1/servitor_heal.gif) | HoT  | NENOR          | Party | Applies 2HP HoT to itself and allies that lasts for 1140 ticks unless disrupted, totalling to 2280HP | 181 ticks |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                            | Location             | Condition                   |
+| :------------------------------ | :------------------------------ | :------------------- | :-------------------------- |
+| 600                             | 270                             | Clarke's Tower Lobby | Party Level is less than 48 |
+| floor(600 / (Party Level - 46)) | floor(270 / (Party Level - 46)) | Clarke's Tower Lobby | Party Level is less than 51 |
+
+| XP  | Gold | Location             | Condition         |
+| :-- | :--- | :------------------- | :---------------- |
+| 300 | 135  | Clarke's Tower Lobby | Party Level is 48 |
+| 200 | 90   | Clarke's Tower Lobby | Party Level is 49 |
+| 150 | 67   | Clarke's Tower Lobby | Party Level is 50 |
 
 #### Frontier Heavyarms (N+20, E+20)
 
