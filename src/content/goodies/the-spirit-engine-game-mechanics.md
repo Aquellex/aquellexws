@@ -1351,6 +1351,18 @@ Her armour increases by 1 Magical every 28 ticks at 6950 & less HP remaining<p>
 
 #### Granling
 
+HP: 1145
+
+| Animation                                             | Kind           | Attack         | Type     | Damage                                                                                                                                                                                                                                                                           | Cooldown                                                |
+| :---------------------------------------------------- | :------------- | :------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| ![Granling_idle.gif](/img/tse1/Granling_idle.gif)     | Idle           | First cooldown | N/A      | N/A                                                                                                                                                                                                                                                                              | <li>Between 17-22 ticks</li><li>Starts with Heal</li>   |
+| ![Granling_heal.gif](/img/tse1/Granling_heal.gif)     | Heal           | Heal           | Other    | 108HP to Granael                                                                                                                                                                                                                                                                 | <li>60 ticks</li><li>1/3 chance to use this move</li>   |
+| ![Granling_aerial.gif](/img/tse1/Granling_aerial.gif) | Magic Indirect | Attack         | Absolute | <form oninput="damage.value = Math.floor((party.value / 3) - 1)">(Party Level <input type="number" label="party" id="party" name="party" min="29" max="42" value="29"><label for="damage"> / 3) - 1 = </label><output name="damage" type="number" for="damage">8</output></form> | <li>51 ticks</li><li>2/3 chance to use this attack</li> |
+
+| XP  | Gold | Location           | Condition |
+| :-- | :--- | :----------------- | :-------- |
+| 208 | 20   | Granael's Pedestal | N/A       |
+
 #### Frontier Guardsman
 
 | Animation               | Kind | Attack | Type | Damage | Cooldown |
