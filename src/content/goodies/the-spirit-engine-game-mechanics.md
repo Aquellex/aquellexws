@@ -1407,13 +1407,22 @@ HP: 920
 
 HP: 2065
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                         | Kind  | Attack         | Type     | Damage                           | Cooldown                                                                                                                             |
+| :------------------------------------------------ | :---- | :------------- | :------- | :------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Reptile_idle.gif](/img/tse1/Reptile_idle.gif)   | Idle  | First cooldown | N/A      | N/A                              | <li>Between 17-25 ticks</li><li>Starts with Lunge</li>                                                                               |
+| ![Reptile_melee.gif](/img/tse1/Reptile_melee.gif) | Melee | Lunge          | Physical | 35                               | <li>82 ticks</li><li>2/3 chance to use this attack</li>                                                                              |
+| ![Reptile_range.gif](/img/tse1/Reptile_range.gif) | AoE   | Trident Zap    | Physical | 9 (armour is 5/6 less effective) | <li>63 ticks</li></i>1/3 chance to use this attack</li><li>Will use this attack first if anybody in your party has 5 or less HP</li> |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                            | Gold                          | Location           | Condition                   |
+| :---------------------------- | :---------------------------- | :----------------- | :-------------------------- |
+| 445                           | 117                           | The Arcane Library | Party level is less than 42 |
+| floor(445/(Party Level - 40)) | floor(117/(Party Level - 40)) | The Arcane Library | Party level is less than 45 |
+
+| XP  | Gold | Location           | Condition         |
+| :-- | :--- | :----------------- | :---------------- |
+| 222 | 58   | The Arcane Library | Party level is 42 |
+| 148 | 39   | The Arcane Library | Party level is 43 |
+| 111 | 29   | The Arcane Library | Party level is 44 |
 
 #### Familiar (N+24, E+24, MX, UD)
 
