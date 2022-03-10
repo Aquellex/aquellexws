@@ -1062,8 +1062,8 @@ HP: 1460
 
 | XP                              | Gold                           | Location                                               | Condition                   |
 | :------------------------------ | :----------------------------- | :----------------------------------------------------- | :-------------------------- |
-| 262                             | 69                             | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 37 |
-| floor(262 / (Party Level - 35)) | floor(69 / (Party Level - 35)) | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 42 |
+| 255                             | 60                             | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 37 |
+| floor(255 / (Party Level - 35)) | floor(60 / (Party Level - 35)) | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 42 |
 
 | XP  | Gold | Location                                               | Condition         |
 | :-- | :--- | :----------------------------------------------------- | :---------------- |
@@ -1075,17 +1075,30 @@ HP: 1460
 
 #### Witchin (M-40)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+HP: 1905
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| Animation                                           | Kind   | Attack         | Type    | Damage                                                                                                                                                                                                                                                         | Cooldown                                                       |
+| :-------------------------------------------------- | :----- | :------------- | :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| ![Witchin_idle.gif](/img/tse1/Witchin_idle.gif)     | Idle   | First cooldown | N/A     | N/A                                                                                                                                                                                                                                                            | <li>Between 14-19 ticks</li><li>Starts with Magical Swirl</li> |
+| ![Witchin_magic.gif](/img/tse1/Witchin_magic.gif)   | Magic  | Magical Swirl  | Magical | 23                                                                                                                                                                                                                                                             | <li>54 ticks</li><li>2/3 chance to use this attack</li>        |
+| ![Witchin_debuff.gif](/img/tse1/Witchin_debuff.gif) | Debuff | Hex            | Ailment | <li>Disables Party Bless or target character's physical armour</li><li>Lasts for 193.2 ticks</li><li>Casting Party Bless over disabled PBless will re-activate PBless, while casting PBless in the the middle of armour reduction will halve its duration</li> | <li>22 ticks</li><li>1/3 chance to use this move</li>          |
+
+| XP                              | Gold                           | Location                                               | Condition                   |
+| :------------------------------ | :----------------------------- | :----------------------------------------------------- | :-------------------------- |
+| 248                             | 37                             | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 37 |
+| floor(248 / (Party Level - 35)) | floor(37 / (Party Level - 35)) | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 42 |
+
+| XP  | Gold | Location                                               | Condition         |
+| :-- | :--- | :----------------------------------------------------- | :---------------- |
+| 124 | 18   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 37 |
+| 82  | 12   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 38 |
+| 62  | 9    | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 39 |
+| 49  | 7    | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 40 |
+| 41  | 6    | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 41 |
 
 #### Sandroach
 
-Appears every 156 ticks (including the 2-second delay at the beginning) at The Shifting Sands, The Mana Tidebreak and Elan's Tomb if Granael is defeated
+Appears every 156 ticks (including the 2-second delay at the beginning) at The Shifting Sands, The Mana Tidebreak and Elan's Tomb if Granael is defeated<br>
 HP: 170
 
 | Animation               | Kind | Attack | Type | Damage | Cooldown |
