@@ -510,13 +510,13 @@ HP: 1390
 
 HP: 735
 
-| Animation                                           | Kind   | Attack         | Type            | Damage | Cooldown                                                                                                                                                      |
-| :-------------------------------------------------- | :----- | :------------- | :-------------- | :----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Snack_idle.gif](/img/tse1/Snack_idle.gif)         | Idle   | First cooldown | N/A             | N/A    | Between 10-15 ticks                                                                                                                                           |
-| ![Snack_melee.gif](/img/tse1/Snack_melee.gif)       | Melee  | Lunge          | Physical        | 15     | <li>Between 27-29 ticks</li><li>2/3 chance to use this attack</li>                                                                                            |
-| ![Snack_range.gif](/img/tse1/Snack_range.gif)       | Range  | Trident Zap    | Absolute        | 3      | <li>Between 33-35 ticks</li><li>1/3 chance to use this</li> attack                                                                                            |
-| ![Snack_peekaboo.gif](/img/tse1/Snack_peekaboo.gif) | Status | Phase Out      | Invulnerability | N/A    | <li>Will occur 180 ticks into the battle (ignoring the 2-second delay at the beginning)</li><li>Ends on the 399th tick and resets its internal tick to 0</li> |
-| ![Snack_jab.gif](/img/tse1/Snack_jab.gif)           | Melee  | Jab            | Physical        | 23     | <li>Occurs at the 360th tick into the battle (ignoring the 2-second delay at the beginning)</li><li>Targets character with the lowest HP </li>                |
+| Animation                                           | Kind   | Attack         | Type            | Damage             | Cooldown                                                                                                                                                      |
+| :-------------------------------------------------- | :----- | :------------- | :-------------- | :----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Snack_idle.gif](/img/tse1/Snack_idle.gif)         | Idle   | First cooldown | N/A             | N/A                | Between 10-15 ticks                                                                                                                                           |
+| ![Snack_melee.gif](/img/tse1/Snack_melee.gif)       | Melee  | Lunge          | Physical        | 15                 | <li>Between 27-29 ticks</li><li>2/3 chance to use this attack</li>                                                                                            |
+| ![Snack_range.gif](/img/tse1/Snack_range.gif)       | Range  | Trident Zap    | Absolute        | 3                  | <li>Between 33-35 ticks</li><li>1/3 chance to use this</li> attack                                                                                            |
+| ![Snack_peekaboo.gif](/img/tse1/Snack_peekaboo.gif) | Status | Phase Out      | Invulnerability | Becomes NX, EX, MX | <li>Will occur 180 ticks into the battle (ignoring the 2-second delay at the beginning)</li><li>Ends on the 399th tick and resets its internal tick to 0</li> |
+| ![Snack_jab.gif](/img/tse1/Snack_jab.gif)           | Melee  | Jab            | Physical        | 23                 | <li>Occurs at the 360th tick into the battle (ignoring the 2-second delay at the beginning)</li><li>Targets character with the lowest HP </li>                |
 
 | XP  | Gold | Location          | Condition |
 | :-- | :--- | :---------------- | :-------- |
@@ -1011,7 +1011,7 @@ HP: 910
 | XP                              | Gold                           | Location                                               | Condition                   |
 | :------------------------------ | :----------------------------- | :----------------------------------------------------- | :-------------------------- |
 | 276                             | 61                             | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 37 |
-| floor(276 / (Party Level / 34)) | floor(61 / (Party Level / 35)) | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 42 |
+| floor(276 / (Party Level - 34)) | floor(61 / (Party Level - 35)) | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 42 |
 
 | XP  | Gold | Location                                               | Condition         |
 | :-- | :--- | :----------------------------------------------------- | :---------------- |
@@ -1023,16 +1023,25 @@ HP: 910
 
 #### Dune Wraith (UD)
 
-| Animation                                               | Kind    | Attack         | Type | Damage | Cooldown            |
-| :------------------------------------------------------ | :------ | :------------- | :--- | :----- | ------------------- |
-| ![DuneWraith_idle.gif](/img/tse1/DuneWraith_idle.gif)   | Idle    | First cooldown | N/A  | N/A    | Between 10-15 ticks |
-| ![DuneWraith_melee.gif](/img/tse1/DuneWraith_melee.gif) | Melee   |                |      |        |                     |
-| ![DuneWraith_idle.gif](/img/tse1/DuneWraith_idle.gif)   | Defence |                |      |        |                     |
-| ![DuneWraith_range.png](/img/tse1/DuneWraith_range.png) | Range   |                |      |        |                     |
+| Animation                                               | Kind    | Attack         | Type            | Damage                        | Cooldown                                                                                                                                                      |
+| :------------------------------------------------------ | :------ | :------------- | :-------------- | :---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![DuneWraith_idle.gif](/img/tse1/DuneWraith_idle.gif)   | Idle    | First cooldown | N/A             | N/A                           | Between 10-15 ticks                                                                                                                                           |
+| ![DuneWraith_melee.gif](/img/tse1/DuneWraith_melee.gif) | Melee   | Lunge          | Physical        | 29                            | <li>62 ticks</li><li>Will only use this attack while phased in</li>                                                                                           |
+| ![DuneWraith_idle.gif](/img/tse1/DuneWraith_idle.gif)   | Defence | Phase Out      | Invulnerability | Becomes NX, EX, MX            | <li>Will occur 204 ticks into the battle (ignoring the 2-second delay at the beginning)</li><li>Ends on the 390th tick and resets its internal tick to 0</li> |
+| ![DuneWraith_range.png](/img/tse1/DuneWraith_range.png) | Range   | Drain Attack   | Absolute        | 9 (11 if Granael is defeated) | <li>51 ticks</li><li>Will only use this attack while phased out</li><li>Can still be stunned via Tangleweb or if Lasooed prior to phasing out</li>            |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                           | Location                                               | Condition                   |
+| :------------------------------ | :----------------------------- | :----------------------------------------------------- | :-------------------------- |
+| 262                             | 69                             | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 37 |
+| floor(262 / (Party Level - 35)) | floor(69 / (Party Level - 35)) | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 42 |
+
+| XP  | Gold | Location                                               | Condition         |
+| :-- | :--- | :----------------------------------------------------- | :---------------- |
+| 131 | 34   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 37 |
+| 87  | 23   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 38 |
+| 65  | 17   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 39 |
+| 52  | 13   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 40 |
+| 43  | 11   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 41 |
 
 #### Shapeshifter
 
