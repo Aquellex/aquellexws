@@ -1509,15 +1509,28 @@ HP: 3250 (HoT of 1HP to itself every 3.2 ticks)
 
 #### Frontier Heavyarms (N+20, E+20)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                                   | Kind     | Attack         | Type     | Damage                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Cooldown                                                                                   |
+| :---------------------------------------------------------- | :------- | :------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| ![Heavyarms_idle.gif](/img/tse1/Heavyarms_idle.gif)         | Idle     | First cooldown | N/A      | N/A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Between 4-22 ticks                                                                         |
+| ![Heavyarms_recharge.png](/img/tse1/Heavyarms_recharge.png) | Recharge | Recharge       | Self     | N/A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | <li>53 ticks in Clarke's Tower Lobby</li><li>54 in Prototype Development Wing</li>         |
+| ![Heavyarms_range.gif](/img/tse1/Heavyarms_range.gif)       | Nuke     | Laser Attack   | Physical | <li>70 (73 to Rick Brutal, 114 to shields) in Clarke's Tower Lobby</li><li><form oninput="damage.value = Math.floor((2 * party.value)-17)">(2 x Party Level<input type="number" label="party" id="party" name="party" min="45" max="55" value="45"><label for="damage">) - 17 = </label><output name="damage" type="number" for="damage">73</output></form><form oninput="damage.value = Math.floor((2 * party.value)-5 + (party.value/7))">((2 x Party Level<input type="number" label="party" id="party" name="party" min="45" max="55" value="45"><label for="damage">) - 5 + (Party Level / 7) = </label><output name="damage" type="number" for="damage">91</output></form> to shields) in Prototype Development Wing</li> | <li>103 ticks in Clarke's Tower Lobby</li><li>122 ticks in Prototype Development Wing</li> |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                            | Location                                                         | Condition                   |
+| :------------------------------ | :------------------------------ | :--------------------------------------------------------------- | :-------------------------- |
+| 690                             | 266                             | <li>Clarke's Tower Lobby</li><li>Prototype Development Wing</li> | Party Level is less than 48 |
+| floor(690 / (Party Level - 46)) | floor(266 / (Party Level - 46)) | Clarke's Tower Lobby                                             | Party Level is less than 51 |
+| floor(690 / (Party Level - 46)) | floor(266 / (Party Level - 46)) | Prototype Development Wing                                       | Party Level is less than 56 |
+
+| XP  | Gold | Location                                                         | Condition         |
+| :-- | :--- | :--------------------------------------------------------------- | :---------------- |
+| 345 | 125  | <li>Clarke's Tower Lobby</li><li>Prototype Development Wing</li> | Party Level is 48 |
+| 230 | 88   | <li>Clarke's Tower Lobby</li><li>Prototype Development Wing</li> | Party Level is 49 |
+| 172 | 66   | <li>Clarke's Tower Lobby</li><li>Prototype Development Wing</li> | Party Level is 50 |
+| 138 | 53   | Prototype Development Wing                                       | Party Level is 51 |
+| 115 | 44   | Prototype Development Wing                                       | Party Level is 52 |
+| 98  | 38   | Prototype Development Wing                                       | Party Level is 53 |
+| 86  | 33   | Prototype Development Wing                                       | Party Level is 54 |
+| 76  | 29   | Prototype Development Wing                                       | Party Level is 55 |
 
 #### Frontier Gunship Zero (N+40, E+40, M+40)
 
