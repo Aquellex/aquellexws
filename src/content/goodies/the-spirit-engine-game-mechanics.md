@@ -1460,15 +1460,143 @@ HP: 5965
 
 ### WORLD 5: CLARKE'S TOWER
 
-UNDER CONSTRUCTION
+#### Frontier RiotTrooper (NX, E-40, M+21)
 
-| Animation | Kind | Attack | Type | Damage | Cooldown |
-| :-------- | :--- | :----- | :--- | :----- | -------- |
+HP: 2510
 
+| Animation                                                         | Kind     | Attack         | Type     | Damage                      | Cooldown                                                                                                                                        |
+| :---------------------------------------------------------------- | :------- | :------------- | :------- | :-------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Riottrooper_idle.gif](/img/tse1/Riottrooper_idle.gif)           | Idle     | First cooldown | N/A      | N/A                         | <li>Between 10-15 ticks in Clarke's Tower Lobby</li><li>Between 6-15 ticks in Prototype Development Wing</li><li>Starts with Pistol Attack</li> |
+| ![Riottrooper_range.gif](/img/tse1/Riottrooper_range.gif)         | Range    | Pistol Attack  | Physical | 30 (29 to Rick)             | <li>45 ticks in Clarke's Tower Lobby</li><li>46 ticks in Prototype Development Wing</li><li>4/5 chance to use this attack</li>                  |
+| ![Riottrooper_flashbang.gif](/img/tse1/Riottrooper_flashbang.gif) | AoE Stun | Flashbang      | Absolute | 4, stuns party for 23 ticks | <li>59 ticks in Clarke's Tower Lobby</li><li>61 ticks in Prototype Development Wing</li><li>1/5 chance to use this attack</li>                  |
+
+| XP                              | Gold                            | Location                                                         | Condition                   |
+| :------------------------------ | :------------------------------ | :--------------------------------------------------------------- | :-------------------------- |
+| 625                             | 250                             | <li>Clarke's Tower Lobby</li><li>Prototype Development Wing</li> | Party Level is less than 48 |
+| floor(625 / (Party Level - 46)) | floor(250 / (Party Level - 46)) | Clarke's Tower Lobby                                             | Party Level is less than 51 |
+| floor(625 / (Party Level - 46)) | floor(250 / (Party Level - 46)) | Prototype Development Wing                                       | Party Level is less than 56 |
+
+| XP  | Gold | Location                                                         | Condition         |
+| :-- | :--- | :--------------------------------------------------------------- | :---------------- |
+| 312 | 125  | <li>Clarke's Tower Lobby</li><li>Prototype Development Wing</li> | Party Level is 48 |
+| 208 | 83   | <li>Clarke's Tower Lobby</li><li>Prototype Development Wing</li> | Party Level is 49 |
+| 156 | 62   | <li>Clarke's Tower Lobby</li><li>Prototype Development Wing</li> | Party Level is 50 |
+| 125 | 50   | Prototype Development Wing                                       | Party Level is 51 |
+| 104 | 41   | Prototype Development Wing                                       | Party Level is 52 |
+| 89  | 35   | Prototype Development Wing                                       | Party Level is 53 |
+| 78  | 31   | Prototype Development Wing                                       | Party Level is 54 |
+| 69  | 27   | Prototype Development Wing                                       | Party Level is 55 |
+
+#### Servitor (E+50)
+
+HP: 3250 (Heals 1HP to itself every 3.2 ticks)
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
 
 | XP  | Gold | Location | Condition |
 | :-- | :--- | :------- | :-------- |
 |     |      |          |           |
+
+#### Frontier Heavyarms (N+20, E+20)
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Frontier Gunship Zero (N+40, E+40, M+40)
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Magenik (N+10, E+10, MX, UD)
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Corporate Defence Weapon (N-105, E-105, M-50, L)
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Mystic Defence Mechanism Zeta Frontal Unit (NX, EX, MX, L)\*
+
+\*Life Drain will bypass the Frontal Unit and attack the CPU (which is undead), rendering Life Drain useless
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+#### Mystic Defence Mechanism Zeta CPU (N+30, E+30, M-10, L, UD)
+
+| HP    | Phase | Armour                     |
+| :---- | :---- | :------------------------- |
+| 17955 | 1     | N+30, E+30, M-10, L, UD    |
+| 10922 | 2     | N-125, E-125, M-100, L, UD |
+| 5375  | 3     | N+30, E+30, M-10, L, UD    |
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
+
+## HELPERS
+
+UNDER CONSTRUCTION
+
+### WORLD 1: Giant's Cradle
+
+#### Sheriff Hicks
+
+### WORLD 3: The Mango Republic
+
+#### Private Steele
+
+### WORLD 5 : Clarke's Tower
+
+#### Rick Brutal
+
+#### Health/Mana Exchanger (aka Fluffy Toy Grabber)
+
+#### Aegin Warstick
+
+#### Tza Tze
 
 ## SKILL CALCULATOR
 
