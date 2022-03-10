@@ -1379,15 +1379,33 @@ HP: 920
 
 #### Serpentine Acolyte (M-90)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| HP   | Location           |
+| :--- | :----------------- |
+| 1005 | The Stone Circle   |
+| 1730 | The Arcane Library |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| Animation                                           | Kind           | Attack         | Type     | Damage                                                                                                       | Cooldown                                                                                                                                                                                                                                     |
+| :-------------------------------------------------- | :------------- | :------------- | :------- | :----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Acolyte_idle.gif](/img/tse1/Acolyte_idle.gif)     | Idle           | First cooldown | N/A      | N/A                                                                                                          | <li>Between 10-15 ticks at The Stone Circle</li><li>Between 6-11 ticks in The Arcane Library</li><li>Starts with Magical Bolts</li>                                                                                                          |
+| ![Acolyte_sap.gif](/img/tse1/Acolyte_sap.gif)       | Magic          | Magical Bolts  | Magical  | <li>12 x 2 (clamps at 4 x 2) at The Stone Circle</li><li>17 x 2 (clamps at 6 x 2) in The Arcane Library</li> | <li>Between 21-62 ticks at The Stone Circle</li><li>Between 66-67 ticks in The Arcane Library</li><li>2/3 chance to use this attack at The Stone Circle, 1/2 otherwise</li><li>Will always use this attack if he is the only enemy left</li> |
+| ![Acolyte_aerial.gif](/img/tse1/Acolyte_aerial.gif) | Magic Indirect | Death Drain    | Absolute | 1 x 40 unless disrupted by a character's hit (does 1 damage every 3.2 ticks)                                 | <li>81 ticks at The Stone Circle</li><li>61 ticks in The Arcane Library</li><li>1/3 chance to use this attack at The Stone Circle, 1/4 otherwise</li><li>His own cooldown goes up by 44 ticks if disrupted</li>                              |
+| ![Acolyte_sap.gif](/img/tse1/Acolyte_sap.gif)       | Status         | Glue           | Ailment  | Prevents party from rotating for 228 ticks unless defeated                                                   | <li>52 ticks, will only use in The Arcane Library</li><li>1/4 chance to use this move unless your front character has less than 28HP, in which case he will always use this first</li>                                                       |
 
-#### Slave Reptilian (EX)
+| XP                            | Gold                          | Location           | Condition                   |
+| :---------------------------- | :---------------------------- | :----------------- | :-------------------------- |
+| 644                           | 390                           | The Stone Circle   |                             |
+| 444                           | 128                           | The Arcane Library | Party level is less than 42 |
+| floor(444/(Party Level - 40)) | floor(128/(Party Level - 40)) | The Arcane Library | Party level is less than 45 |
+
+| XP  | Gold | Location           | Condition         |
+| :-- | :--- | :----------------- | :---------------- |
+| 222 | 64   | The Arcane Library | Party level is 42 |
+| 148 | 42   | The Arcane Library | Party level is 43 |
+| 111 | 32   | The Arcane Library | Party level is 44 |
+
+#### Slave Reptilian (EX, L)
+
+HP: 2065
 
 | Animation               | Kind | Attack | Type | Damage | Cooldown |
 | :---------------------- | :--- | :----- | :--- | :----- | -------- |
