@@ -1356,22 +1356,26 @@ HP: 1145
 | Animation                                             | Kind           | Attack         | Type     | Damage                                                                                                                                                                                                                                                                           | Cooldown                                                |
 | :---------------------------------------------------- | :------------- | :------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | ![Granling_idle.gif](/img/tse1/Granling_idle.gif)     | Idle           | First cooldown | N/A      | N/A                                                                                                                                                                                                                                                                              | <li>Between 17-22 ticks</li><li>Starts with Heal</li>   |
-| ![Granling_heal.gif](/img/tse1/Granling_heal.gif)     | Heal           | Heal           | Other    | 108HP to Granael                                                                                                                                                                                                                                                                 | <li>60 ticks</li><li>1/3 chance to use this move</li>   |
+| ![Granling_heal.gif](/img/tse1/Granling_heal.gif)     | Heal           | Heal           | Other    | 128HP to Granael                                                                                                                                                                                                                                                                 | <li>60 ticks</li><li>1/3 chance to use this move</li>   |
 | ![Granling_aerial.gif](/img/tse1/Granling_aerial.gif) | Magic Indirect | Attack         | Absolute | <form oninput="damage.value = Math.floor((party.value / 3) - 1)">(Party Level <input type="number" label="party" id="party" name="party" min="29" max="42" value="29"><label for="damage"> / 3) - 1 = </label><output name="damage" type="number" for="damage">8</output></form> | <li>51 ticks</li><li>2/3 chance to use this attack</li> |
 
 | XP  | Gold | Location           | Condition |
 | :-- | :--- | :----------------- | :-------- |
 | 208 | 20   | Granael's Pedestal | N/A       |
 
-#### Frontier Guardsman
+#### Frontier Guardsman (N-30, E-30, M+28)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+HP: 920
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| Animation                                                 | Kind  | Attack         | Type     | Damage | Cooldown                                                                   |
+| :-------------------------------------------------------- | :---- | :------------- | :------- | :----- | -------------------------------------------------------------------------- |
+| ![Guardsman_idle.gif](/img/tse1/Guardsman_idle.gif)       | Idle  | First cooldown | N/A      | N/A    | <li>Between 14-19 ticks</li><li>Starts with Pistol Attack</li>             |
+| ![Guardsman_range.gif](/img/tse1/Guardsman_range.gif)     | Range | Pistol Attack  | Physical | 23     | <li>41 ticks</li><li>Will use this attack if he has more than 440HP</li>   |
+| ![Guardsman_recover.png](/img/tse1/Guardsman_recover.png) | Heal  | Recover        | Self     | 48HP   | <li>59 ticks</li><li>Will use this move if health is at 440HP or less</li> |
+
+| XP  | Gold | Location         | Condition |
+| :-- | :--- | :--------------- | :-------- |
+| 470 | 260  | The Stone Circle | N/A       |
 
 #### Serpentine Acolyte (M-90)
 
