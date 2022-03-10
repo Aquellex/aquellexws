@@ -1003,19 +1003,32 @@ HP: 910
 
 #### Sand Construct (NX, EX, L)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                                     | Kind  | Attack         | Type     | Damage                         | Cooldown            |
+| :------------------------------------------------------------ | :---- | :------------- | :------- | :----------------------------- | ------------------- |
+| ![SandConstruct_idle.gif](/img/tse1/SandConstruct_idle.gif)   | Idle  | First cooldown | N/A      | N/A                            | Between 10-15 ticks |
+| ![SandConstruct_melee.gif](/img/tse1/SandConstruct_melee.gif) | Melee | Lunge          | Physical | 24 (26 if Granael is defeated) | 73 ticks            |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                           | Location                                               | Condition                   |
+| :------------------------------ | :----------------------------- | :----------------------------------------------------- | :-------------------------- |
+| 276                             | 61                             | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 37 |
+| floor(276 / (Party Level / 34)) | floor(61 / (Party Level / 35)) | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is less than 42 |
+
+| XP  | Gold | Location                                               | Condition         |
+| :-- | :--- | :----------------------------------------------------- | :---------------- |
+| 92  | 30   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 37 |
+| 69  | 20   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 38 |
+| 55  | 15   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 39 |
+| 46  | 12   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 40 |
+| 39  | 10   | <li>The Shifting Sands</li><li>The Mana Tidebreak</li> | Party level is 41 |
 
 #### Dune Wraith (UD)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                               | Kind    | Attack         | Type | Damage | Cooldown            |
+| :------------------------------------------------------ | :------ | :------------- | :--- | :----- | ------------------- |
+| ![DuneWraith_idle.gif](/img/tse1/DuneWraith_idle.gif)   | Idle    | First cooldown | N/A  | N/A    | Between 10-15 ticks |
+| ![DuneWraith_melee.gif](/img/tse1/DuneWraith_melee.gif) | Melee   |                |      |        |                     |
+| ![DuneWraith_idle.gif](/img/tse1/DuneWraith_idle.gif)   | Defence |                |      |        |                     |
+| ![DuneWraith_range.png](/img/tse1/DuneWraith_range.png) | Range   |                |      |        |                     |
 
 | XP  | Gold | Location | Condition |
 | :-- | :--- | :------- | :-------- |
