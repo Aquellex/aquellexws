@@ -1429,7 +1429,7 @@ HP: 2065
 | Animation                                           | Kind      | Attack          | Type         | Damage                                                               | Cooldown            |
 | :-------------------------------------------------- | :-------- | :-------------- | :----------- | :------------------------------------------------------------------- | ------------------- |
 | ![Familiar_idle.gif](/img/tse1/Familiar_idle.gif)   | Idle      | First cooldown  | N/A          | N/A                                                                  | Between 10-15 ticks |
-| ![Familiar_melee.gif](/img/tse1/Familiar_melee.gif) | Melee DoT | Poisonous Lunge | Physical DoT | <li>26, saps 1 mana, 10 DoT</li><li>each DoT lasts for 10 ticks</li> | 65 ticks            |
+| ![Familiar_melee.gif](/img/tse1/Familiar_melee.gif) | Melee DoT | Poisonous Lunge | Physical DoT | <li>26, saps 1 mana, 10 DoT</li><li>Each DoT lasts for 10 ticks</li> | 65 ticks            |
 
 | XP                            | Gold                          | Location           | Condition                   |
 | :---------------------------- | :---------------------------- | :----------------- | :-------------------------- |
@@ -1444,17 +1444,31 @@ HP: 2065
 
 #### The GrandFather (N+12, E+12, M-90)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+HP: 5965
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| Animation                                                   | Kind           | Attack         | Type                       | Damage                                                                                                                                      | Cooldown                                                                     |
+| :---------------------------------------------------------- | :------------- | :------------- | :------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| ![GrandFather_idle.gif](/img/tse1/GrandFather_idle.gif)     | Idle           | First cooldown | N/A                        | N/A                                                                                                                                         | <li>Between 10-15 ticks</li><li>Starts with Life Slash</li>                  |
+| ![GrandFather_aerial.gif](/img/tse1/GrandFather_aerial.gif) | Magic Indirect | Life Slash     | Absolute                   | `Character Health / 2`, heals himself for the same amount                                                                                   | <li>43 ticks</li><li>Targets character with the highest HP</li>              |
+| ![GrandFather_magic.png](/img/tse1/GrandFather_magic.png)   | Magic          | Magic Blast    | Magical                    | <li>17 on phase 1, 21 (clamps at 6) on phase 2</li><li>Resistance works like this: `(4 x Talisman Bonus) + (Skill Points in Mana / 5)`</li> | 19 ticks                                                                     |
+| ![GrandFather_aoe.gif](/img/tse1/GrandFather_aoe.gif)       | AoE            | Doom Rain      | Absolute                   | 3 (5 on phase 2)                                                                                                                            | 26 ticks                                                                     |
+| ![GrandFather_shield.gif](/img/tse1/GrandFather_shield.gif) | Defence        | Shields Up!    | Invulnerability & Recovery | <li>Becomes NX, EX, MX & UD for 416 ticks</li><li>Heals 14HP every 1.6 ticks, totalling to ~3950HP in total</li>                            | <li>Activates at 1135HP, does a Life Slash upon using this move as well</li> |
+
+| XP   | Gold | Location            | Condition |
+| :--- | :--- | :------------------ | :-------- |
+| 5760 | 1140 | The Sanctum of Dust | N/A       |
 
 ### WORLD 5: CLARKE'S TOWER
 
 UNDER CONSTRUCTION
+
+| Animation | Kind | Attack | Type | Damage | Cooldown |
+| :-------- | :--- | :----- | :--- | :----- | -------- |
+
+
+| XP  | Gold | Location | Condition |
+| :-- | :--- | :------- | :-------- |
+|     |      |          |           |
 
 ## SKILL CALCULATOR
 
