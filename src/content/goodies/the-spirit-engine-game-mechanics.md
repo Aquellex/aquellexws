@@ -1645,6 +1645,12 @@ UNDER CONSTRUCTION
 
 #### Sheriff Hicks
 
+HP: ∞
+
+| Animation                                     | Kind  | Attack       | Type   | Damage          | Cooldown            |
+| :-------------------------------------------- | :---- | :----------- | :----- | :-------------- | ------------------- |
+| ![hicks_range.gif](/img/tse1/hicks_range.gif) | Range | Rifle Attack | Normal | Party Level + 8 | Between 57-59 ticks |
+
 ### WORLD 3: The Mango Republic
 
 #### Private Steele
