@@ -1534,24 +1534,32 @@ HP: 3250 (HoT of 1HP to itself every 3.2 ticks)
 
 #### Frontier Gunship Zero (N+40, E+40, M+40)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| HP    | Phase                                                                              |
+| :---- | :--------------------------------------------------------------------------------- |
+| 10500 | 1: Chaingun, Defence Drones & Rockets                                              |
+| 7900  | 2: Defence Drones & Rockets                                                        |
+| 6000  | 3: Retreat; waits 38 ticks until it actually retreats, then retreats for 364 ticks |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+Adds 41 Resist to all elements each retreat<br>
+Begins on floor 9. Every 44.8 ticks, you advance 1 floor! Therefore, this autoscroller segment lasts for 3673.6 ticks (6 minutes and 7.36 seconds on Slower Battles; 3 minutes and 3.68 seconds with the toggle switched off)
+
+| Animation                                               | Kind  | Attack         | Type     | Damage                             | Cooldown                                                                                                                                                                                                 |
+| :------------------------------------------------------ | :---- | :------------- | :------- | :--------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![gunship_chaingun.gif](/img/tse1/gunship_chaingun.gif) | Range | Chaingun       | Physical | 30 (29 to Rick, 31 to shields) x 5 | <li>After 2 sine wave cycles (up to 72 ticks) on Slower Battles; after 1 sine wave cycle (up to 36 ticks) otherwise</li><li>Will use this attack twice before switching to Rockets</li>                  |
+| ![gunship_magic.gif](/img/tse1/gunship_magic.gif)       | Magic | Defence Drones | Magical  | 19                                 | <li>Reappears in after the 180th, 350th & 520th ticks if each drone is on the 310th degree</li><li>Shoots every 280th degree</li><li>Moves 1 degree every 0.4 ticks</li>                                 |
+| ![gunship_missile.png](/img/tse1/gunship_missile.png)   | Range | Rockets        | Physical | 41 (42 to Rick, 45 to shields) x 2 | <li>After 2 sine wave cycles (up to 72 ticks) on Slower Battles; after 1 sine wave cycle (up to 36 ticks) otherwise</li><li>Will switch back to using Chaingun twice unless the Chaingun is damaged</li> |
+
+| XP    | Gold | Location    | Condition            |
+| :---- | :--- | :---------- | :------------------- |
+| 10560 | 998  | Elevator 16 | Passed over Floor 90 |
 
 #### Magenik (N+10, E+10, MX, UD)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                            | Kind | Attack | Type | Damage | Cooldown |
+| :----------------------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![Magnenik_idle.gif](/img/tse1/.gif) |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif)              |      |        |      |        |          |
+| ![.gif](/img/tse1/.gif)              |      |        |      |        |          |
 
 | XP  | Gold | Location | Condition |
 | :-- | :--- | :------- | :-------- |
