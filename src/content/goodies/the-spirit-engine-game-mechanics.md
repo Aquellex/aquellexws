@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: 'The Spirit Engine 1 game mechanics'
-lastUpdated: '2022-03-09'
+lastUpdated: '2022-03-12'
 ---
 
 All documentation is done with ticks. Each tick lasts for 0.1 seconds on Slower Battles switched on, 0.05 for the same option switched off. So 50 ticks is 5.0 seconds and 2.5 seconds, respectively.
@@ -1543,11 +1543,11 @@ HP: 3250 (HoT of 1HP to itself every 3.2 ticks)
 Adds 41 Resist to all elements each retreat<br>
 Begins on floor 9. Every 44.8 ticks, you advance 1 floor! Therefore, this autoscroller segment lasts for 3673.6 ticks (6 minutes and 7.36 seconds on Slower Battles; 3 minutes and 3.68 seconds with the toggle switched off)
 
-| Animation                                               | Kind  | Attack         | Type     | Damage                             | Cooldown                                                                                                                                                                                                 |
-| :------------------------------------------------------ | :---- | :------------- | :------- | :--------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![gunship_chaingun.gif](/img/tse1/gunship_chaingun.gif) | Range | Chaingun       | Physical | 30 (29 to Rick, 31 to shields) x 5 | <li>After 2 sine wave cycles (up to 72 ticks) on Slower Battles; after 1 sine wave cycle (up to 36 ticks) otherwise</li><li>Will use this attack twice before switching to Rockets</li>                  |
-| ![gunship_magic.gif](/img/tse1/gunship_magic.gif)       | Magic | Defence Drones | Magical  | 19                                 | <li>Reappears in after the 180th, 350th & 520th ticks if each drone is on the 310th degree</li><li>Shoots every 280th degree</li><li>Moves 1 degree every 0.4 ticks</li>                                 |
-| ![gunship_missile.png](/img/tse1/gunship_missile.png)   | Range | Rockets        | Physical | 41 (42 to Rick, 45 to shields) x 2 | <li>After 2 sine wave cycles (up to 72 ticks) on Slower Battles; after 1 sine wave cycle (up to 36 ticks) otherwise</li><li>Will switch back to using Chaingun twice unless the Chaingun is damaged</li> |
+| Animation                                               | Kind  | Attack         | Type     | Damage                             | Cooldown                                                                                                                                                                                                              |
+| :------------------------------------------------------ | :---- | :------------- | :------- | :--------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![gunship_chaingun.gif](/img/tse1/gunship_chaingun.gif) | Range | Chaingun       | Physical | 30 (29 to Rick, 31 to shields) x 5 | <li>After 2 sine wave cycles (up to 72 ticks) on Slower Battles; after 1 sine wave cycle (up to 36 ticks) otherwise</li><li>Will use this attack twice before switching to Rockets</li>                               |
+| ![gunship_magic.gif](/img/tse1/gunship_magic.gif)       | Magic | Defence Drones | Magical  | 19                                 | <li>Reappears in after the 180th, 350th & 520th ticks if each drone is on the 310th degree</li><li>Shoots every 280th degree</li><li>Moves 1 degree every 0.4 ticks</li><li>Therefore, it shoots every 144 ticks</li> |
+| ![gunship_missile.png](/img/tse1/gunship_missile.png)   | Range | Rockets        | Physical | 41 (42 to Rick, 45 to shields) x 2 | <li>After 2 sine wave cycles (up to 72 ticks) on Slower Battles; after 1 sine wave cycle (up to 36 ticks) otherwise</li><li>Will switch back to using Chaingun twice unless the Chaingun is damaged</li>              |
 
 | XP    | Gold | Location    | Condition            |
 | :---- | :--- | :---------- | :------------------- |
@@ -1555,15 +1555,25 @@ Begins on floor 9. Every 44.8 ticks, you advance 1 floor! Therefore, this autosc
 
 #### Magenik (N+10, E+10, MX, UD)
 
-| Animation                            | Kind | Attack | Type | Damage | Cooldown |
-| :----------------------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![Magnenik_idle.gif](/img/tse1/.gif) |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif)              |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif)              |      |        |      |        |          |
+| Animation                                            | Kind   | Attack         | Type           | Damage                                                                                                   | Cooldown                                                           |
+| :--------------------------------------------------- | :----- | :------------- | :------------- | :------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| ![Magnenik_idle.gif](/img/tse1/Magenik_idle.gif)     | Idle   | First cooldown | N/A            | N/A                                                                                                      | <li>Between 24-29 ticks</li>                                       |
+| ![Magnenik_magic.gif](/img/tse1/Magenik_magic.gif)   | Magic  | Magic Blast    | Magical        | <li>16 (17 against Rick) x 2 [clamps at 6 x 2]</li><li>Does `floor(Party Level / 2) x 2` to shields</li> | <li>Between 62-67 ticks</li><li>3/4 chance to use this attack</li> |
+| ![Magnenik_recoil.png](/img/tse1/Magenik_recoil.png) | Recoil | Feedback       | Self, Absolute | 6 x 2 when hit, lasts for 122 ticks                                                                      | <li>Between 123-129 ticks</li><li>1/4 chance to use this move</li> |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| XP                              | Gold                            | Location                   | Condition                   |
+| :------------------------------ | :------------------------------ | :------------------------- | :-------------------------- |
+| 730                             | 210                             | Prototype Development Wing | Party Level is less than 50 |
+| floor(730 / (Party Level - 48)) | floor(210 / (Party Level - 48)) | Prototype Development Wing | Party Level is less than 56 |
+
+| XP  | Gold | Location                   | Condition         |
+| :-- | :--- | :------------------------- | :---------------- |
+| 365 | 105  | Prototype Development Wing | Party Level is 50 |
+| 243 | 70   | Prototype Development Wing | Party Level is 51 |
+| 182 | 52   | Prototype Development Wing | Party Level is 52 |
+| 146 | 42   | Prototype Development Wing | Party Level is 53 |
+| 121 | 35   | Prototype Development Wing | Party Level is 54 |
+| 91  | 30   | Prototype Development Wing | Party Level is 55 |
 
 #### Corporate Defence Weapon (N-105, E-105, M-50, L)
 
@@ -1574,7 +1584,16 @@ Begins on floor 9. Every 44.8 ticks, you advance 1 floor! Therefore, this autosc
 
 | XP  | Gold | Location | Condition |
 | :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+
+
+| XP  | Gold | Location                   | Condition         |
+| :-- | :--- | :------------------------- | :---------------- |
+| 172 | 66   | Prototype Development Wing | Party Level is 50 |
+| 138 | 53   | Prototype Development Wing | Party Level is 51 |
+| 115 | 44   | Prototype Development Wing | Party Level is 52 |
+| 98  | 38   | Prototype Development Wing | Party Level is 53 |
+| 86  | 33   | Prototype Development Wing | Party Level is 54 |
+| 76  | 29   | Prototype Development Wing | Party Level is 55 |
 
 #### Mystic Defence Mechanism Zeta Frontal Unit (NX, EX, MX, L)\*
 
@@ -1726,7 +1745,7 @@ lasoo3w5.value=parseInt(((8.4 * skill8.value) + (2.4 * party.value) + (2.4 * ble
 hotg1.value=(10 * skill8.value) + (4 * party.value) + (4 * bless.value) + 8;
 hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 ">
-<label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="55" value="1">
+<label for="party">Party Level: </label><input type="number" label="party" id="party" name="party" min="1" max="56" value="1">
 <label for="bless">Bless: </label><input type="number" label="bless" id="bless" name="bless" min="0" max="58" value="0">
 <label for="gun">Base Damage: </label><input type="number" label="gun" id="gun" name="pagunrty" min="0" max="22" value="0">
 <label for="talisman">Talisman Bonus: </label><input type="number" label="talisman" id="talisman" name="talisman" min="-1" max="6" value="0"><br>
