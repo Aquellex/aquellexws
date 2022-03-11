@@ -1555,6 +1555,8 @@ Begins on floor 9. Every 44.8 ticks, you advance 1 floor! Therefore, this autosc
 
 #### Magenik (N+10, E+10, MX, UD)
 
+HP: 2515
+
 | Animation                                            | Kind   | Attack         | Type           | Damage                                                                                                   | Cooldown                                                           |
 | :--------------------------------------------------- | :----- | :------------- | :------------- | :------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | ![Magnenik_idle.gif](/img/tse1/Magenik_idle.gif)     | Idle   | First cooldown | N/A            | N/A                                                                                                      | <li>Between 24-29 ticks</li>                                       |
@@ -1576,6 +1578,8 @@ Begins on floor 9. Every 44.8 ticks, you advance 1 floor! Therefore, this autosc
 | 91  | 30   | Prototype Development Wing | Party Level is 55 |
 
 #### Corporate Defence Weapon (N-105, E-105, M-50, L)
+
+HP: 1925
 
 | Animation                                         | Kind  | Attack         | Type     | Damage | Cooldown            |
 | :------------------------------------------------ | :---- | :------------- | :------- | :----- | ------------------- |
