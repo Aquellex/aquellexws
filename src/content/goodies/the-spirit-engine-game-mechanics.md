@@ -1577,35 +1577,37 @@ Begins on floor 9. Every 44.8 ticks, you advance 1 floor! Therefore, this autosc
 
 #### Corporate Defence Weapon (N-105, E-105, M-50, L)
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+| Animation                                         | Kind  | Attack         | Type     | Damage | Cooldown            |
+| :------------------------------------------------ | :---- | :------------- | :------- | :----- | ------------------- |
+| ![CDW5000_idle.png](/img/tse1/CDW5000_idle.png)   | Idle  | First cooldown | N/A      | N/A    | Between 10-15 ticks |
+| ![CDW5000_range.gif](/img/tse1/CDW5000_range.gif) | Range | Chaingun       | Physical | 29 x 3 | 95 ticks            |
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-
+| XP                              | Gold                            | Location                   | Condition                   |
+| :------------------------------ | :------------------------------ | :------------------------- | :-------------------------- |
+| 775                             | 260                             | Prototype Development Wing | Party Level is less than 50 |
+| floor(775 / (Party Level - 48)) | floor(260 / (Party Level - 48)) | Prototype Development Wing | Party Level is less than 56 |
 
 | XP  | Gold | Location                   | Condition         |
 | :-- | :--- | :------------------------- | :---------------- |
-| 172 | 66   | Prototype Development Wing | Party Level is 50 |
-| 138 | 53   | Prototype Development Wing | Party Level is 51 |
-| 115 | 44   | Prototype Development Wing | Party Level is 52 |
-| 98  | 38   | Prototype Development Wing | Party Level is 53 |
-| 86  | 33   | Prototype Development Wing | Party Level is 54 |
-| 76  | 29   | Prototype Development Wing | Party Level is 55 |
+| 387 | 130  | Prototype Development Wing | Party Level is 50 |
+| 258 | 86   | Prototype Development Wing | Party Level is 51 |
+| 193 | 65   | Prototype Development Wing | Party Level is 52 |
+| 155 | 52   | Prototype Development Wing | Party Level is 53 |
+| 129 | 43   | Prototype Development Wing | Party Level is 54 |
+| 110 | 37   | Prototype Development Wing | Party Level is 55 |
 
 #### Mystic Defence Mechanism Zeta Frontal Unit (NX, EX, MX, L)\*
 
 \*Life Drain will bypass the Frontal Unit and attack the CPU (which is undead), rendering Life Drain useless
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+HP: 10000<br>
+Real HP for Phase 1 towards the CPU: 7033
 
-| XP  | Gold | Location | Condition |
-| :-- | :--- | :------- | :-------- |
-|     |      |          |           |
+| Animation                                         | Kind     | Attack | Type | Damage | Cooldown |
+| :------------------------------------------------ | :------- | :----- | :--- | :----- | -------- |
+| ![MDMZ_range.png](/img/tse1/MDMZ_range.png)       | Range    |        |      |        |          |
+| ![MDMZ_range.png](/img/tse1/MDMZ_range.png)       | AoE      |        |      |        |          |
+| ![mdmz_recharge.gif](/img/tse1/mdmz_recharge.gif) | Recharge |        |      |        |          |
 
 #### Mystic Defence Mechanism Zeta CPU (N+30, E+30, M-10, L, UD)
 
