@@ -1655,6 +1655,18 @@ HP: ∞
 
 #### Private Steele
 
+Base HP: 85<br>
+Maximum HP: 102<br>
+Armour: 8<br>
+Mana: 3
+
+| Animation                                       | Kind     | Attack       | Type   | Damage                    | Cooldown                                                                                                  |
+| :---------------------------------------------- | :------- | :----------- | :----- | :------------------------ | --------------------------------------------------------------------------------------------------------- |
+| ![steele_range.gif](/img/tse1/steele_range.gif) | Range    | Rifle Attack | Normal | 25 + (Party Level / 2)    | <li>61.2 ticks</li><li>1/2 chance to use this attack</li>                                                 |
+| ![steele_range.gif](/img/tse1/steele_range.gif) | Range    | Sharpshoot   | Normal | 54 + Party Level          | <li>148.8 ticks</li><li>1/4 chance to use this attack</li><li>Uses 1 mana</li>                            |
+| ![steele_range.gif](/img/tse1/steele_range.gif) | Range    | Magic Bullet | Magic  | 23 + (Party Level \* 1.5) | <li>79.2 ticks</li><li>1/4 chance to use this attack</li><li>Uses 1 mana</li>                             |
+| ![steele_idle.gif](/img/tse1/steele_idle.gif)   | Recharge | Recharge     | N/A    | N/A                       | <li>52.8 ticks</li><li>Force a recharge if out of mana when trying to use Sharpshoot or Magic Bullet</li> |
+
 ### WORLD 5: Clarke's Tower
 
 #### Rick Brutal
