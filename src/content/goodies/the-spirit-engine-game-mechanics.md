@@ -1639,8 +1639,6 @@ NOTES: During the first cycle, the frontal unit will execute its 3-move sequence
 
 ## HELPERS
 
-UNDER CONSTRUCTION
-
 ### WORLD 1: Giant's Cradle
 
 #### Sheriff Hicks
@@ -1684,11 +1682,23 @@ Mana: 3
 | ![rickbrutal_range.gif](/img/tse1/rickbrutal_range.gif) | Magic    | Magic Bullet | Magical | 31 + Party Level                | <li>61 ticks</li><li>Uses against NX opponents</li>                                       |
 | ![rickbrutal_idle.gif](/img/tse1/rickbrutal_idle.gif)   | Recharge | Recharge     | Self    | Gains 1 mana                    | <li>47 ticks</li><li>Force a recharge if out of mana when trying to use Magic Bullet</li> |
 
-#### Health/Mana Exchanger (aka Fluffy Toy Grabber)
+#### Experimental Health/Mana Exchanger (aka Fluffy Toy Grabber)
+
+| Animation                                             | Kind   | Attack             | Type | Damage                                                 | Cooldown                 |
+| :---------------------------------------------------- | :----- | :----------------- | :--- | :----------------------------------------------------- | ------------------------ |
+| ![PickandMix_open.png](/img/tse1/PickandMix_open.png) | Status | Swap Health & Mana | Swap | Every 10HP swaps 1MP (you always get a minimum of 3HP) | 336 ticks + 1.95 seconds |
 
 #### Aegin Warstick
 
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+
 #### Tza Tze
+
+| Animation               | Kind | Attack | Type | Damage | Cooldown |
+| :---------------------- | :--- | :----- | :--- | :----- | -------- |
+| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
 
 ## SKILL CALCULATOR
 
