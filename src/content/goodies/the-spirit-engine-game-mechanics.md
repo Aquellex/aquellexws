@@ -1660,16 +1660,29 @@ Maximum HP: 102<br>
 Armour: 8<br>
 Mana: 3
 
-| Animation                                       | Kind     | Attack       | Type   | Damage                    | Cooldown                                                                                                  |
-| :---------------------------------------------- | :------- | :----------- | :----- | :------------------------ | --------------------------------------------------------------------------------------------------------- |
-| ![steele_range.gif](/img/tse1/steele_range.gif) | Range    | Rifle Attack | Normal | 25 + (Party Level / 2)    | <li>61.2 ticks</li><li>1/2 chance to use this attack</li>                                                 |
-| ![steele_range.gif](/img/tse1/steele_range.gif) | Range    | Sharpshoot   | Normal | 54 + Party Level          | <li>148.8 ticks</li><li>1/4 chance to use this attack</li><li>Uses 1 mana</li>                            |
-| ![steele_range.gif](/img/tse1/steele_range.gif) | Range    | Magic Bullet | Magic  | 23 + (Party Level \* 1.5) | <li>79.2 ticks</li><li>1/4 chance to use this attack</li><li>Uses 1 mana</li>                             |
-| ![steele_idle.gif](/img/tse1/steele_idle.gif)   | Recharge | Recharge     | N/A    | N/A                       | <li>52.8 ticks</li><li>Force a recharge if out of mana when trying to use Sharpshoot or Magic Bullet</li> |
+| Animation                                       | Kind     | Attack       | Type   | Damage                   | Cooldown                                                                                                  |
+| :---------------------------------------------- | :------- | :----------- | :----- | :----------------------- | --------------------------------------------------------------------------------------------------------- |
+| ![steele_range.gif](/img/tse1/steele_range.gif) | Range    | Rifle Attack | Normal | 25 + (Party Level / 2)   | <li>61.2 ticks</li><li>1/2 chance to use this attack</li>                                                 |
+| ![steele_range.gif](/img/tse1/steele_range.gif) | Range    | Sharpshoot   | Normal | 54 + Party Level         | <li>148.8 ticks</li><li>1/4 chance to use this attack</li><li>Uses 1 mana</li>                            |
+| ![steele_range.gif](/img/tse1/steele_range.gif) | Magic    | Magic Bullet | Magic  | 23 + (Party Level x 1.5) | <li>79.2 ticks</li><li>1/4 chance to use this attack</li><li>Uses 1 mana</li>                             |
+| ![steele_idle.gif](/img/tse1/steele_idle.gif)   | Recharge | Recharge     | Self   | Gains 1 Mana             | <li>52.8 ticks</li><li>Force a recharge if out of mana when trying to use Sharpshoot or Magic Bullet</li> |
 
 ### WORLD 5: Clarke's Tower
 
 #### Rick Brutal
+
+| Base HP | Maximum HP | Physical Armour | Mana Points & Mana Reduction | Location                   |
+| :------ | :--------- | :-------------- | :--------------------------- | :------------------------- |
+| 46      | 55         | 17              | 5                            | Clarke's Tower Lobby       |
+| 56      | 68         | 17              | 5                            | Elevator 16                |
+| 66      | 78         | 17              | 5                            | Prototype Development Wing |
+| 77      | 89         | 17              | 5                            | The Assembly Room          |
+
+| Animation                                               | Kind     | Attack       | Type    | Damage                          | Cooldown                                                                                  |
+| :------------------------------------------------------ | :------- | :----------- | :------ | :------------------------------ | ----------------------------------------------------------------------------------------- |
+| ![rickbrutal_range.gif](/img/tse1/rickbrutal_range.gif) | Range    | Rifle Attack | Normal  | `floor(51 + (Party Level / 2))` | <li>58 ticks</li><li>Uses against MX opponents</li>                                       |
+| ![rickbrutal_range.gif](/img/tse1/rickbrutal_range.gif) | Magic    | Magic Bullet | Magical | 31 + Party Level                | <li>61 ticks</li><li>Uses against NX opponents</li>                                       |
+| ![rickbrutal_idle.gif](/img/tse1/rickbrutal_idle.gif)   | Recharge | Recharge     | Self    | Gains 1 mana                    | <li>47 ticks</li><li>Force a recharge if out of mana when trying to use Magic Bullet</li> |
 
 #### Health/Mana Exchanger (aka Fluffy Toy Grabber)
 
