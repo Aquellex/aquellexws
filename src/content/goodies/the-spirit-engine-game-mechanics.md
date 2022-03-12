@@ -4,6 +4,8 @@ title: 'The Spirit Engine 1 game mechanics'
 lastUpdated: '2022-03-12'
 ---
 
+aka: The Spirit Engine 1 game guide
+
 All documentation is done with ticks. Each tick lasts for 0.1 seconds on Slower Battles switched on, 0.05 for the same option switched off. So 50 ticks is 5.0 seconds and 2.5 seconds, respectively.
 
 The first cooldown for your party is a 2-second delay (independent from ticks and is unaffected by the Slower Battles toggle) + 40 (63 at the final boss: the Mystic Defence Mechanism Zeta) ticks.<br>
@@ -1688,17 +1690,31 @@ Mana: 3
 | :---------------------------------------------------- | :----- | :----------------- | :--- | :----------------------------------------------------- | ------------------------ |
 | ![PickandMix_open.png](/img/tse1/PickandMix_open.png) | Status | Swap Health & Mana | Swap | Every 10HP swaps 1MP (you always get a minimum of 3HP) | 336 ticks + 1.95 seconds |
 
-#### Aegin Warstick
+#### Final Boss Helpers
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+Either one of them will spawn in if your party's total HP (excluding Rick) is 101 or less. Aegin Warstick spawns in if you haven't defeated Tza Tze, otherwise Tza Tze will.
 
-#### Tza Tze
+##### Aegin Warstick
 
-| Animation               | Kind | Attack | Type | Damage | Cooldown |
-| :---------------------- | :--- | :----- | :--- | :----- | -------- |
-| ![.gif](/img/tse1/.gif) |      |        |      |        |          |
+Base HP: 60<br>
+Maximum HP: 80
+
+| Animation                                           | Kind     | Attack           | Type    | Damage                              | Cooldown                                                       |
+| :-------------------------------------------------- | :------- | :--------------- | :------ | :---------------------------------- | -------------------------------------------------------------- |
+| ![aegin_shield.gif](/img/tse1/aegin_shield.gif)     | Defence  | Protecto-Cube    | Shield  | 288HP                               | <li>45 ticks</li><li>Only uses once at the very beginning</li> |
+| ![aegin_zap.gif](/img/tse1/aegin_zap.gif)           | Magic    | Lightning Attack | Magical | floor`190 + (Party Level x 1.5))`   | <li>64 ticks</li><li>2/5 chance to use this attack</li>        |
+| ![aegin_whoosh.gif](/img/tse1/aegin_whoosh.gif)     | Magic    | Jewel Attack     | Magical | `floor(55 + (Party Level / 2))` x 4 | <li>66 tick</li><li>2/5 chance to use this attack</li>         |
+| ![aegin_recharge.gif](/img/tse1/aegin_recharge.gif) | Recharge | Recharge         | Self    | N/A                                 | <li>46 ticks</li><li>1/5 chance to use this attack</li>        |
+
+##### Tza Tze
+
+Base HP: 345<br>
+Maximum HP: 450
+
+| Animation                                         | Kind  | Attack  | Type     | Damage            | Cooldown                                                |
+| :------------------------------------------------ | :---- | :------ | :------- | :---------------- | ------------------------------------------------------- |
+| ![TzaTze_melee.gif](/img/tse1/TzaTze_melee.gif)   | Melee | Lunge   | Physical | 189 + Party Level | <li>70 ticks</li><li>4/5 chance to use this attack</li> |
+| ![TzaTze_shield.png](/img/tse1/TzaTze_shield.png) | Heal  | Recover | Self     | 28HP              | <li>59 ticks</li><li>1/5 chance to use this move</li>   |
 
 ## SKILL CALCULATOR
 
