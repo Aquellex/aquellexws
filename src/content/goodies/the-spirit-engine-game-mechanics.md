@@ -38,7 +38,7 @@ Undead or demonic (UD) enemies are immune to Life Drain.
 | 6   | ![inv_hunting.png](/img/tse1/inv_hunting.png)                                     | Hunting Rifle                      | 12          | N/A                                                                                                       | Saline (World 4)                                               | 540g                   |
 | 11  | ![inv_soldiersnickelplatedspeed.png](/img/tse1/inv_soldiersnickelplatedspeed.png) | Soldier's Nickel Plated SpeedRifle | 10          | Decreases cooldown time for bullet attacks by 14%                                                         | Saline (World 4)                                               | 630g                   |
 | 7   | ![inv_silverplated.png](/img/tse1/inv_silverplated.png)                           | Silver Plated Rifle                | 15          | N/A                                                                                                       | The Arcane Library (World 4)                                   | 1580g                  |
-| 13  | ![inv_musowsthunderstick.png](/img/tse1/inv_musowsthunderstick.png)               | Mu Sow's Thunderstick              | 22          | Increasts cooldown time for bullet attacks by 33%                                                         | The Arcane Library (World 4)                                   | 1950g                  |
+| 13  | ![inv_musowsthunderstick.png](/img/tse1/inv_musowsthunderstick.png)               | Mu Sow's Thunderstick              | 22          | Increases cooldown time for bullet attacks by 33%                                                         | The Arcane Library (World 4)                                   | 1950g                  |
 | 8   | ![inv_goldenplated.png](/img/tse1/inv_goldenplated.png)                           | Crafted Golden Rifle               | 17          | N/A                                                                                                       | Clarke's Tower Lobby (World 5, only if Peter is in your party) | N/A                    |
 | 16  | ![inv_orwellsrigsnapper.png](/img/tse1/inv_orwellsrigsnapper.png)                 | Orwell's Rigsnapper                | 21          | Does (40% of Party Level + 5) damage to the wielder every 350 ticks                                       | Prototype Development Wing (World 5)                           | 3160g                  |
 | 15  | ![inv_exorcistsholysteel.png](/img/tse1/inv_exorcistsholysteel.png)               | Exorcist's Holy Steel              | 12          | Rains 3 holy bolts dealing (Party Level - 5) damage on each enemy every 310 ticks if equipped on a priest | Cheating                                                       | N/A                    |
@@ -1027,7 +1027,7 @@ HP: 1480
 
 #### Dune Wraith (UD\*)
 
-\*Dune Wraiths receive double damage against Silver Bullets instead of 66% extra
+\*Dune Wraiths receive double damage against Silver Bullets instead of 66% extra<br>
 HP: 1205
 
 | Animation                                               | Kind    | Attack         | Type            | Damage                        | Cooldown                                                                                                                                                       |
@@ -1078,7 +1078,7 @@ HP: 1460
 
 #### Witchin (M-40)
 
-HP: 1905
+HP: 1095
 
 | Animation                                           | Kind   | Attack         | Type    | Damage                                                                                                                                                                                                                                                         | Cooldown                                                       |
 | :-------------------------------------------------- | :----- | :------------- | :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
