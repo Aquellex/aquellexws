@@ -9,6 +9,9 @@ const Footer = ({ updated }) => {
 
   return (
     <footer className={styles.footer}>
+      <div className={styles.footerCentre}>
+      <a href="http://www.mabsland.com/Adoption.html" title="Mild themes" target="_blank" rel="noopener noreferrer"><img alt="PG rating" src="/img/Censor_PGa.gif" /></a>
+      </div>
       <div className={styles.footerInner}>
         <p>
           &copy; 2014-
@@ -33,7 +36,7 @@ const Footer = ({ updated }) => {
           ABN: 38 843 406 545
         </p>
         <p></p><a href="https://thefurring.com//prev" target="_top">Last site</a> <a href="https://thefurring.com/"><img src="https://thefurring.com//assets/images/frlogo2.gif" alt="[FurRing - official site!]" border="0" WIDTH="134" HEIGHT="100"></img></a> <a href="https://thefurring.com//next" target="_top">Next Site</a> */}
-
+        <p><a href="https://code.visualstudio.com/" title="Made with Visual Studio Code" target="_blank" rel="noopener noreferrer"><img alt="VSCode" src="/img/vscbutton.gif" /></a></p>
 
       </div>
     </footer>

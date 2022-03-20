@@ -5,9 +5,17 @@
 
 .footerInner {
   display: inline-block;
-  padding: .5rem;
+  padding: 0.5rem;
   text-align: right;
   border: 1px dotted #fff;
+}
+
+.footerCentre {
+  display: inline-block;
+  left: 150%;
+  transform: translateX(-150%);
+  padding: 0;
+  text-align: center;
 }
 
 .footerInner p {
