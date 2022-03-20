@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: 'The Spirit Engine 1 game mechanics'
-lastUpdated: '2022-03-12'
+lastUpdated: '2022-03-20'
 ---
 
 aka: The Spirit Engine 1 game guide
