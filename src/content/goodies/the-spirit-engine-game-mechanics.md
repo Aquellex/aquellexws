@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: 'The Spirit Engine 1 game mechanics'
-lastUpdated: '2022-03-20'
+lastUpdated: '2022-04-13'
 ---
 
 aka: The Spirit Engine 1 game guide
@@ -1585,10 +1585,10 @@ HP: 2515
 
 HP: 1925
 
-| Animation                                         | Kind  | Attack         | Type     | Damage                                                        | Cooldown            |
-| :------------------------------------------------ | :---- | :------------- | :------- | :------------------------------------------------------------ | ------------------- |
-| ![CDW5000_idle.png](/img/tse1/CDW5000_idle.png)   | Idle  | First cooldown | N/A      | N/A                                                           | Between 10-15 ticks |
-| ![CDW5000_range.gif](/img/tse1/CDW5000_range.gif) | Range | Chaingun       | Physical | 29 (15 to Tza Tze & Aegin Warstick, 12 to Aegin's Shield) x 3 | 95 ticks            |
+| Animation                                         | Kind  | Attack         | Type     | Damage | Cooldown            |
+| :------------------------------------------------ | :---- | :------------- | :------- | :----- | ------------------- |
+| ![CDW5000_idle.png](/img/tse1/CDW5000_idle.png)   | Idle  | First cooldown | N/A      | N/A    | Between 10-15 ticks |
+| ![CDW5000_range.gif](/img/tse1/CDW5000_range.gif) | Range | Chaingun       | Physical | 29 x 3 | 95 ticks            |
 
 | XP                              | Gold                            | Location                   | Condition                   |
 | :------------------------------ | :------------------------------ | :------------------------- | :-------------------------- |
@@ -1616,7 +1616,7 @@ The first attack delay is 10 seconds, then the first cooldown is 56 ticks. It sh
 
 | Animation                                         | Kind     | Attack   | Type     | Damage                                                                                                                                                                                                                                         | Cooldown                                                    |
 | :------------------------------------------------ | :------- | :------- | :------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| ![MDMZ1_idle.png](/img/tse1/MDMZ1_idle.png)       | Range    | Chaingun | Physical | 37 (35 against Rick) x 3                                                                                                                                                                                                                       | <li>38 ticks</li><li>Uses twice before using Railgun</li>   |
+| ![MDMZ1_idle.png](/img/tse1/MDMZ1_idle.png)       | Range    | Chaingun | Physical | 37 (15 to Tza Tze & Aegin Warstick, 12 to Aegin's Shield, 35 against Rick) x 3                                                                                                                                                                 | <li>38 ticks</li><li>Uses twice before using Railgun</li>   |
 | ![MDMZ_range.png](/img/tse1/MDMZ_range.png)       | AoE      | Railgun  | Physical | <li>10 against Tza Tze & Aegin Warstick</li><li>9 against Aegin's Shield</li><li>27 against front character</li><li>23 against middle character</li><li>18 against back character</li><li>9 against Rick</li><li>Armour is half effective</li> | <li>38 ticks</li><li>Goes back to using Chaingun twice</li> |
 | ![mdmz_recharge.gif](/img/tse1/mdmz_recharge.gif) | Recharge | Reload   | Self     | N/A                                                                                                                                                                                                                                            | Recharges for 248 ticks                                     |
 
@@ -1865,21 +1865,21 @@ hotg3.value=(12 * skill8.value) + (4 * party.value) + (4 * bless.value) + 12
 <label for="lightning2">Pippa's Celestial Lightning: </label><output name="lightning2" type="number" for="skill5 party bless">12</output><br>
 <label for="lightning3">Eisfford's Celestial Lightning: </label><output name="lightning3" type="number" for="skill5 party bless">14</output><br>
 <label for="magicbullet1">Peter's Magic Bullet: </label><output name="magicbullet1" type="number" for="skill5 gun party bless">8</output><br>
-<label for="magicbullet2">Edward's Magic Bullet: </label><output name="magicbullet2" type="number" for="skill5 gun party bless">8</output><br>
-<label for="magicbullet3">Samuel's Magic Bullet: </label><output name="magicbullet3" type="number" for="skill5 gun party bless">8</output><br>
+<label for="magicbullet2">Edward's Magic Bullet: </label><output name="magicbullet2" type="number" for="skill5 gun party bless">7</output><br>
+<label for="magicbullet3">Samuel's Magic Bullet: </label><output name="magicbullet3" type="number" for="skill5 gun party bless">7</output><br>
 <label for="holybolt1">Clementas' Holy Bolt: </label><output name="holybolt1" type="number" for="skill5 party bless">3</output> x 2 <label for="hbbonus1">(</label><output name="hbbonus1" type="number" for="skill5 party bless">4</output> x 2 against undead enemies)<br>
 <label for="holybolt2">Zepher's Holy Bolt: </label><output name="holybolt2" type="number" for="skill5 party bless">3</output> x 2 <label for="hbbonus2">(</label><output name="hbbonus2" type="number" for="skill5 party bless">4</output> x 2 against undead enemies)<br>
 <label for="holybolt3">Matthieu's Holy Bolt: </label><output name="holybolt3" type="number" for="skill5 party bless">3</output> x 2 <label for="hbbonus3">(</label><output name="hbbonus3" type="number" for="skill5 party bless">4</output> x 2 against undead enemies)<br>
 <label for="skill6"><img src=/img/tse1/skill8_rainbow.png title="Rainbow"><img src=/img/tse1/skill8_powershot.png title="Power Shot"><img src=/img/tse1/skill8_silverbullet.png title="Silver Bullet"> </label><input type="number" label="skill6" id="skill6" name="skill6" min="0" max="30" value="0"><br>
-<label for="rainbow1">Clara's Rainbow: </label><output name="rainbow1" type="number" for="skill6 party bless">7</output> (-2 for older areas)<br>
-<label for="rainbow2">Pippa's Rainbow: </label><output name="rainbow2" type="number" for="skill6 party bless">11</output> (-3 for older areas)<br>
-<label for="rainbow3">Eisfford's Rainbow: </label><output name="rainbow3" type="number" for="skill6 party bless">9</output> (-2 for older areas)<br>
+<label for="rainbow1">Clara's Rainbow: </label><output name="rainbow1" type="number" for="skill6 party bless">9</output> (-2 for older areas)<br>
+<label for="rainbow2">Pippa's Rainbow: </label><output name="rainbow2" type="number" for="skill6 party bless">14</output> (-3 for older areas)<br>
+<label for="rainbow3">Eisfford's Rainbow: </label><output name="rainbow3" type="number" for="skill6 party bless">11</output> (-2 for older areas)<br>
 <label for="rbsplash">Splash bonus: </label><output name="rbsplash" type="number" for="skill6 party bless">1</output><br>
 <label for="powershot1">Peter & Samuel's Power Shot: </label><output name="powershot1" type="number" for="skill6 party gun bless">-1</output> per hit <label for="pspenalty1">(</label><output name="pspenalty1" type="number" for="skill6 gun party bless">0</output> against large enemies)<br>
 <label for="powershot2">Edward's Power Shot: </label><output name="powershot2" type="number" for="skill6 party gun bless">1</output> per hit <label for="pspenalty2">(</label><output name="pspenalty2" type="number" for="skill6 gun party bless">0</output> against large enemies)<br>
-<label for="silverbullet1">Clementas' Silver Bullet: </label><output name="silverbullet1" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus1">(</label><output name="sbbonus1" type="number" for="skill6 party bless"></output> against undead enemies) (-5 for older areas)<br>
-<label for="silverbullet2">Zepher's Silver Bullet: </label><output name="silverbullet2" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus2">(</label><output name="sbbonus2" type="number" for="skill6 party bless"></output> against undead enemies)  (-4 for older areas)<br>
-<label for="silverbullet3">Matthieu's Silver Bullet: </label><output name="silverbullet3" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus3">(</label><output name="sbbonus3" type="number" for="skill6 party bless"></output> against undead enemies)  (-3 for older areas)<br>
+<label for="silverbullet1">Clementas' Silver Bullet: </label><output name="silverbullet1" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus1">(</label><output name="sbbonus1" type="number" for="skill6 party bless">6</output> against undead enemies) (-5 for older areas)<br>
+<label for="silverbullet2">Zepher's Silver Bullet: </label><output name="silverbullet2" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus2">(</label><output name="sbbonus2" type="number" for="skill6 party bless">5</output> against undead enemies)  (-4 for older areas)<br>
+<label for="silverbullet3">Matthieu's Silver Bullet: </label><output name="silverbullet3" type="number" for="skill6 party gun bless">1</output> <label for="sbbonus3">(</label><output name="sbbonus3" type="number" for="skill6 party bless">4</output> against undead enemies)  (-3 for older areas)<br>
 <label for="skill7"><img src=/img/tse1/skill9_kineticsmash.png title="Kinetic Smash"><img src=/img/tse1/skill9_dynamite.png title="Dynamite"><img src=/img/tse1/skill9_spooksummon.png title="Spook Summon"> </label><input type="number" label="skill7" id="skill7" name="skill7" min="0" max="30" value="0"><br>
 <label for="kineticsmash1">Clara's Kinetic Smash: </label><output name="kineticsmash1" type="number" for="skill7 party bless">16</output><br>
 <label for="kineticsmash2">Pippa's Kinetic Smash: </label><output name="kineticsmash2" type="number" for="skill7 party bless">15</output><br>
