@@ -4,6 +4,12 @@ import React, { Fragment } from 'react';
 // Look into Netlify CMS: https://www.netlifycms.org/
 const minorUpdates = [
   {
+    date: '14.04.2022',//
+    content: (
+      <Fragment>Even more goodies have been added!</Fragment>
+    ),
+  },
+  {
     date: '13.04.2022',//
     content: (
       <Fragment>Added more mutuals to goodies, got rid of placeholder text for the Amiga-prepared samples and corrected a few typos for The Spirit Engine game guide.</Fragment>
