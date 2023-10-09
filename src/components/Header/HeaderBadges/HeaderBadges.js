@@ -21,10 +21,10 @@ const HeaderBadges = () => (
     </a><a href="https://discord.io/fourthmodulator" title="Discord (FM synthesis)" target="_blank" rel="noopener noreferrer">
       <img alt="Discord" src="/img/yomieda/ico_discord-r.png" />
     </a>{' '}}*/
-      <a href="https://soundcloud.com/aquellex-archive" title="SoundCloud" target="_blank" rel="noopener noreferrer">
+      <a href="https://soundcloud.com/aquellex" title="SoundCloud" target="_blank" rel="noopener noreferrer">
         <img alt="SoundCloud" src="/img/yomieda/ico_soundcloud.png" />
       </a>}{' '}
-    <a href="https://youtube.com/user/GammaBlasterSM" title="YouTube" target="_blank" rel="noopener noreferrer">
+    <a href="https://youtube.com/@Aquellex" title="YouTube" target="_blank" rel="noopener noreferrer">
       <img alt="YouTube" src="/img/yomieda/ico_youtube.png" />
     </a>{' '}
 {/*     <a href="http://www.mabsland.com/Adoption.html" title="General exhibition" target="_blank" rel="noopener noreferrer">
@@ -33,9 +33,9 @@ const HeaderBadges = () => (
     <a href="http://www.mabsland.com/Adoption.html" title="Mild themes" target="_blank" rel="noopener noreferrer">
       <img alt="PG rating" src="/img/Censor_PGc.gif" />
     </a>
-{/*     <a href="http://www.mabsland.com/Adoption.html" title="Profanity may appear in external links" target="_blank" rel="noopener noreferrer">
+{     <a href="http://www.mabsland.com/Adoption.html" title="Profanity may appear in external links" target="_blank" rel="noopener noreferrer">
       <img alt="M rating" src="/img/Censor_14c.png" />
-    </a> */}
+    </a> }
 {/*     <a href="http://www.mabsland.com/Adoption.html" title="Strong coarse language - This rating will never be used" target="_blank" rel="noopener noreferrer">
       <img alt="MA15+ rating" src="/img/Censor_Mc.png" />
     </a> */}

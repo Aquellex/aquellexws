@@ -9,9 +9,9 @@ const Footer = ({ updated }) => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.footerCentre}>
+      {/* <div className={styles.footerCentre}>
       <a href="http://www.mabsland.com/Adoption.html" title="Mild themes" target="_blank" rel="noopener noreferrer"><img alt="PG rating" src="/img/Censor_PGa.gif" /></a>
-      </div>
+      </div> */}
       <div className={styles.footerInner}>
         <p>
           &copy; 2014-

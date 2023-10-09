@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'ABOUT'
-lastUpdated: '2022-04-03T12:00:00+11:00'
+lastUpdated: '2023-10-10T12:00:00+11:00'
 ---
 
 ### THE PERSON
@@ -25,11 +25,11 @@ I'll catch you later in the cyberspace! You can contact me [here](mailto:aquelle
 
 ### THE MASCOT
 
-![AQUPDATEDREF.png](/img/AQUPDATEDREF.png)
+![AQUPDATEDREF.png](/img/AQUELLEX_REFSHEET2-clip2.png)
 
 A cute blue kangaroo I designed back in 2007, though it wasn't until 2015 that I was able to find a close friend whom was able to design her to my pickiness (thanks Dusky Fox)!
 
-<!-- Find her gallery <a href="https://refsheet.net/aquellex/lindenmorsen" target="_blank">here</a>. -->
+Find her gallery <a href="https://refsheet.net/bluekangaroo/aquellex/" target="_blank">here</a>.
 
 <!-- ### GEAR
 

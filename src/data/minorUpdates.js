@@ -4,6 +4,12 @@ import React, { Fragment } from 'react';
 // Look into Netlify CMS: https://www.netlifycms.org/
 const minorUpdates = [
   {
+    date: '10.10.2023',//
+    content: (
+      <Fragment>Updated the about and music page. Re-instated the PG-14 rating. Fixed the dead link for Undertale sound sources in goodies.</Fragment>
+    ),
+  },
+  {
     date: '14.04.2022',//
     content: (
       <Fragment>Even more goodies have been added!</Fragment>

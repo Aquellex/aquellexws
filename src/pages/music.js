@@ -16,7 +16,7 @@ const MusicPage = ({ data }) => {
   return (
     <TemplateWrapper>
       <title>MUSIC</title>
-      <meta http-equiv="refresh" content="0; url=https://soundcloud.com/aquellex-archive" />
+      <meta http-equiv="refresh" content="0; url=https://aquellex.bandcamp.com" />
     </TemplateWrapper>
     /* <TemplateWrapper>
       <Helmet>
