@@ -37,6 +37,7 @@
     "react-responsive-embed": "^2.1.0",
     "slug": "^0.9.4",
     "start": "^5.1.0",
+    "stream": "^0.0.3",
     "update": "^0.7.4"
   },
   "keywords": [
